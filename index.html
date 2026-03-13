@@ -226,7 +226,7 @@ footer{text-align:center;padding:.6rem;font-size:.63rem;color:var(--muted);borde
 <div id="lvlScreen">
   <div class="ls-logo">📖</div>
   <div class="ls-title">English Grammar</div>
-  <div class="ls-sub">by the C · Türkçe açıklama · 950 soru · 150 flashcard</div>
+  <div class="ls-sub">by The C · Türkçe açıklama · 950 soru · 150 flashcard</div>
   <div class="mode-tabs">
     <button class="mode-tab active" id="tabGrammar" onclick="setMode('grammar')">📝 Grammar</button>
     <button class="mode-tab" id="tabVocab" onclick="setMode('vocab')">🃏 Flashcards</button>
@@ -385,8 +385,38 @@ function showReady(){
 }
 function nextQ(){
   if(!pool.length)return;
-  if(idx>=pool.length){shuffle(pool);idx=0;}
+  if(idx>=pool.length){showResult();return;}
   const ex=pool[idx++];answered=false;renderQ(ex);
+}
+function showResult(){
+  const total=sc.ok+sc.wr;
+  const pct=total?Math.round(sc.ok/total*100):0;
+  const emoji=pct>=80?'🏆':pct>=60?'👍':pct>=40?'🙂':'💪';
+  const msg=pct>=80?'Mükemmel!':pct>=60?'İyi iş!':pct>=40?'Fena değil!':'Daha fazla pratik yapalım!';
+  document.getElementById('cardEl').innerHTML=`
+    <div style="text-align:center;padding:1.5rem 1rem">
+      <div style="font-size:3rem;margin-bottom:.5rem">${emoji}</div>
+      <div style="font-size:1.4rem;font-weight:800;margin-bottom:.3rem">${msg}</div>
+      <div style="font-size:.85rem;color:var(--muted);margin-bottom:1.4rem">${topic} · ${lvl} testi tamamlandı</div>
+      <div style="display:flex;justify-content:center;gap:1.5rem;margin-bottom:1.6rem">
+        <div style="text-align:center">
+          <div style="font-size:2rem;font-weight:900;color:var(--sage)">${sc.ok}</div>
+          <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Doğru</div>
+        </div>
+        <div style="text-align:center">
+          <div style="font-size:2rem;font-weight:900;color:var(--rust)">${sc.wr}</div>
+          <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Yanlış</div>
+        </div>
+        <div style="text-align:center">
+          <div style="font-size:2rem;font-weight:900;color:var(--gold)">${pct}%</div>
+          <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Başarı</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap">
+        <button class="start-btn" onclick="sc={ok:0,wr:0,st:0};updSc();resetPool();showReady()">🔄 Tekrar Dene</button>
+        <button class="start-btn" style="background:var(--ink);border-color:var(--ink)" onclick="goBack()">← Konu Seç</button>
+      </div>
+    </div>`;
 }
 function renderQ(ex){
   window._ex=ex;
