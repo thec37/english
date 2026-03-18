@@ -199,6 +199,606 @@
       "ex_tr": "Cevabı biliyor musun?",
       "emoji": "💡",
       "theme": 4
+    },
+    {
+      "word": "chair",
+      "tr": "sandalye",
+      "example": "Please sit on the chair.",
+      "ex_tr": "Lütfen sandalyeye otur.",
+      "emoji": "🪑",
+      "theme": 5
+    },
+    {
+      "word": "bed",
+      "tr": "yatak",
+      "example": "I sleep in my bed every night.",
+      "ex_tr": "Her gece yatağımda uyurum.",
+      "emoji": "🛏️",
+      "theme": 6
+    },
+    {
+      "word": "door",
+      "tr": "kapı",
+      "example": "Please open the door.",
+      "ex_tr": "Lütfen kapıyı aç.",
+      "emoji": "🚪",
+      "theme": 7
+    },
+    {
+      "word": "window",
+      "tr": "pencere",
+      "example": "The window is open.",
+      "ex_tr": "Pencere açık.",
+      "emoji": "🪟",
+      "theme": 8
+    },
+    {
+      "word": "car",
+      "tr": "araba",
+      "example": "My car is red.",
+      "ex_tr": "Arabam kırmızı.",
+      "emoji": "🚗",
+      "theme": 9
+    },
+    {
+      "word": "bus",
+      "tr": "otobüs",
+      "example": "I go to school by bus.",
+      "ex_tr": "Okula otobüsle gidiyorum.",
+      "emoji": "🚌",
+      "theme": 0
+    },
+    {
+      "word": "train",
+      "tr": "tren",
+      "example": "The train is fast.",
+      "ex_tr": "Tren hızlı.",
+      "emoji": "🚆",
+      "theme": 1
+    },
+    {
+      "word": "plane",
+      "tr": "uçak",
+      "example": "We go by plane.",
+      "ex_tr": "Uçakla gidiyoruz.",
+      "emoji": "✈️",
+      "theme": 2
+    },
+    {
+      "word": "city",
+      "tr": "şehir",
+      "example": "Istanbul is a big city.",
+      "ex_tr": "İstanbul büyük bir şehir.",
+      "emoji": "🏙️",
+      "theme": 3
+    },
+    {
+      "word": "street",
+      "tr": "sokak",
+      "example": "She lives on my street.",
+      "ex_tr": "Sokağımda yaşıyor.",
+      "emoji": "🛣️",
+      "theme": 4
+    },
+    {
+      "word": "shop",
+      "tr": "dükkan",
+      "example": "The shop is closed.",
+      "ex_tr": "Dükkan kapalı.",
+      "emoji": "🏪",
+      "theme": 5
+    },
+    {
+      "word": "money",
+      "tr": "para",
+      "example": "I don't have any money.",
+      "ex_tr": "Hiç param yok.",
+      "emoji": "💵",
+      "theme": 6
+    },
+    {
+      "word": "food",
+      "tr": "yemek / gıda",
+      "example": "I love Turkish food.",
+      "ex_tr": "Türk yemeğini seviyorum.",
+      "emoji": "🍱",
+      "theme": 7
+    },
+    {
+      "word": "milk",
+      "tr": "süt",
+      "example": "Do you want some milk?",
+      "ex_tr": "Biraz süt ister misin?",
+      "emoji": "🥛",
+      "theme": 8
+    },
+    {
+      "word": "bread",
+      "tr": "ekmek",
+      "example": "I eat bread every morning.",
+      "ex_tr": "Her sabah ekmek yerim.",
+      "emoji": "🍞",
+      "theme": 9
+    },
+    {
+      "word": "egg",
+      "tr": "yumurta",
+      "example": "She eats two eggs for breakfast.",
+      "ex_tr": "Kahvaltıda iki yumurta yer.",
+      "emoji": "🥚",
+      "theme": 0
+    },
+    {
+      "word": "rice",
+      "tr": "pirinç / pilav",
+      "example": "We eat rice for dinner.",
+      "ex_tr": "Akşam yemeğinde pilav yeriz.",
+      "emoji": "🍚",
+      "theme": 1
+    },
+    {
+      "word": "meat",
+      "tr": "et",
+      "example": "He doesn't eat meat.",
+      "ex_tr": "Et yemiyor.",
+      "emoji": "🥩",
+      "theme": 2
+    },
+    {
+      "word": "fish",
+      "tr": "balık",
+      "example": "I like fish very much.",
+      "ex_tr": "Balığı çok seviyorum.",
+      "emoji": "🐟",
+      "theme": 3
+    },
+    {
+      "word": "fruit",
+      "tr": "meyve",
+      "example": "Fruit is good for you.",
+      "ex_tr": "Meyve senin için iyidir.",
+      "emoji": "🍎",
+      "theme": 4
+    },
+    {
+      "word": "vegetable",
+      "tr": "sebze",
+      "example": "Eat your vegetables!",
+      "ex_tr": "Sebzelerini ye!",
+      "emoji": "🥦",
+      "theme": 5
+    },
+    {
+      "word": "coffee",
+      "tr": "kahve",
+      "example": "She drinks coffee in the morning.",
+      "ex_tr": "Sabahları kahve içer.",
+      "emoji": "☕",
+      "theme": 6
+    },
+    {
+      "word": "tea",
+      "tr": "çay",
+      "example": "Would you like some tea?",
+      "ex_tr": "Biraz çay ister misin?",
+      "emoji": "🍵",
+      "theme": 7
+    },
+    {
+      "word": "colour",
+      "tr": "renk",
+      "example": "What is your favourite colour?",
+      "ex_tr": "En sevdiğin renk ne?",
+      "emoji": "🎨",
+      "theme": 8
+    },
+    {
+      "word": "red",
+      "tr": "kırmızı",
+      "example": "The apple is red.",
+      "ex_tr": "Elma kırmızı.",
+      "emoji": "🔴",
+      "theme": 9
+    },
+    {
+      "word": "blue",
+      "tr": "mavi",
+      "example": "The sky is blue.",
+      "ex_tr": "Gökyüzü mavi.",
+      "emoji": "🔵",
+      "theme": 0
+    },
+    {
+      "word": "green",
+      "tr": "yeşil",
+      "example": "The grass is green.",
+      "ex_tr": "Çimen yeşil.",
+      "emoji": "🟢",
+      "theme": 1
+    },
+    {
+      "word": "white",
+      "tr": "beyaz",
+      "example": "Snow is white.",
+      "ex_tr": "Kar beyaz.",
+      "emoji": "⬜",
+      "theme": 2
+    },
+    {
+      "word": "black",
+      "tr": "siyah",
+      "example": "My bag is black.",
+      "ex_tr": "Çantam siyah.",
+      "emoji": "⬛",
+      "theme": 3
+    },
+    {
+      "word": "hot",
+      "tr": "sıcak",
+      "example": "The soup is very hot.",
+      "ex_tr": "Çorba çok sıcak.",
+      "emoji": "🔥",
+      "theme": 4
+    },
+    {
+      "word": "cold",
+      "tr": "soğuk",
+      "example": "It is cold outside.",
+      "ex_tr": "Dışarısı soğuk.",
+      "emoji": "🧊",
+      "theme": 5
+    },
+    {
+      "word": "fast",
+      "tr": "hızlı",
+      "example": "He runs very fast.",
+      "ex_tr": "Çok hızlı koşuyor.",
+      "emoji": "⚡",
+      "theme": 6
+    },
+    {
+      "word": "slow",
+      "tr": "yavaş",
+      "example": "The turtle is slow.",
+      "ex_tr": "Kaplumbağa yavaş.",
+      "emoji": "🐢",
+      "theme": 7
+    },
+    {
+      "word": "tall",
+      "tr": "uzun (boy)",
+      "example": "He is very tall.",
+      "ex_tr": "Çok uzun boylu.",
+      "emoji": "📏",
+      "theme": 8
+    },
+    {
+      "word": "short",
+      "tr": "kısa",
+      "example": "She is short but strong.",
+      "ex_tr": "Kısa ama güçlü.",
+      "emoji": "🔽",
+      "theme": 9
+    },
+    {
+      "word": "long",
+      "tr": "uzun",
+      "example": "The river is very long.",
+      "ex_tr": "Nehir çok uzun.",
+      "emoji": "〰️",
+      "theme": 0
+    },
+    {
+      "word": "number",
+      "tr": "sayı / numara",
+      "example": "What is your phone number?",
+      "ex_tr": "Telefon numaran ne?",
+      "emoji": "🔢",
+      "theme": 1
+    },
+    {
+      "word": "name",
+      "tr": "isim / ad",
+      "example": "My name is Ayşe.",
+      "ex_tr": "Benim adım Ayşe.",
+      "emoji": "🏷️",
+      "theme": 2
+    },
+    {
+      "word": "day",
+      "tr": "gün",
+      "example": "Today is a beautiful day.",
+      "ex_tr": "Bugün güzel bir gün.",
+      "emoji": "📅",
+      "theme": 3
+    },
+    {
+      "word": "week",
+      "tr": "hafta",
+      "example": "I work five days a week.",
+      "ex_tr": "Haftada beş gün çalışırım.",
+      "emoji": "🗓️",
+      "theme": 4
+    },
+    {
+      "word": "month",
+      "tr": "ay",
+      "example": "January is the first month.",
+      "ex_tr": "Ocak ilk ay.",
+      "emoji": "📆",
+      "theme": 5
+    },
+    {
+      "word": "year",
+      "tr": "yıl",
+      "example": "She is twenty years old.",
+      "ex_tr": "O yirmi yaşında.",
+      "emoji": "🎆",
+      "theme": 6
+    },
+    {
+      "word": "morning",
+      "tr": "sabah",
+      "example": "Good morning!",
+      "ex_tr": "Günaydın!",
+      "emoji": "🌅",
+      "theme": 7
+    },
+    {
+      "word": "afternoon",
+      "tr": "öğleden sonra",
+      "example": "See you this afternoon.",
+      "ex_tr": "Bu öğleden sonra görüşürüz.",
+      "emoji": "🌤️",
+      "theme": 8
+    },
+    {
+      "word": "evening",
+      "tr": "akşam",
+      "example": "Good evening, everyone.",
+      "ex_tr": "İyi akşamlar, herkese.",
+      "emoji": "🌆",
+      "theme": 9
+    },
+    {
+      "word": "night",
+      "tr": "gece",
+      "example": "Good night!",
+      "ex_tr": "İyi geceler!",
+      "emoji": "🌙",
+      "theme": 0
+    },
+    {
+      "word": "today",
+      "tr": "bugün",
+      "example": "What are you doing today?",
+      "ex_tr": "Bugün ne yapıyorsun?",
+      "emoji": "📍",
+      "theme": 1
+    },
+    {
+      "word": "tomorrow",
+      "tr": "yarın",
+      "example": "See you tomorrow!",
+      "ex_tr": "Yarın görüşürüz!",
+      "emoji": "➡️",
+      "theme": 2
+    },
+    {
+      "word": "yesterday",
+      "tr": "dün",
+      "example": "I was tired yesterday.",
+      "ex_tr": "Dün yorgundum.",
+      "emoji": "⬅️",
+      "theme": 3
+    },
+    {
+      "word": "now",
+      "tr": "şimdi",
+      "example": "I'm busy now.",
+      "ex_tr": "Şu an meşgulüm.",
+      "emoji": "⏱️",
+      "theme": 4
+    },
+    {
+      "word": "here",
+      "tr": "burada",
+      "example": "Come here, please.",
+      "ex_tr": "Lütfen buraya gel.",
+      "emoji": "📍",
+      "theme": 5
+    },
+    {
+      "word": "there",
+      "tr": "orada",
+      "example": "She is over there.",
+      "ex_tr": "O orada.",
+      "emoji": "👉",
+      "theme": 6
+    },
+    {
+      "word": "where",
+      "tr": "nerede",
+      "example": "Where do you live?",
+      "ex_tr": "Nerede yaşıyorsun?",
+      "emoji": "❓",
+      "theme": 7
+    },
+    {
+      "word": "who",
+      "tr": "kim",
+      "example": "Who is that?",
+      "ex_tr": "O kim?",
+      "emoji": "🙋",
+      "theme": 8
+    },
+    {
+      "word": "what",
+      "tr": "ne",
+      "example": "What is your name?",
+      "ex_tr": "Adın ne?",
+      "emoji": "❔",
+      "theme": 9
+    },
+    {
+      "word": "when",
+      "tr": "ne zaman",
+      "example": "When is your birthday?",
+      "ex_tr": "Doğum günün ne zaman?",
+      "emoji": "📅",
+      "theme": 0
+    },
+    {
+      "word": "why",
+      "tr": "neden",
+      "example": "Why are you sad?",
+      "ex_tr": "Neden üzgünsün?",
+      "emoji": "🤷",
+      "theme": 1
+    },
+    {
+      "word": "how",
+      "tr": "nasıl",
+      "example": "How are you?",
+      "ex_tr": "Nasılsın?",
+      "emoji": "😊",
+      "theme": 2
+    },
+    {
+      "word": "like",
+      "tr": "sevmek / beğenmek",
+      "example": "I like pizza.",
+      "ex_tr": "Pizzayı seviyorum.",
+      "emoji": "❤️",
+      "theme": 3
+    },
+    {
+      "word": "want",
+      "tr": "istemek",
+      "example": "I want some water.",
+      "ex_tr": "Biraz su istiyorum.",
+      "emoji": "🙏",
+      "theme": 4
+    },
+    {
+      "word": "have",
+      "tr": "sahip olmak",
+      "example": "I have a sister.",
+      "ex_tr": "Bir kız kardeşim var.",
+      "emoji": "✋",
+      "theme": 5
+    },
+    {
+      "word": "go",
+      "tr": "gitmek",
+      "example": "I go to work by bus.",
+      "ex_tr": "İşe otobüsle gidiyorum.",
+      "emoji": "🚶",
+      "theme": 6
+    },
+    {
+      "word": "come",
+      "tr": "gelmek",
+      "example": "Can you come here?",
+      "ex_tr": "Buraya gelebilir misin?",
+      "emoji": "🏃",
+      "theme": 7
+    },
+    {
+      "word": "see",
+      "tr": "görmek",
+      "example": "I can see the mountains.",
+      "ex_tr": "Dağları görebiliyorum.",
+      "emoji": "👀",
+      "theme": 8
+    },
+    {
+      "word": "say",
+      "tr": "söylemek",
+      "example": "What did she say?",
+      "ex_tr": "Ne dedi?",
+      "emoji": "💬",
+      "theme": 9
+    },
+    {
+      "word": "give",
+      "tr": "vermek",
+      "example": "Give me that book, please.",
+      "ex_tr": "Lütfen o kitabı bana ver.",
+      "emoji": "🤲",
+      "theme": 0
+    },
+    {
+      "word": "take",
+      "tr": "almak / götürmek",
+      "example": "Take an umbrella with you.",
+      "ex_tr": "Yanına şemsiye al.",
+      "emoji": "☂️",
+      "theme": 1
+    },
+    {
+      "word": "make",
+      "tr": "yapmak",
+      "example": "I can make coffee.",
+      "ex_tr": "Kahve yapabilirim.",
+      "emoji": "☕",
+      "theme": 2
+    },
+    {
+      "word": "know",
+      "tr": "bilmek",
+      "example": "Do you know her?",
+      "ex_tr": "Onu tanıyor musun?",
+      "emoji": "🧠",
+      "theme": 3
+    },
+    {
+      "word": "think",
+      "tr": "düşünmek",
+      "example": "I think it is a good idea.",
+      "ex_tr": "İyi bir fikir olduğunu düşünüyorum.",
+      "emoji": "💭",
+      "theme": 4
+    },
+    {
+      "word": "look",
+      "tr": "bakmak",
+      "example": "Look at that bird!",
+      "ex_tr": "Şu kuşa bak!",
+      "emoji": "👁️",
+      "theme": 5
+    },
+    {
+      "word": "work",
+      "tr": "çalışmak",
+      "example": "She works in a hospital.",
+      "ex_tr": "Bir hastanede çalışıyor.",
+      "emoji": "💼",
+      "theme": 6
+    },
+    {
+      "word": "live",
+      "tr": "yaşamak",
+      "example": "I live in Ankara.",
+      "ex_tr": "Ankara'da yaşıyorum.",
+      "emoji": "🏠",
+      "theme": 7
+    },
+    {
+      "word": "play",
+      "tr": "oynamak",
+      "example": "The children play outside.",
+      "ex_tr": "Çocuklar dışarıda oynuyor.",
+      "emoji": "⚽",
+      "theme": 8
+    },
+    {
+      "word": "speak",
+      "tr": "konuşmak",
+      "example": "Do you speak English?",
+      "ex_tr": "İngilizce konuşuyor musun?",
+      "emoji": "🗣️",
+      "theme": 9
     }
   ],
   "A2": [
@@ -401,6 +1001,606 @@
       "ex_tr": "Elleri kirliydi.",
       "emoji": "🪣",
       "theme": 4
+    },
+    {
+      "word": "arrive",
+      "tr": "varmak / ulaşmak",
+      "example": "What time does the train arrive?",
+      "ex_tr": "Tren kaçta varıyor?",
+      "emoji": "🚉",
+      "theme": 5
+    },
+    {
+      "word": "leave",
+      "tr": "ayrılmak / gitmek",
+      "example": "I leave for work at 8.",
+      "ex_tr": "İşe 8'de gidiyorum.",
+      "emoji": "🚪",
+      "theme": 6
+    },
+    {
+      "word": "return",
+      "tr": "geri dönmek",
+      "example": "When will you return?",
+      "ex_tr": "Ne zaman geri döneceksin?",
+      "emoji": "↩️",
+      "theme": 7
+    },
+    {
+      "word": "spend",
+      "tr": "harcamak / geçirmek",
+      "example": "I spend weekends with family.",
+      "ex_tr": "Haftasonlarını ailемле geçiriyorum.",
+      "emoji": "⏳",
+      "theme": 8
+    },
+    {
+      "word": "enjoy",
+      "tr": "keyif almak",
+      "example": "I enjoy cooking.",
+      "ex_tr": "Yemek yapmaktan keyif alıyorum.",
+      "emoji": "😄",
+      "theme": 9
+    },
+    {
+      "word": "try",
+      "tr": "denemek",
+      "example": "Try this cake!",
+      "ex_tr": "Bu pastayı dene!",
+      "emoji": "🎯",
+      "theme": 0
+    },
+    {
+      "word": "stop",
+      "tr": "durmak / durdurmak",
+      "example": "Please stop talking.",
+      "ex_tr": "Lütfen konuşmayı bırak.",
+      "emoji": "🛑",
+      "theme": 1
+    },
+    {
+      "word": "start",
+      "tr": "başlamak",
+      "example": "The film starts at 7.",
+      "ex_tr": "Film 7'de başlıyor.",
+      "emoji": "▶️",
+      "theme": 2
+    },
+    {
+      "word": "finish",
+      "tr": "bitirmek",
+      "example": "Have you finished your homework?",
+      "ex_tr": "Ödevini bitirdin mi?",
+      "emoji": "✅",
+      "theme": 3
+    },
+    {
+      "word": "wait",
+      "tr": "beklemek",
+      "example": "Please wait here.",
+      "ex_tr": "Lütfen burada bekle.",
+      "emoji": "⏳",
+      "theme": 4
+    },
+    {
+      "word": "need",
+      "tr": "ihtiyaç duymak",
+      "example": "I need your help.",
+      "ex_tr": "Yardımına ihtiyacım var.",
+      "emoji": "🙏",
+      "theme": 5
+    },
+    {
+      "word": "use",
+      "tr": "kullanmak",
+      "example": "Can I use your phone?",
+      "ex_tr": "Telefonunu kullanabilir miyim?",
+      "emoji": "📱",
+      "theme": 6
+    },
+    {
+      "word": "bring",
+      "tr": "getirmek",
+      "example": "Bring your passport.",
+      "ex_tr": "Pasaportunuzu getirin.",
+      "emoji": "👜",
+      "theme": 7
+    },
+    {
+      "word": "send",
+      "tr": "göndermek",
+      "example": "I'll send you a message.",
+      "ex_tr": "Sana mesaj göndereceğim.",
+      "emoji": "📩",
+      "theme": 8
+    },
+    {
+      "word": "meet",
+      "tr": "tanışmak / buluşmak",
+      "example": "Nice to meet you!",
+      "ex_tr": "Tanıştığımıza memnun oldum!",
+      "emoji": "🤝",
+      "theme": 9
+    },
+    {
+      "word": "plan",
+      "tr": "planlamak",
+      "example": "We are planning a trip.",
+      "ex_tr": "Bir gezi planlıyoruz.",
+      "emoji": "🗺️",
+      "theme": 0
+    },
+    {
+      "word": "travel",
+      "tr": "seyahat etmek",
+      "example": "I love to travel.",
+      "ex_tr": "Seyahat etmeyi seviyorum.",
+      "emoji": "✈️",
+      "theme": 1
+    },
+    {
+      "word": "visit",
+      "tr": "ziyaret etmek",
+      "example": "We visited the museum.",
+      "ex_tr": "Müzeyi ziyaret ettik.",
+      "emoji": "🏛️",
+      "theme": 2
+    },
+    {
+      "word": "drive",
+      "tr": "araba sürmek",
+      "example": "She drives to work.",
+      "ex_tr": "İşe arabayla gidiyor.",
+      "emoji": "🚗",
+      "theme": 3
+    },
+    {
+      "word": "swim",
+      "tr": "yüzmek",
+      "example": "I can swim very well.",
+      "ex_tr": "Çok iyi yüzebiliyorum.",
+      "emoji": "🏊",
+      "theme": 4
+    },
+    {
+      "word": "cook",
+      "tr": "yemek pişirmek",
+      "example": "He cooks dinner every night.",
+      "ex_tr": "Her gece akşam yemeği pişiriyor.",
+      "emoji": "🍳",
+      "theme": 5
+    },
+    {
+      "word": "study",
+      "tr": "çalışmak / öğrenmek",
+      "example": "I study English every day.",
+      "ex_tr": "Her gün İngilizce çalışıyorum.",
+      "emoji": "📚",
+      "theme": 6
+    },
+    {
+      "word": "teach",
+      "tr": "öğretmek",
+      "example": "She teaches maths.",
+      "ex_tr": "Matematik öğretiyor.",
+      "emoji": "👩‍🏫",
+      "theme": 7
+    },
+    {
+      "word": "learn",
+      "tr": "öğrenmek",
+      "example": "I want to learn French.",
+      "ex_tr": "Fransızca öğrenmek istiyorum.",
+      "emoji": "🎓",
+      "theme": 8
+    },
+    {
+      "word": "answer",
+      "tr": "cevap vermek",
+      "example": "Please answer the question.",
+      "ex_tr": "Lütfen soruyu cevaplayın.",
+      "emoji": "💬",
+      "theme": 9
+    },
+    {
+      "word": "ask",
+      "tr": "sormak",
+      "example": "Can I ask you something?",
+      "ex_tr": "Sana bir şey sorabilir miyim?",
+      "emoji": "❓",
+      "theme": 0
+    },
+    {
+      "word": "explain",
+      "tr": "açıklamak",
+      "example": "Can you explain this?",
+      "ex_tr": "Bunu açıklayabilir misin?",
+      "emoji": "📖",
+      "theme": 1
+    },
+    {
+      "word": "understand",
+      "tr": "anlamak",
+      "example": "Do you understand me?",
+      "ex_tr": "Beni anlıyor musun?",
+      "emoji": "🧠",
+      "theme": 2
+    },
+    {
+      "word": "believe",
+      "tr": "inanmak",
+      "example": "I believe you.",
+      "ex_tr": "Sana inanıyorum.",
+      "emoji": "🙏",
+      "theme": 3
+    },
+    {
+      "word": "hope",
+      "tr": "ummak / umut etmek",
+      "example": "I hope to see you soon.",
+      "ex_tr": "Yakında görüşmeyi umuyorum.",
+      "emoji": "🌈",
+      "theme": 4
+    },
+    {
+      "word": "feel",
+      "tr": "hissetmek",
+      "example": "How do you feel today?",
+      "ex_tr": "Bugün nasıl hissediyorsun?",
+      "emoji": "💗",
+      "theme": 5
+    },
+    {
+      "word": "sick",
+      "tr": "hasta",
+      "example": "I stayed home because I was sick.",
+      "ex_tr": "Hasta olduğum için evde kaldım.",
+      "emoji": "🤒",
+      "theme": 6
+    },
+    {
+      "word": "worried",
+      "tr": "endişeli",
+      "example": "She looks worried.",
+      "ex_tr": "Endişeli görünüyor.",
+      "emoji": "😟",
+      "theme": 7
+    },
+    {
+      "word": "surprised",
+      "tr": "şaşırmış",
+      "example": "I was surprised by the news.",
+      "ex_tr": "Habere şaşırdım.",
+      "emoji": "😲",
+      "theme": 8
+    },
+    {
+      "word": "excited",
+      "tr": "heyecanlı",
+      "example": "She is excited about the trip.",
+      "ex_tr": "Gezi için heyecanlı.",
+      "emoji": "🎉",
+      "theme": 9
+    },
+    {
+      "word": "angry",
+      "tr": "kızgın",
+      "example": "Why are you angry?",
+      "ex_tr": "Neden kızgınsın?",
+      "emoji": "😠",
+      "theme": 0
+    },
+    {
+      "word": "sad",
+      "tr": "üzgün",
+      "example": "He was sad after the news.",
+      "ex_tr": "Haberden sonra üzgündü.",
+      "emoji": "😢",
+      "theme": 1
+    },
+    {
+      "word": "bored",
+      "tr": "sıkılmış",
+      "example": "I'm bored at home.",
+      "ex_tr": "Evde sıkılıyorum.",
+      "emoji": "😑",
+      "theme": 2
+    },
+    {
+      "word": "warm",
+      "tr": "ılık / sıcak",
+      "example": "It's warm today.",
+      "ex_tr": "Bugün ılık.",
+      "emoji": "🌤️",
+      "theme": 3
+    },
+    {
+      "word": "dark",
+      "tr": "karanlık",
+      "example": "It gets dark early in winter.",
+      "ex_tr": "Kışın erken karanlık oluyor.",
+      "emoji": "🌑",
+      "theme": 4
+    },
+    {
+      "word": "light",
+      "tr": "ışık / açık renk",
+      "example": "Turn on the light.",
+      "ex_tr": "Işığı aç.",
+      "emoji": "💡",
+      "theme": 5
+    },
+    {
+      "word": "beautiful",
+      "tr": "güzel",
+      "example": "What a beautiful view!",
+      "ex_tr": "Ne güzel bir manzara!",
+      "emoji": "🌸",
+      "theme": 6
+    },
+    {
+      "word": "ugly",
+      "tr": "çirkin",
+      "example": "The building is very ugly.",
+      "ex_tr": "Bina çok çirkin.",
+      "emoji": "🏚️",
+      "theme": 7
+    },
+    {
+      "word": "easy",
+      "tr": "kolay",
+      "example": "This exercise is easy.",
+      "ex_tr": "Bu alıştırma kolay.",
+      "emoji": "😊",
+      "theme": 8
+    },
+    {
+      "word": "difficult",
+      "tr": "zor",
+      "example": "The exam was difficult.",
+      "ex_tr": "Sınav zordu.",
+      "emoji": "😣",
+      "theme": 9
+    },
+    {
+      "word": "same",
+      "tr": "aynı",
+      "example": "We have the same opinion.",
+      "ex_tr": "Aynı görüşteyiz.",
+      "emoji": "🟰",
+      "theme": 0
+    },
+    {
+      "word": "different",
+      "tr": "farklı",
+      "example": "Our cultures are different.",
+      "ex_tr": "Kültürlerimiz farklı.",
+      "emoji": "🔀",
+      "theme": 1
+    },
+    {
+      "word": "favourite",
+      "tr": "en sevilen / favori",
+      "example": "What's your favourite food?",
+      "ex_tr": "En sevdiğin yemek ne?",
+      "emoji": "⭐",
+      "theme": 2
+    },
+    {
+      "word": "together",
+      "tr": "birlikte",
+      "example": "Let's do it together.",
+      "ex_tr": "Hadi birlikte yapalım.",
+      "emoji": "🤝",
+      "theme": 3
+    },
+    {
+      "word": "alone",
+      "tr": "yalnız",
+      "example": "I live alone.",
+      "ex_tr": "Yalnız yaşıyorum.",
+      "emoji": "🧍",
+      "theme": 4
+    },
+    {
+      "word": "always",
+      "tr": "her zaman",
+      "example": "She always smiles.",
+      "ex_tr": "Her zaman gülümser.",
+      "emoji": "😊",
+      "theme": 5
+    },
+    {
+      "word": "never",
+      "tr": "hiçbir zaman",
+      "example": "I never eat fast food.",
+      "ex_tr": "Hiç fast food yemem.",
+      "emoji": "🚫",
+      "theme": 6
+    },
+    {
+      "word": "sometimes",
+      "tr": "bazen",
+      "example": "I sometimes work late.",
+      "ex_tr": "Bazen geç çalışırım.",
+      "emoji": "🔄",
+      "theme": 7
+    },
+    {
+      "word": "often",
+      "tr": "sık sık",
+      "example": "She often reads at night.",
+      "ex_tr": "Sık sık geceleri okur.",
+      "emoji": "📖",
+      "theme": 8
+    },
+    {
+      "word": "usually",
+      "tr": "genellikle",
+      "example": "I usually have coffee for breakfast.",
+      "ex_tr": "Genellikle kahvaltıda kahve içerim.",
+      "emoji": "☕",
+      "theme": 9
+    },
+    {
+      "word": "already",
+      "tr": "zaten / çoktan",
+      "example": "I've already eaten.",
+      "ex_tr": "Zaten yedim.",
+      "emoji": "✅",
+      "theme": 0
+    },
+    {
+      "word": "still",
+      "tr": "hâlâ",
+      "example": "Are you still here?",
+      "ex_tr": "Hâlâ burada mısın?",
+      "emoji": "⏸️",
+      "theme": 1
+    },
+    {
+      "word": "yet",
+      "tr": "henüz / hâlâ",
+      "example": "Have you finished yet?",
+      "ex_tr": "Henüz bitirdin mi?",
+      "emoji": "⏳",
+      "theme": 2
+    },
+    {
+      "word": "again",
+      "tr": "yeniden / tekrar",
+      "example": "Say that again, please.",
+      "ex_tr": "Lütfen tekrar söyle.",
+      "emoji": "🔁",
+      "theme": 3
+    },
+    {
+      "word": "enough",
+      "tr": "yeterli",
+      "example": "I have enough money.",
+      "ex_tr": "Yeterince param var.",
+      "emoji": "👌",
+      "theme": 4
+    },
+    {
+      "word": "too",
+      "tr": "çok / de/da",
+      "example": "It is too hot today.",
+      "ex_tr": "Bugün çok sıcak.",
+      "emoji": "🌡️",
+      "theme": 5
+    },
+    {
+      "word": "very",
+      "tr": "çok (sıfat güçlendirici)",
+      "example": "She is very kind.",
+      "ex_tr": "Çok nazik biri.",
+      "emoji": "💯",
+      "theme": 6
+    },
+    {
+      "word": "really",
+      "tr": "gerçekten",
+      "example": "I really like this film.",
+      "ex_tr": "Bu filmi gerçekten seviyorum.",
+      "emoji": "❤️",
+      "theme": 7
+    },
+    {
+      "word": "quite",
+      "tr": "oldukça",
+      "example": "It's quite cold today.",
+      "ex_tr": "Bugün oldukça soğuk.",
+      "emoji": "🌬️",
+      "theme": 8
+    },
+    {
+      "word": "almost",
+      "tr": "neredeyse",
+      "example": "I'm almost ready.",
+      "ex_tr": "Neredeyse hazırım.",
+      "emoji": "🏁",
+      "theme": 9
+    },
+    {
+      "word": "just",
+      "tr": "az önce / sadece",
+      "example": "I've just arrived.",
+      "ex_tr": "Az önce geldim.",
+      "emoji": "⏱️",
+      "theme": 0
+    },
+    {
+      "word": "only",
+      "tr": "sadece",
+      "example": "I only speak Turkish.",
+      "ex_tr": "Sadece Türkçe konuşuyorum.",
+      "emoji": "1️⃣",
+      "theme": 1
+    },
+    {
+      "word": "also",
+      "tr": "ayrıca / de/da",
+      "example": "She also plays the guitar.",
+      "ex_tr": "O da gitar çalıyor.",
+      "emoji": "➕",
+      "theme": 2
+    },
+    {
+      "word": "both",
+      "tr": "her ikisi de",
+      "example": "Both answers are correct.",
+      "ex_tr": "Her iki cevap da doğru.",
+      "emoji": "✌️",
+      "theme": 3
+    },
+    {
+      "word": "each",
+      "tr": "her",
+      "example": "Each student has a book.",
+      "ex_tr": "Her öğrencinin bir kitabı var.",
+      "emoji": "📚",
+      "theme": 4
+    },
+    {
+      "word": "another",
+      "tr": "bir başka / bir tane daha",
+      "example": "Can I have another coffee?",
+      "ex_tr": "Bir kahve daha alabilir miyim?",
+      "emoji": "☕",
+      "theme": 5
+    },
+    {
+      "word": "every",
+      "tr": "her",
+      "example": "I brush my teeth every day.",
+      "ex_tr": "Her gün dişlerimi fırçalarım.",
+      "emoji": "🦷",
+      "theme": 6
+    },
+    {
+      "word": "most",
+      "tr": "en fazla / çoğu",
+      "example": "Most people enjoy music.",
+      "ex_tr": "Çoğu insan müzikten hoşlanır.",
+      "emoji": "🏆",
+      "theme": 7
+    },
+    {
+      "word": "many",
+      "tr": "çok (sayılabilir)",
+      "example": "There are many books here.",
+      "ex_tr": "Burada çok kitap var.",
+      "emoji": "📚",
+      "theme": 8
+    },
+    {
+      "word": "much",
+      "tr": "çok (sayılamaz)",
+      "example": "There isn't much time.",
+      "ex_tr": "Çok zaman yok.",
+      "emoji": "⏳",
+      "theme": 9
     }
   ],
   "B1": [
@@ -603,6 +1803,606 @@
       "ex_tr": "Olumlu bir tutumu var.",
       "emoji": "🎯",
       "theme": 4
+    },
+    {
+      "word": "accomplish",
+      "tr": "başarmak / tamamlamak",
+      "example": "She accomplished her goal.",
+      "ex_tr": "Hedefini başardı.",
+      "emoji": "🏆",
+      "theme": 5
+    },
+    {
+      "word": "approach",
+      "tr": "yaklaşmak / yaklaşım",
+      "example": "We need a new approach.",
+      "ex_tr": "Yeni bir yaklaşıma ihtiyacımız var.",
+      "emoji": "🎯",
+      "theme": 6
+    },
+    {
+      "word": "argue",
+      "tr": "tartışmak",
+      "example": "They always argue about money.",
+      "ex_tr": "Her zaman para konusunda tartışırlar.",
+      "emoji": "💬",
+      "theme": 7
+    },
+    {
+      "word": "avoid",
+      "tr": "kaçınmak",
+      "example": "Try to avoid stress.",
+      "ex_tr": "Stresten kaçınmaya çalış.",
+      "emoji": "🚫",
+      "theme": 8
+    },
+    {
+      "word": "aware",
+      "tr": "farkında",
+      "example": "Are you aware of the risks?",
+      "ex_tr": "Risklerden haberdar mısın?",
+      "emoji": "👁️",
+      "theme": 9
+    },
+    {
+      "word": "bother",
+      "tr": "rahatsız etmek",
+      "example": "Sorry to bother you.",
+      "ex_tr": "Rahatsız ettiğim için özür dilerim.",
+      "emoji": "😅",
+      "theme": 0
+    },
+    {
+      "word": "carry",
+      "tr": "taşımak",
+      "example": "Can you carry this bag?",
+      "ex_tr": "Bu çantayı taşıyabilir misin?",
+      "emoji": "💼",
+      "theme": 1
+    },
+    {
+      "word": "cause",
+      "tr": "neden olmak / sebep",
+      "example": "What caused the delay?",
+      "ex_tr": "Gecikmeye ne sebep oldu?",
+      "emoji": "🔍",
+      "theme": 2
+    },
+    {
+      "word": "chance",
+      "tr": "şans / fırsat",
+      "example": "Give me one more chance.",
+      "ex_tr": "Bana bir şans daha ver.",
+      "emoji": "🍀",
+      "theme": 3
+    },
+    {
+      "word": "change",
+      "tr": "değişmek / değiştirmek",
+      "example": "Things change over time.",
+      "ex_tr": "Şeyler zamanla değişir.",
+      "emoji": "🔄",
+      "theme": 4
+    },
+    {
+      "word": "choice",
+      "tr": "seçim",
+      "example": "It is your choice.",
+      "ex_tr": "Bu senin seçimin.",
+      "emoji": "✅",
+      "theme": 5
+    },
+    {
+      "word": "claim",
+      "tr": "iddia etmek",
+      "example": "She claims she didn't do it.",
+      "ex_tr": "Bunu yapmadığını iddia ediyor.",
+      "emoji": "🗣️",
+      "theme": 6
+    },
+    {
+      "word": "compare",
+      "tr": "karşılaştırmak",
+      "example": "Don't compare yourself to others.",
+      "ex_tr": "Kendini başkalarıyla karşılaştırma.",
+      "emoji": "⚖️",
+      "theme": 7
+    },
+    {
+      "word": "complain",
+      "tr": "şikâyet etmek",
+      "example": "He always complains.",
+      "ex_tr": "Her zaman şikâyet eder.",
+      "emoji": "😤",
+      "theme": 8
+    },
+    {
+      "word": "complete",
+      "tr": "tamamlamak",
+      "example": "Please complete the form.",
+      "ex_tr": "Lütfen formu doldurun.",
+      "emoji": "📝",
+      "theme": 9
+    },
+    {
+      "word": "concern",
+      "tr": "endişe / ilgilendirmek",
+      "example": "That's not your concern.",
+      "ex_tr": "Bu senin endişen değil.",
+      "emoji": "😟",
+      "theme": 0
+    },
+    {
+      "word": "condition",
+      "tr": "koşul / durum",
+      "example": "The car is in good condition.",
+      "ex_tr": "Araba iyi durumda.",
+      "emoji": "🚗",
+      "theme": 1
+    },
+    {
+      "word": "connect",
+      "tr": "bağlamak / bağlanmak",
+      "example": "Connect the cable to the screen.",
+      "ex_tr": "Kabloyu ekrana bağla.",
+      "emoji": "🔌",
+      "theme": 2
+    },
+    {
+      "word": "contain",
+      "tr": "içermek",
+      "example": "This drink contains sugar.",
+      "ex_tr": "Bu içecek şeker içeriyor.",
+      "emoji": "🧪",
+      "theme": 3
+    },
+    {
+      "word": "continue",
+      "tr": "devam etmek",
+      "example": "Please continue reading.",
+      "ex_tr": "Lütfen okumaya devam edin.",
+      "emoji": "▶️",
+      "theme": 4
+    },
+    {
+      "word": "create",
+      "tr": "yaratmak / oluşturmak",
+      "example": "She created a new app.",
+      "ex_tr": "Yeni bir uygulama yarattı.",
+      "emoji": "💡",
+      "theme": 5
+    },
+    {
+      "word": "depend",
+      "tr": "bağlı olmak / bağımlı olmak",
+      "example": "It depends on the weather.",
+      "ex_tr": "Havaya bağlı.",
+      "emoji": "🌦️",
+      "theme": 6
+    },
+    {
+      "word": "describe",
+      "tr": "tanımlamak / tarif etmek",
+      "example": "Can you describe the problem?",
+      "ex_tr": "Problemi tarif edebilir misin?",
+      "emoji": "📝",
+      "theme": 7
+    },
+    {
+      "word": "develop",
+      "tr": "geliştirmek / gelişmek",
+      "example": "She is developing new skills.",
+      "ex_tr": "Yeni beceriler geliştiriyor.",
+      "emoji": "📈",
+      "theme": 8
+    },
+    {
+      "word": "discuss",
+      "tr": "tartışmak / konuşmak",
+      "example": "Let's discuss this later.",
+      "ex_tr": "Bunu daha sonra tartışalım.",
+      "emoji": "💬",
+      "theme": 9
+    },
+    {
+      "word": "effort",
+      "tr": "çaba / çabalamak",
+      "example": "It takes a lot of effort.",
+      "ex_tr": "Çok fazla çaba gerektirir.",
+      "emoji": "💪",
+      "theme": 0
+    },
+    {
+      "word": "either",
+      "tr": "her ikisi de / ya da",
+      "example": "I don't like either option.",
+      "ex_tr": "Hiçbir seçeneği beğenmiyorum.",
+      "emoji": "🔄",
+      "theme": 1
+    },
+    {
+      "word": "else",
+      "tr": "başka / diğer",
+      "example": "Would you like anything else?",
+      "ex_tr": "Başka bir şey ister misiniz?",
+      "emoji": "➕",
+      "theme": 2
+    },
+    {
+      "word": "entire",
+      "tr": "tüm / bütün",
+      "example": "I spent the entire day reading.",
+      "ex_tr": "Bütün günü okuyarak geçirdim.",
+      "emoji": "📖",
+      "theme": 3
+    },
+    {
+      "word": "environment",
+      "tr": "çevre",
+      "example": "We must protect the environment.",
+      "ex_tr": "Çevreyi korumalıyız.",
+      "emoji": "🌍",
+      "theme": 4
+    },
+    {
+      "word": "especially",
+      "tr": "özellikle",
+      "example": "I love sports, especially tennis.",
+      "ex_tr": "Sporu seviyorum, özellikle tenis.",
+      "emoji": "🎾",
+      "theme": 5
+    },
+    {
+      "word": "event",
+      "tr": "etkinlik / olay",
+      "example": "The event starts at 6 pm.",
+      "ex_tr": "Etkinlik saat 18'de başlıyor.",
+      "emoji": "🎪",
+      "theme": 6
+    },
+    {
+      "word": "expect",
+      "tr": "beklemek / ummak",
+      "example": "I expect an answer today.",
+      "ex_tr": "Bugün bir cevap bekliyorum.",
+      "emoji": "⏳",
+      "theme": 7
+    },
+    {
+      "word": "explain",
+      "tr": "açıklamak",
+      "example": "Can you explain this to me?",
+      "ex_tr": "Bunu bana açıklar mısın?",
+      "emoji": "📖",
+      "theme": 8
+    },
+    {
+      "word": "express",
+      "tr": "ifade etmek",
+      "example": "He finds it hard to express feelings.",
+      "ex_tr": "Duygularını ifade etmekte zorlanıyor.",
+      "emoji": "💭",
+      "theme": 9
+    },
+    {
+      "word": "focus",
+      "tr": "odaklanmak",
+      "example": "Focus on what matters.",
+      "ex_tr": "Önemli olana odaklan.",
+      "emoji": "🎯",
+      "theme": 0
+    },
+    {
+      "word": "force",
+      "tr": "zorlamak / güç",
+      "example": "Don't force yourself.",
+      "ex_tr": "Kendini zorlama.",
+      "emoji": "💪",
+      "theme": 1
+    },
+    {
+      "word": "general",
+      "tr": "genel",
+      "example": "In general, people are kind.",
+      "ex_tr": "Genel olarak insanlar naziktir.",
+      "emoji": "🌐",
+      "theme": 2
+    },
+    {
+      "word": "goal",
+      "tr": "hedef",
+      "example": "Set realistic goals.",
+      "ex_tr": "Gerçekçi hedefler belirle.",
+      "emoji": "🎯",
+      "theme": 3
+    },
+    {
+      "word": "growth",
+      "tr": "büyüme / gelişme",
+      "example": "Personal growth takes time.",
+      "ex_tr": "Kişisel gelişim zaman alır.",
+      "emoji": "🌱",
+      "theme": 4
+    },
+    {
+      "word": "habit",
+      "tr": "alışkanlık",
+      "example": "Reading is a good habit.",
+      "ex_tr": "Okumak iyi bir alışkanlıktır.",
+      "emoji": "📚",
+      "theme": 5
+    },
+    {
+      "word": "happen",
+      "tr": "olmak / gerçekleşmek",
+      "example": "What happened?",
+      "ex_tr": "Ne oldu?",
+      "emoji": "❓",
+      "theme": 6
+    },
+    {
+      "word": "hold",
+      "tr": "tutmak / düzenlemek",
+      "example": "Hold this for a moment.",
+      "ex_tr": "Bunu bir an tut.",
+      "emoji": "✋",
+      "theme": 7
+    },
+    {
+      "word": "however",
+      "tr": "ancak / bununla birlikte",
+      "example": "It's expensive; however, it's worth it.",
+      "ex_tr": "Pahalı; ancak değer.",
+      "emoji": "↪️",
+      "theme": 8
+    },
+    {
+      "word": "imagine",
+      "tr": "hayal etmek",
+      "example": "Imagine a world without war.",
+      "ex_tr": "Savaşsız bir dünya hayal et.",
+      "emoji": "💭",
+      "theme": 9
+    },
+    {
+      "word": "important",
+      "tr": "önemli",
+      "example": "It's important to stay healthy.",
+      "ex_tr": "Sağlıklı kalmak önemlidir.",
+      "emoji": "⭐",
+      "theme": 0
+    },
+    {
+      "word": "include",
+      "tr": "dahil etmek / içermek",
+      "example": "The price includes breakfast.",
+      "ex_tr": "Fiyata kahvaltı dahildir.",
+      "emoji": "✅",
+      "theme": 1
+    },
+    {
+      "word": "increase",
+      "tr": "artmak / artırmak",
+      "example": "Prices have increased a lot.",
+      "ex_tr": "Fiyatlar çok arttı.",
+      "emoji": "📈",
+      "theme": 2
+    },
+    {
+      "word": "interest",
+      "tr": "ilgi / faiz",
+      "example": "She has an interest in art.",
+      "ex_tr": "Sanata ilgisi var.",
+      "emoji": "🎨",
+      "theme": 3
+    },
+    {
+      "word": "join",
+      "tr": "katılmak",
+      "example": "Would you like to join us?",
+      "ex_tr": "Bize katılmak ister misin?",
+      "emoji": "🤝",
+      "theme": 4
+    },
+    {
+      "word": "keep",
+      "tr": "tutmak / devam etmek",
+      "example": "Keep trying!",
+      "ex_tr": "Denemeye devam et!",
+      "emoji": "💪",
+      "theme": 5
+    },
+    {
+      "word": "knowledge",
+      "tr": "bilgi / bilgi birikimi",
+      "example": "Knowledge is power.",
+      "ex_tr": "Bilgi güçtür.",
+      "emoji": "📚",
+      "theme": 6
+    },
+    {
+      "word": "lack",
+      "tr": "eksiklik / yoksunluk",
+      "example": "There is a lack of information.",
+      "ex_tr": "Bilgi eksikliği var.",
+      "emoji": "❌",
+      "theme": 7
+    },
+    {
+      "word": "lead",
+      "tr": "önderlik etmek / yol açmak",
+      "example": "She leads the team.",
+      "ex_tr": "Ekibe önderlik ediyor.",
+      "emoji": "👑",
+      "theme": 8
+    },
+    {
+      "word": "manage",
+      "tr": "yönetmek / başarmak",
+      "example": "He managed to finish on time.",
+      "ex_tr": "Zamanında bitirmeyi başardı.",
+      "emoji": "🏆",
+      "theme": 9
+    },
+    {
+      "word": "matter",
+      "tr": "önemli olmak / konu",
+      "example": "It doesn't matter.",
+      "ex_tr": "Önemi yok.",
+      "emoji": "💭",
+      "theme": 0
+    },
+    {
+      "word": "miss",
+      "tr": "özlemek / kaçırmak",
+      "example": "I miss my family.",
+      "ex_tr": "Ailemi özlüyorum.",
+      "emoji": "💔",
+      "theme": 1
+    },
+    {
+      "word": "notice",
+      "tr": "fark etmek",
+      "example": "Did you notice the change?",
+      "ex_tr": "Değişikliği fark ettin mi?",
+      "emoji": "👁️",
+      "theme": 2
+    },
+    {
+      "word": "offer",
+      "tr": "teklif etmek",
+      "example": "He offered to help.",
+      "ex_tr": "Yardım etmeyi teklif etti.",
+      "emoji": "🤲",
+      "theme": 3
+    },
+    {
+      "word": "own",
+      "tr": "sahip olmak / kendi",
+      "example": "She owns a small business.",
+      "ex_tr": "Küçük bir işletmesi var.",
+      "emoji": "🏠",
+      "theme": 4
+    },
+    {
+      "word": "point",
+      "tr": "nokta / göstermek",
+      "example": "What is the point?",
+      "ex_tr": "Mesele ne?",
+      "emoji": "📍",
+      "theme": 5
+    },
+    {
+      "word": "practice",
+      "tr": "uygulama / alıştırma",
+      "example": "Practice makes perfect.",
+      "ex_tr": "Pratik mükemmeli getirir.",
+      "emoji": "🔄",
+      "theme": 6
+    },
+    {
+      "word": "prove",
+      "tr": "kanıtlamak",
+      "example": "Can you prove it?",
+      "ex_tr": "Bunu kanıtlayabilir misin?",
+      "emoji": "🔍",
+      "theme": 7
+    },
+    {
+      "word": "provide",
+      "tr": "sağlamak",
+      "example": "The company provides free meals.",
+      "ex_tr": "Şirket ücretsiz yemek sağlıyor.",
+      "emoji": "🍱",
+      "theme": 8
+    },
+    {
+      "word": "purpose",
+      "tr": "amaç",
+      "example": "What is the purpose of this meeting?",
+      "ex_tr": "Bu toplantının amacı ne?",
+      "emoji": "🎯",
+      "theme": 9
+    },
+    {
+      "word": "reach",
+      "tr": "ulaşmak / erişmek",
+      "example": "We reached the top.",
+      "ex_tr": "Zirveye ulaştık.",
+      "emoji": "🏔️",
+      "theme": 0
+    },
+    {
+      "word": "realise",
+      "tr": "fark etmek / anlamak",
+      "example": "I realised my mistake.",
+      "ex_tr": "Hatamı fark ettim.",
+      "emoji": "💡",
+      "theme": 1
+    },
+    {
+      "word": "reason",
+      "tr": "neden / gerekçe",
+      "example": "What is the reason for this?",
+      "ex_tr": "Bunun nedeni ne?",
+      "emoji": "❓",
+      "theme": 2
+    },
+    {
+      "word": "reduce",
+      "tr": "azaltmak",
+      "example": "We need to reduce waste.",
+      "ex_tr": "İsrafı azaltmamız gerekiyor.",
+      "emoji": "♻️",
+      "theme": 3
+    },
+    {
+      "word": "regard",
+      "tr": "saygı / dikkate almak",
+      "example": "Regard others with respect.",
+      "ex_tr": "Başkalarına saygıyla yaklaş.",
+      "emoji": "🙏",
+      "theme": 4
+    },
+    {
+      "word": "result",
+      "tr": "sonuç",
+      "example": "What was the result?",
+      "ex_tr": "Sonuç ne oldu?",
+      "emoji": "📊",
+      "theme": 5
+    },
+    {
+      "word": "risk",
+      "tr": "risk / tehlike",
+      "example": "Don't take unnecessary risks.",
+      "ex_tr": "Gereksiz riskler alma.",
+      "emoji": "⚠️",
+      "theme": 6
+    },
+    {
+      "word": "role",
+      "tr": "rol",
+      "example": "She plays an important role.",
+      "ex_tr": "Önemli bir rol oynuyor.",
+      "emoji": "🎭",
+      "theme": 7
+    },
+    {
+      "word": "share",
+      "tr": "paylaşmak",
+      "example": "Share your ideas with us.",
+      "ex_tr": "Fikirlerini bizimle paylaş.",
+      "emoji": "🤝",
+      "theme": 8
+    },
+    {
+      "word": "support",
+      "tr": "desteklemek",
+      "example": "Thank you for your support.",
+      "ex_tr": "Desteğin için teşekkürler.",
+      "emoji": "💪",
+      "theme": 9
     }
   ],
   "B2": [
@@ -805,6 +2605,606 @@
       "ex_tr": "Kayda değer bir ilerleme oldu.",
       "emoji": "📊",
       "theme": 4
+    },
+    {
+      "word": "abolish",
+      "tr": "kaldırmak / ilga etmek",
+      "example": "They voted to abolish the law.",
+      "ex_tr": "Yasayı kaldırmak için oy verdiler.",
+      "emoji": "🚫",
+      "theme": 5
+    },
+    {
+      "word": "abstract",
+      "tr": "soyut",
+      "example": "Abstract thinking is a skill.",
+      "ex_tr": "Soyut düşünme bir beceridir.",
+      "emoji": "🌀",
+      "theme": 6
+    },
+    {
+      "word": "accommodate",
+      "tr": "barındırmak / uyum sağlamak",
+      "example": "The hotel accommodates 200 guests.",
+      "ex_tr": "Otel 200 misafir kapasitesine sahip.",
+      "emoji": "🏨",
+      "theme": 7
+    },
+    {
+      "word": "accumulate",
+      "tr": "biriktirmek",
+      "example": "Dust accumulates quickly.",
+      "ex_tr": "Toz hızlıca birikir.",
+      "emoji": "📦",
+      "theme": 8
+    },
+    {
+      "word": "adequate",
+      "tr": "yeterli",
+      "example": "The salary is adequate.",
+      "ex_tr": "Maaş yeterli.",
+      "emoji": "✅",
+      "theme": 9
+    },
+    {
+      "word": "advocate",
+      "tr": "savunmak / avukat",
+      "example": "She advocates for human rights.",
+      "ex_tr": "İnsan hakları için savunuculuk yapıyor.",
+      "emoji": "⚖️",
+      "theme": 0
+    },
+    {
+      "word": "allocate",
+      "tr": "tahsis etmek",
+      "example": "Funds were allocated for research.",
+      "ex_tr": "Araştırma için kaynak tahsis edildi.",
+      "emoji": "💰",
+      "theme": 1
+    },
+    {
+      "word": "alter",
+      "tr": "değiştirmek",
+      "example": "The plan was altered slightly.",
+      "ex_tr": "Plan biraz değiştirildi.",
+      "emoji": "🔄",
+      "theme": 2
+    },
+    {
+      "word": "ambition",
+      "tr": "hırs / hedef",
+      "example": "She has great ambition.",
+      "ex_tr": "Büyük hırsı var.",
+      "emoji": "🚀",
+      "theme": 3
+    },
+    {
+      "word": "analyse",
+      "tr": "analiz etmek",
+      "example": "We need to analyse the data.",
+      "ex_tr": "Verileri analiz etmemiz gerekiyor.",
+      "emoji": "🔬",
+      "theme": 4
+    },
+    {
+      "word": "anticipate",
+      "tr": "beklemek / öngörmek",
+      "example": "We anticipated the problem.",
+      "ex_tr": "Sorunu öngördük.",
+      "emoji": "🔮",
+      "theme": 5
+    },
+    {
+      "word": "aspect",
+      "tr": "açı / yön",
+      "example": "Consider every aspect of the plan.",
+      "ex_tr": "Planın her yönünü değerlendir.",
+      "emoji": "🔍",
+      "theme": 6
+    },
+    {
+      "word": "attempt",
+      "tr": "girişmek / deneme",
+      "example": "She made an attempt to quit smoking.",
+      "ex_tr": "Sigara içmeyi bırakmaya çalıştı.",
+      "emoji": "💪",
+      "theme": 7
+    },
+    {
+      "word": "authority",
+      "tr": "otorite / yetkili",
+      "example": "He spoke with great authority.",
+      "ex_tr": "Büyük bir otoriteyle konuştu.",
+      "emoji": "👑",
+      "theme": 8
+    },
+    {
+      "word": "bias",
+      "tr": "önyargı",
+      "example": "The report showed clear bias.",
+      "ex_tr": "Rapor açık önyargı gösterdi.",
+      "emoji": "⚖️",
+      "theme": 9
+    },
+    {
+      "word": "capacity",
+      "tr": "kapasite / yetenek",
+      "example": "The stadium has a capacity of 50,000.",
+      "ex_tr": "Stadyumun kapasitesi 50.000.",
+      "emoji": "🏟️",
+      "theme": 0
+    },
+    {
+      "word": "circumstance",
+      "tr": "koşul / durum",
+      "example": "Under no circumstances should you lie.",
+      "ex_tr": "Hiçbir koşulda yalan söyleme.",
+      "emoji": "🔄",
+      "theme": 1
+    },
+    {
+      "word": "collaborate",
+      "tr": "işbirliği yapmak",
+      "example": "We collaborated on the project.",
+      "ex_tr": "Proje üzerinde işbirliği yaptık.",
+      "emoji": "🤝",
+      "theme": 2
+    },
+    {
+      "word": "commit",
+      "tr": "adamak / işlemek",
+      "example": "Commit to your goals.",
+      "ex_tr": "Hedeflerine adanmış ol.",
+      "emoji": "🎯",
+      "theme": 3
+    },
+    {
+      "word": "compensate",
+      "tr": "telafi etmek",
+      "example": "Nothing can compensate for the loss.",
+      "ex_tr": "Hiçbir şey bu kaybı telafi edemez.",
+      "emoji": "⚖️",
+      "theme": 4
+    },
+    {
+      "word": "complex",
+      "tr": "karmaşık",
+      "example": "The situation is very complex.",
+      "ex_tr": "Durum çok karmaşık.",
+      "emoji": "🌀",
+      "theme": 5
+    },
+    {
+      "word": "comprehensive",
+      "tr": "kapsamlı",
+      "example": "We need a comprehensive solution.",
+      "ex_tr": "Kapsamlı bir çözüme ihtiyacımız var.",
+      "emoji": "📋",
+      "theme": 6
+    },
+    {
+      "word": "concede",
+      "tr": "kabul etmek / ödün vermek",
+      "example": "He conceded defeat.",
+      "ex_tr": "Yenilgiyi kabul etti.",
+      "emoji": "🏳️",
+      "theme": 7
+    },
+    {
+      "word": "conclude",
+      "tr": "sonuca varmak / bitirmek",
+      "example": "What can we conclude from this?",
+      "ex_tr": "Bundan ne sonuç çıkarabiliriz?",
+      "emoji": "🏁",
+      "theme": 8
+    },
+    {
+      "word": "conduct",
+      "tr": "yürütmek / davranış",
+      "example": "They conducted an experiment.",
+      "ex_tr": "Bir deney yürüttüler.",
+      "emoji": "🔬",
+      "theme": 9
+    },
+    {
+      "word": "confront",
+      "tr": "yüzleşmek",
+      "example": "You must confront your fears.",
+      "ex_tr": "Korkularınla yüzleşmelisin.",
+      "emoji": "⚔️",
+      "theme": 0
+    },
+    {
+      "word": "conscious",
+      "tr": "bilinçli / farkında",
+      "example": "Be conscious of your impact.",
+      "ex_tr": "Etkinin farkında ol.",
+      "emoji": "🧠",
+      "theme": 1
+    },
+    {
+      "word": "consistent",
+      "tr": "tutarlı",
+      "example": "Be consistent in your efforts.",
+      "ex_tr": "Çabalarında tutarlı ol.",
+      "emoji": "📏",
+      "theme": 2
+    },
+    {
+      "word": "construct",
+      "tr": "inşa etmek",
+      "example": "They constructed a new bridge.",
+      "ex_tr": "Yeni bir köprü inşa ettiler.",
+      "emoji": "🏗️",
+      "theme": 3
+    },
+    {
+      "word": "contradict",
+      "tr": "çelişmek",
+      "example": "His actions contradict his words.",
+      "ex_tr": "Eylemleri sözleriyle çelişiyor.",
+      "emoji": "🔄",
+      "theme": 4
+    },
+    {
+      "word": "contribute",
+      "tr": "katkıda bulunmak",
+      "example": "Everyone can contribute.",
+      "ex_tr": "Herkes katkıda bulunabilir.",
+      "emoji": "🤝",
+      "theme": 5
+    },
+    {
+      "word": "convert",
+      "tr": "dönüştürmek",
+      "example": "Convert the file to PDF.",
+      "ex_tr": "Dosyayı PDF'e dönüştür.",
+      "emoji": "🔄",
+      "theme": 6
+    },
+    {
+      "word": "convey",
+      "tr": "iletmek / aktarmak",
+      "example": "Music conveys emotions.",
+      "ex_tr": "Müzik duyguları iletir.",
+      "emoji": "🎵",
+      "theme": 7
+    },
+    {
+      "word": "convince",
+      "tr": "ikna etmek",
+      "example": "I couldn't convince him.",
+      "ex_tr": "Onu ikna edemedim.",
+      "emoji": "🗣️",
+      "theme": 8
+    },
+    {
+      "word": "crisis",
+      "tr": "kriz",
+      "example": "We are in a financial crisis.",
+      "ex_tr": "Ekonomik bir kriz içindeyiz.",
+      "emoji": "🆘",
+      "theme": 9
+    },
+    {
+      "word": "criticise",
+      "tr": "eleştirmek",
+      "example": "Don't criticise without reason.",
+      "ex_tr": "Sebepsiz eleştirme.",
+      "emoji": "📢",
+      "theme": 0
+    },
+    {
+      "word": "debate",
+      "tr": "tartışmak / münazara",
+      "example": "The debate was intense.",
+      "ex_tr": "Tartışma yoğundu.",
+      "emoji": "🎤",
+      "theme": 1
+    },
+    {
+      "word": "dedicate",
+      "tr": "adamak / ithaf etmek",
+      "example": "She dedicated her life to science.",
+      "ex_tr": "Hayatını bilime adadı.",
+      "emoji": "🔬",
+      "theme": 2
+    },
+    {
+      "word": "defeat",
+      "tr": "yenmek / yenilgi",
+      "example": "They defeated the champion.",
+      "ex_tr": "Şampiyon'u yendiler.",
+      "emoji": "🏆",
+      "theme": 3
+    },
+    {
+      "word": "define",
+      "tr": "tanımlamak",
+      "example": "How do you define success?",
+      "ex_tr": "Başarıyı nasıl tanımlarsın?",
+      "emoji": "📖",
+      "theme": 4
+    },
+    {
+      "word": "demand",
+      "tr": "talep etmek / talep",
+      "example": "The job demands patience.",
+      "ex_tr": "İş sabır gerektiriyor.",
+      "emoji": "📋",
+      "theme": 5
+    },
+    {
+      "word": "demonstrate",
+      "tr": "göstermek / kanıtlamak",
+      "example": "Demonstrate your skills.",
+      "ex_tr": "Becerilerini göster.",
+      "emoji": "👀",
+      "theme": 6
+    },
+    {
+      "word": "deny",
+      "tr": "reddetmek / inkâr etmek",
+      "example": "He denied saying that.",
+      "ex_tr": "Bunu söylediğini reddetti.",
+      "emoji": "🚫",
+      "theme": 7
+    },
+    {
+      "word": "deserve",
+      "tr": "hak etmek",
+      "example": "You deserve a break.",
+      "ex_tr": "Bir molayı hak ediyorsun.",
+      "emoji": "🏆",
+      "theme": 8
+    },
+    {
+      "word": "despite",
+      "tr": "rağmen",
+      "example": "Despite the rain, we went out.",
+      "ex_tr": "Yağmura rağmen dışarı çıktık.",
+      "emoji": "🌧️",
+      "theme": 9
+    },
+    {
+      "word": "determine",
+      "tr": "belirlemek / kararlı olmak",
+      "example": "What determined the outcome?",
+      "ex_tr": "Sonucu ne belirledi?",
+      "emoji": "🔍",
+      "theme": 0
+    },
+    {
+      "word": "devote",
+      "tr": "adamak",
+      "example": "He devoted his life to art.",
+      "ex_tr": "Hayatını sanata adadı.",
+      "emoji": "🎨",
+      "theme": 1
+    },
+    {
+      "word": "differ",
+      "tr": "farklı olmak",
+      "example": "Our opinions differ.",
+      "ex_tr": "Görüşlerimiz farklı.",
+      "emoji": "🔀",
+      "theme": 2
+    },
+    {
+      "word": "distinguish",
+      "tr": "ayırt etmek",
+      "example": "Can you distinguish the two?",
+      "ex_tr": "İkisini ayırt edebilir misin?",
+      "emoji": "🔍",
+      "theme": 3
+    },
+    {
+      "word": "dominant",
+      "tr": "baskın / hâkim",
+      "example": "English is the dominant language.",
+      "ex_tr": "İngilizce baskın dil.",
+      "emoji": "👑",
+      "theme": 4
+    },
+    {
+      "word": "eliminate",
+      "tr": "ortadan kaldırmak",
+      "example": "We must eliminate waste.",
+      "ex_tr": "İsrafı ortadan kaldırmalıyız.",
+      "emoji": "❌",
+      "theme": 5
+    },
+    {
+      "word": "emerge",
+      "tr": "ortaya çıkmak",
+      "example": "A new leader has emerged.",
+      "ex_tr": "Yeni bir lider ortaya çıktı.",
+      "emoji": "🌅",
+      "theme": 6
+    },
+    {
+      "word": "enforce",
+      "tr": "uygulamak / zorlamak",
+      "example": "The law must be enforced.",
+      "ex_tr": "Yasa uygulanmalıdır.",
+      "emoji": "⚖️",
+      "theme": 7
+    },
+    {
+      "word": "enhance",
+      "tr": "geliştirmek / iyileştirmek",
+      "example": "This will enhance your skills.",
+      "ex_tr": "Bu becerilerini geliştirecek.",
+      "emoji": "📈",
+      "theme": 8
+    },
+    {
+      "word": "evaluate",
+      "tr": "değerlendirmek",
+      "example": "Evaluate the pros and cons.",
+      "ex_tr": "Artı ve eksileri değerlendir.",
+      "emoji": "⚖️",
+      "theme": 9
+    },
+    {
+      "word": "exceed",
+      "tr": "aşmak",
+      "example": "Sales exceeded expectations.",
+      "ex_tr": "Satışlar beklentileri aştı.",
+      "emoji": "🚀",
+      "theme": 0
+    },
+    {
+      "word": "expand",
+      "tr": "genişlemek / genişletmek",
+      "example": "The company wants to expand.",
+      "ex_tr": "Şirket büyümek istiyor.",
+      "emoji": "📈",
+      "theme": 1
+    },
+    {
+      "word": "explicit",
+      "tr": "açık / net",
+      "example": "Please be explicit in your request.",
+      "ex_tr": "İsteğinde net ol.",
+      "emoji": "📢",
+      "theme": 2
+    },
+    {
+      "word": "expose",
+      "tr": "maruz bırakmak / ifşa etmek",
+      "example": "She was exposed to the virus.",
+      "ex_tr": "Virüse maruz kaldı.",
+      "emoji": "⚠️",
+      "theme": 3
+    },
+    {
+      "word": "generate",
+      "tr": "üretmek / oluşturmak",
+      "example": "Solar panels generate electricity.",
+      "ex_tr": "Güneş panelleri elektrik üretir.",
+      "emoji": "⚡",
+      "theme": 4
+    },
+    {
+      "word": "highlight",
+      "tr": "vurgulamak / ön plana çıkarmak",
+      "example": "Highlight the key points.",
+      "ex_tr": "Ana noktaları vurgula.",
+      "emoji": "🖊️",
+      "theme": 5
+    },
+    {
+      "word": "hypothesis",
+      "tr": "hipotez / varsayım",
+      "example": "Test your hypothesis.",
+      "ex_tr": "Hipotezini test et.",
+      "emoji": "🔬",
+      "theme": 6
+    },
+    {
+      "word": "identify",
+      "tr": "tespit etmek / tanımlamak",
+      "example": "Identify the main problem.",
+      "ex_tr": "Ana problemi tespit et.",
+      "emoji": "🔍",
+      "theme": 7
+    },
+    {
+      "word": "illustrate",
+      "tr": "örneklemek / açıklamak",
+      "example": "Let me illustrate with an example.",
+      "ex_tr": "Bir örnekle açıklayayım.",
+      "emoji": "🖼️",
+      "theme": 8
+    },
+    {
+      "word": "implement",
+      "tr": "uygulamak / hayata geçirmek",
+      "example": "We will implement the plan.",
+      "ex_tr": "Planı hayata geçireceğiz.",
+      "emoji": "⚙️",
+      "theme": 9
+    },
+    {
+      "word": "implicit",
+      "tr": "örtük / zımni",
+      "example": "There was an implicit agreement.",
+      "ex_tr": "Örtük bir anlaşma vardı.",
+      "emoji": "🤝",
+      "theme": 0
+    },
+    {
+      "word": "impose",
+      "tr": "dayatmak / uygulamak",
+      "example": "Sanctions were imposed.",
+      "ex_tr": "Yaptırımlar uygulandı.",
+      "emoji": "⚖️",
+      "theme": 1
+    },
+    {
+      "word": "indicate",
+      "tr": "göstermek / belirtmek",
+      "example": "The results indicate success.",
+      "ex_tr": "Sonuçlar başarıya işaret ediyor.",
+      "emoji": "📊",
+      "theme": 2
+    },
+    {
+      "word": "interpret",
+      "tr": "yorumlamak / tercüman",
+      "example": "How do you interpret this?",
+      "ex_tr": "Bunu nasıl yorumluyorsun?",
+      "emoji": "🔍",
+      "theme": 3
+    },
+    {
+      "word": "investigate",
+      "tr": "araştırmak",
+      "example": "Police are investigating.",
+      "ex_tr": "Polis araştırıyor.",
+      "emoji": "🔎",
+      "theme": 4
+    },
+    {
+      "word": "justify",
+      "tr": "haklı çıkarmak",
+      "example": "How do you justify this decision?",
+      "ex_tr": "Bu kararı nasıl gerekçelendiriyorsun?",
+      "emoji": "⚖️",
+      "theme": 5
+    },
+    {
+      "word": "maintain",
+      "tr": "sürdürmek / korumak",
+      "example": "Maintain a healthy lifestyle.",
+      "ex_tr": "Sağlıklı bir yaşam tarzı sürdür.",
+      "emoji": "🌿",
+      "theme": 6
+    },
+    {
+      "word": "manipulate",
+      "tr": "manipüle etmek",
+      "example": "Don't try to manipulate me.",
+      "ex_tr": "Beni manipüle etmeye çalışma.",
+      "emoji": "🎭",
+      "theme": 7
+    },
+    {
+      "word": "monitor",
+      "tr": "izlemek / denetlemek",
+      "example": "Monitor your progress.",
+      "ex_tr": "İlerlemeyi izle.",
+      "emoji": "📊",
+      "theme": 8
+    },
+    {
+      "word": "motivation",
+      "tr": "motivasyon",
+      "example": "What is your motivation?",
+      "ex_tr": "Motivasyonun ne?",
+      "emoji": "🔥",
+      "theme": 9
     }
   ],
   "C1": [
@@ -1007,6 +3407,606 @@
       "ex_tr": "Tonu küçümseyciydi.",
       "emoji": "👆",
       "theme": 4
+    },
+    {
+      "word": "abdicate",
+      "tr": "vazgeçmek / tahttan çekilmek",
+      "example": "The king abdicated the throne.",
+      "ex_tr": "Kral tahttan çekildi.",
+      "emoji": "👑",
+      "theme": 5
+    },
+    {
+      "word": "aberration",
+      "tr": "sapma / anormallik",
+      "example": "This was a statistical aberration.",
+      "ex_tr": "Bu istatistiksel bir sapmaydı.",
+      "emoji": "📉",
+      "theme": 6
+    },
+    {
+      "word": "abhor",
+      "tr": "nefret etmek",
+      "example": "She abhors violence.",
+      "ex_tr": "Şiddetten nefret eder.",
+      "emoji": "😤",
+      "theme": 7
+    },
+    {
+      "word": "accentuate",
+      "tr": "vurgulamak / belirginleştirmek",
+      "example": "The report accentuated the risks.",
+      "ex_tr": "Rapor riskleri belirginleştirdi.",
+      "emoji": "📢",
+      "theme": 8
+    },
+    {
+      "word": "acquiesce",
+      "tr": "boyun eğmek / kabullenmek",
+      "example": "He acquiesced to her demands.",
+      "ex_tr": "Taleplerini kabullendi.",
+      "emoji": "🏳️",
+      "theme": 9
+    },
+    {
+      "word": "adamant",
+      "tr": "kararlı / inatçı",
+      "example": "She was adamant about leaving.",
+      "ex_tr": "Ayrılma konusunda kararlıydı.",
+      "emoji": "💎",
+      "theme": 0
+    },
+    {
+      "word": "adept",
+      "tr": "usta / becerikli",
+      "example": "She is adept at problem-solving.",
+      "ex_tr": "Problem çözmede ustadır.",
+      "emoji": "🎯",
+      "theme": 1
+    },
+    {
+      "word": "admonish",
+      "tr": "uyarmak / azarlamak",
+      "example": "He was admonished for his behaviour.",
+      "ex_tr": "Davranışı için uyarıldı.",
+      "emoji": "⚠️",
+      "theme": 2
+    },
+    {
+      "word": "adversity",
+      "tr": "zorluk / sıkıntı",
+      "example": "She overcame great adversity.",
+      "ex_tr": "Büyük zorluğun üstesinden geldi.",
+      "emoji": "⛰️",
+      "theme": 3
+    },
+    {
+      "word": "affinity",
+      "tr": "yakınlık / ilgi",
+      "example": "She has an affinity for music.",
+      "ex_tr": "Müziğe karşı doğal bir ilgisi var.",
+      "emoji": "🎵",
+      "theme": 4
+    },
+    {
+      "word": "aggravate",
+      "tr": "kötüleştirmek / kızdırmak",
+      "example": "Stop aggravating the situation.",
+      "ex_tr": "Durumu kötüleştirmeyi bırak.",
+      "emoji": "😠",
+      "theme": 5
+    },
+    {
+      "word": "aloof",
+      "tr": "mesafeli / soğuk",
+      "example": "He always seems aloof.",
+      "ex_tr": "Her zaman mesafeli görünür.",
+      "emoji": "🧊",
+      "theme": 6
+    },
+    {
+      "word": "altruistic",
+      "tr": "özgeci / diğerkâm",
+      "example": "Her motives were altruistic.",
+      "ex_tr": "Güdüleri özgeciydi.",
+      "emoji": "❤️",
+      "theme": 7
+    },
+    {
+      "word": "ambiguity",
+      "tr": "belirsizlik",
+      "example": "Avoid ambiguity in your writing.",
+      "ex_tr": "Yazılarında belirsizlikten kaçın.",
+      "emoji": "🌫️",
+      "theme": 8
+    },
+    {
+      "word": "ameliorate",
+      "tr": "iyileştirmek",
+      "example": "Steps were taken to ameliorate conditions.",
+      "ex_tr": "Koşulları iyileştirmek için adımlar atıldı.",
+      "emoji": "🌱",
+      "theme": 9
+    },
+    {
+      "word": "amiable",
+      "tr": "cana yakın / sevimli",
+      "example": "She has an amiable personality.",
+      "ex_tr": "Cana yakın bir kişiliği var.",
+      "emoji": "😊",
+      "theme": 0
+    },
+    {
+      "word": "anachronistic",
+      "tr": "zamana aykırı",
+      "example": "The rule seems anachronistic now.",
+      "ex_tr": "Kural artık zamana aykırı görünüyor.",
+      "emoji": "⏳",
+      "theme": 1
+    },
+    {
+      "word": "antagonise",
+      "tr": "düşman etmek / kızdırmak",
+      "example": "Don't antagonise him.",
+      "ex_tr": "Onu kızdırma.",
+      "emoji": "😡",
+      "theme": 2
+    },
+    {
+      "word": "appease",
+      "tr": "yatıştırmak / tatmin etmek",
+      "example": "Nothing could appease her.",
+      "ex_tr": "Hiçbir şey onu yatıştıramadı.",
+      "emoji": "🕊️",
+      "theme": 3
+    },
+    {
+      "word": "arbitrary",
+      "tr": "keyfi / rastgele",
+      "example": "The decision seemed arbitrary.",
+      "ex_tr": "Karar keyfi görünüyordu.",
+      "emoji": "🎲",
+      "theme": 4
+    },
+    {
+      "word": "archaic",
+      "tr": "eski / modası geçmiş",
+      "example": "The law is archaic.",
+      "ex_tr": "Yasa eskimiş.",
+      "emoji": "🏛️",
+      "theme": 5
+    },
+    {
+      "word": "ardent",
+      "tr": "ateşli / hevesli",
+      "example": "She is an ardent supporter.",
+      "ex_tr": "Ateşli bir destekçi.",
+      "emoji": "🔥",
+      "theme": 6
+    },
+    {
+      "word": "arduous",
+      "tr": "yorucu / çetin",
+      "example": "The climb was arduous.",
+      "ex_tr": "Tırmanış çetindi.",
+      "emoji": "⛰️",
+      "theme": 7
+    },
+    {
+      "word": "arrogant",
+      "tr": "kibirli",
+      "example": "He came across as arrogant.",
+      "ex_tr": "Kibirli görünüyordu.",
+      "emoji": "😤",
+      "theme": 8
+    },
+    {
+      "word": "astute",
+      "tr": "zeki / kurnaz",
+      "example": "She made an astute observation.",
+      "ex_tr": "Zekice bir gözlem yaptı.",
+      "emoji": "🦊",
+      "theme": 9
+    },
+    {
+      "word": "audacious",
+      "tr": "cesur / cüretkar",
+      "example": "It was an audacious plan.",
+      "ex_tr": "Cesur bir plândı.",
+      "emoji": "🦁",
+      "theme": 0
+    },
+    {
+      "word": "augment",
+      "tr": "artırmak / güçlendirmek",
+      "example": "Technology augments human ability.",
+      "ex_tr": "Teknoloji insan yeteneğini artırır.",
+      "emoji": "📈",
+      "theme": 1
+    },
+    {
+      "word": "averse",
+      "tr": "karşı / isteksiz",
+      "example": "She is averse to risk.",
+      "ex_tr": "Riske karşı.",
+      "emoji": "🚫",
+      "theme": 2
+    },
+    {
+      "word": "banal",
+      "tr": "sıradan / bayağı",
+      "example": "His speech was banal.",
+      "ex_tr": "Konuşması sıradan'dı.",
+      "emoji": "😐",
+      "theme": 3
+    },
+    {
+      "word": "benevolent",
+      "tr": "hayırsever / iyi huylu",
+      "example": "The leader was benevolent.",
+      "ex_tr": "Lider hayırseverdi.",
+      "emoji": "❤️",
+      "theme": 4
+    },
+    {
+      "word": "candid",
+      "tr": "dürüst / açık sözlü",
+      "example": "Please be candid with me.",
+      "ex_tr": "Benimle açık sözlü ol.",
+      "emoji": "💬",
+      "theme": 5
+    },
+    {
+      "word": "candour",
+      "tr": "dürüstlük / açık sözlülük",
+      "example": "I admire her candour.",
+      "ex_tr": "Onun açık sözlülüğüne hayranım.",
+      "emoji": "🌟",
+      "theme": 6
+    },
+    {
+      "word": "capitulate",
+      "tr": "teslim olmak",
+      "example": "He refused to capitulate.",
+      "ex_tr": "Teslim olmayı reddetti.",
+      "emoji": "🏳️",
+      "theme": 7
+    },
+    {
+      "word": "catalyst",
+      "tr": "katalizör / tetikleyici",
+      "example": "The crisis was a catalyst for change.",
+      "ex_tr": "Kriz değişim için bir katalizördü.",
+      "emoji": "⚗️",
+      "theme": 8
+    },
+    {
+      "word": "caustic",
+      "tr": "yakıcı / iğneleyici",
+      "example": "Her caustic remarks hurt him.",
+      "ex_tr": "İğneleyici sözleri onu incitti.",
+      "emoji": "🧪",
+      "theme": 9
+    },
+    {
+      "word": "circumvent",
+      "tr": "atlatmak / çevresinden dolaşmak",
+      "example": "She circumvented the rules.",
+      "ex_tr": "Kuralları atlattı.",
+      "emoji": "🔄",
+      "theme": 0
+    },
+    {
+      "word": "clandestine",
+      "tr": "gizli / gizlice yapılan",
+      "example": "The meeting was clandestine.",
+      "ex_tr": "Toplantı gizliydi.",
+      "emoji": "🕵️",
+      "theme": 1
+    },
+    {
+      "word": "clemency",
+      "tr": "merhamet / af",
+      "example": "He pleaded for clemency.",
+      "ex_tr": "Merhamet diledi.",
+      "emoji": "🕊️",
+      "theme": 2
+    },
+    {
+      "word": "coalesce",
+      "tr": "birleşmek / kaynaşmak",
+      "example": "The groups coalesced around a leader.",
+      "ex_tr": "Gruplar bir lider etrafında birleşti.",
+      "emoji": "🤝",
+      "theme": 3
+    },
+    {
+      "word": "coerce",
+      "tr": "zorlamak",
+      "example": "You cannot coerce people into compliance.",
+      "ex_tr": "İnsanları uyuma zorlayamazsın.",
+      "emoji": "⛓️",
+      "theme": 4
+    },
+    {
+      "word": "cognisant",
+      "tr": "farkında / haberdar",
+      "example": "She was cognisant of the risks.",
+      "ex_tr": "Risklerden haberdardı.",
+      "emoji": "🧠",
+      "theme": 5
+    },
+    {
+      "word": "compel",
+      "tr": "zorlamak / mecbur bırakmak",
+      "example": "What compelled you to act?",
+      "ex_tr": "Seni harekete geçmeye ne zorladı?",
+      "emoji": "⚡",
+      "theme": 6
+    },
+    {
+      "word": "complicit",
+      "tr": "suç ortağı",
+      "example": "He was complicit in the fraud.",
+      "ex_tr": "Dolandırıcılıkta suç ortağıydı.",
+      "emoji": "🤝",
+      "theme": 7
+    },
+    {
+      "word": "concur",
+      "tr": "hemfikir olmak",
+      "example": "I concur with your assessment.",
+      "ex_tr": "Değerlendirmene katılıyorum.",
+      "emoji": "✅",
+      "theme": 8
+    },
+    {
+      "word": "condone",
+      "tr": "hoş görmek / görmezden gelmek",
+      "example": "I cannot condone dishonesty.",
+      "ex_tr": "Dürüst olmamayı hoş göremem.",
+      "emoji": "🚫",
+      "theme": 9
+    },
+    {
+      "word": "convoluted",
+      "tr": "karmaşık / dolambaçlı",
+      "example": "His explanation was convoluted.",
+      "ex_tr": "Açıklaması dolambaçlıydı.",
+      "emoji": "🌀",
+      "theme": 0
+    },
+    {
+      "word": "corroborate",
+      "tr": "doğrulamak / desteklemek",
+      "example": "The evidence corroborated his story.",
+      "ex_tr": "Kanıtlar hikâyesini doğruladı.",
+      "emoji": "✅",
+      "theme": 1
+    },
+    {
+      "word": "credible",
+      "tr": "güvenilir / inandırıcı",
+      "example": "Is the source credible?",
+      "ex_tr": "Kaynak güvenilir mi?",
+      "emoji": "✔️",
+      "theme": 2
+    },
+    {
+      "word": "culpable",
+      "tr": "suçlu / sorumlu",
+      "example": "He was found culpable.",
+      "ex_tr": "Suçlu bulundu.",
+      "emoji": "⚖️",
+      "theme": 3
+    },
+    {
+      "word": "curtail",
+      "tr": "kısaltmak / kısıtlamak",
+      "example": "We must curtail spending.",
+      "ex_tr": "Harcamaları kısıtlamalıyız.",
+      "emoji": "✂️",
+      "theme": 4
+    },
+    {
+      "word": "cynical",
+      "tr": "alaycı / kuşkucu",
+      "example": "Don't be so cynical.",
+      "ex_tr": "Bu kadar alaycı olma.",
+      "emoji": "😏",
+      "theme": 5
+    },
+    {
+      "word": "daunting",
+      "tr": "yıldırıcı / ürkütücü",
+      "example": "The task was daunting.",
+      "ex_tr": "Görev yıldırıcıydı.",
+      "emoji": "😨",
+      "theme": 6
+    },
+    {
+      "word": "debunk",
+      "tr": "çürütmek / yanlışlamak",
+      "example": "The study debunked the myth.",
+      "ex_tr": "Çalışma efsaneyi çürüttü.",
+      "emoji": "🔍",
+      "theme": 7
+    },
+    {
+      "word": "defer",
+      "tr": "ertelemek / saygı göstermek",
+      "example": "We deferred the decision.",
+      "ex_tr": "Kararı ertyledik.",
+      "emoji": "⏳",
+      "theme": 8
+    },
+    {
+      "word": "deferential",
+      "tr": "saygılı / boyun eğen",
+      "example": "He was deferential to his elders.",
+      "ex_tr": "Büyüklerine saygılıydı.",
+      "emoji": "🙏",
+      "theme": 9
+    },
+    {
+      "word": "deliberate",
+      "tr": "kasıtlı / kasıtlı olarak düşünmek",
+      "example": "It was a deliberate choice.",
+      "ex_tr": "Kasıtlı bir seçimdi.",
+      "emoji": "🎯",
+      "theme": 0
+    },
+    {
+      "word": "denounce",
+      "tr": "kınamak / ihbar etmek",
+      "example": "He publicly denounced the policy.",
+      "ex_tr": "Politikayı alenen kınadı.",
+      "emoji": "📢",
+      "theme": 1
+    },
+    {
+      "word": "deride",
+      "tr": "alay etmek",
+      "example": "Don't deride others' efforts.",
+      "ex_tr": "Başkalarının çabalarıyla alay etme.",
+      "emoji": "😂",
+      "theme": 2
+    },
+    {
+      "word": "discern",
+      "tr": "ayırt etmek / fark etmek",
+      "example": "She could discern a pattern.",
+      "ex_tr": "Bir örüntü fark edebildi.",
+      "emoji": "🔍",
+      "theme": 3
+    },
+    {
+      "word": "discreet",
+      "tr": "basiretli / ihtiyatlı",
+      "example": "Please be discreet about this.",
+      "ex_tr": "Bu konuda ihtiyatlı ol.",
+      "emoji": "🤫",
+      "theme": 4
+    },
+    {
+      "word": "disparate",
+      "tr": "birbirinden çok farklı",
+      "example": "These are disparate issues.",
+      "ex_tr": "Bunlar birbirinden farklı meseleler.",
+      "emoji": "🔀",
+      "theme": 5
+    },
+    {
+      "word": "dissent",
+      "tr": "muhalefet etmek / karşı çıkmak",
+      "example": "There was strong dissent.",
+      "ex_tr": "Güçlü bir muhalefet vardı.",
+      "emoji": "✊",
+      "theme": 6
+    },
+    {
+      "word": "dogmatic",
+      "tr": "dogmatik / katı",
+      "example": "She is very dogmatic in her views.",
+      "ex_tr": "Görüşlerinde çok katı.",
+      "emoji": "📜",
+      "theme": 7
+    },
+    {
+      "word": "dubious",
+      "tr": "şüpheli / kuşkulu",
+      "example": "His motives are dubious.",
+      "ex_tr": "Güdüleri şüpheli.",
+      "emoji": "🤨",
+      "theme": 8
+    },
+    {
+      "word": "duplicitous",
+      "tr": "ikiyüzlü / sahte",
+      "example": "His actions were duplicitous.",
+      "ex_tr": "Eylemleri ikiyüzlüydü.",
+      "emoji": "🎭",
+      "theme": 9
+    },
+    {
+      "word": "eccentric",
+      "tr": "alışılmadık / tuhaf",
+      "example": "She is pleasantly eccentric.",
+      "ex_tr": "Hoş bir şekilde tuhaf.",
+      "emoji": "🌀",
+      "theme": 0
+    },
+    {
+      "word": "elusive",
+      "tr": "zor yakalanan / kaçamak",
+      "example": "The answer remains elusive.",
+      "ex_tr": "Cevap hâlâ ele geçmez.",
+      "emoji": "🦊",
+      "theme": 1
+    },
+    {
+      "word": "emulate",
+      "tr": "taklit etmek / örnek almak",
+      "example": "He tried to emulate his mentor.",
+      "ex_tr": "Mentorunu örnek almaya çalıştı.",
+      "emoji": "🏆",
+      "theme": 2
+    },
+    {
+      "word": "endorse",
+      "tr": "onaylamak / desteklemek",
+      "example": "I endorse this proposal.",
+      "ex_tr": "Bu öneriyi onaylıyorum.",
+      "emoji": "✅",
+      "theme": 3
+    },
+    {
+      "word": "engender",
+      "tr": "doğurmak / neden olmak",
+      "example": "Fear can engender conflict.",
+      "ex_tr": "Korku çatışmaya yol açabilir.",
+      "emoji": "🌱",
+      "theme": 4
+    },
+    {
+      "word": "equitable",
+      "tr": "adil / hakkaniyetli",
+      "example": "We need an equitable system.",
+      "ex_tr": "Adil bir sisteme ihtiyacımız var.",
+      "emoji": "⚖️",
+      "theme": 5
+    },
+    {
+      "word": "evasive",
+      "tr": "kaçamak / muğlak",
+      "example": "His answers were evasive.",
+      "ex_tr": "Cevapları kaçamaklıydı.",
+      "emoji": "🦊",
+      "theme": 6
+    },
+    {
+      "word": "exacerbate",
+      "tr": "kötüleştirmek",
+      "example": "Stress exacerbates the condition.",
+      "ex_tr": "Stres durumu kötüleştirir.",
+      "emoji": "🌋",
+      "theme": 7
+    },
+    {
+      "word": "exemplary",
+      "tr": "örnek / mükemmel",
+      "example": "Her work is exemplary.",
+      "ex_tr": "Çalışması örnek niteliğinde.",
+      "emoji": "🌟",
+      "theme": 8
+    },
+    {
+      "word": "explicit",
+      "tr": "açık / net",
+      "example": "Be explicit about your expectations.",
+      "ex_tr": "Beklentilerin konusunda net ol.",
+      "emoji": "📢",
+      "theme": 9
     }
   ],
   "C2": [
