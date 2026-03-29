@@ -1,0 +1,790 @@
+{
+  "levels": [
+    {
+      "id": "A1",
+      "label": "A1",
+      "color": "teal",
+      "topics": [
+        {
+          "id": "a1-pronouns",
+          "title": "Kişi Zamirleri",
+          "subtitle": "I, you, he, she...",
+          "intro": "İngilizcede 7 kişi zamiri vardır. Türkçeden en önemli fark: İngilizcede cinsiyet ayrımı vardır — 'o' için he (erkek), she (kadın), it (nesne/hayvan) kullanılır. Ayrıca İngilizcede fiil kişiye göre pek değişmez, bu yüzden zamiri söylemek zorunludur — Türkçede 'Gidiyorum' dersin ama İngilizcede mutlaka 'I am going' demelisin.",
+          "tables": [
+            {
+              "headers": ["Zamir", "Türkçesi", "Dikkat"],
+              "rows": [
+                ["I", "ben", "Her zaman büyük harf yazılır"],
+                ["you", "sen / siz", "Tekil ve çoğul aynı kelime — bağlamdan anlaşılır"],
+                ["he", "o (erkek)", "Sadece erkek insanlar için"],
+                ["she", "o (kadın)", "Sadece kadın insanlar için"],
+                ["it", "o (nesne/hayvan)", "Canlısız şeyler ve hayvanlar için"],
+                ["we", "biz", "Konuşmacı dahil"],
+                ["they", "onlar", "Günümüzde tekil 'onlar' (cinsiyet belirtmemek) için de kullanılır"]
+              ]
+            }
+          ],
+          "tips": [
+            "Türkçede 'o' her şey için yeterli, ama İngilizcede he/she/it ayrımı zorunlu. 'Arkadaşım geldi' derken arkadaşın cinsiyetine göre 'He came' ya da 'She came' seçmelisin.",
+            "you hem tekil hem çoğul: 'You are my friend' (Sen benim arkadaşımsın) ve 'You are my friends' (Siz benim arkadaşlarımsınız) — fark sadece bağlamdan anlaşılır."
+          ]
+        },
+        {
+          "id": "a1-to-be",
+          "title": "To Be — 'Olmak' Fiili",
+          "subtitle": "am, is, are — Türkçedeki 'olmak'",
+          "intro": "İngilizcenin en temel fiili olan to be, Türkçedeki 'olmak' ve 'var/yok' anlamlarını karşılar. Türkçede cümle sonuna gelen '-im, -sin, -dir' ekleri, İngilizcede cümlenin içine giren ayrı bir fiil olur. Bu fiili doğru kullanmadan İngilizce cümle kurulamaz.",
+          "tables": [
+            {
+              "label": "Şimdiki zaman — am / is / are",
+              "accent": "yellow",
+              "headers": ["Zamir", "Olumlu", "Olumsuz", "Kısa"],
+              "rows": [
+                ["I", "am", "am not", "I'm"],
+                ["you", "are", "are not", "aren't"],
+                ["he / she / it", "is", "is not", "isn't"],
+                ["we", "are", "are not", "aren't"],
+                ["they", "are", "are not", "aren't"]
+              ]
+            },
+            {
+              "label": "Geçmiş zaman — was / were",
+              "accent": "blue",
+              "headers": ["Zamir", "Olumlu", "Olumsuz"],
+              "rows": [
+                ["I", "was", "wasn't"],
+                ["you", "were", "weren't"],
+                ["he / she / it", "was", "wasn't"],
+                ["we", "were", "weren't"],
+                ["they", "were", "weren't"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "I am a student.", "tr": "Ben bir öğrenciyim."},
+            {"en": "She is from Turkey.", "tr": "O Türkiye'den."},
+            {"en": "They are not here.", "tr": "Onlar burada değil."},
+            {"en": "Was the film good?", "tr": "Film iyi miydi?"}
+          ],
+          "tips": [
+            "Türkçede 'Öğrenciyim' dersin ama İngilizcede 'I student' YANLIŞ — araya 'am' girmesi zorunlu: 'I am a student'.",
+            "Soru yaparken am/is/are başa alınır: 'You are tired.' → 'Are you tired?' Türkçe gibi sona soru eki gelmez."
+          ]
+        },
+        {
+          "id": "a1-simple-present",
+          "title": "Geniş Zaman",
+          "subtitle": "Simple Present — alışkanlıklar ve genel gerçekler",
+          "intro": "Geniş zaman alışkanlıkları, genel gerçekleri ve düzenli tekrarlanan eylemleri anlatır. Türkçedeki '-ir/-ar/-er' geniş zamanına karşılık gelir. Tek önemli kural: he/she/it için fiilin sonuna -s/-es eklenir.",
+          "tables": [
+            {
+              "label": "work (çalışmak) — tam çekim",
+              "accent": "yellow",
+              "headers": ["Zamir", "Olumlu", "Olumsuz", "Soru"],
+              "rows": [
+                ["I", "work", "don't work", "Do I work?"],
+                ["you", "work", "don't work", "Do you work?"],
+                ["he / she / it", "works", "doesn't work", "Does he work?"],
+                ["we", "work", "don't work", "Do we work?"],
+                ["they", "work", "don't work", "Do they work?"]
+              ]
+            },
+            {
+              "label": "-s/-es ekleme kuralları",
+              "accent": "blue",
+              "headers": ["Kural", "Örnek"],
+              "rows": [
+                ["Çoğu fiil → sadece -s ekle", "work → works, eat → eats"],
+                ["-ch, -sh, -ss, -x, -o → -es", "watch → watches, go → goes"],
+                ["Sessiz harf + y → -ies", "study → studies, carry → carries"],
+                ["Düzensiz: have", "he has (he haves DEĞİL)"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "I drink coffee every morning.", "tr": "Her sabah kahve içerim."},
+            {"en": "She works in a hospital.", "tr": "O bir hastanede çalışıyor. (alışkanlık → geniş zaman)"},
+            {"en": "The sun rises in the east.", "tr": "Güneş doğudan doğar. (genel gerçek)"},
+            {"en": "He doesn't eat meat.", "tr": "O et yemez."}
+          ],
+          "tips": [
+            "He/she/it ile olumsuz ve soru için doesn't/does kullanılır, fiile -s gelmez: 'She doesn't work' (She doesn't works DEĞİL).",
+            "Sinyal kelimeler: always (her zaman), usually (genellikle), often (sık sık), sometimes (bazen), never (asla), every day (her gün)."
+          ]
+        },
+        {
+          "id": "a1-present-continuous",
+          "title": "Şimdiki Zaman",
+          "subtitle": "Present Continuous — şu an yapılıyor",
+          "intro": "Tam bu anda gerçekleşmekte olan eylemler için kullanılır. Türkçedeki '-iyor' ekine karşılık gelir. Yapısı: am/is/are + fiilin -ing hali. Türkçede 'Çalışıyorum' hem alışkanlık hem 'şu an yapma' anlamı taşıyabilir — İngilizcede bu ikisi kesinlikle ayrılır.",
+          "tables": [
+            {
+              "label": "work (çalışmak) — şimdiki zaman",
+              "accent": "teal",
+              "headers": ["Zamir", "Olumlu", "Olumsuz"],
+              "rows": [
+                ["I", "am working", "am not working"],
+                ["you", "are working", "aren't working"],
+                ["he / she / it", "is working", "isn't working"],
+                ["we", "are working", "aren't working"],
+                ["they", "are working", "aren't working"]
+              ]
+            },
+            {
+              "label": "-ing ekleme kuralları",
+              "accent": "coral",
+              "headers": ["Kural", "Örnek"],
+              "rows": [
+                ["Çoğu fiil → -ing ekle", "work → working, eat → eating"],
+                ["-e ile bitenler → e düşer", "make → making, write → writing"],
+                ["Kısa heceli, sessiz-sesli-sessiz → son harf çift", "run → running, sit → sitting"],
+                ["-ie ile bitenler → ie → y", "lie → lying, die → dying"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "I am watching TV right now.", "tr": "Şu an TV izliyorum."},
+            {"en": "She is studying for her exam.", "tr": "Sınavı için ders çalışıyor."},
+            {"en": "They are not coming today.", "tr": "Onlar bugün gelmiyor."},
+            {"en": "What are you doing?", "tr": "Ne yapıyorsun?"}
+          ],
+          "tips": [
+            "Bazı fiiller -ing alamaz — bunlara 'stative verbs' denir: love, hate, know, believe, want, need, understand. 'I am knowing you' YANLIŞ → 'I know you' DOĞRU.",
+            "Türkçede 'Yarın İstanbul'a gidiyorum' gelecek anlamı taşır — İngilizcede de aynı kullanım var: 'I am going to Istanbul tomorrow' (planlanmış gelecek)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "label": "A2",
+      "color": "blue",
+      "topics": [
+        {
+          "id": "a2-past-simple",
+          "title": "Geçmiş Zaman",
+          "subtitle": "Simple Past — dün yaptım, geçen yıl gittim",
+          "intro": "Başlayıp bitmiş geçmiş olaylar için kullanılır. Türkçedeki '-dı/-di'li geçmiş zamana karşılık gelir. Düzenli fiiller sonuna -ed alır. Düzensiz fiillerin ikinci halleri ezberlenmesi gerekir — bunlar İngilizcenin en çok kullanılan fiilleridir.",
+          "tables": [
+            {
+              "label": "Düzenli fiiller — sadece -ed ekle",
+              "accent": "yellow",
+              "headers": ["Mastar", "Geçmiş", "Türkçe"],
+              "rows": [
+                ["work", "worked", "çalıştı"],
+                ["watch", "watched", "izledi"],
+                ["play", "played", "oynadı"],
+                ["study", "studied", "çalıştı (ders)"],
+                ["stop", "stopped", "durdu"]
+              ]
+            },
+            {
+              "label": "Düzensiz fiiller — ezber şart",
+              "accent": "coral",
+              "headers": ["Mastar", "Geçmiş", "Türkçe"],
+              "rows": [
+                ["go", "went", "gitti"],
+                ["come", "came", "geldi"],
+                ["see", "saw", "gördü"],
+                ["eat", "ate", "yedi"],
+                ["have", "had", "sahipti / vardı"],
+                ["make", "made", "yaptı"],
+                ["give", "gave", "verdi"],
+                ["take", "took", "aldı"],
+                ["get", "got", "aldı / oldu"],
+                ["say", "said", "dedi"],
+                ["know", "knew", "bildi"],
+                ["think", "thought", "düşündü"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "I watched a film last night.", "tr": "Dün gece bir film izledim."},
+            {"en": "She went to Paris last year.", "tr": "Geçen yıl Paris'e gitti."},
+            {"en": "Did you eat breakfast?", "tr": "Kahvaltı yaptın mı?"},
+            {"en": "He didn't come to the party.", "tr": "O partiye gelmedi."}
+          ],
+          "tips": [
+            "Olumsuz ve soru için yardımcı fiil didn't/did kullanılır ve asıl fiilin birinci hali gelir: 'She didn't went' YANLIŞ → 'She didn't go' DOĞRU.",
+            "Sinyal kelimeler: yesterday (dün), last week/year (geçen hafta/yıl), ago (önce: two days ago), in 2020, when I was a child."
+          ]
+        },
+        {
+          "id": "a2-future",
+          "title": "Gelecek Zaman",
+          "subtitle": "will ve going to — fark ne?",
+          "intro": "İngilizcede gelecek için iki ana yapı vardır ve bunlar birbirinin yerine kullanılamaz. 'will' anlık kararlar ve tahminler için, 'going to' önceden planlanmış şeyler için kullanılır. Türkçede ikisi de '-ecek/-acak' olduğu için bu fark Türk öğrenciler için en sık yapılan hatalardan biridir.",
+          "tables": [
+            {
+              "label": "will — anlık karar, tahmin, söz",
+              "accent": "blue",
+              "headers": ["Kullanım", "Örnek", "Türkçe"],
+              "rows": [
+                ["Anlık karar (şu an karar verdim)", "I'll have the soup.", "Çorbayı alacağım. (menüye bakıp az önce karar verdim)"],
+                ["Tahmin (kanıtsız)", "It will rain tomorrow.", "Yarın yağmur yağacak."],
+                ["Söz / teklif", "I'll help you.", "Sana yardım edeceğim."],
+                ["Gelecek gerçek", "She will be 30 next year.", "Gelecek yıl 30 olacak."]
+              ]
+            },
+            {
+              "label": "going to — önceden planlanmış, kanıta dayalı",
+              "accent": "teal",
+              "headers": ["Kullanım", "Örnek", "Türkçe"],
+              "rows": [
+                ["Önceden yapılan plan", "I'm going to visit my grandmother.", "Büyükanneimi ziyaret edeceğim. (önceden karar verdim)"],
+                ["Kanıta dayalı tahmin", "Look at those clouds! It's going to rain.", "Şu bulutlara bak! Yağmur yağacak. (kanıt var)"],
+                ["Yakın gelecek niyet", "She's going to study medicine.", "Tıp okuyacak. (planı bu)"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "A: The phone is ringing. B: I'll get it!", "tr": "A: Telefon çalıyor. B: Ben bakayım! (o an karar → will)"},
+            {"en": "I'm going to buy a new car next month.", "tr": "Gelecek ay yeni bir araba alacağım. (önceden karar → going to)"},
+            {"en": "I think it will be a great film.", "tr": "Bence harika bir film olacak. (kanıtsız tahmin → will)"}
+          ],
+          "tips": [
+            "Konuşma dilinde 'will' → 'll kısaltması çok yaygın: I'll, you'll, he'll, she'll, we'll, they'll.",
+            "going to'nun olumsuz hali: am/is/are + not + going to. 'I'm not going to go.' Soru: 'Are you going to come?'"
+          ]
+        },
+        {
+          "id": "a2-modal-basics",
+          "title": "Modal Fiiller — Temel",
+          "subtitle": "can, must, should — yapabilmek, zorunluluk, tavsiye",
+          "intro": "Modal fiiller asıl fiilin önüne gelerek olasılık, zorunluluk, izin veya tavsiye gibi ek anlamlar katar. En önemli özelliği: sonrasında her zaman fiilin birinci hali (mastar) gelir ve fiile -s/-es eklenmez.",
+          "tables": [
+            {
+              "label": "En yaygın modaller",
+              "accent": "yellow",
+              "headers": ["Modal", "Anlam", "Örnek", "Olumsuz"],
+              "rows": [
+                ["can", "yapabilmek / izin", "I can swim.", "can't / cannot"],
+                ["could", "yapabilirdi / nazik istek", "Could you help me?", "couldn't"],
+                ["must", "zorunluluk (içten gelen)", "I must study.", "mustn't (yasak)"],
+                ["have to", "zorunluluk (dış kaynaklı)", "I have to wear a uniform.", "don't have to"],
+                ["should", "tavsiye / yapmalısın", "You should sleep more.", "shouldn't"],
+                ["may", "izin / olasılık (resmi)", "May I come in?", "may not"],
+                ["might", "belki / olasılık (düşük)", "It might rain.", "might not"],
+                ["will", "gelecek / söz", "I will call you.", "won't"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "You should drink more water.", "tr": "Daha fazla su içmelisin. (tavsiye)"},
+            {"en": "You must stop at a red light.", "tr": "Kırmızı ışıkta durman zorunlu. (kural)"},
+            {"en": "You don't have to come if you're busy.", "tr": "Meşgulsen gelmek zorunda değilsin. (zorunlu değil)"},
+            {"en": "You mustn't smoke here.", "tr": "Burada sigara içmemelisin. (yasak)"}
+          ],
+          "tips": [
+            "must (içten zorunluluk) ile have to (dış kural) farkı önemli: 'I must call her' (kendim önemli buluyorum) vs 'I have to call her' (patronum istedi).",
+            "mustn't (yasak) ile don't have to (gerek yok) çok farklı anlam: 'You mustn't eat this' (Bunu yememelisin, tehlikeli) vs 'You don't have to eat this' (Bunu yemek zorunda değilsin)."
+          ]
+        },
+        {
+          "id": "a2-there-is",
+          "title": "Var mı? Nerede?",
+          "subtitle": "there is / there are — varlık ifadesi",
+          "intro": "Türkçedeki 'var/yok' anlamını karşılamak için 'there is/are' yapısı kullanılır. Fiilin başa gelmesi gerekir ve ismin tekil/çoğul olmasına göre is/are seçilir.",
+          "tables": [
+            {
+              "label": "there is / there are",
+              "accent": "blue",
+              "headers": ["Yapı", "Örnek", "Türkçe"],
+              "rows": [
+                ["There is + tekil", "There is a cat in the garden.", "Bahçede bir kedi var."],
+                ["There are + çoğul", "There are two students.", "İki öğrenci var."],
+                ["Is there...? / Are there...?", "Is there a bank near here?", "Yakında bir banka var mı?"],
+                ["There isn't / There aren't", "There isn't any milk.", "Hiç süt yok."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "There is a problem with my phone.", "tr": "Telefonumda bir sorun var."},
+            {"en": "Are there any good restaurants here?", "tr": "Burada iyi restoranlar var mı?"},
+            {"en": "There aren't any tickets left.", "tr": "Hiç bilet kalmadı."}
+          ],
+          "tips": [
+            "Konuşma dilinde 'there is' → 'there's' şeklinde kısaltılır: 'There's a problem.'",
+            "any olumsuz ve soru cümlelerinde, some olumlu cümlede kullanılır: 'There are some apples' / 'There aren't any apples' / 'Are there any apples?'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "label": "B1",
+      "color": "coral",
+      "topics": [
+        {
+          "id": "b1-present-perfect",
+          "title": "Yakın Geçmiş",
+          "subtitle": "Present Perfect — deneyim ve sonucu hâlâ geçerli olan geçmiş",
+          "intro": "İngilizcenin Türk öğrenciler için en karmaşık zamanıdır, çünkü Türkçede tam karşılığı yoktur. 'Have/has + fiilin 3. hali' ile kurulur. İki ana kullanımı var: (1) Hayat boyu yaşanmış deneyimler — 'İstanbul'a hiç gittin mi?', (2) Geçmişte olmuş ama sonucu hâlâ geçerli — 'Anahtarımı kaybettim' (ve hâlâ bulamadım).",
+          "tables": [
+            {
+              "label": "Çekim — have/has + past participle (3. hal)",
+              "accent": "blue",
+              "headers": ["Zamir", "Olumlu", "Olumsuz", "Soru"],
+              "rows": [
+                ["I / you / we / they", "have worked", "haven't worked", "Have you worked?"],
+                ["he / she / it", "has worked", "hasn't worked", "Has she worked?"]
+              ]
+            },
+            {
+              "label": "Present Perfect mi, Simple Past mi?",
+              "accent": "yellow",
+              "headers": ["Present Perfect kullan", "Simple Past kullan"],
+              "rows": [
+                ["Zaman belirsiz: I've seen that film.", "Zaman belli: I saw it last week."],
+                ["Deneyim: Have you ever been to Japan?", "Geçmiş an: Did you go to Japan in 2019?"],
+                ["Sonuç şimdi geçerli: I've lost my keys. (hâlâ yok)", "Bitti, kapandı: I lost my keys but found them."],
+                ["just/already/yet ile: I've just eaten.", "yesterday/ago/last ile: I ate yesterday."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "I have never eaten sushi.", "tr": "Hiç suşi yemedim. (hayat boyu deneyim)"},
+            {"en": "She has just left the office.", "tr": "Az önce ofisten ayrıldı. (hâlâ geri yok)"},
+            {"en": "Have you finished your homework yet?", "tr": "Ödevini bitirdin mi? (sonuç bekleniyor)"},
+            {"en": "I've lived here for 10 years.", "tr": "10 yıldır burada yaşıyorum. (ve hâlâ yaşıyorum)"}
+          ],
+          "tips": [
+            "ever (hiç) ve never (asla) Present Perfect ile çok kullanılır: 'Have you ever tried Turkish coffee?' / 'I've never been to Australia.'",
+            "for ve since farkı: for + süre (for two years, for a long time) / since + başlangıç noktası (since 2020, since Monday, since I was a child)."
+          ]
+        },
+        {
+          "id": "b1-conditionals",
+          "title": "Koşul Cümleleri",
+          "subtitle": "if — olursa, olsaydı",
+          "intro": "If (eğer) ile kurulan koşul cümleleri, durumun gerçekliğine göre farklı zaman yapıları kullanır. Türkçedeki '-se/-sa' ekine karşılık gelir ama hangi zaman kipinin kullanıldığı önemlidir.",
+          "tables": [
+            {
+              "label": "Koşul tipleri — özet",
+              "accent": "coral",
+              "headers": ["Tip", "If cümlesi", "Sonuç cümlesi", "Anlam"],
+              "rows": [
+                ["0. tip (genel gerçek)", "if + present simple", "present simple", "Her zaman doğru: If you heat water to 100°C, it boils."],
+                ["1. tip (gerçek olasılık)", "if + present simple", "will + fiil", "Olabilir: If it rains, I'll stay home."],
+                ["2. tip (hayali/olası değil)", "if + past simple", "would + fiil", "Gerçek değil: If I had a car, I would drive."],
+                ["3. tip (geçmişte olmadı)", "if + past perfect", "would have + p.p.", "Olmadı: If I had studied, I would have passed."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "If you study hard, you will pass the exam.", "tr": "Çok çalışırsan sınavı geçersin. (1. tip — mümkün)"},
+            {"en": "If I were rich, I would travel the world.", "tr": "Zengin olsaydım, dünyayı gezerdim. (2. tip — hayal)"},
+            {"en": "If she had called me, I would have come.", "tr": "Beni arasa idiydi gelirdim. (3. tip — artık mümkün değil)"}
+          ],
+          "tips": [
+            "2. tipte 'if I was' yerine 'if I were' kullanımı daha doğru kabul edilir: 'If I were you, I wouldn't do that.' (Senin yerinde olsaydım yapmazdım.)",
+            "if ve when farkı: if olasılık bildirir (olabilir de olmayabilir de), when kesinlik bildirir: 'When I get home, I'll call you.' (Eve gelince arayacağım — kesin gelecek)"
+          ]
+        },
+        {
+          "id": "b1-passive",
+          "title": "Edilgen Çatı",
+          "subtitle": "Passive Voice — yapıldı, üretildi, çalındı",
+          "intro": "Türkçedeki '-il/-ın' ekine karşılık gelir. İngilizcede yapısı: am/is/are + fiilin 3. hali (past participle). Kim yaptığını söylemek istemediğimizde veya yaptıktan çok yapılanı öne çıkarmak istediğimizde kullanılır.",
+          "tables": [
+            {
+              "label": "Farklı zamanlarda edilgen",
+              "accent": "blue",
+              "headers": ["Zaman", "Yapısı", "Örnek"],
+              "rows": [
+                ["Şimdiki (geniş)", "am/is/are + p.p.", "English is spoken here."],
+                ["Şimdiki (süregelen)", "am/is/are being + p.p.", "The road is being repaired."],
+                ["Geçmiş (basit)", "was/were + p.p.", "The window was broken."],
+                ["Yakın geçmiş", "have/has been + p.p.", "The letter has been sent."],
+                ["Gelecek", "will be + p.p.", "The report will be published."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "This book was written in 1960.", "tr": "Bu kitap 1960'ta yazıldı."},
+            {"en": "English is spoken in over 50 countries.", "tr": "İngilizce 50'den fazla ülkede konuşuluyor."},
+            {"en": "My car was stolen last night.", "tr": "Arabam dün gece çalındı."},
+            {"en": "The results will be announced tomorrow.", "tr": "Sonuçlar yarın açıklanacak."}
+          ],
+          "tips": [
+            "Eylemi kimin yaptığını belirtmek istersen 'by' kullanılır: 'The film was directed by Nolan.' (Film Nolan tarafından yönetildi.)",
+            "Edilgen yapı özellikle gazete haberleri, bilimsel yazılar ve resmi metinlerde çok yaygındır. Günlük konuşmada aktif yapı daha doğal gelir."
+          ]
+        },
+        {
+          "id": "b1-reported-speech",
+          "title": "Birisinin Söylediklerini Aktarmak",
+          "subtitle": "Reported Speech — 'dedi ki...'",
+          "intro": "Birisinin söylediklerini başkasına aktarırken zamanlar bir adım geriye gider. Türkçede 'Yarın geleceğim dedi' → 'Ertesi gün geleceğini söyledi' gibi. İngilizcede bu dönüşüm sistematiktir.",
+          "tables": [
+            {
+              "label": "Zaman dönüşümleri — said/told that...",
+              "accent": "teal",
+              "headers": ["Doğrudan", "Aktarılınca"],
+              "rows": [
+                ["present simple → 'I work'", "past simple → she said she worked"],
+                ["present continuous → 'I am working'", "past continuous → she said she was working"],
+                ["past simple → 'I worked'", "past perfect → she said she had worked"],
+                ["will → 'I will come'", "would → she said she would come"],
+                ["can → 'I can swim'", "could → she said she could swim"],
+                ["must → 'I must go'", "had to → she said she had to go"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "'I am tired.' → She said she was tired.", "tr": "'Yorgunum.' → Yorgun olduğunu söyledi."},
+            {"en": "'I will call you.' → He said he would call me.", "tr": "'Seni arayacağım.' → Beni arayacağını söyledi."},
+            {"en": "'Come here!' → She told me to come there.", "tr": "'Buraya gel!' → Oraya gitmemi söyledi."}
+          ],
+          "tips": [
+            "say ve tell farkı: say → say (that), tell → tell someone (that). 'She said she was tired.' / 'She told me she was tired.' (tell'den sonra kişi belirtilir)",
+            "Zaman ifadeleri de değişir: now → then, today → that day, here → there, tomorrow → the next day, yesterday → the day before."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "label": "B2",
+      "color": "purple",
+      "topics": [
+        {
+          "id": "b2-perfect-forms",
+          "title": "Bileşik Zamanlar",
+          "subtitle": "Past Perfect, Future Perfect — olmuştu, olmuş olacak",
+          "intro": "Bileşik zamanlar, bir eylemin başka bir eylemden önce ya da sonra gerçekleştiğini ifade eder. Türkçede '-mış idi, -mış olacak' gibi yapılara karşılık gelir.",
+          "tables": [
+            {
+              "label": "Past Perfect — geçmişte daha önce olan",
+              "accent": "purple",
+              "headers": ["Yapı", "Örnek", "Türkçe"],
+              "rows": [
+                ["had + past participle", "I had eaten before she arrived.", "O gelmeden önce yemiştim."],
+                ["hadn't + past participle", "He hadn't slept when I called.", "Aradığımda uyumamıştı."],
+                ["Had + özne + p.p.?", "Had you seen him before?", "Onu daha önce görmüş müydün?"]
+              ]
+            },
+            {
+              "label": "Future Perfect — gelecekte tamamlanmış olacak",
+              "accent": "blue",
+              "headers": ["Yapı", "Örnek", "Türkçe"],
+              "rows": [
+                ["will have + p.p.", "By June, I will have finished university.", "Haziran'a kadar üniversiteyi bitirmiş olacağım."],
+                ["won't have + p.p.", "He won't have arrived by then.", "O zamana kadar ulaşmamış olacak."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "When I arrived, she had already left.", "tr": "Geldiğimde o zaten ayrılmıştı."},
+            {"en": "I hadn't studied, so I failed the test.", "tr": "Çalışmamıştım, bu yüzden sınavdan kaldım."},
+            {"en": "By next year, I will have lived here for a decade.", "tr": "Gelecek yıla kadar burada on yıl yaşamış olacağım."}
+          ],
+          "tips": [
+            "Past Perfect genellikle 'before, after, when, already, by the time' gibi bağlaçlarla birlikte gelir ve iki geçmiş olaydan daha önce olanı belirtir.",
+            "Future Perfect 'by + zaman ifadesi' ile çok kullanılır: by tomorrow, by 2030, by the time you read this."
+          ]
+        },
+        {
+          "id": "b2-gerund-infinitive",
+          "title": "Fiil + -ing mi, to + fiil mi?",
+          "subtitle": "Gerund ve Infinitive — en sık yapılan hata",
+          "intro": "Bir fiilin arkasından başka bir fiil geldiğinde ikinci fiilin -ing mi yoksa 'to + fiil' mi alacağı Türk öğrenciler için çok karıştırıcı olabilir. Türkçede bu ayrım yoktur — her ikisi de 'yapmak' olarak çevrilir.",
+          "tables": [
+            {
+              "label": "-ing alan fiiller (gerund)",
+              "accent": "coral",
+              "headers": ["Fiil", "Örnek", "Türkçe"],
+              "rows": [
+                ["enjoy", "I enjoy swimming.", "Yüzmeyi seviyorum."],
+                ["finish", "She finished working.", "Çalışmayı bitirdi."],
+                ["mind", "Do you mind waiting?", "Beklemeni sakınca var mı?"],
+                ["avoid", "He avoids eating meat.", "Et yemekten kaçınıyor."],
+                ["suggest", "I suggest trying this.", "Bunu denemeyi öneriyorum."],
+                ["keep", "Keep practicing!", "Pratik yapmaya devam et!"]
+              ]
+            },
+            {
+              "label": "to + fiil (infinitive) alan fiiller",
+              "accent": "blue",
+              "headers": ["Fiil", "Örnek", "Türkçe"],
+              "rows": [
+                ["want", "I want to go.", "Gitmek istiyorum."],
+                ["decide", "She decided to stay.", "Kalmaya karar verdi."],
+                ["hope", "He hopes to win.", "Kazanmayı umuyor."],
+                ["plan", "We plan to travel.", "Seyahat etmeyi planlıyoruz."],
+                ["need", "I need to sleep.", "Uyumam gerekiyor."],
+                ["forget", "Don't forget to call.", "Aramayı unutma."]
+              ]
+            },
+            {
+              "label": "Her ikisini de alan ama anlam değişen fiiller",
+              "accent": "teal",
+              "headers": ["Fiil", "-ing anlamı", "to anlamı"],
+              "rows": [
+                ["remember", "remember doing (geçmişi hatırlamak)", "remember to do (yapmayı unutmamak)"],
+                ["forget", "forget doing (yaptığını unutmak)", "forget to do (yapmayı unutmak)"],
+                ["stop", "stop doing (yapmayı bırakmak)", "stop to do (yapmak için durmak)"],
+                ["try", "try doing (denemek, bakayım ne olur)", "try to do (çabalamak, çok zor)"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "I stopped smoking. / I stopped to smoke.", "tr": "Sigara içmeyi bıraktım. / Sigara içmek için durdum. (tamamen farklı anlam!)"},
+            {"en": "She remembered locking the door.", "tr": "Kapıyı kilitlediğini hatırladı. (kilitledi, hatırladı)"},
+            {"en": "She remembered to lock the door.", "tr": "Kapıyı kilitlemeyi hatırladı. (hatırladı ve kilitledi)"}
+          ],
+          "tips": [
+            "Genel kural (istisnalar var): duygular ve alışkanlıklar → -ing (enjoy, avoid, keep). Gelecek niyet ve kararlar → to (want, decide, plan).",
+            "like/love/hate her ikisini de alabilir: 'I like swimming' = 'I like to swim' — bu fiillerde anlam farkı yoktur."
+          ]
+        },
+        {
+          "id": "b2-relative-clauses",
+          "title": "İlgi Cümleleri",
+          "subtitle": "who, which, that, whose — hangi durumda hangisi?",
+          "intro": "Türkçede 'ki' ile kurulan veya sıfat tamlaması gibi işleyen yapılar İngilizcede ilgi zamirleriyle kurulur. 'The woman who called you' (Seni arayan kadın) gibi.",
+          "tables": [
+            {
+              "label": "İlgi zamirleri",
+              "accent": "yellow",
+              "headers": ["Zamir", "Ne için?", "Örnek"],
+              "rows": [
+                ["who", "kişiler için", "The man who lives next door is a doctor."],
+                ["which", "nesneler ve hayvanlar için", "The book which I read was amazing."],
+                ["that", "kişi veya nesne (resmi değil)", "The film that I saw was great."],
+                ["whose", "iyelik (kimin)", "The student whose work won the prize..."],
+                ["where", "yer", "The city where I grew up is beautiful."],
+                ["when", "zaman", "I remember the day when we met."]
+              ]
+            },
+            {
+              "label": "Tanımlayıcı mı, açıklayıcı mı?",
+              "accent": "coral",
+              "headers": ["Tür", "Özellik", "Örnek"],
+              "rows": [
+                ["Tanımlayıcı (virgülsüz)", "Cümle anlamı için zorunlu, that kullanılabilir", "The woman that I love is kind."],
+                ["Açıklayıcı (virgüllü)", "Ek bilgi, that kullanılamaz", "My sister, who lives in London, is a nurse."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "The man whose car was stolen called the police.", "tr": "Arabası çalınan adam polisi aradı."},
+            {"en": "This is the restaurant where we had our first date.", "tr": "İlk randevumuzu yaptığımız restoran burası."},
+            {"en": "The report, which took three months to write, was published.", "tr": "Yazmak üç ay süren rapor yayınlandı. (virgüllü → açıklayıcı → that olmaz)"}
+          ],
+          "tips": [
+            "Virgüllü ilgi cümlelerinde 'that' kullanılamaz: 'My father, that is a doctor...' YANLIŞ → 'My father, who is a doctor...' DOĞRU.",
+            "'whose' iyelik anlamı taşır: 'The author whose book I read' (Kitabını okuduğum yazar). Türkçedeki '-in/-ın' ile kurulan tamlamalara karşılık gelir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "label": "C1",
+      "color": "amber",
+      "topics": [
+        {
+          "id": "c1-inversion",
+          "title": "Özne-Yüklem Ters Yapı",
+          "subtitle": "Inversion — edebî ve vurgulu ifadeler",
+          "intro": "Normalde İngilizcede özne + yüklem sırası gelir. Ama bazı durumlarda yüklem (veya yardımcı fiil) öznenin önüne geçer. Bu yapı resmi yazım, edebî metinler ve güçlü vurgu için kullanılır.",
+          "tables": [
+            {
+              "label": "Inversion gerektiren yapılar",
+              "accent": "amber",
+              "headers": ["Tetikleyici", "Örnek"],
+              "rows": [
+                ["Never / Rarely / Seldom / Hardly", "Never have I seen such beauty."],
+                ["Not only... but also", "Not only did she win, but she also broke the record."],
+                ["Only + zaman/yer ifadesi", "Only then did I understand."],
+                ["So + sıfat/zarf", "So tired was he that he fell asleep immediately."],
+                ["Koşul cümlesi (if olmadan)", "Had I known, I would have helped."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "Never before had I felt so happy.", "tr": "Daha önce hiç bu kadar mutlu olmamıştım."},
+            {"en": "Hardly had she sat down when the phone rang.", "tr": "Oturur oturmaz telefon çaldı."},
+            {"en": "Were I in your position, I would refuse.", "tr": "Senin yerinde olsaydım reddederdim. (if I were → inversion)"}
+          ],
+          "tips": [
+            "Bu yapı günlük konuşmada nadir kullanılır ama akademik yazı, gazetecilik ve edebî metinlerde çok görülür. IELTS ve TOEFL sınavlarında yüksek puan için bilinmesi gerekir.",
+            "Koşul cümlelerinde if olmadan inversion: 'If I had known' → 'Had I known' / 'If she were here' → 'Were she here'."
+          ]
+        },
+        {
+          "id": "c1-discourse-markers",
+          "title": "Bağlayıcı İfadeler",
+          "subtitle": "Discourse Markers — akıcı ve akademik İngilizce için",
+          "intro": "Cümleleri ve paragrafları birbirine bağlayan, yazı veya konuşmaya akış kazandıran ifadelerdir. IELTS/TOEFL gibi sınavlarda ve iş İngilizcesinde çok önemlidir.",
+          "tables": [
+            {
+              "label": "Kategorilere göre bağlayıcılar",
+              "accent": "amber",
+              "headers": ["İşlev", "Bağlayıcılar"],
+              "rows": [
+                ["Ekleme", "Furthermore, Moreover, In addition, Besides, What is more"],
+                ["Karşıtlık", "However, Nevertheless, On the other hand, In contrast, Whereas"],
+                ["Sonuç", "Therefore, Consequently, As a result, Hence, Thus"],
+                ["Örnek verme", "For instance, For example, Such as, Namely, In particular"],
+                ["Neden", "Due to, Owing to, Because of, As a result of"],
+                ["Özetleme", "In conclusion, To sum up, In short, Overall, All in all"],
+                ["Vurgu", "In fact, Indeed, Above all, Particularly, Especially"],
+                ["Sıralama", "Firstly / Secondly, To begin with, Subsequently, Finally"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "The project was expensive. Nevertheless, it was worth it.", "tr": "Proje pahalıydı. Bununla birlikte, değerdi."},
+            {"en": "She studied hard. As a result, she passed all her exams.", "tr": "Çok çalıştı. Sonuç olarak, tüm sınavlarını geçti."},
+            {"en": "There are several reasons. Firstly, the cost is too high.", "tr": "Birkaç neden var. Her şeyden önce, maliyet çok yüksek."}
+          ],
+          "tips": [
+            "however ve but farkı: but cümle içinde bağlar, however iki ayrı cümleyi bağlar ve virgülle ya da noktalı virgülle ayrılır: 'She worked hard, but she failed.' / 'She worked hard. However, she failed.'",
+            "due to ve because of + isim/isim grubu alır: 'Due to bad weather...' / because ve since + tam cümle alır: 'Because the weather was bad...'"
+          ]
+        },
+        {
+          "id": "c1-advanced-modals",
+          "title": "Modal Fiillerin İleri Kullanımı",
+          "subtitle": "must have, should have, could have — geçmişe yönelik",
+          "intro": "Modal fiillerin 'have + past participle' ile birleşimi geçmişe yönelik çıkarım, eleştiri veya pişmanlık ifade eder. Türkçedeki '-mış olmalı, yapmalıydım, yapabilirdin' gibi yapılara karşılık gelir.",
+          "tables": [
+            {
+              "label": "Modal + have + past participle",
+              "accent": "blue",
+              "headers": ["Yapı", "Anlam", "Örnek"],
+              "rows": [
+                ["must have + p.p.", "geçmişe yönelik kesin çıkarım", "She must have left early. (kesinlikle erken ayrılmış)"],
+                ["can't have + p.p.", "geçmişe yönelik imkânsızlık", "He can't have done that. (yapmış olamaz)"],
+                ["might/may have + p.p.", "geçmişe yönelik olasılık", "They might have missed the bus. (otobüsü kaçırmış olabilirler)"],
+                ["should have + p.p.", "yapılması gerekirdi ama yapılmadı", "You should have called me. (aramalıydın ama aramadın)"],
+                ["shouldn't have + p.p.", "yapılmamalıydı ama yapıldı", "I shouldn't have eaten so much. (bu kadar yememeliydim)"],
+                ["could have + p.p.", "yapılabilirdi ama yapılmadı", "She could have won. (kazanabilirdi ama kazanamadı)"],
+                ["would have + p.p.", "koşul sağlansaydı yapılırdı", "I would have helped if I had known."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "You should have told me earlier!", "tr": "Bana daha önce söylemeliydik!"},
+            {"en": "She must have been very tired.", "tr": "Çok yorgun olmuş olmalı."},
+            {"en": "I could have been a doctor.", "tr": "Doktor olabilirdim. (ama olmadım)"}
+          ],
+          "tips": [
+            "must have (kesin çıkarım) ile had to (geçmişteki zorunluluk) karıştırılmamalı: 'She must have worked hard' (kesinlikle çok çalışmış) vs 'She had to work hard' (çok çalışmak zorundaydı).",
+            "Bu yapılar IELTS Speaking ve Writing'de çıkarım ifade etmek için çok kullanışlıdır: 'The graph suggests that prices must have risen sharply.'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "label": "C2",
+      "color": "red",
+      "topics": [
+        {
+          "id": "c2-cleft-sentences",
+          "title": "Yarık Cümleler",
+          "subtitle": "Cleft Sentences — 'It is... that' ve 'What I want is...'",
+          "intro": "Belirli bir unsuru vurgulamak için kullanılan ileri düzey yapılardır. Türkçede 'Beni üzen o değil, sensin' gibi vurgulu yapılara karşılık gelir. İki ana tipi vardır: It-cleft ve Wh-cleft.",
+          "tables": [
+            {
+              "label": "İki tip cleft cümlesi",
+              "accent": "red",
+              "headers": ["Tip", "Yapı", "Örnek", "Vurgulanan"],
+              "rows": [
+                ["It-cleft", "It is/was + vurgulanan + that/who...", "It was John who broke the window.", "John (başkası değil)"],
+                ["It-cleft", "It is/was + vurgulanan + that...", "It was yesterday that I saw her.", "Dün (başka zaman değil)"],
+                ["Wh-cleft", "What + cümle + is/was + vurgulanan", "What I need is a holiday.", "Tatil (başka şey değil)"],
+                ["Wh-cleft", "What + cümle + is/was + vurgulanan", "What surprised me was her reaction.", "Onun tepkisi"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "It is communication that makes a good leader.", "tr": "İyi bir lideri yaratan şey iletişimdir."},
+            {"en": "What I find difficult is speaking in public.", "tr": "Zor bulduğum şey halk önünde konuşmak."},
+            {"en": "It wasn't the price that bothered me, it was the quality.", "tr": "Beni rahatsız eden fiyat değil, kaliteydi."}
+          ],
+          "tips": [
+            "It-cleft cümleleri yazılı İngilizcede, özellikle akademik metinlerde çok yaygındır. Sınavlarda bu yapıyı kullanmak ifadenizin sofistike göründüğünü gösterir.",
+            "Wh-cleft genellikle 'What I think/believe/want/need' kalıbıyla başlar ve konuşmada doğal bir vurgu aracıdır."
+          ]
+        },
+        {
+          "id": "c2-subjunctive",
+          "title": "İngilizce Dilek Kipi",
+          "subtitle": "Subjunctive — resmi ve akademik İngilizce",
+          "intro": "İngilizcede subjunctive (dilek kipi) Türk öğrencilerin çoğunun fark etmediği ama özellikle Amerikan İngilizcesi ve resmi metinlerde sıkça karşılaşılan bir yapıdır. Fiilin üçüncü tekil şahısta -s almaması ve 'be' olarak kalması ile tanınır.",
+          "tables": [
+            {
+              "label": "Subjunctive kullanım alanları",
+              "accent": "red",
+              "headers": ["Yapı", "Örnek", "Türkçe"],
+              "rows": [
+                ["recommend/suggest/insist + that + fiil (s'siz)", "I suggest that he leave immediately.", "Hemen ayrılmasını öneriyorum."],
+                ["important/essential/vital + that + be", "It is essential that she be informed.", "Onun bilgilendirilmesi şart."],
+                ["If I were (gerçek dışı)", "If I were you, I'd quit.", "Senin yerinde olsaydım bırakırdım."],
+                ["wish + past (şimdiki pişmanlık)", "I wish I knew the answer.", "Cevabı bilseydim keşke."],
+                ["wish + past perfect (geçmiş pişmanlık)", "I wish I had studied harder.", "Keşke daha çok çalışmış olsaydım."]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "The doctor recommended that he rest for a week.", "tr": "Doktor bir hafta dinlenmesini tavsiye etti."},
+            {"en": "It is crucial that every student be given equal opportunities.", "tr": "Her öğrenciye eşit fırsat verilmesi çok önemli."},
+            {"en": "I wish I could speak Japanese.", "tr": "Keşke Japonca konuşabilseydim."}
+          ],
+          "tips": [
+            "Wish ile zamanlar: wish + past simple (şimdiki durumu değiştirmek istiyorum), wish + past perfect (geçmişi değiştirmek istiyorum), wish + would (birinin bir şeyi yapmasını istiyorum ama yapmıyor).",
+            "Amerikan İngilizcesinde subjunctive çok yaygın: 'I insist that he apologize.' Britanya İngilizcesinde bunun yerine should + fiil tercih edilir: 'I insist that he should apologize.'"
+          ]
+        },
+        {
+          "id": "c2-register-style",
+          "title": "Dil Düzeyi ve Üslup",
+          "subtitle": "Formal, Informal, Academic — doğru bağlamda doğru dil",
+          "intro": "C2 düzeyinde sadece doğru dil bilgisi yetmez; hangi bağlamda hangi üslubu kullanacağını bilmek gerekir. Aynı fikri resmi bir e-postada, arkadaşa mesajda ve akademik makalede farklı şekillerde ifade etmek zorunda kalırsın.",
+          "tables": [
+            {
+              "label": "Aynı anlam, farklı düzey",
+              "accent": "amber",
+              "headers": ["Informal", "Formal / Academic", "Türkçe"],
+              "rows": [
+                ["get", "obtain / receive / acquire", "almak / elde etmek"],
+                ["show", "demonstrate / indicate / reveal", "göstermek / ortaya koymak"],
+                ["need", "require / necessitate", "gerektirmek"],
+                ["use", "utilise / employ / apply", "kullanmak"],
+                ["think", "consider / argue / suggest", "düşünmek / öne sürmek"],
+                ["start / begin", "commence / initiate", "başlamak"],
+                ["end / stop", "conclude / terminate / cease", "bitirmek / sona erdirmek"],
+                ["find out", "discover / determine / establish", "keşfetmek / belirlemek"]
+              ]
+            },
+            {
+              "label": "Formal yazıda kaçınılacaklar",
+              "accent": "coral",
+              "headers": ["Kaçın", "Bunun yerine"],
+              "rows": [
+                ["Contractions (I'm, don't)", "I am, do not"],
+                ["And/But cümle başında", "Furthermore / However"],
+                ["a lot of", "a great deal of / numerous"],
+                ["thing / stuff", "factor / element / aspect"],
+                ["very + sıfat", "Extremely / Remarkably / Significantly + sıfat"]
+              ]
+            }
+          ],
+          "examples": [
+            {"en": "Informal: The study looked at how stress affects people.", "tr": "Gayri resmi: Çalışma stresin insanları nasıl etkilediğine baktı."},
+            {"en": "Academic: This study examined the impact of stress on individuals.", "tr": "Akademik: Bu çalışma stresin bireyler üzerindeki etkisini inceledi."},
+            {"en": "I think climate change is a big problem. → It can be argued that climate change represents one of the most significant challenges of our era.", "tr": "İklim değişikliğinin en önemli zorluklardan biri olduğu savunulabilir."}
+          ],
+          "tips": [
+            "IELTS/TOEFL Academic Writing'de Band 7+ için formal vocabulary şart. Aynı kelimeyi tekrar etmemek ve eş anlamlılarını kullanmak da çok önemli.",
+            "E-posta yazarken açılış ve kapanış ifadeleri üsluba göre değişir: Formal: 'Dear Mr Smith / Yours sincerely' — Informal: 'Hi Tom / Take care / Cheers'"
+          ]
+        }
+      ]
+    }
+  ]
+}
