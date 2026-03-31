@@ -3796,5 +3796,171 @@
     "cat": "yiyecek",
     "level": "C2",
     "ex": "Escabeche is an ancient technique."
-  }
+  },
+  { "en": "how much?", "tr": "ne kadar?", "cat": "günlük", "level": "A2", "ex": "How much does this cost?" },
+  { "en": "where is...?", "tr": "...nerede?", "cat": "günlük", "level": "A2", "ex": "Excuse me, where is the station?" },
+  { "en": "I don't understand", "tr": "anlamıyorum", "cat": "günlük", "level": "A2", "ex": "Sorry, I don't understand. Can you repeat?" },
+  { "en": "can you help me?", "tr": "yardım edebilir misin?", "cat": "günlük", "level": "A2", "ex": "Excuse me, can you help me?" },
+  { "en": "I would like...", "tr": "...istiyorum / ...alabilir miyim?", "cat": "günlük", "level": "A2", "ex": "I would like a table for two, please." },
+
+  { "en": "let's go", "tr": "hadi gidelim", "cat": "günlük", "level": "B1", "ex": "Come on, let's go or we'll be late." },
+  { "en": "it depends", "tr": "duruma göre değişir", "cat": "günlük", "level": "B1", "ex": "It depends on the weather." },
+  { "en": "of course", "tr": "tabii ki / elbette", "cat": "günlük", "level": "B1", "ex": "Of course, I'll be there." },
+  { "en": "by the way", "tr": "bu arada", "cat": "günlük", "level": "B1", "ex": "By the way, did you call him?" },
+  { "en": "as soon as possible", "tr": "mümkün olan en kısa sürede", "cat": "günlük", "level": "B1", "ex": "Please reply as soon as possible." },
+
+  { "en": "on the other hand", "tr": "öte yandan", "cat": "günlük", "level": "B2", "ex": "On the other hand, there are clear benefits." },
+  { "en": "to be honest", "tr": "dürüst olmak gerekirse", "cat": "günlük", "level": "B2", "ex": "To be honest, I'm not sure about this." },
+  { "en": "in other words", "tr": "başka bir deyişle", "cat": "günlük", "level": "B2", "ex": "In other words, we need a new plan." },
+  { "en": "as far as I know", "tr": "bildiğim kadarıyla", "cat": "günlük", "level": "B2", "ex": "As far as I know, the meeting is cancelled." },
+  { "en": "that's beside the point", "tr": "bu konuyla alakasız", "cat": "günlük", "level": "B2", "ex": "That's beside the point — let's focus." },
+
+  { "en": "so to speak", "tr": "tabiri caizse", "cat": "günlük", "level": "C1", "ex": "He is, so to speak, the backbone of the team." },
+  { "en": "needless to say", "tr": "söylemeye gerek yok ki", "cat": "günlük", "level": "C1", "ex": "Needless to say, this must stay confidential." },
+  { "en": "with all due respect", "tr": "saygılarımla birlikte", "cat": "günlük", "level": "C1", "ex": "With all due respect, I disagree." },
+  { "en": "for what it's worth", "tr": "ne kadar değeri varsa", "cat": "günlük", "level": "C1", "ex": "For what it's worth, I think you're right." },
+  { "en": "at the end of the day", "tr": "sonuçta / her şeyin sonunda", "cat": "günlük", "level": "C1", "ex": "At the end of the day, results matter." },
+
+  { "en": "to put it bluntly", "tr": "açıkça söylemek gerekirse", "cat": "günlük", "level": "C2", "ex": "To put it bluntly, the project has failed." },
+  { "en": "that's neither here nor there", "tr": "bunun konuyla ilgisi yok", "cat": "günlük", "level": "C2", "ex": "That's neither here nor there — focus on facts." },
+  { "en": "by all means", "tr": "kesinlikle / tabii ki buyrun", "cat": "günlük", "level": "C2", "ex": "By all means, take as long as you need." },
+  { "en": "on the face of it", "tr": "görünürde / ilk bakışta", "cat": "günlük", "level": "C2", "ex": "On the face of it, the plan seems sound." },
+  { "en": "insofar as", "tr": "olduğu ölçüde", "cat": "günlük", "level": "C2", "ex": "Insofar as I can tell, the data is accurate." },
+
+  { "en": "station", "tr": "istasyon / gar", "cat": "seyahat", "level": "A1", "ex": "The train station is nearby." },
+  { "en": "taxi", "tr": "taksi", "cat": "seyahat", "level": "A1", "ex": "Let's take a taxi to the hotel." },
+  { "en": "bus stop", "tr": "otobüs durağı", "cat": "seyahat", "level": "A1", "ex": "The bus stop is on the corner." },
+  { "en": "street / road", "tr": "yol / cadde", "cat": "seyahat", "level": "A1", "ex": "Turn left at the main road." },
+  { "en": "straight ahead", "tr": "düz devam et", "cat": "seyahat", "level": "A1", "ex": "Go straight ahead for two blocks." },
+
+  { "en": "tour", "tr": "tur / gezi", "cat": "seyahat", "level": "B1", "ex": "We booked a guided tour of the city." },
+  { "en": "check-in", "tr": "giriş / check-in", "cat": "seyahat", "level": "B1", "ex": "Check-in is at three in the afternoon." },
+  { "en": "luggage", "tr": "bagaj", "cat": "seyahat", "level": "B1", "ex": "My luggage was lost at the airport." },
+  { "en": "boarding pass", "tr": "biniş kartı", "cat": "seyahat", "level": "B1", "ex": "Don't forget your boarding pass." },
+  { "en": "customs", "tr": "gümrük", "cat": "seyahat", "level": "B1", "ex": "We had to wait at customs for an hour." },
+
+  { "en": "itinerary", "tr": "seyahat planı / güzergah", "cat": "seyahat", "level": "B2", "ex": "The travel agency sent us the itinerary." },
+  { "en": "layover", "tr": "aktarma / mola", "cat": "seyahat", "level": "B2", "ex": "We have a three-hour layover in Dubai." },
+  { "en": "currency exchange", "tr": "döviz bozdurma", "cat": "seyahat", "level": "B2", "ex": "Is there a currency exchange at the airport?" },
+  { "en": "travel insurance", "tr": "seyahat sigortası", "cat": "seyahat", "level": "B2", "ex": "Always get travel insurance before flying." },
+  { "en": "off the beaten track", "tr": "gözden uzak / turistik olmayan", "cat": "seyahat", "level": "B2", "ex": "We prefer off the beaten track destinations." },
+
+  { "en": "jet lag", "tr": "jet lag / uçuş yorgunluğu", "cat": "seyahat", "level": "C1", "ex": "I still have jet lag after the long flight." },
+  { "en": "backpacking", "tr": "sırt çantalı seyahat", "cat": "seyahat", "level": "C1", "ex": "She spent a year backpacking through Asia." },
+  { "en": "visa on arrival", "tr": "kapıda vize", "cat": "seyahat", "level": "C1", "ex": "Turkish citizens can get a visa on arrival." },
+  { "en": "travel advisory", "tr": "seyahat uyarısı", "cat": "seyahat", "level": "C1", "ex": "Check the travel advisory before you go." },
+  { "en": "expatriate", "tr": "yurt dışında yaşayan kişi", "cat": "seyahat", "level": "C1", "ex": "There is a large expatriate community there." },
+
+  { "en": "nomadic", "tr": "göçebe / sürekli seyahat eden", "cat": "seyahat", "level": "C2", "ex": "She leads a nomadic lifestyle, rarely staying put." },
+  { "en": "sojourn", "tr": "kısa ikamet / konaklama", "cat": "seyahat", "level": "C2", "ex": "His sojourn in Istanbul lasted three months." },
+  { "en": "embarkation", "tr": "gemiye / uçağa biniş", "cat": "seyahat", "level": "C2", "ex": "Embarkation begins one hour before departure." },
+  { "en": "wanderlust", "tr": "seyahat tutkusu", "cat": "seyahat", "level": "C2", "ex": "Her wanderlust has taken her to sixty countries." },
+  { "en": "disembark", "tr": "gemiden / uçaktan inmek", "cat": "seyahat", "level": "C2", "ex": "Passengers may disembark once the gate opens." },
+
+  { "en": "hour", "tr": "saat", "cat": "zaman", "level": "B1", "ex": "The meeting lasts about an hour." },
+  { "en": "century", "tr": "yüzyıl / asır", "cat": "zaman", "level": "B1", "ex": "It happened in the nineteenth century." },
+  { "en": "decade", "tr": "on yıl", "cat": "zaman", "level": "B1", "ex": "A lot has changed in the last decade." },
+  { "en": "recently", "tr": "son zamanlarda / geçenlerde", "cat": "zaman", "level": "B1", "ex": "I recently moved to a new flat." },
+  { "en": "meanwhile", "tr": "bu arada / o sırada", "cat": "zaman", "level": "B1", "ex": "Meanwhile, the others waited outside." },
+
+  { "en": "deadline", "tr": "son teslim tarihi", "cat": "zaman", "level": "B2", "ex": "The deadline for applications is Friday." },
+  { "en": "simultaneously", "tr": "aynı anda / eş zamanlı", "cat": "zaman", "level": "B2", "ex": "Both events happened simultaneously." },
+  { "en": "in the long run", "tr": "uzun vadede", "cat": "zaman", "level": "B2", "ex": "In the long run, it will save us money." },
+  { "en": "on the verge of", "tr": "tam ... üzereyken", "cat": "zaman", "level": "B2", "ex": "She was on the verge of giving up." },
+  { "en": "from time to time", "tr": "zaman zaman / arada sırada", "cat": "zaman", "level": "B2", "ex": "From time to time I visit my hometown." },
+
+  { "en": "in retrospect", "tr": "geriye dönüp bakıldığında", "cat": "zaman", "level": "C1", "ex": "In retrospect, it was the right decision." },
+  { "en": "momentarily", "tr": "an içinde / çok kısa süreliğine", "cat": "zaman", "level": "C1", "ex": "The connection was momentarily lost." },
+  { "en": "in due course", "tr": "zamanı gelince / uygun vakitte", "cat": "zaman", "level": "C1", "ex": "We will inform you in due course." },
+  { "en": "transient", "tr": "geçici / kısa süreli", "cat": "zaman", "level": "C1", "ex": "The pain is transient and will pass soon." },
+  { "en": "henceforth", "tr": "bundan böyle / bu tarihten itibaren", "cat": "zaman", "level": "C1", "ex": "Henceforth, all meetings will be recorded." },
+
+  { "en": "perpetual", "tr": "sürekli / kalıcı / sonsuz", "cat": "zaman", "level": "C2", "ex": "They lived in a state of perpetual conflict." },
+  { "en": "contemporaneous", "tr": "eş zamanlı / aynı dönemden", "cat": "zaman", "level": "C2", "ex": "The two discoveries were contemporaneous." },
+  { "en": "forthwith", "tr": "derhal / hemen", "cat": "zaman", "level": "C2", "ex": "The order must be carried out forthwith." },
+  { "en": "immemorial", "tr": "akıllara durgunluk verecek kadar eski", "cat": "zaman", "level": "C2", "ex": "This tradition dates from time immemorial." },
+
+  { "en": "grey / gray", "tr": "gri", "cat": "renk", "level": "A2", "ex": "The sky is grey today." },
+  { "en": "brown", "tr": "kahverengi", "cat": "renk", "level": "B1", "ex": "He has brown eyes." },
+  { "en": "dark blue", "tr": "lacivert", "cat": "renk", "level": "B1", "ex": "She wore a dark blue jacket." },
+  { "en": "light green", "tr": "açık yeşil", "cat": "renk", "level": "B1", "ex": "The walls are painted light green." },
+  { "en": "golden", "tr": "altın sarısı", "cat": "renk", "level": "B1", "ex": "The leaves turn golden in autumn." },
+
+  { "en": "turquoise", "tr": "turkuaz", "cat": "renk", "level": "B2", "ex": "The sea is a beautiful turquoise colour." },
+  { "en": "navy", "tr": "lacivert (koyu)", "cat": "renk", "level": "B2", "ex": "He always wears navy suits." },
+  { "en": "crimson", "tr": "kıpkırmızı / al", "cat": "renk", "level": "B2", "ex": "The roses were a deep crimson." },
+  { "en": "ivory", "tr": "fildişi rengi", "cat": "renk", "level": "B2", "ex": "The wedding dress was ivory white." },
+
+  { "en": "scarlet", "tr": "parlak kırmızı", "cat": "renk", "level": "C1", "ex": "Her coat was a vivid scarlet." },
+  { "en": "azure", "tr": "gök mavisi", "cat": "renk", "level": "C1", "ex": "The azure sky stretched to the horizon." },
+  { "en": "ochre", "tr": "sarı-kahve / toprak rengi", "cat": "renk", "level": "C1", "ex": "The old walls had an ochre tint." },
+  { "en": "translucent", "tr": "yarı saydam", "cat": "renk", "level": "C1", "ex": "The translucent curtains let in soft light." },
+
+  { "en": "iridescent", "tr": "sedef renkli / gökkuşağı gibi", "cat": "renk", "level": "C2", "ex": "The butterfly's wings were iridescent." },
+  { "en": "monochrome", "tr": "tek renkli / siyah-beyaz", "cat": "renk", "level": "C2", "ex": "The photo was taken in monochrome." },
+  { "en": "pigment", "tr": "pigment / boya maddesi", "cat": "renk", "level": "C2", "ex": "The artist mixed pigments to create the shade." },
+  { "en": "muted tones", "tr": "soluk / donuk renkler", "cat": "renk", "level": "C2", "ex": "The room was decorated in muted tones." },
+
+  { "en": "and", "tr": "ve", "cat": "bağlaç", "level": "A1", "ex": "I have a cat and a dog." },
+  { "en": "but", "tr": "ama / fakat", "cat": "bağlaç", "level": "A1", "ex": "I like coffee but not tea." },
+  { "en": "or", "tr": "ya da / veya", "cat": "bağlaç", "level": "A1", "ex": "Do you want tea or coffee?" },
+  { "en": "because", "tr": "çünkü", "cat": "bağlaç", "level": "A1", "ex": "I'm tired because I didn't sleep well." },
+
+  { "en": "so", "tr": "bu yüzden / o kadar", "cat": "bağlaç", "level": "A2", "ex": "It was raining, so we stayed inside." },
+  { "en": "when", "tr": "ne zaman / -ince", "cat": "bağlaç", "level": "A2", "ex": "Call me when you arrive." },
+  { "en": "if", "tr": "eğer", "cat": "bağlaç", "level": "A2", "ex": "I'll come if I finish work early." },
+  { "en": "after", "tr": "sonra / -den sonra", "cat": "bağlaç", "level": "A2", "ex": "Let's talk after the meeting." },
+
+  { "en": "provided that", "tr": "şartıyla / koşuluyla", "cat": "bağlaç", "level": "C1", "ex": "I'll agree, provided that you keep your promise." },
+  { "en": "whereby", "tr": "sayesinde / ile / vasıtasıyla", "cat": "bağlaç", "level": "C1", "ex": "A system whereby students earn credits." },
+  { "en": "lest", "tr": "diye / -mesin diye", "cat": "bağlaç", "level": "C1", "ex": "Speak quietly, lest you wake the baby." },
+  { "en": "insofar as", "tr": "olduğu ölçüde", "cat": "bağlaç", "level": "C1", "ex": "Insofar as we know, the report is accurate." },
+
+  { "en": "notwithstanding", "tr": "buna rağmen / -e karşın", "cat": "bağlaç", "level": "C2", "ex": "Notwithstanding the risks, they pressed ahead." },
+  { "en": "inasmuch as", "tr": "o ölçüde ki / çünkü", "cat": "bağlaç", "level": "C2", "ex": "Inasmuch as he agreed, we can proceed." },
+  { "en": "albeit", "tr": "her ne kadar / -se de", "cat": "bağlaç", "level": "C2", "ex": "It was a success, albeit a modest one." },
+  { "en": "in that", "tr": "şu bakımdan ki", "cat": "bağlaç", "level": "C2", "ex": "The plan is flawed in that it ignores costs." },
+
+  { "en": "very", "tr": "çok / oldukça", "cat": "zarf", "level": "A1", "ex": "It is very cold today." },
+  { "en": "also / too", "tr": "da / de / ayrıca", "cat": "zarf", "level": "A1", "ex": "I also speak a little French." },
+  { "en": "here", "tr": "burada / buraya", "cat": "zarf", "level": "A1", "ex": "Come here, please." },
+  { "en": "there", "tr": "orada / oraya", "cat": "zarf", "level": "A1", "ex": "The bank is over there." },
+
+  { "en": "again", "tr": "tekrar / yeniden", "cat": "zarf", "level": "A2", "ex": "Can you say that again, please?" },
+  { "en": "together", "tr": "birlikte", "cat": "zarf", "level": "A2", "ex": "We should work together on this." },
+  { "en": "still", "tr": "hâlâ / henüz", "cat": "zarf", "level": "A2", "ex": "He is still sleeping." },
+  { "en": "already", "tr": "zaten / çoktan", "cat": "zarf", "level": "A2", "ex": "I have already eaten." },
+
+  { "en": "nephew", "tr": "yeğen (erkek)", "cat": "aile", "level": "B1", "ex": "My nephew is ten years old." },
+  { "en": "niece", "tr": "yeğen (kız)", "cat": "aile", "level": "B1", "ex": "My niece just started school." },
+  { "en": "daughter", "tr": "kız evlat", "cat": "aile", "level": "B1", "ex": "Their daughter is studying medicine." },
+  { "en": "sibling", "tr": "kardeş (genel)", "cat": "aile", "level": "B1", "ex": "Do you have any siblings?" },
+  { "en": "relative", "tr": "akraba", "cat": "aile", "level": "B1", "ex": "We visited some relatives last weekend." },
+
+  { "en": "in-laws", "tr": "kayınpeder / kaynana / kayınlar", "cat": "aile", "level": "B2", "ex": "We had dinner with my in-laws." },
+  { "en": "stepmother", "tr": "üvey anne", "cat": "aile", "level": "B2", "ex": "His stepmother is very kind." },
+  { "en": "stepfather", "tr": "üvey baba", "cat": "aile", "level": "B2", "ex": "He grew up with his stepfather." },
+  { "en": "guardian", "tr": "vasi / koruyucu", "cat": "aile", "level": "B2", "ex": "Her legal guardian signed the forms." },
+  { "en": "adopted", "tr": "evlat edinilmiş", "cat": "aile", "level": "B2", "ex": "They have an adopted son from Korea." },
+
+  { "en": "estranged", "tr": "yabancılaşmış / ilişkisi kopmuş", "cat": "aile", "level": "C1", "ex": "He is estranged from his father." },
+  { "en": "breadwinner", "tr": "eve ekmek getiren kişi", "cat": "aile", "level": "C1", "ex": "She is the sole breadwinner in the family." },
+  { "en": "next of kin", "tr": "en yakın akraba", "cat": "aile", "level": "C1", "ex": "Please list your next of kin on the form." },
+  { "en": "ancestry", "tr": "soy / ata", "cat": "aile", "level": "C1", "ex": "She traced her ancestry back to Ireland." },
+  { "en": "matriarch", "tr": "aile büyüğü (kadın)", "cat": "aile", "level": "C1", "ex": "Grandmother was the matriarch of the family." },
+
+  { "en": "lineage", "tr": "soy ağacı / nesil", "cat": "aile", "level": "C2", "ex": "The noble lineage dates back centuries." },
+  { "en": "filial", "tr": "evlada özgü / evlat", "cat": "aile", "level": "C2", "ex": "Filial piety is important in many cultures." },
+  { "en": "consanguinity", "tr": "kan bağı / akrabalık", "cat": "aile", "level": "C2", "ex": "Consanguinity laws vary between countries." },
+  { "en": "patriarch", "tr": "aile büyüğü (erkek)", "cat": "aile", "level": "C2", "ex": "The patriarch ruled the family with authority." },
+
+  { "en": "breakfast", "tr": "kahvaltı", "cat": "yiyecek", "level": "C1", "ex": "A full English breakfast includes eggs and bacon." },
+  { "en": "dessert", "tr": "tatlı", "cat": "yiyecek", "level": "C1", "ex": "Would you like to see the dessert menu?" },
+  { "en": "appetiser", "tr": "başlangıç yemeği / meze", "cat": "yiyecek", "level": "C1", "ex": "We ordered three appetisers to share." },
+  { "en": "ingredient", "tr": "malzeme / içerik", "cat": "yiyecek", "level": "C1", "ex": "The key ingredient is fresh basil." },
+
+  { "en": "condiment", "tr": "baharat / çeşni", "cat": "yiyecek", "level": "C2", "ex": "He added every condiment on the table." },
+  { "en": "delicacy", "tr": "nefis yemek / özgün lezzet", "cat": "yiyecek", "level": "C2", "ex": "Haggis is considered a Scottish delicacy." },
+  { "en": "palate", "tr": "damak tadı", "cat": "yiyecek", "level": "C2", "ex": "The dish was too rich for my palate." },
+  { "en": "garnish", "tr": "garnitür / süsleme", "cat": "yiyecek", "level": "C2", "ex": "The chef added a parsley garnish." }
 ]
