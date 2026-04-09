@@ -6,6 +6,14 @@
 <title>ENGLISH — Kelime Pratiği</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
+<style>
+  .home-big-card.crossword {
+    background: linear-gradient(140deg, rgba(240,113,103,0.09) 0%, var(--surface) 60%);
+    grid-column: 1 / -1;
+  }
+  .home-big-card.crossword:hover { border-color: var(--accent2); }
+  .home-big-card.crossword .hbc-title { color: var(--accent2); }
+</style>
 </head>
 <body>
 
@@ -33,6 +41,12 @@
       <div class="hbc-title">Pratik</div>
       <div class="hbc-desc">Kelime sınavı, kartlar, çekim pratiği</div>
       <span class="hbc-arrow">›</span>
+    </div>
+    <div class="home-big-card crossword" onclick="location.href='crossword.html'">
+      <span class="hbc-icon">🔤</span>
+      <div class="hbc-title">Crossword</div>
+      <div class="hbc-desc">Kelime bulmacası — ipucu Türkçe, cevap İngilizce</div>
+      <span class="hbc-arrow">→</span>
     </div>
   </div>
 
