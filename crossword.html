@@ -79,7 +79,6 @@ main {
   position: relative; z-index: 1;
 }
 
-/* SETUP SCREEN */
 #setup-screen { animation: fadeIn 0.4s ease; }
 
 .page-title {
@@ -126,7 +125,6 @@ main {
 .generate-btn:active { transform: scale(0.98); }
 .generate-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
-/* GAME SCREEN */
 #game-screen { display: none; animation: fadeIn 0.4s ease; }
 
 .game-header {
@@ -141,7 +139,6 @@ main {
 }
 .stat-pill span { color: var(--accent); font-weight: 500; }
 
-/* GRID */
 .grid-wrap {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 20px; padding: 1.25rem;
@@ -192,7 +189,6 @@ main {
 }
 .cw-cell.correct .cell-input { color: var(--correct); }
 
-/* CLUES */
 .clues-wrap {
   display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
   margin-bottom: 1.5rem;
@@ -216,7 +212,6 @@ main {
 .clue-num { font-size: 0.72rem; color: var(--accent); font-weight: 500; min-width: 18px; padding-top: 1px; }
 .clue-text { font-size: 0.8rem; color: var(--text); line-height: 1.4; font-weight: 300; }
 
-/* ACTIONS */
 .game-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .action-btn {
   padding: 0.85rem; border-radius: 12px; border: 1px solid var(--border);
@@ -229,7 +224,6 @@ main {
 .action-btn.danger { border-color: rgba(240,113,103,0.3); color: var(--accent2); }
 .action-btn.danger:hover { background: rgba(240,113,103,0.1); }
 
-/* COMPLETE OVERLAY */
 #complete-overlay {
   display: none; position: fixed; inset: 0;
   background: rgba(15,14,23,0.92); backdrop-filter: blur(8px);
@@ -256,7 +250,6 @@ main {
 .comp-btn:hover { background: var(--surface2); }
 .comp-btn.primary:hover { opacity: 0.9; background: var(--accent); }
 
-/* LOADING */
 #loading-screen {
   display: none; padding: 3rem 0; text-align: center;
   color: var(--muted); font-size: 0.9rem;
@@ -298,7 +291,6 @@ main {
 
 <main>
 
-  <!-- SETUP -->
   <div id="setup-screen">
     <h1 class="page-title">Kelime<br><em>Bulmacası</em></h1>
     <p class="page-sub">words.json'dan otomatik bulmaca oluşturulur.</p>
@@ -335,13 +327,11 @@ main {
     <div class="error-msg" id="error-msg"></div>
   </div>
 
-  <!-- LOADING -->
   <div id="loading-screen">
     <div class="loading-dots"><span></span><span></span><span></span></div>
     <p style="margin-top:1rem">Bulmaca hazırlanıyor...</p>
   </div>
 
-  <!-- GAME -->
   <div id="game-screen">
     <div class="game-header">
       <div class="game-title">Crossword</div>
@@ -375,7 +365,6 @@ main {
 
 </main>
 
-<!-- COMPLETE -->
 <div id="complete-overlay">
   <div class="complete-card">
     <span class="complete-emoji">🎉</span>
@@ -389,16 +378,14 @@ main {
 </div>
 
 <script>
-// ─── STATE ───────────────────────────────────────────────────────────────────
 let WORDS = [];
 let chosenLevel = 'A1';
 let chosenSize  = 10;
-let puzzle      = null;   // { grid, placedWords, cols, rows }
-let activeWord  = null;   // { id, dir, cells[] }
-let activeCell  = null;   // { r, c }
+let puzzle      = null;
+let activeWord  = null;
+let activeCell  = null;
 let solvedWords = new Set();
 
-// ─── INIT ────────────────────────────────────────────────────────────────────
 async function loadWords() {
   try {
     const res = await fetch('words.json');
@@ -428,35 +415,26 @@ function hideError() {
   document.getElementById('error-msg').style.display = 'none';
 }
 
-// ─── SCREEN SWITCHING ────────────────────────────────────────────────────────
 function showSetup()   { document.getElementById('setup-screen').style.display='block'; document.getElementById('game-screen').style.display='none'; document.getElementById('loading-screen').style.display='none'; }
 function showLoading() { document.getElementById('setup-screen').style.display='none'; document.getElementById('game-screen').style.display='none'; document.getElementById('loading-screen').style.display='block'; }
 function showGame()    { document.getElementById('setup-screen').style.display='none'; document.getElementById('game-screen').style.display='block'; document.getElementById('loading-screen').style.display='none'; }
 function goSetup()     { document.getElementById('complete-overlay').classList.remove('show'); showSetup(); }
 
-// ─── CROSSWORD ENGINE ────────────────────────────────────────────────────────
-
 function getPool() {
-  // Only words with single-word English answers (no spaces), min 3 chars
   let pool = chosenLevel === 'all' ? WORDS : WORDS.filter(w => w.level === chosenLevel);
   pool = pool.filter(w => w.en && !w.en.includes(' ') && w.en.length >= 3 && w.tr);
-  // Shuffle
   return pool.sort(() => Math.random() - 0.5);
 }
 
 function buildGrid(rows, cols) {
   return Array.from({ length: rows }, () => Array(cols).fill(null));
-  // null = black, { letter, wordIds:[] } = letter cell
 }
 
 function canPlace(grid, rows, cols, word, r, c, dir) {
   const len = word.length;
-  // Check bounds
   if (dir === 'across') {
     if (c + len > cols) return false;
-    // Check cell before
     if (c > 0 && grid[r][c-1] !== null) return false;
-    // Check cell after
     if (c + len < cols && grid[r][c+len] !== null) return false;
   } else {
     if (r + len > rows) return false;
@@ -471,7 +449,6 @@ function canPlace(grid, rows, cols, word, r, c, dir) {
     const cell = grid[cr][cc];
 
     if (cell === null) {
-      // Must check adjacent cells in perpendicular direction
       if (dir === 'across') {
         if (cr > 0 && grid[cr-1][cc] !== null) return false;
         if (cr < rows-1 && grid[cr+1][cc] !== null) return false;
@@ -480,7 +457,6 @@ function canPlace(grid, rows, cols, word, r, c, dir) {
         if (cc < cols-1 && grid[cr][cc+1] !== null) return false;
       }
     } else {
-      // Cell occupied — letter must match
       if (cell.letter !== word[i].toUpperCase()) return false;
       intersections++;
     }
@@ -501,7 +477,6 @@ function placeWord(grid, word, r, c, dir, wordId) {
 }
 
 function trimGrid(grid, rows, cols) {
-  // Find bounding box
   let minR=rows, maxR=0, minC=cols, maxC=0;
   for (let r=0; r<rows; r++) for (let c=0; c<cols; c++) {
     if (grid[r][c]) { minR=Math.min(minR,r); maxR=Math.max(maxR,r); minC=Math.min(minC,c); maxC=Math.max(maxC,c); }
@@ -520,27 +495,23 @@ function generatePuzzle(pool, gridSize) {
   const placedWords = [];
   let wordId = 0;
 
-  // Place first word in center, across
   const firstWord = pool[0];
   const startC = Math.floor((COLS - firstWord.en.length) / 2);
   const startR = Math.floor(ROWS / 2);
   placeWord(grid, firstWord.en.toUpperCase(), startR, startC, 'across', wordId);
   placedWords.push({ id: wordId++, word: firstWord, r: startR, c: startC, dir: 'across' });
 
-  // Try to place remaining words
   for (let wi = 1; wi < pool.length && placedWords.length < gridSize + 2; wi++) {
     const w = pool[wi];
     const letters = w.en.toUpperCase();
     let placed = false;
 
-    // Try to intersect with already-placed words
     const shuffledPlaced = [...placedWords].sort(() => Math.random() - 0.5);
     outer:
     for (const pw of shuffledPlaced) {
       const newDir = pw.dir === 'across' ? 'down' : 'across';
       const pwLetters = pw.word.en.toUpperCase();
 
-      // Find common letters
       for (let ni = 0; ni < letters.length; ni++) {
         for (let pi = 0; pi < pwLetters.length; pi++) {
           if (letters[ni] === pwLetters[pi]) {
@@ -567,25 +538,20 @@ function generatePuzzle(pool, gridSize) {
 
   if (placedWords.length < 4) return null;
 
-  // Trim
   const { grid: tg, rows, cols, offsetR, offsetC } = trimGrid(grid, ROWS, COLS);
-  // Adjust coordinates
   placedWords.forEach(pw => { pw.r -= offsetR; pw.c -= offsetC; });
 
   return { grid: tg, rows, cols, placedWords };
 }
 
-// ─── NUMBERING ───────────────────────────────────────────────────────────────
 function numberGrid(puzzle) {
   const { grid, rows, cols, placedWords } = puzzle;
-  const numberMap = {}; // "r,c" -> number
+  const numberMap = {};
   let num = 1;
 
-  // Collect starting positions
   const starts = [];
   placedWords.forEach(pw => { starts.push({ r: pw.r, c: pw.c, id: pw.id }); });
 
-  // Sort by row then col
   const uniqueStarts = [];
   const seen = new Set();
   for (let r=0; r<rows; r++) for (let c=0; c<cols; c++) {
@@ -600,7 +566,6 @@ function numberGrid(puzzle) {
     numberMap[`${r},${c}`] = num++;
   });
 
-  // Assign number to each placed word
   placedWords.forEach(pw => {
     pw.number = numberMap[`${pw.r},${pw.c}`];
   });
@@ -608,7 +573,6 @@ function numberGrid(puzzle) {
   return numberMap;
 }
 
-// ─── RENDER ──────────────────────────────────────────────────────────────────
 function renderPuzzle() {
   const { grid, rows, cols, placedWords } = puzzle;
   const numberMap = numberGrid(puzzle);
@@ -672,7 +636,6 @@ function renderClues(placedWords) {
     });
 }
 
-// ─── SELECTION ───────────────────────────────────────────────────────────────
 function selectFirstWord() {
   if (puzzle && puzzle.placedWords.length > 0) {
     const first = [...puzzle.placedWords].sort((a,b) => a.number - b.number)[0];
@@ -686,7 +649,6 @@ function selectWord(wordId) {
   activeWord = pw;
   activeCell = { r: pw.r, c: pw.c };
 
-  // Find first empty cell in word
   const letters = pw.word.en.toUpperCase();
   for (let i=0; i<letters.length; i++) {
     const r = pw.dir === 'across' ? pw.r : pw.r + i;
@@ -704,7 +666,6 @@ function onCellClick(r, c) {
   const cell = puzzle.grid[r][c];
   if (!cell) return;
 
-  // If clicking the already-active cell, toggle direction
   if (activeCell && activeCell.r === r && activeCell.c === c && activeWord) {
     const otherDir = activeWord.dir === 'across' ? 'down' : 'across';
     const other = puzzle.placedWords.find(pw =>
@@ -714,7 +675,6 @@ function onCellClick(r, c) {
   }
 
   activeCell = { r, c };
-  // Find a word containing this cell, prefer current direction
   const match = puzzle.placedWords.find(pw =>
     pw.dir === (activeWord ? activeWord.dir : 'across') && cellBelongsTo(r, c, pw)
   ) || puzzle.placedWords.find(pw => cellBelongsTo(r, c, pw));
@@ -729,7 +689,6 @@ function cellBelongsTo(r, c, pw) {
 }
 
 function highlightActive() {
-  // Clear all
   document.querySelectorAll('.cw-cell').forEach(el => {
     el.classList.remove('active-word', 'active-cell');
   });
@@ -737,7 +696,6 @@ function highlightActive() {
 
   if (!activeWord) return;
 
-  // Highlight word cells
   const letters = activeWord.word.en.toUpperCase();
   for (let i=0; i<letters.length; i++) {
     const r = activeWord.dir === 'across' ? activeWord.r : activeWord.r + i;
@@ -746,13 +704,11 @@ function highlightActive() {
     if (cellEl) cellEl.classList.add('active-word');
   }
 
-  // Highlight active cell
   if (activeCell) {
     const cellEl = getCellEl(activeCell.r, activeCell.c);
     if (cellEl) cellEl.classList.add('active-cell');
   }
 
-  // Highlight clue
   const clueEl = document.querySelector(`.clue-item[data-word-id="${activeWord.id}"]`);
   if (clueEl) clueEl.classList.add('active');
 }
@@ -768,13 +724,7 @@ function scrollClueIntoView(wordId) {
   if (clueEl) clueEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
 }
 
-// ─── INPUT HANDLING ──────────────────────────────────────────────────────────
-function onInput(e) {
-  const inp = e.target;
-  const val = inp.value.replace(/[^a-zA-Z]/g, '').toUpperCase().slice(-1);
-  inp.value = val;
-  if (val) advanceCursor();
-}
+// ─── INPUT HANDLING (DÜZELTİLDİ) ────────────────────────────────────────────
 
 function onKeyDown(e) {
   const { r, c } = activeCell || {};
@@ -785,13 +735,40 @@ function onKeyDown(e) {
     const inp = getCellInput(r, c);
     if (inp && inp.value) {
       inp.value = '';
-      checkWordSolved(activeWord);
+      // Silince kelimenin doğruluğunu yeniden kontrol et
+      const cellEl = getCellEl(r, c);
+      if (cellEl) cellEl.classList.remove('correct');
+      // Kelimeyi çözülmüş listesinden çıkar
+      if (activeWord) {
+        solvedWords.delete(activeWord.id);
+        const clueEl = document.querySelector(`.clue-item[data-word-id="${activeWord.id}"]`);
+        if (clueEl) clueEl.classList.remove('solved');
+        updateStats();
+      }
     } else {
       moveCursor(-1);
     }
     highlightActive();
     return;
   }
+
+  // Harf tuşu — dolu hücreyi silmeden doğrudan değiştir
+  if (e.key.length === 1 && /[a-zA-Z]/.test(e.key)) {
+    e.preventDefault();
+    const inp = getCellInput(r, c);
+    if (inp) {
+      // Eğer hücre daha önce doğru işaretlenmişse temizle
+      const cellEl = getCellEl(r, c);
+      if (cellEl) cellEl.classList.remove('correct');
+      // Yeni harfi yaz
+      inp.value = e.key.toUpperCase();
+      // Cursor'u ilerlet ve kelimeyi kontrol et
+      advanceCursor();
+      checkWordSolved(activeWord);
+    }
+    return;
+  }
+
   if (e.key === 'ArrowRight') { e.preventDefault(); moveCursorAbs(0, 1); return; }
   if (e.key === 'ArrowLeft')  { e.preventDefault(); moveCursorAbs(0, -1); return; }
   if (e.key === 'ArrowDown')  { e.preventDefault(); moveCursorAbs(1, 0); return; }
@@ -802,6 +779,20 @@ function onKeyDown(e) {
     return;
   }
 }
+
+function onInput(e) {
+  // Harf tuşları artık onKeyDown'da ele alınıyor (e.preventDefault ile).
+  // onInput yalnızca mobil klavye, yapıştırma vb. için yedek olarak çalışır.
+  const inp = e.target;
+  const val = inp.value.replace(/[^a-zA-Z]/g, '').toUpperCase().slice(-1);
+  inp.value = val;
+  if (val) {
+    advanceCursor();
+    checkWordSolved(activeWord);
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 function advanceCursor() {
   if (!activeWord || !activeCell) return;
@@ -815,7 +806,6 @@ function advanceCursor() {
     highlightActive();
     focusActive();
   } else {
-    // Word complete - check
     checkWordSolved(activeWord);
   }
 }
@@ -855,7 +845,6 @@ function selectNextWord(delta) {
   selectWord(next.id);
 }
 
-// ─── SOLVE CHECKING ──────────────────────────────────────────────────────────
 function checkWordSolved(pw) {
   if (!pw) return;
   const letters = pw.word.en.toUpperCase();
@@ -865,16 +854,14 @@ function checkWordSolved(pw) {
     const inp = getCellInput(r, c);
     if (!inp || inp.value.toUpperCase() !== letters[i]) return;
   }
-  // Word is correct
+  // Kelime doğru
   solvedWords.add(pw.id);
-  // Mark cells
   for (let i=0; i<letters.length; i++) {
     const r = pw.dir === 'across' ? pw.r : pw.r + i;
     const c = pw.dir === 'across' ? pw.c + i : pw.c;
     const cellEl = getCellEl(r, c);
     if (cellEl) cellEl.classList.add('correct');
   }
-  // Mark clue
   const clueEl = document.querySelector(`.clue-item[data-word-id="${pw.id}"]`);
   if (clueEl) clueEl.classList.add('solved');
   updateStats();
@@ -905,14 +892,12 @@ function checkAll() {
 function revealCurrent() {
   if (!activeWord) return;
   const letters = activeWord.word.en.toUpperCase();
-  // Reveal just active cell first, then full word
   const inp = activeCell ? getCellInput(activeCell.r, activeCell.c) : null;
   if (inp && !inp.value) {
     const i = activeWord.dir === 'across' ? activeCell.c - activeWord.c : activeCell.r - activeWord.r;
     inp.value = letters[i];
     advanceCursor();
   } else {
-    // Reveal full word
     for (let i=0; i<letters.length; i++) {
       const r = activeWord.dir === 'across' ? activeWord.r : activeWord.r + i;
       const c = activeWord.dir === 'across' ? activeWord.c + i : activeWord.c;
@@ -947,7 +932,6 @@ function updateStats() {
   document.getElementById('total-count').textContent = puzzle ? puzzle.placedWords.length : 0;
 }
 
-// ─── HELPERS ─────────────────────────────────────────────────────────────────
 function getCellEl(r, c) {
   return document.querySelector(`.cw-cell[data-r="${r}"][data-c="${c}"]`);
 }
@@ -955,7 +939,6 @@ function getCellInput(r, c) {
   return document.querySelector(`.cell-input[data-r="${r}"][data-c="${c}"]`);
 }
 
-// ─── GENERATE ────────────────────────────────────────────────────────────────
 async function generate() {
   hideError();
   if (!WORDS.length) { showError('words.json henüz yüklenmedi.'); return; }
@@ -963,7 +946,6 @@ async function generate() {
   document.getElementById('complete-overlay').classList.remove('show');
   showLoading();
 
-  // Small delay for UI to update
   await new Promise(r => setTimeout(r, 50));
 
   const pool = getPool();
@@ -973,7 +955,6 @@ async function generate() {
     return;
   }
 
-  // Try up to 5 times to get a decent puzzle
   let result = null;
   for (let attempt = 0; attempt < 5; attempt++) {
     const shuffled = [...pool].sort(() => Math.random() - 0.5);
