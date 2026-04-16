@@ -59,13 +59,32 @@ function selectLevel(el) {
   currentLevel = el.dataset.level;
 }
 
+// Kategori eşleme tablosu (HTML data-cat → words.json cat)
+const catMap = {
+  'verb':        'fiil',
+  'noun':        'isim',
+  'adjective':   'sıfat',
+  'adverb':      'zarf',
+  'conjunction': 'bağlaç',
+  'time':        'zaman',
+  'travel':      'seyahat',
+  'daily':       'günlük',
+  'family':      'aile',
+  'color':       'renk',
+  'food':        'yiyecek',
+  'number':      'sayı',
+};
+
 function getPool() {
   if (currentCat === 'conjugation') {
     let pool = currentLevel === 'all' ? WORDS : WORDS.filter(w => w.level === currentLevel);
     return pool.filter(w => w.conjugations);
   }
   let pool = currentLevel === 'all' ? WORDS : WORDS.filter(w => w.level === currentLevel);
-  if (currentCat !== 'all') pool = pool.filter(w => w.cat === currentCat);
+  if (currentCat !== 'all') {
+    const mappedCat = catMap[currentCat] || currentCat; // eşleme yoksa direkt kullan
+    pool = pool.filter(w => w.cat === mappedCat);
+  }
   return pool;
 }
 
