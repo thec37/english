@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ENGLISH — Okuma</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+
+/* ── READING-SPECIFIC OVERRIDES & ADDITIONS ── */
+
+.reading-hero { padding: 0.5rem 0 1.5rem; }
+.reading-eyebrow { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 0.3rem; }
+.reading-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--accent3); }
+
+/* LEVEL TABS */
+.rd-level-tabs { display: flex; gap: 6px; margin-bottom: 1.5rem; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.rd-level-tabs::-webkit-scrollbar { display: none; }
+.rd-level-tab {
+  padding: 7px 18px; border-radius: 100px; border: 1px solid var(--border);
+  background: transparent; color: var(--muted); font-size: 0.8rem; font-weight: 500;
+  cursor: pointer; font-family: 'DM Sans', sans-serif; white-space: nowrap; flex-shrink: 0;
+  transition: all 0.15s; -webkit-tap-highlight-color: transparent;
+}
+.rd-level-tab.active { color: #0f0e17; border-color: transparent; }
+.rd-level-tab.A1.active  { background: var(--accent3); }
+.rd-level-tab.A2.active  { background: #5ba4d4; }
+.rd-level-tab.B1.active  { background: var(--accent2); }
+.rd-level-tab.B2.active  { background: #9b8ed6; }
+
+/* CARD GRID */
+.reading-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.reading-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 18px; padding: 1.2rem 1rem;
+  cursor: pointer; position: relative; overflow: hidden;
+  transition: border-color 0.2s, transform 0.12s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex; flex-direction: column; gap: 0.5rem;
+}
+.reading-card:hover { border-color: rgba(126,200,227,0.35); }
+.reading-card:active { transform: scale(0.97); }
+
+.rc-type-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--muted); font-weight: 500;
+}
+.rc-type-badge .badge-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+}
+.badge-dot.hikaye { background: var(--accent); }
+.badge-dot.makale { background: var(--accent3); }
+
+.rc-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem; font-weight: 700; line-height: 1.25;
+  color: var(--text);
+}
+.rc-topic {
+  font-size: 0.7rem; color: var(--muted); font-weight: 300;
+}
+.rc-meta {
+  display: flex; gap: 8px; align-items: center; margin-top: auto; padding-top: 0.4rem;
+}
+.rc-time {
+  font-size: 0.7rem; color: var(--muted);
+  display: flex; align-items: center; gap: 3px;
+}
+.rc-arrow {
+  margin-left: auto; font-size: 0.85rem; color: var(--muted);
+  transition: transform 0.2s;
+}
+.reading-card:hover .rc-arrow { transform: translateX(3px); color: var(--accent3); }
+
+/* ── READER SCREEN ── */
+#screen-reader { display: none; }
+#screen-reader.active { display: block; animation: fadeIn 0.4s ease; }
+
+.reader-header {
+  display: flex; flex-direction: column; gap: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+.reader-meta {
+  display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+  margin-bottom: 0.2rem;
+}
+.reader-badge {
+  font-size: 0.68rem; color: var(--muted); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 100px;
+  padding: 3px 10px; white-space: nowrap;
+}
+.reader-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 700; line-height: 1.2;
+}
+.reader-title-tr {
+  font-size: 0.8rem; color: var(--muted); font-weight: 300; font-style: italic;
+}
+
+/* TEXT BODY */
+.reader-body {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 20px; padding: 1.75rem 1.5rem;
+  margin-bottom: 1.5rem; position: relative; overflow: hidden;
+}
+.reader-body::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(126,200,227,0.2), transparent);
+}
+.reader-text {
+  font-size: 1rem; line-height: 1.85;
+  color: var(--text); font-weight: 300;
+  white-space: pre-wrap;
+}
+.reader-text p { margin-bottom: 1em; }
+
+/* VOCAB SECTION */
+.vocab-section {
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 16px; padding: 1rem 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.vocab-title {
+  font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--muted); font-weight: 500; margin-bottom: 0.75rem;
+}
+.vocab-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.vocab-item {
+  display: flex; flex-direction: column; gap: 1px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 7px 10px;
+}
+.vocab-en { font-size: 0.82rem; font-weight: 500; color: var(--accent3); }
+.vocab-tr { font-size: 0.75rem; color: var(--muted); font-weight: 300; }
+
+/* READ BUTTON */
+.read-action-row {
+  display: grid; grid-template-columns: 1fr; gap: 10px;
+  margin-bottom: 1rem;
+}
+.go-quiz-btn {
+  width: 100%; padding: 1rem;
+  background: var(--accent3); color: #0f0e17;
+  border: none; border-radius: 14px; font-size: 0.95rem; font-weight: 500;
+  font-family: 'DM Sans', sans-serif; cursor: pointer;
+  transition: opacity 0.2s, transform 0.12s;
+}
+.go-quiz-btn:hover { opacity: 0.9; }
+.go-quiz-btn:active { transform: scale(0.98); }
+
+/* ── QUIZ SCREEN ── */
+#screen-rdquiz { display: none; }
+#screen-rdquiz.active { display: block; animation: fadeIn 0.4s ease; }
+
+.rdquiz-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 1.5rem;
+}
+.rdquiz-counter { font-size: 0.8rem; color: var(--muted); }
+
+.rdquiz-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 20px; padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.rdquiz-q {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem; font-weight: 700; line-height: 1.45;
+  margin-bottom: 0;
+}
+
+.rdquiz-options { display: grid; gap: 9px; }
+.rdquiz-opt {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 13px; padding: 0.85rem 1rem;
+  cursor: pointer; font-size: 0.9rem; font-family: 'DM Sans', sans-serif;
+  color: var(--text); text-align: left;
+  display: flex; align-items: center; gap: 10px;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+.rdquiz-opt:active { transform: scale(0.98); }
+.rdquiz-opt:hover:not(:disabled) { border-color: rgba(255,255,255,0.2); transform: translateX(3px); }
+.rdquiz-opt .opt-letter {
+  width: 26px; height: 26px; border: 1px solid var(--border);
+  border-radius: 7px; display: flex; align-items: center; justify-content: center;
+  font-size: 0.7rem; color: var(--muted); flex-shrink: 0;
+  transition: all 0.15s;
+}
+.rdquiz-opt.correct-opt { border-color: var(--correct); background: rgba(76,175,125,0.1); }
+.rdquiz-opt.correct-opt .opt-letter { background: var(--correct); border-color: var(--correct); color: #fff; }
+.rdquiz-opt.wrong-opt { border-color: var(--wrong); background: rgba(224,92,92,0.1); animation: shake 0.3s ease; }
+.rdquiz-opt.wrong-opt .opt-letter { background: var(--wrong); border-color: var(--wrong); color: #fff; }
+
+.rdquiz-feedback {
+  min-height: 30px; font-size: 0.875rem; color: var(--muted);
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 0.75rem; padding: 0 0.25rem;
+}
+.rdquiz-feedback .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); flex-shrink: 0; }
+.rdquiz-feedback.show-correct .dot { background: var(--correct); }
+.rdquiz-feedback.show-correct { color: var(--correct); }
+.rdquiz-feedback.show-wrong .dot { background: var(--wrong); }
+.rdquiz-feedback.show-wrong { color: var(--wrong); }
+
+/* ── RESULT SCREEN (reuse existing .screen-result styles) ── */
+#screen-rdresult { display: none; }
+#screen-rdresult.active { display: block; animation: fadeIn 0.4s ease; }
+
+.rdresult-ring { width: 120px; height: 120px; margin: 0 auto 1.5rem; position: relative; }
+.rdresult-ring svg { transform: rotate(-90deg); }
+.rdresult-pct { font-size: 1.6rem; font-weight: 700; font-family: 'Playfair Display', serif; color: var(--accent3); }
+
+.rdresult-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 1.5rem; }
+.rdresult-btn {
+  padding: 0.9rem; border-radius: 12px; border: 1px solid var(--border);
+  font-family: 'DM Sans', sans-serif; font-size: 0.9rem;
+  cursor: pointer; background: transparent; color: var(--text);
+  transition: all 0.15s;
+}
+.rdresult-btn:hover { background: var(--surface); }
+.rdresult-btn.primary { background: var(--accent3); color: #0f0e17; border-color: var(--accent3); font-weight: 500; }
+.rdresult-btn.primary:hover { opacity: 0.9; }
+
+/* ── HOME CARD STYLE (for reading) ── */
+.home-big-card.okuma {
+  background: linear-gradient(140deg, rgba(126,200,227,0.09) 0%, var(--surface) 60%);
+  grid-column: 1 / -1;
+}
+.home-big-card.okuma:hover { border-color: var(--accent3); }
+.home-big-card.okuma .hbc-title { color: var(--accent3); }
+
+/* Responsive */
+@media (max-width: 480px) {
+  .reading-grid { grid-template-columns: 1fr; }
+  .vocab-grid { grid-template-columns: 1fr; }
+  .reader-body { padding: 1.25rem 1rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ENGLISH<span>okuma</span></div>
+</header>
+
+<!-- LIST SCREEN -->
+<div class="screen active" id="screen-list" style="display:block;">
+
+  <button class="back-btn" onclick="location.href='index.html'">← Ana Sayfa</button>
+
+  <div class="reading-hero">
+    <div class="reading-eyebrow">Okuma Pratiği</div>
+    <h2 class="reading-title">Reading</h2>
+  </div>
+
+  <div class="rd-level-tabs" id="rd-level-tabs">
+    <button class="rd-level-tab A1 active" onclick="switchLevel('A1', this)">A1</button>
+    <button class="rd-level-tab A2" onclick="switchLevel('A2', this)">A2</button>
+    <button class="rd-level-tab B1" onclick="switchLevel('B1', this)">B1</button>
+    <button class="rd-level-tab B2" onclick="switchLevel('B2', this)">B2</button>
+  </div>
+
+  <div class="reading-grid" id="reading-grid"></div>
+
+</div>
+
+<!-- READER SCREEN -->
+<div id="screen-reader">
+
+  <button class="back-btn" onclick="goToList()">← Geri</button>
+
+  <div class="reader-header">
+    <div class="reader-meta">
+      <span class="reader-badge" id="rd-level-badge">A1</span>
+      <span class="reader-badge" id="rd-type-badge">Hikaye</span>
+      <span class="reader-badge" id="rd-time-badge">2 dk</span>
+    </div>
+    <div class="reader-title" id="rd-title"></div>
+    <div class="reader-title-tr" id="rd-title-tr"></div>
+  </div>
+
+  <div class="reader-body">
+    <div class="reader-text" id="rd-text"></div>
+  </div>
+
+  <div class="vocab-section">
+    <div class="vocab-title">Önemli Kelimeler</div>
+    <div class="vocab-grid" id="rd-vocab"></div>
+  </div>
+
+  <div class="read-action-row">
+    <button class="go-quiz-btn" onclick="startQuiz()">Soruları Yanıtla →</button>
+  </div>
+
+</div>
+
+<!-- QUIZ SCREEN -->
+<div id="screen-rdquiz">
+
+  <button class="back-btn" onclick="goToReader()">← Metne Dön</button>
+
+  <div class="rdquiz-header">
+    <span class="rdquiz-counter" id="rdquiz-counter">1 / 4</span>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <span class="score-badge">Puan <span id="rdquiz-score">0</span></span>
+    </div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-fill" id="rdquiz-prog" style="width:25%"></div>
+  </div>
+
+  <div class="rdquiz-card">
+    <div class="rdquiz-q" id="rdquiz-q"></div>
+  </div>
+
+  <div class="rdquiz-options" id="rdquiz-opts"></div>
+  <div class="rdquiz-feedback" id="rdquiz-fb"></div>
+
+  <button class="next-btn" id="rdquiz-next" onclick="nextRdQuestion()" style="margin-top:1rem;">
+    Sonraki <span class="next-arrow">→</span>
+  </button>
+
+</div>
+
+<!-- RESULT SCREEN -->
+<div id="screen-rdresult">
+
+  <div class="rdresult-ring">
+    <svg width="120" height="120" viewBox="0 0 120 120">
+      <circle class="ring-bg" cx="60" cy="60" r="52"/>
+      <circle class="ring-fill" id="rdresult-ring" cx="60" cy="60" r="52"
+        stroke="var(--accent3)"
+        stroke-dasharray="326.7"
+        stroke-dashoffset="326.7"/>
+    </svg>
+    <div class="ring-text">
+      <div class="rdresult-pct" id="rdresult-pct">0%</div>
+      <div class="ring-label">başarı</div>
+    </div>
+  </div>
+
+  <div class="result-title" id="rdresult-title">Harika!</div>
+  <div class="result-sub" id="rdresult-sub"></div>
+
+  <div class="result-stats">
+    <div class="stat-card">
+      <div class="stat-num" id="rdresult-correct" style="color:var(--correct)">0</div>
+      <div class="stat-lbl">Doğru</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="rdresult-wrong" style="color:var(--wrong)">0</div>
+      <div class="stat-lbl">Yanlış</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">4</div>
+      <div class="stat-lbl">Toplam</div>
+    </div>
+  </div>
+
+  <div class="rdresult-actions">
+    <button class="rdresult-btn" onclick="goToList()">Metinlere Dön</button>
+    <button class="rdresult-btn primary" onclick="goToReader()">Tekrar Oku</button>
+  </div>
+
+</div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────────────
+let READINGS = [];
+let currentLevel = 'A1';
+let currentReading = null;
+let rdQIndex = 0;
+let rdScore = 0;
+let rdCorrect = 0;
+let rdWrong = 0;
+let rdAnswered = false;
+
+// ─── INIT ───────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const res = await fetch('readings.json');
+    READINGS = await res.json();
+    renderList('A1');
+  } catch(e) {
+    document.getElementById('reading-grid').innerHTML =
+      '<p style="color:var(--muted);font-size:0.85rem;grid-column:1/-1;padding:1rem 0">readings.json yüklenemedi — sunucu gerekli.</p>';
+  }
+}
+
+// ─── LEVEL SWITCH ───────────────────────────────────────────────────────────
+function switchLevel(level, btn) {
+  currentLevel = level;
+  document.querySelectorAll('.rd-level-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderList(level);
+}
+
+// ─── RENDER CARD LIST ────────────────────────────────────────────────────────
+function renderList(level) {
+  const grid = document.getElementById('reading-grid');
+  const items = READINGS.filter(r => r.level === level);
+  grid.innerHTML = '';
+  if (!items.length) {
+    grid.innerHTML = '<p style="color:var(--muted);font-size:0.85rem;grid-column:1/-1;padding:1rem 0">Bu seviye için henüz metin eklenmedi.</p>';
+    return;
+  }
+  items.forEach(r => {
+    const card = document.createElement('div');
+    card.className = 'reading-card';
+    card.onclick = () => openReading(r.id);
+    card.innerHTML = `
+      <div class="rc-type-badge">
+        <span class="badge-dot ${r.type}"></span>
+        ${r.type === 'hikaye' ? 'Hikaye' : 'Makale'}
+      </div>
+      <div class="rc-title">${r.title}</div>
+      <div class="rc-topic">${r.topic}</div>
+      <div class="rc-meta">
+        <span class="rc-time">⏱ ${r.readTime} dk</span>
+        <span class="rc-arrow">→</span>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ─── OPEN READING ────────────────────────────────────────────────────────────
+function openReading(id) {
+  currentReading = READINGS.find(r => r.id === id);
+  if (!currentReading) return;
+
+  document.getElementById('rd-level-badge').textContent = currentReading.level;
+  document.getElementById('rd-type-badge').textContent = currentReading.type === 'hikaye' ? 'Hikaye' : 'Makale';
+  document.getElementById('rd-time-badge').textContent = currentReading.readTime + ' dk okuma';
+  document.getElementById('rd-title').textContent = currentReading.title;
+  document.getElementById('rd-title-tr').textContent = currentReading.titleTr;
+
+  // Render text paragraphs
+  const textEl = document.getElementById('rd-text');
+  const paras = currentReading.text.split('\n\n').filter(p => p.trim());
+  textEl.innerHTML = paras.map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('');
+
+  // Vocab
+  const vocabEl = document.getElementById('rd-vocab');
+  vocabEl.innerHTML = currentReading.words
+    .map(w => `<div class="vocab-item"><span class="vocab-en">${w.en}</span><span class="vocab-tr">${w.tr}</span></div>`)
+    .join('');
+
+  showScreen('screen-reader');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ─── START QUIZ ──────────────────────────────────────────────────────────────
+function startQuiz() {
+  if (!currentReading) return;
+  rdQIndex = 0; rdScore = 0; rdCorrect = 0; rdWrong = 0;
+  showScreen('screen-rdquiz');
+  renderRdQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ─── RENDER QUESTION ────────────────────────────────────────────────────────
+function renderRdQuestion() {
+  rdAnswered = false;
+  const q = currentReading.questions[rdQIndex];
+  const total = currentReading.questions.length;
+
+  document.getElementById('rdquiz-counter').textContent = `${rdQIndex + 1} / ${total}`;
+  document.getElementById('rdquiz-score').textContent = rdScore;
+  document.getElementById('rdquiz-prog').style.width = `${((rdQIndex + 1) / total) * 100}%`;
+  document.getElementById('rdquiz-q').textContent = q.q;
+  document.getElementById('rdquiz-fb').innerHTML = '';
+  document.getElementById('rdquiz-fb').className = 'rdquiz-feedback';
+  document.getElementById('rdquiz-next').classList.remove('visible');
+
+  const optsEl = document.getElementById('rdquiz-opts');
+  optsEl.innerHTML = '';
+  const letters = ['A','B','C','D'];
+  q.opts.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'rdquiz-opt';
+    btn.innerHTML = `<span class="opt-letter">${letters[i]}</span>${opt}`;
+    btn.onclick = () => checkRdOpt(btn, i, q.ans);
+    optsEl.appendChild(btn);
+  });
+}
+
+function checkRdOpt(btn, chosen, correct) {
+  if (rdAnswered) return;
+  rdAnswered = true;
+  document.querySelectorAll('.rdquiz-opt').forEach(b => b.disabled = true);
+
+  const fb = document.getElementById('rdquiz-fb');
+
+  if (chosen === correct) {
+    btn.classList.add('correct-opt');
+    rdScore += 25; rdCorrect++;
+    fb.className = 'rdquiz-feedback show-correct';
+    fb.innerHTML = '<span class="dot"></span>Doğru!';
+  } else {
+    btn.classList.add('wrong-opt');
+    document.querySelectorAll('.rdquiz-opt')[correct].classList.add('correct-opt');
+    rdWrong++;
+    fb.className = 'rdquiz-feedback show-wrong';
+    fb.innerHTML = `<span class="dot"></span>Doğrusu: ${currentReading.questions[rdQIndex].opts[correct]}`;
+  }
+
+  document.getElementById('rdquiz-score').textContent = rdScore;
+  document.getElementById('rdquiz-next').classList.add('visible');
+}
+
+function nextRdQuestion() {
+  rdQIndex++;
+  if (rdQIndex >= currentReading.questions.length) {
+    showRdResult();
+    return;
+  }
+  renderRdQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showRdResult() {
+  const total = currentReading.questions.length;
+  const pct = Math.round((rdCorrect / total) * 100);
+
+  document.getElementById('rdresult-pct').textContent = pct + '%';
+  document.getElementById('rdresult-correct').textContent = rdCorrect;
+  document.getElementById('rdresult-wrong').textContent = rdWrong;
+
+  const msgs =
+    pct === 100 ? ['Mükemmel! 🏆', 'Her soruyu doğru yanıtladın!'] :
+    pct >= 75   ? ['Çok İyi! 👏', 'Metni çok iyi anladın.'] :
+    pct >= 50   ? ['Fena Değil 💪', 'Tekrar okursan daha iyi anlarsın.'] :
+                  ['Tekrar Dene 📚', 'Metni bir kez daha oku.'];
+
+  document.getElementById('rdresult-title').textContent = msgs[0];
+  document.getElementById('rdresult-sub').textContent = msgs[1];
+
+  showScreen('screen-rdresult');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  setTimeout(() => {
+    const offset = 326.7 - (pct / 100) * 326.7;
+    document.getElementById('rdresult-ring').style.strokeDashoffset = offset;
+  }, 200);
+}
+
+// ─── NAVIGATION ──────────────────────────────────────────────────────────────
+function showScreen(id) {
+  ['screen-list','screen-reader','screen-rdquiz','screen-rdresult'].forEach(sid => {
+    const el = document.getElementById(sid);
+    if (el) {
+      el.style.display = 'none';
+      el.classList.remove('active');
+    }
+  });
+  const target = document.getElementById(id);
+  if (target) {
+    target.style.display = 'block';
+    target.classList.add('active');
+  }
+}
+
+function goToList() {
+  showScreen('screen-list');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function goToReader() {
+  if (currentReading) openReading(currentReading.id);
+}
+
+// ─── KEYBOARD SHORTCUT ───────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  if ((e.key === 'Enter' || e.key === ' ')) {
+    const next = document.getElementById('rdquiz-next');
+    if (next && next.classList.contains('visible')) {
+      e.preventDefault();
+      nextRdQuestion();
+    }
+  }
+});
+
+init();
+</script>
+</body>
+</html>
