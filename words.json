@@ -3963,4 +3963,25 @@
   { "en": "delicacy", "tr": "nefis yemek / özgün lezzet", "cat": "yiyecek", "level": "C2", "ex": "Haggis is considered a Scottish delicacy." },
   { "en": "palate", "tr": "damak tadı", "cat": "yiyecek", "level": "C2", "ex": "The dish was too rich for my palate." },
   { "en": "garnish", "tr": "garnitür / süsleme", "cat": "yiyecek", "level": "C2", "ex": "The chef added a parsley garnish." }
+
+  { "en": "ambitious", "tr": "hırslı / iddialı", "cat": "sıfat", "level": "B2", "ex": "She is very ambitious about her career." },
+  { "en": "confident", "tr": "özgüvenli / emin", "cat": "sıfat", "level": "B2", "ex": "He gave a confident and clear presentation." },
+  { "en": "flexible", "tr": "esnek", "cat": "sıfat", "level": "B2", "ex": "You need to be flexible in this job." },
+  { "en": "reliable", "tr": "güvenilir", "cat": "sıfat", "level": "B2", "ex": "She is the most reliable person on the team." },
+  { "en": "competitive", "tr": "rekabetçi", "cat": "sıfat", "level": "B2", "ex": "The market is extremely competitive right now." },
+  { "en": "demanding", "tr": "zorlu / talepkâr", "cat": "sıfat", "level": "B2", "ex": "It is a very demanding but rewarding role." },
+  { "en": "controversial", "tr": "tartışmalı", "cat": "sıfat", "level": "B2", "ex": "The new policy is highly controversial." },
+  { "en": "significant", "tr": "önemli / anlamlı", "cat": "sıfat", "level": "B2", "ex": "There has been a significant improvement." },
+  { "en": "consistent", "tr": "tutarlı / istikrarlı", "cat": "sıfat", "level": "B2", "ex": "His work has been consistent all year." },
+  { "en": "transparent", "tr": "şeffaf", "cat": "sıfat", "level": "B2", "ex": "The company needs to be more transparent." },
+  { "en": "urgent", "tr": "acil", "cat": "sıfat", "level": "B2", "ex": "This is an urgent matter that cannot wait." },
+  { "en": "crucial", "tr": "kritik / hayati önem taşıyan", "cat": "sıfat", "level": "B2", "ex": "This step is crucial for the whole project." },
+  { "en": "diverse", "tr": "çeşitli / farklı", "cat": "sıfat", "level": "B2", "ex": "The team has a diverse range of skills." },
+  { "en": "overwhelming", "tr": "bunaltıcı / ezici", "cat": "sıfat", "level": "B2", "ex": "The response was overwhelming and unexpected." },
+  { "en": "adequate", "tr": "yeterli / uygun", "cat": "sıfat", "level": "B2", "ex": "The budget is barely adequate for our needs." },
+  { "en": "prominent", "tr": "önde gelen / göze çarpan", "cat": "sıfat", "level": "B2", "ex": "She is a prominent figure in politics." },
+  { "en": "mutual", "tr": "karşılıklı / ortak", "cat": "sıfat", "level": "B2", "ex": "The agreement is based on mutual respect." },
+  { "en": "biased", "tr": "önyargılı / taraflı", "cat": "sıfat", "level": "B2", "ex": "The report seems biased towards one side." },
+  { "en": "thorough", "tr": "kapsamlı / titiz", "cat": "sıfat", "level": "B2", "ex": "She did a thorough analysis of the data." },
+  { "en": "straightforward", "tr": "açık ve net / kolay anlaşılır", "cat": "sıfat", "level": "B2", "ex": "The instructions are quite straightforward." }
 ]
