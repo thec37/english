@@ -1,0 +1,478 @@
+[
+  {
+    "id": "a1-my-family",
+    "level": "A1",
+    "type": "hikaye",
+    "title": "My Family",
+    "titleTr": "Ailem",
+    "topic": "Aile",
+    "readTime": 2,
+    "text": "My name is Emma. I am twelve years old. I live in a small house in London.\n\nI have a big family. My mother's name is Sarah. She is a teacher. My father's name is Tom. He is a doctor. I have one sister and one brother. My sister is eight years old. Her name is Lucy. My brother is fifteen years old. His name is Jack.\n\nWe have a dog. His name is Max. Max is very friendly. He is black and white.\n\nI love my family very much.",
+    "words": [
+      { "en": "small", "tr": "küçük" },
+      { "en": "teacher", "tr": "öğretmen" },
+      { "en": "doctor", "tr": "doktor" },
+      { "en": "friendly", "tr": "arkadaş canlısı" }
+    ],
+    "questions": [
+      {
+        "q": "How old is Emma?",
+        "opts": ["Ten years old", "Twelve years old", "Eight years old", "Fifteen years old"],
+        "ans": 1
+      },
+      {
+        "q": "What is Emma's mother's job?",
+        "opts": ["Doctor", "Teacher", "Nurse", "Engineer"],
+        "ans": 1
+      },
+      {
+        "q": "What is the dog's name?",
+        "opts": ["Jack", "Lucy", "Max", "Tom"],
+        "ans": 2
+      },
+      {
+        "q": "What colour is the dog?",
+        "opts": ["Brown and white", "Black and white", "Yellow and black", "Red and white"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-my-day",
+    "level": "A1",
+    "type": "hikaye",
+    "title": "A Normal Day",
+    "titleTr": "Normal Bir Gün",
+    "topic": "Günlük Hayat",
+    "readTime": 2,
+    "text": "I wake up at seven o'clock every morning. I have breakfast in the kitchen. I eat bread and drink orange juice.\n\nI go to school at eight o'clock. I walk to school. My school is near my house. I have classes from nine to three.\n\nAfter school, I do my homework. Then I watch TV or read a book. I have dinner with my family at seven o'clock.\n\nI go to bed at ten o'clock. I am happy with my day.",
+    "words": [
+      { "en": "wake up", "tr": "uyanmak" },
+      { "en": "breakfast", "tr": "kahvaltı" },
+      { "en": "homework", "tr": "ev ödevi" },
+      { "en": "dinner", "tr": "akşam yemeği" }
+    ],
+    "questions": [
+      {
+        "q": "What time does the writer wake up?",
+        "opts": ["Six o'clock", "Seven o'clock", "Eight o'clock", "Nine o'clock"],
+        "ans": 1
+      },
+      {
+        "q": "How does the writer go to school?",
+        "opts": ["By bus", "By car", "Walking", "By bicycle"],
+        "ans": 2
+      },
+      {
+        "q": "What does the writer do after school?",
+        "opts": ["Goes to the park", "Does homework", "Plays football", "Sleeps"],
+        "ans": 1
+      },
+      {
+        "q": "What time is dinner?",
+        "opts": ["Five o'clock", "Six o'clock", "Seven o'clock", "Eight o'clock"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-my-room",
+    "level": "A1",
+    "type": "makale",
+    "title": "My Room",
+    "titleTr": "Odam",
+    "topic": "Ev",
+    "readTime": 2,
+    "text": "My room is small but beautiful. The walls are blue. I love blue. There is a big window in my room. I can see the garden from my window.\n\nI have a desk near the window. I do my homework at my desk. There are many books on my desk. I love reading.\n\nMy bed is next to the door. The bed is comfortable. I sleep very well.\n\nThere is a poster on the wall. It is a poster of my favourite football team. My room is my favourite place in the house.",
+    "words": [
+      { "en": "wall", "tr": "duvar" },
+      { "en": "window", "tr": "pencere" },
+      { "en": "comfortable", "tr": "rahat" },
+      { "en": "favourite", "tr": "en sevilen" }
+    ],
+    "questions": [
+      {
+        "q": "What colour are the walls?",
+        "opts": ["Green", "Yellow", "Blue", "White"],
+        "ans": 2
+      },
+      {
+        "q": "Where is the desk?",
+        "opts": ["Near the door", "Near the window", "Next to the bed", "In the corner"],
+        "ans": 1
+      },
+      {
+        "q": "What is on the wall?",
+        "opts": ["A map", "A painting", "A football poster", "A clock"],
+        "ans": 2
+      },
+      {
+        "q": "What can the writer see from the window?",
+        "opts": ["The street", "The school", "The garden", "Another house"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a2-the-market",
+    "level": "A2",
+    "type": "hikaye",
+    "title": "At the Market",
+    "titleTr": "Markette",
+    "topic": "Alışveriş",
+    "readTime": 3,
+    "text": "Every Saturday morning, Maria goes to the local market with her mother. The market is in the town centre and it opens at eight o'clock.\n\nThere are many stalls at the market. Maria's favourite stall sells fresh fruit and vegetables. The tomatoes are always very red and the oranges smell wonderful. Maria usually buys apples and bananas for the week.\n\nThere is also a bakery stall. The bread there is delicious. The baker makes it every morning before the market opens. Maria always buys one loaf of brown bread.\n\nAfter shopping, Maria and her mother sit at a small café near the market. They drink coffee and talk about their plans for the weekend. Maria loves these Saturday mornings. They make her feel happy.",
+    "words": [
+      { "en": "stall", "tr": "tezgah / stand" },
+      { "en": "fresh", "tr": "taze" },
+      { "en": "loaf", "tr": "somun (ekmek)" },
+      { "en": "plans", "tr": "planlar" }
+    ],
+    "questions": [
+      {
+        "q": "When does Maria go to the market?",
+        "opts": ["Every Sunday", "Every Friday evening", "Every Saturday morning", "Every Monday"],
+        "ans": 2
+      },
+      {
+        "q": "What does Maria usually buy from the fruit stall?",
+        "opts": ["Tomatoes and oranges", "Apples and bananas", "Grapes and cherries", "Strawberries and lemons"],
+        "ans": 1
+      },
+      {
+        "q": "When does the baker make the bread?",
+        "opts": ["The night before", "Every morning before the market", "At lunchtime", "On Fridays"],
+        "ans": 1
+      },
+      {
+        "q": "What do Maria and her mother do after shopping?",
+        "opts": ["Go home immediately", "Visit a friend", "Sit at a café", "Go to the cinema"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a2-london",
+    "level": "A2",
+    "type": "makale",
+    "title": "London: A Great City",
+    "titleTr": "Londra: Harika Bir Şehir",
+    "topic": "Seyahat",
+    "readTime": 3,
+    "text": "London is the capital city of England. About nine million people live there. It is one of the most visited cities in the world.\n\nLondon has many famous places. The Tower of London is very old. It is over 900 years old. Buckingham Palace is where the King lives. Thousands of tourists visit it every day.\n\nThe city has excellent public transport. You can travel by underground train, called 'the Tube'. It is fast and easy. There are also red double-decker buses. They are very famous.\n\nLondon has many parks too. Hyde Park is very large. People walk, run and relax there. In summer, the parks are full of people enjoying the sunshine.\n\nIf you visit London, you should try fish and chips. It is the traditional English food. Shops that sell it are called 'chippies'.",
+    "words": [
+      { "en": "capital", "tr": "başkent" },
+      { "en": "underground", "tr": "metro / yeraltı" },
+      { "en": "double-decker", "tr": "çift katlı" },
+      { "en": "traditional", "tr": "geleneksel" }
+    ],
+    "questions": [
+      {
+        "q": "How many people live in London?",
+        "opts": ["About five million", "About nine million", "About twelve million", "About three million"],
+        "ans": 1
+      },
+      {
+        "q": "What is the underground train in London called?",
+        "opts": ["The Metro", "The Subway", "The Tube", "The Rail"],
+        "ans": 2
+      },
+      {
+        "q": "What is the traditional English food mentioned in the text?",
+        "opts": ["Roast beef", "Pie and mash", "Fish and chips", "Sandwiches"],
+        "ans": 2
+      },
+      {
+        "q": "What is Hyde Park used for?",
+        "opts": ["Concerts only", "Walking, running and relaxing", "Sports competitions", "Parking cars"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "a2-job-interview",
+    "level": "A2",
+    "type": "hikaye",
+    "title": "The Job Interview",
+    "titleTr": "İş Görüşmesi",
+    "topic": "İş Hayatı",
+    "readTime": 3,
+    "text": "Carlos was very nervous. He had a job interview at nine o'clock. The job was at a big hotel in the city centre.\n\nHe woke up early and put on his best clothes. He checked his CV again and again. He wanted to work as a receptionist because he loved talking to people.\n\nAt the hotel, a woman called Ms Parker met him. She was very friendly. She asked him many questions. 'Why do you want this job?' she asked. 'I love helping people,' Carlos answered. 'And I speak three languages.'\n\nMs Parker smiled. 'That's very useful,' she said. 'We have guests from many countries.'\n\nTwo days later, Carlos received an email. He got the job! He was so happy that he called his mother immediately.",
+    "words": [
+      { "en": "nervous", "tr": "gergin / sinirli" },
+      { "en": "receptionist", "tr": "resepsiyonist" },
+      { "en": "CV", "tr": "özgeçmiş" },
+      { "en": "received", "tr": "aldı (almak)" }
+    ],
+    "questions": [
+      {
+        "q": "Why was Carlos nervous?",
+        "opts": ["He was late for work", "He had a job interview", "He lost his wallet", "He missed the bus"],
+        "ans": 1
+      },
+      {
+        "q": "What job did Carlos want?",
+        "opts": ["Chef", "Manager", "Receptionist", "Driver"],
+        "ans": 2
+      },
+      {
+        "q": "How many languages does Carlos speak?",
+        "opts": ["One", "Two", "Three", "Four"],
+        "ans": 2
+      },
+      {
+        "q": "How did Carlos find out he got the job?",
+        "opts": ["Ms Parker called him", "He received an email", "He went back to the hotel", "A letter arrived"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "b1-social-media",
+    "level": "B1",
+    "type": "makale",
+    "title": "Social Media: Good or Bad?",
+    "titleTr": "Sosyal Medya: İyi mi, Kötü mü?",
+    "topic": "Teknoloji",
+    "readTime": 4,
+    "text": "Social media is part of everyday life for millions of people. Platforms like Instagram, TikTok and X (formerly Twitter) allow users to share photos, videos and opinions instantly. But is this a good thing?\n\nThere are clear benefits. Social media helps people stay connected with friends and family, even when they live far apart. It also gives people a voice — ordinary citizens can share news and raise awareness about important issues. Many small businesses have grown significantly by using social media to reach new customers.\n\nHowever, there are serious concerns. Research suggests that heavy social media use is linked to anxiety and low self-esteem, particularly among teenagers. People often compare their real lives to the carefully edited highlights of others, which can lead to feelings of inadequacy.\n\nAnother problem is the spread of false information. Stories and images can be shared thousands of times before anyone checks whether they are true.\n\nDespite these issues, most experts agree that social media itself is not the problem. It depends on how we use it. Setting time limits, following positive accounts and taking regular breaks can make social media a much healthier experience.",
+    "words": [
+      { "en": "awareness", "tr": "farkındalık" },
+      { "en": "significantly", "tr": "önemli ölçüde" },
+      { "en": "inadequacy", "tr": "yetersizlik hissi" },
+      { "en": "spread", "tr": "yayılma / yayılmak" }
+    ],
+    "questions": [
+      {
+        "q": "According to the text, what is one benefit of social media for businesses?",
+        "opts": ["It is free to use", "It helps them reach new customers", "It replaces traditional advertising", "It reduces costs"],
+        "ans": 1
+      },
+      {
+        "q": "What does research suggest about heavy social media use in teenagers?",
+        "opts": ["It improves academic results", "It has no significant effect", "It is linked to anxiety and low self-esteem", "It makes them more social in person"],
+        "ans": 2
+      },
+      {
+        "q": "What is described as another problem with social media?",
+        "opts": ["It costs too much money", "It is spreading false information", "It is too addictive", "It requires fast internet"],
+        "ans": 1
+      },
+      {
+        "q": "What do most experts say about social media?",
+        "opts": ["It should be banned for under-18s", "It is always harmful", "How we use it is what matters", "It should be more regulated"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b1-the-new-neighbour",
+    "level": "B1",
+    "type": "hikaye",
+    "title": "The New Neighbour",
+    "titleTr": "Yeni Komşu",
+    "topic": "İnsan İlişkileri",
+    "readTime": 4,
+    "text": "When Maya moved to her new flat in Bristol, she did not know anyone in the building. She had moved from a small village where everybody knew everybody else. City life felt cold and anonymous.\n\nFor the first few weeks, she barely left her flat. She worked from home, ordered food online and tried to ignore the loneliness growing inside her.\n\nOne Tuesday morning, the lift broke. Maya had to carry her groceries up four flights of stairs. On the third floor, she bumped into an elderly man struggling with a heavy bag.\n\n'Let me help you,' she said, without thinking.\n\nThe man looked surprised. 'Thank you. People don't usually offer,' he said with a smile. His name was Mr Okafor. He had lived in the building for fifteen years.\n\nThey talked all the way to the fourth floor. He told her about the neighbourhood — which café had the best coffee, which park was quiet on weekday mornings. Before saying goodbye, he invited her for tea the following Sunday.\n\nThat one broken lift changed everything. Within a month, Maya had been introduced to six of her neighbours. The city no longer felt cold. It just needed a little patience.",
+    "words": [
+      { "en": "anonymous", "tr": "isimsiz / kimliksiz" },
+      { "en": "barely", "tr": "güçlükle / ancak" },
+      { "en": "loneliness", "tr": "yalnızlık" },
+      { "en": "struggled", "tr": "güçlük çekti" }
+    ],
+    "questions": [
+      {
+        "q": "Why did Maya feel lonely at first?",
+        "opts": ["She did not like her flat", "She had no internet connection", "She did not know anyone and city life felt cold", "Her job was very stressful"],
+        "ans": 2
+      },
+      {
+        "q": "How did Maya meet Mr Okafor?",
+        "opts": ["At the café he recommended", "In the park", "When the lift broke and she helped him", "He knocked on her door"],
+        "ans": 2
+      },
+      {
+        "q": "What did Mr Okafor tell Maya about?",
+        "opts": ["His life in Nigeria", "The neighbourhood — cafés and parks", "The history of the building", "His family"],
+        "ans": 1
+      },
+      {
+        "q": "What is the main message of the story?",
+        "opts": ["Cities are too dangerous to live in", "Small acts of kindness can change things", "Old people are always friendly", "Moving home is always difficult"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "b1-climate",
+    "level": "B1",
+    "type": "makale",
+    "title": "Climate Change and Young People",
+    "titleTr": "İklim Değişikliği ve Gençler",
+    "topic": "Çevre",
+    "readTime": 4,
+    "text": "Around the world, young people are becoming increasingly concerned about climate change. Many feel that governments and large corporations are not acting fast enough to protect the planet.\n\nIn recent years, student protests have taken place in dozens of countries. Inspired by activists like Greta Thunberg, millions of students have left classrooms to demand action. They argue that it is their future — and the future of generations not yet born — that is at risk.\n\nScientists agree that the situation is serious. Global temperatures have risen by about 1.1 degrees Celsius since the industrial revolution. If this continues, extreme weather events — including floods, droughts and heatwaves — will become more frequent and more severe.\n\nHowever, some progress is being made. Renewable energy sources such as solar and wind power are growing rapidly. Many countries have committed to reaching 'net zero' carbon emissions by 2050.\n\nYoung people are not just protesting — they are also making changes in their own lives. Many are reducing meat consumption, travelling less by plane and choosing second-hand clothing. Small individual choices, combined with large-scale political action, may be what saves us.",
+    "words": [
+      { "en": "corporations", "tr": "şirketler / kurumlar" },
+      { "en": "droughts", "tr": "kuraklıklar" },
+      { "en": "renewable", "tr": "yenilenebilir" },
+      { "en": "emissions", "tr": "emisyonlar / salınımlar" }
+    ],
+    "questions": [
+      {
+        "q": "What have millions of students done to demand climate action?",
+        "opts": ["Signed online petitions", "Left classrooms to protest", "Written letters to governments", "Created social media campaigns"],
+        "ans": 1
+      },
+      {
+        "q": "By how much have global temperatures risen since the industrial revolution?",
+        "opts": ["0.5 degrees Celsius", "2 degrees Celsius", "About 1.1 degrees Celsius", "3 degrees Celsius"],
+        "ans": 2
+      },
+      {
+        "q": "What is the target many countries have set for carbon emissions?",
+        "opts": ["Halving emissions by 2030", "Net zero by 2050", "Zero emissions by 2025", "Reducing by 10% each year"],
+        "ans": 1
+      },
+      {
+        "q": "According to the text, what personal changes are some young people making?",
+        "opts": ["Using electric cars and solar panels", "Moving to the countryside", "Reducing meat and flying less", "Studying environmental science"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b2-the-science-of-sleep",
+    "level": "B2",
+    "type": "makale",
+    "title": "The Science of Sleep",
+    "titleTr": "Uykunun Bilimi",
+    "topic": "Sağlık & Bilim",
+    "readTime": 5,
+    "text": "For much of human history, sleep was considered little more than a passive state — a period of unconsciousness that the body required to rest. Modern neuroscience has fundamentally changed that view. Sleep, it turns out, is an extraordinarily active process during which the brain performs critical maintenance work.\n\nDuring sleep, the brain consolidates memories, transferring information from short-term to long-term storage. This is why students who sleep well after studying tend to retain information significantly better than those who stay up all night. The brain also uses sleep to clear away metabolic waste products that accumulate during waking hours — a process that some researchers believe may be connected to the development of Alzheimer's disease when it goes wrong.\n\nSleep deprivation has consequences far beyond simple tiredness. After just 24 hours without sleep, cognitive performance deteriorates to a level comparable with being legally drunk. Chronic sleep deprivation is associated with increased risk of obesity, type 2 diabetes, cardiovascular disease and depression.\n\nDespite this, modern life seems almost designed to prevent adequate sleep. Artificial light — particularly the blue light emitted by screens — suppresses the production of melatonin, the hormone that signals to the body that it is time to sleep. Social pressures, work demands and the always-on nature of digital communication mean that many people treat sleep as a luxury rather than a biological necessity.\n\nExperts recommend seven to nine hours of sleep per night for adults, yet surveys consistently show that large proportions of the population fall significantly short of this target.",
+    "words": [
+      { "en": "consolidates", "tr": "pekiştirir / güçlendirir" },
+      { "en": "metabolic", "tr": "metabolik" },
+      { "en": "deprivation", "tr": "yoksunluk / mahrumiyet" },
+      { "en": "suppresses", "tr": "baskılar / engeller" }
+    ],
+    "questions": [
+      {
+        "q": "According to the text, what does the brain do during sleep regarding memories?",
+        "opts": ["It deletes unnecessary memories", "It consolidates memories from short-term to long-term storage", "It creates new memories from imagination", "It replays the day's events"],
+        "ans": 1
+      },
+      {
+        "q": "What does the text suggest about 24 hours without sleep?",
+        "opts": ["It is harmless for most people", "It causes permanent brain damage", "It impairs cognition similarly to being drunk", "It only affects older people"],
+        "ans": 2
+      },
+      {
+        "q": "Why does blue light from screens affect sleep?",
+        "opts": ["It causes eye strain", "It suppresses melatonin production", "It stimulates the nervous system", "It increases body temperature"],
+        "ans": 1
+      },
+      {
+        "q": "What is the main argument the text makes about modern life and sleep?",
+        "opts": ["Technology has helped people sleep better", "Modern life is structured in a way that works against good sleep", "People simply choose not to sleep enough", "Sleep problems only affect working adults"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "b2-unreliable-narrator",
+    "level": "B2",
+    "type": "hikaye",
+    "title": "The Perfect Candidate",
+    "titleTr": "Mükemmel Aday",
+    "topic": "İş & Kariyer",
+    "readTime": 5,
+    "text": "Eleanor had prepared for this interview for three weeks. She had researched the company obsessively, rehearsed every possible question and bought a new suit specifically for the occasion. She was, she told herself, the perfect candidate.\n\nThe interview panel consisted of three people. The woman in the centre, whose name badge read 'Dr Chen', barely looked up when Eleanor entered. The man on the left, Mr Walsh, had a warm smile that Eleanor immediately trusted. The third interviewer was young — shockingly young, Eleanor thought — and kept taking notes on a tablet.\n\nThe first questions were straightforward. Eleanor answered confidently, drawing on her fifteen years of experience. She could see Mr Walsh nodding.\n\nThen Dr Chen looked up. 'Tell me about a time you failed,' she said flatly.\n\nEleanor had prepared this answer too. She talked about a project that had gone over budget, how she had managed the situation, what she had learned. She thought it went well.\n\nShe did not get the job. The rejection email was polite and said nothing useful. For days, Eleanor replayed the interview, certain that Dr Chen had already decided against her before she had even sat down.\n\nIt did not occur to her, not once, that her answer about failure had contained no actual failure at all — only a story of competent crisis management dressed up as a mistake.",
+    "words": [
+      { "en": "obsessively", "tr": "takıntılı biçimde" },
+      { "en": "rehearsed", "tr": "prova yaptı / hazırlandı" },
+      { "en": "straightforward", "tr": "doğrudan / basit" },
+      { "en": "rejection", "tr": "red / reddedilme" }
+    ],
+    "questions": [
+      {
+        "q": "How long had Eleanor been preparing for the interview?",
+        "opts": ["One week", "Two weeks", "Three weeks", "A month"],
+        "ans": 2
+      },
+      {
+        "q": "Which interviewer did Eleanor immediately trust?",
+        "opts": ["Dr Chen", "The young note-taker", "Mr Walsh", "None of them"],
+        "ans": 2
+      },
+      {
+        "q": "What did Eleanor believe was the reason she did not get the job?",
+        "opts": ["She was underqualified", "Dr Chen had decided against her before the interview began", "Her answer about failure was too honest", "She arrived late"],
+        "ans": 1
+      },
+      {
+        "q": "What is the real reason hinted at in the final paragraph?",
+        "opts": ["Eleanor was too experienced for the role", "Her failure story wasn't really about failure at all", "She spoke for too long", "Dr Chen disliked her suit"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "b2-urban-loneliness",
+    "level": "B2",
+    "type": "makale",
+    "title": "The Paradox of Urban Loneliness",
+    "titleTr": "Kentsel Yalnızlığın Paradoksu",
+    "topic": "Toplum & Psikoloji",
+    "readTime": 5,
+    "text": "Cities are, by definition, places of density. Millions of people live within a few square kilometres, sharing streets, parks, transport networks and air. And yet, paradoxically, urban environments are also sites of profound loneliness. Studies consistently show that city dwellers report higher rates of social isolation than people in rural communities — despite being surrounded by far more people.\n\nThis phenomenon is sometimes called the 'urban loneliness paradox'. Researchers point to several contributing factors. First, urban life tends to be transient: people move frequently, making sustained relationships harder to build. Second, the design of many modern cities prioritises individual movement over communal gathering — cars over cafés, commutes over conversations.\n\nThere is also a psychological dimension. When surrounded by strangers, humans tend to withdraw rather than engage. The social psychologist Stanley Milgram described this as 'urban overload' — the brain's protective response to excessive social stimulation. We shut down in order to cope.\n\nSome cities are beginning to take the problem seriously. Amsterdam has introduced 'loneliness benches' in parks — specially marked seats that signal to passers-by that the occupant welcomes conversation. Tokyo has established a Ministry of Loneliness. The United Kingdom appointed a Minister for Loneliness as far back as 2018.\n\nWhether policy interventions can truly address what is fundamentally a structural and cultural problem remains to be seen. But the acknowledgement that loneliness is a public health issue — not merely a personal failing — represents genuine progress.",
+    "words": [
+      { "en": "paradoxically", "tr": "çelişkili biçimde" },
+      { "en": "transient", "tr": "geçici / kalıcı olmayan" },
+      { "en": "stimulation", "tr": "uyarım / tahrik" },
+      { "en": "interventions", "tr": "müdahaleler" }
+    ],
+    "questions": [
+      {
+        "q": "What does the 'urban loneliness paradox' describe?",
+        "opts": [
+          "The fact that rural people are lonelier than city people",
+          "City dwellers feeling lonely despite being surrounded by many people",
+          "The difficulty of making friends online",
+          "The isolation caused by modern technology"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "According to Stanley Milgram, why do people withdraw in cities?",
+        "opts": [
+          "They are too busy to socialise",
+          "They do not trust strangers",
+          "The brain protects itself from excessive social stimulation",
+          "City people are naturally more introverted"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the purpose of 'loneliness benches' in Amsterdam?",
+        "opts": [
+          "To give homeless people a place to sit",
+          "To mark historic locations in the city",
+          "To signal that the person sitting welcomes conversation",
+          "To provide rest areas for elderly residents"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What does the writer suggest about loneliness at the end of the text?",
+        "opts": [
+          "It is entirely caused by social media",
+          "It is being recognised as a public health issue, which is progress",
+          "Policy alone can solve the problem",
+          "Only rural communities can escape loneliness"
+        ],
+        "ans": 1
+      }
+    ]
+  }
+]
