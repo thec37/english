@@ -9,10 +9,15 @@
 <style>
   .home-big-card.crossword {
     background: linear-gradient(140deg, rgba(240,113,103,0.09) 0%, var(--surface) 60%);
-    grid-column: 1 / -1;
   }
   .home-big-card.crossword:hover { border-color: var(--accent2); }
   .home-big-card.crossword .hbc-title { color: var(--accent2); }
+
+  .home-big-card.okuma {
+    background: linear-gradient(140deg, rgba(126,200,227,0.09) 0%, var(--surface) 60%);
+  }
+  .home-big-card.okuma:hover { border-color: var(--accent3); }
+  .home-big-card.okuma .hbc-title { color: var(--accent3); }
 </style>
 </head>
 <body>
@@ -46,6 +51,12 @@
       <span class="hbc-icon">🔤</span>
       <div class="hbc-title">Crossword</div>
       <div class="hbc-desc">Kelime bulmacası — ipucu Türkçe, cevap İngilizce</div>
+      <span class="hbc-arrow">→</span>
+    </div>
+    <div class="home-big-card okuma" onclick="location.href='reading.html'">
+      <span class="hbc-icon">📚</span>
+      <div class="hbc-title">Okuma</div>
+      <div class="hbc-desc">Hikaye ve makaleler — A1'den B2'ye anlama soruları</div>
       <span class="hbc-arrow">→</span>
     </div>
   </div>
