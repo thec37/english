@@ -472,6 +472,676 @@
           "Only rural communities can escape loneliness"
         ],
         "ans": 1
+      },
+  {
+    "id": "a1-01",
+    "level": "A1",
+    "type": "hikaye",
+    "title": "My Family",
+    "titleTr": "Ailem",
+    "topic": "Aile & Günlük Hayat",
+    "readTime": 3,
+    "text": "My name is Emma. I am twelve years old. I live in a small house with my family.\n\nMy father is a teacher. His name is David. He teaches math at a school near our house. He wakes up early every morning and drinks coffee before he goes to work.\n\nMy mother is a nurse. Her name is Sarah. She works at a hospital. She helps sick people every day. She is very kind and patient.\n\nI have one brother. His name is Tom. He is eight years old. Tom loves football. He plays football in the garden after school.\n\nWe also have a cat. Her name is Mia. She is white and small. Mia sleeps on the sofa all day. At night, she sits on my bed.\n\nOn weekends, we eat breakfast together. My mother makes eggs and toast. My father reads the newspaper. Tom and I watch cartoons. It is a happy time for our family.\n\nI love my family very much.",
+    "words": [
+      {"en": "family", "tr": "aile"},
+      {"en": "teacher", "tr": "öğretmen"},
+      {"en": "nurse", "tr": "hemşire"},
+      {"en": "hospital", "tr": "hastane"},
+      {"en": "patient", "tr": "sabırlı / hasta"},
+      {"en": "garden", "tr": "bahçe"},
+      {"en": "weekend", "tr": "hafta sonu"},
+      {"en": "newspaper", "tr": "gazete"}
+    ],
+    "questions": [
+      {
+        "q": "What does Emma's father do?",
+        "opts": ["He is a doctor.", "He is a teacher.", "He is a nurse.", "He is a driver."],
+        "ans": 1
+      },
+      {
+        "q": "What is the name of the family's cat?",
+        "opts": ["Luna", "Bella", "Mia", "Daisy"],
+        "ans": 2
+      },
+      {
+        "q": "How old is Tom?",
+        "opts": ["Six years old", "Ten years old", "Twelve years old", "Eight years old"],
+        "ans": 3
+      },
+      {
+        "q": "What does the family do on weekends?",
+        "opts": ["They go to the park.", "They eat breakfast together.", "They visit grandparents.", "They watch a movie."],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-02",
+    "level": "A1",
+    "type": "makale",
+    "title": "Colors Around Us",
+    "titleTr": "Etrafımızdaki Renkler",
+    "topic": "Renkler & Doğa",
+    "readTime": 2,
+    "text": "Colors are everywhere. We can see colors in the sky, in flowers, and in food.\n\nThe sky is blue during the day. At night, the sky is black. In the morning, the sky can be orange or pink. These colors are very beautiful.\n\nFlowers have many colors. Roses are red or pink. Sunflowers are yellow. Violets are purple. Trees have green leaves in summer. In autumn, the leaves become orange, red, and yellow.\n\nFood also has many colors. Apples are red or green. Bananas are yellow. Oranges are orange. Tomatoes are red. Grapes can be green or purple.\n\nColors can show feelings. Red means love or danger. Blue means calm. Yellow means happy. Green means nature.\n\nWhat is your favorite color?",
+    "words": [
+      {"en": "everywhere", "tr": "her yerde"},
+      {"en": "during", "tr": "boyunca, sırasında"},
+      {"en": "beautiful", "tr": "güzel"},
+      {"en": "autumn", "tr": "sonbahar"},
+      {"en": "leaves", "tr": "yapraklar"},
+      {"en": "feeling", "tr": "his, duygu"},
+      {"en": "calm", "tr": "sakin"},
+      {"en": "nature", "tr": "doğa"}
+    ],
+    "questions": [
+      {
+        "q": "What color is the sky at night?",
+        "opts": ["Blue", "Orange", "Black", "Pink"],
+        "ans": 2
+      },
+      {
+        "q": "What color are sunflowers?",
+        "opts": ["Red", "Purple", "Pink", "Yellow"],
+        "ans": 3
+      },
+      {
+        "q": "In the text, what does yellow mean?",
+        "opts": ["Danger", "Calm", "Happy", "Nature"],
+        "ans": 2
+      },
+      {
+        "q": "What color do tree leaves become in autumn?",
+        "opts": ["Green and blue", "Orange, red, and yellow", "White and grey", "Pink and purple"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-03",
+    "level": "A1",
+    "type": "hikaye",
+    "title": "A Day at the Market",
+    "titleTr": "Çarşıda Bir Gün",
+    "topic": "Alışveriş & Yiyecekler",
+    "readTime": 3,
+    "text": "Every Saturday, Ben and his mother go to the market. The market is near their house. They walk there.\n\nThe market has many things. There are vegetables, fruits, bread, and cheese. There are also flowers and clothes.\n\nBen's mother buys tomatoes, potatoes, and onions. She also buys apples and oranges. Ben carries the bag. The bag is heavy!\n\nBen sees a toy shop next to the market. He stops and looks at a red toy car. It is very nice. He asks his mother, \"Can I have this car?\" His mother looks at the price. She says, \"Not today, Ben. It is too expensive.\" Ben is a little sad.\n\nThen his mother buys him an ice cream. It is chocolate flavor. Ben smiles. He is happy again.\n\nThey walk home. Ben eats his ice cream slowly. It is a good day.",
+    "words": [
+      {"en": "market", "tr": "pazar, çarşı"},
+      {"en": "vegetable", "tr": "sebze"},
+      {"en": "onion", "tr": "soğan"},
+      {"en": "carry", "tr": "taşımak"},
+      {"en": "heavy", "tr": "ağır"},
+      {"en": "expensive", "tr": "pahalı"},
+      {"en": "flavor", "tr": "tat, çeşit"},
+      {"en": "slowly", "tr": "yavaşça"}
+    ],
+    "questions": [
+      {
+        "q": "When do Ben and his mother go to the market?",
+        "opts": ["Every Sunday", "Every Friday", "Every Saturday", "Every Monday"],
+        "ans": 2
+      },
+      {
+        "q": "Why doesn't Ben get the toy car?",
+        "opts": ["The shop is closed.", "His mother doesn't see it.", "It is too expensive.", "It is not nice."],
+        "ans": 2
+      },
+      {
+        "q": "What does his mother buy Ben instead?",
+        "opts": ["A toy", "A cookie", "Chocolate", "An ice cream"],
+        "ans": 3
+      },
+      {
+        "q": "How does Ben feel at the end?",
+        "opts": ["Angry", "Happy", "Sad", "Tired"],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-04",
+    "level": "A1",
+    "type": "makale",
+    "title": "Animals at Home",
+    "titleTr": "Evdeki Hayvanlar",
+    "topic": "Evcil Hayvanlar",
+    "readTime": 2,
+    "text": "Many people have animals at home. These animals are called pets. Pets are friendly animals that live with people.\n\nDogs are very popular pets. They are loyal and playful. Dogs like to walk and run. They eat meat and special dog food. A dog is often called \"man's best friend.\"\n\nCats are also very popular. Cats sleep a lot — sometimes sixteen hours a day! They are quiet and clean. Cats like fish and special cat food. They also like to play with small toys.\n\nFish are easy pets. They live in a glass bowl or a tank. Fish need clean water and special food. They are beautiful to watch.\n\nBirds can also be pets. Parrots are clever birds. Some parrots can talk! They repeat words and sounds.\n\nAll pets need food, water, and love. When you have a pet, you must take care of it every day.",
+    "words": [
+      {"en": "pet", "tr": "evcil hayvan"},
+      {"en": "loyal", "tr": "sadık"},
+      {"en": "playful", "tr": "oyuncu, neşeli"},
+      {"en": "quiet", "tr": "sessiz, sakin"},
+      {"en": "tank", "tr": "akvaryum, tank"},
+      {"en": "parrot", "tr": "papağan"},
+      {"en": "clever", "tr": "zeki, akıllı"},
+      {"en": "repeat", "tr": "tekrarlamak"}
+    ],
+    "questions": [
+      {
+        "q": "How many hours a day can cats sleep?",
+        "opts": ["Eight hours", "Ten hours", "Twelve hours", "Sixteen hours"],
+        "ans": 3
+      },
+      {
+        "q": "What makes parrots special?",
+        "opts": ["They are very big.", "Some can talk.", "They are the most popular pet.", "They can swim."],
+        "ans": 1
+      },
+      {
+        "q": "What do all pets need according to the text?",
+        "opts": ["A garden", "Food, water, and love", "A big house", "Other animals to play with"],
+        "ans": 1
+      },
+      {
+        "q": "What is a dog often called?",
+        "opts": ["The best animal", "A loyal friend", "Man's best friend", "A playful pet"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a2-01",
+    "level": "A2",
+    "type": "hikaye",
+    "title": "The Lost Backpack",
+    "titleTr": "Kayıp Sırt Çantası",
+    "topic": "Okul & Arkadaşlık",
+    "readTime": 4,
+    "text": "It was a normal Tuesday morning. Jake put on his shoes, took his lunch box, and ran to school. But when he arrived in class, he noticed something was wrong. His backpack was not there.\n\nJake checked under his desk and behind his chair. Nothing. He checked his locker in the corridor. Still nothing. His heart sank. Inside the backpack were his homework, his pencil case, and — most importantly — his favorite book.\n\nHe told his teacher, Mr. Collins. Mr. Collins made an announcement over the school speaker: \"If anyone finds a blue backpack with a soccer ball keychain, please bring it to Room 14.\"\n\nAt lunch, Jake sat quietly and didn't eat much. His friend Lily sat next to him. \"Don't worry,\" she said. \"Somebody will find it.\"\n\nAfter lunch, there was a knock on the classroom door. A younger student, maybe nine years old, stood at the door holding Jake's blue backpack. \"I found this in the gym,\" the boy said. \"I think it's yours.\"\n\nJake jumped up. He opened the bag — everything was there. The homework, the pencil case, and the book. He smiled widely and said thank you to the boy.\n\nAt the end of the day, Jake gave the boy a chocolate bar as a thank you. \"You're very honest,\" Jake told him. The boy smiled and ran back to his class.",
+    "words": [
+      {"en": "notice", "tr": "fark etmek"},
+      {"en": "locker", "tr": "dolap, kiler"},
+      {"en": "corridor", "tr": "koridor"},
+      {"en": "announcement", "tr": "duyuru"},
+      {"en": "keychain", "tr": "anahtarlık"},
+      {"en": "quietly", "tr": "sessizce"},
+      {"en": "honest", "tr": "dürüst"},
+      {"en": "widely", "tr": "geniş biçimde, iyice"}
+    ],
+    "questions": [
+      {
+        "q": "Where did Jake look for his backpack first?",
+        "opts": ["In the gym", "Under his desk and in his locker", "In the cafeteria", "At the school entrance"],
+        "ans": 1
+      },
+      {
+        "q": "What was the most important thing inside the backpack for Jake?",
+        "opts": ["His lunch box", "His pencil case", "His homework", "His favorite book"],
+        "ans": 3
+      },
+      {
+        "q": "How did Mr. Collins try to help?",
+        "opts": ["He searched every classroom.", "He called Jake's parents.", "He made an announcement over the speaker.", "He checked the lost-and-found box."],
+        "ans": 2
+      },
+      {
+        "q": "What did Jake give the younger boy as a thank you?",
+        "opts": ["A book", "A keychain", "A chocolate bar", "Some money"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a2-02",
+    "level": "A2",
+    "type": "makale",
+    "title": "Why Do We Dream?",
+    "titleTr": "Neden Rüya Görürüz?",
+    "topic": "Bilim & İnsan Vücudu",
+    "readTime": 3,
+    "text": "Almost everyone dreams. But why do we dream? Scientists are still not completely sure, but they have some interesting ideas.\n\nWhen we sleep, our brain does not stop working. In fact, during a part of sleep called REM (Rapid Eye Movement), our brain is almost as active as when we are awake. This is when most dreams happen.\n\nSome scientists think that dreams help us process our feelings. If something made you angry or worried during the day, you might dream about it at night. Your brain is trying to understand and organize those feelings.\n\nOther scientists believe that dreams help us practice for the future. In dreams, we sometimes face difficult situations. This might help our brain prepare for real challenges.\n\nDreams can be happy, scary, or very strange. Many people dream about flying, falling, or being in a place they don't recognize. These are called \"common dreams\" because so many people have them.\n\nMost people dream for about two hours every night. However, we usually forget most of our dreams shortly after we wake up. If you want to remember your dreams, try writing them down immediately after waking.\n\nDreaming is a natural and important part of sleep. Even animals dream — scientists have seen dogs and cats moving their legs while sleeping, probably because they are dreaming!",
+    "words": [
+      {"en": "process", "tr": "işlemek, anlamlandırmak"},
+      {"en": "organize", "tr": "düzenlemek"},
+      {"en": "challenge", "tr": "zorluk, meydan okuma"},
+      {"en": "recognize", "tr": "tanımak, fark etmek"},
+      {"en": "common", "tr": "yaygın, ortak"},
+      {"en": "immediately", "tr": "hemen"},
+      {"en": "natural", "tr": "doğal"},
+      {"en": "active", "tr": "aktif, hareketli"}
+    ],
+    "questions": [
+      {
+        "q": "What is REM sleep?",
+        "opts": ["A type of daydream", "A stage of sleep when most dreams happen", "Deep sleep with no brain activity", "A sleeping problem"],
+        "ans": 1
+      },
+      {
+        "q": "According to the text, why might you dream about something that made you angry?",
+        "opts": ["Because your body is too hot", "Because your brain is trying to process your feelings", "Because you are not sleeping well", "Because you ate something strange"],
+        "ans": 1
+      },
+      {
+        "q": "What does the text suggest to help remember your dreams?",
+        "opts": ["Sleep more hours", "Write them down immediately after waking", "Drink water before bed", "Listen to calm music"],
+        "ans": 1
+      },
+      {
+        "q": "How do we know that animals also dream?",
+        "opts": ["They make sounds when they sleep.", "Scientists have done brain scans.", "They sometimes move their legs while sleeping.", "They wake up suddenly at night."],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a2-03",
+    "level": "A2",
+    "type": "hikaye",
+    "title": "The New Neighbor",
+    "titleTr": "Yeni Komşu",
+    "topic": "Kültür & İletişim",
+    "readTime": 4,
+    "text": "On a warm September afternoon, a big moving truck stopped in front of the empty house across the street. Sophie watched from her window with curiosity.\n\nA family got out of a car behind the truck. There was a mother, a father, and a girl who looked about Sophie's age. The girl had dark, curly hair and wore a bright yellow jacket. She looked around nervously at the new neighborhood.\n\nSophie wanted to say hello, but she felt shy. \"What if she doesn't like me?\" she thought. She watched all afternoon as the family carried boxes into the house.\n\nThe next morning, Sophie saw the girl sitting alone on the front steps. She was reading a book. Sophie took a deep breath, picked up two glasses of lemonade from the kitchen, and walked across the street.\n\n\"Hi, I'm Sophie. I live over there,\" she said, pointing to her house. \"I made some lemonade. Do you want some?\"\n\nThe girl looked up and smiled. \"Yes, please! I'm Amara. We just moved from Brazil.\"\n\nThey sat on the steps and talked for over an hour. Amara told Sophie about her old city, her school, and her love of football. Sophie told Amara about the neighborhood — the best park, the ice cream shop, and the friendly librarian.\n\nBy the end of the afternoon, they were already making plans for the weekend. Sophie felt happy. She had a new friend, and it was easier than she expected.",
+    "words": [
+      {"en": "curiosity", "tr": "merak"},
+      {"en": "nervously", "tr": "gergin bir şekilde"},
+      {"en": "neighborhood", "tr": "mahalle, komşuluk"},
+      {"en": "shy", "tr": "utangaç"},
+      {"en": "lemonade", "tr": "limonata"},
+      {"en": "pointing", "tr": "işaret ederek"},
+      {"en": "librarian", "tr": "kütüphaneci"},
+      {"en": "expected", "tr": "beklenilen, umulan"}
+    ],
+    "questions": [
+      {
+        "q": "Why didn't Sophie say hello to Amara immediately?",
+        "opts": ["She was busy with homework.", "She felt shy and worried.", "Her mother said she couldn't.", "Amara didn't look friendly."],
+        "ans": 1
+      },
+      {
+        "q": "What did Sophie bring when she went to talk to Amara?",
+        "opts": ["A book", "Two glasses of lemonade", "Cookies", "A football"],
+        "ans": 1
+      },
+      {
+        "q": "Where did Amara's family move from?",
+        "opts": ["Spain", "Argentina", "Portugal", "Brazil"],
+        "ans": 3
+      },
+      {
+        "q": "What did Sophie tell Amara about?",
+        "opts": ["Her school subjects", "Her family history", "The neighborhood — parks, shops, and the library", "How to make lemonade"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "a2-04",
+    "level": "A2",
+    "type": "makale",
+    "title": "The Ocean: Earth's Largest Habitat",
+    "titleTr": "Okyanus: Dünyanın En Büyük Yaşam Alanı",
+    "topic": "Doğa & Çevre",
+    "readTime": 3,
+    "text": "The ocean covers more than 70% of the Earth's surface. It is the largest habitat on our planet and is home to millions of different plants and animals.\n\nThe ocean is divided into several parts. The Pacific Ocean is the largest and the deepest. The Atlantic Ocean is the second largest. There is also the Indian Ocean, the Arctic Ocean, and the Southern Ocean.\n\nThe ocean has different zones. Near the surface, there is plenty of sunlight. Many fish, dolphins, and sea turtles live here. The deeper you go, the darker and colder it becomes. In the very deep parts, called the \"deep sea,\" there is no sunlight at all. Strangely, many unusual creatures live there, such as the anglerfish, which creates its own light.\n\nThe ocean is very important for life on Earth. It produces more than half of the world's oxygen. It also controls the climate — ocean currents carry warm or cool water around the world, which affects the weather in many countries.\n\nUnfortunately, the ocean is in danger. Plastic pollution is a serious problem. Every year, millions of tonnes of plastic enter the sea. Animals can eat this plastic and die. Many countries are now working to reduce plastic waste and clean up the ocean.\n\nWe all depend on the ocean for food, air, and climate. Protecting it is one of the most important jobs we have.",
+    "words": [
+      {"en": "habitat", "tr": "yaşam alanı"},
+      {"en": "surface", "tr": "yüzey"},
+      {"en": "zone", "tr": "bölge, alan"},
+      {"en": "current", "tr": "akıntı / güncel"},
+      {"en": "creature", "tr": "yaratık, canlı"},
+      {"en": "pollution", "tr": "kirlilik"},
+      {"en": "reduce", "tr": "azaltmak"},
+      {"en": "depend on", "tr": "bağımlı olmak, güvenmek"}
+    ],
+    "questions": [
+      {
+        "q": "How much of Earth's surface does the ocean cover?",
+        "opts": ["More than 50%", "Exactly 60%", "More than 70%", "About 80%"],
+        "ans": 2
+      },
+      {
+        "q": "What is special about the anglerfish?",
+        "opts": ["It lives near the surface.", "It creates its own light.", "It is the largest fish in the sea.", "It can live outside water."],
+        "ans": 1
+      },
+      {
+        "q": "According to the text, what does the ocean produce?",
+        "opts": ["Most of the world's food", "More than half of the world's oxygen", "Fresh drinking water", "All of the world's rain"],
+        "ans": 1
+      },
+      {
+        "q": "Why is plastic pollution dangerous for ocean animals?",
+        "opts": ["It makes the water too cold.", "It blocks sunlight from reaching them.", "Animals can eat it and die.", "It makes the water too salty."],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b1-01",
+    "level": "B1",
+    "type": "hikaye",
+    "title": "The Interview",
+    "titleTr": "Mülakat",
+    "topic": "İş Hayatı & Kariyer",
+    "readTime": 5,
+    "text": "Maria had been unemployed for four months. She had sent out dozens of applications, attended three interviews, and received nothing but polite rejection emails. So when the phone rang on a Thursday morning and a cheerful voice said, \"We'd love to invite you for a final interview at Greenfield Publishing,\" she nearly dropped her coffee mug.\n\nThe interview was the following Monday. Maria spent the entire weekend preparing. She researched the company, rehearsed her answers in front of the mirror, and chose her outfit carefully. Her older sister called to wish her luck. \"Just be yourself,\" her sister advised. \"They already like you enough to invite you back.\"\n\nOn Monday morning, Maria arrived fifteen minutes early. The receptionist offered her a glass of water and pointed to a set of chairs in the waiting area. Three other candidates were already sitting there, each of them looking calm and confident. Maria felt her heart rate increase.\n\nWhen her name was called, she walked into a bright office where two people were waiting — a woman named Dr. Ellis and a younger man named James, who turned out to be the head of the editorial team.\n\nThe questions were harder than she expected. They asked her to analyse a sample article, suggest improvements, and explain her editorial philosophy. But Maria had prepared well. She answered clearly, asked her own questions, and even made Dr. Ellis laugh with a story about a terrible grammar mistake she once made at university.\n\nAs she rode the bus home, she replayed the interview in her mind. She thought she had done well, but she had thought that before. She decided not to overthink it and cooked herself a proper dinner for the first time in weeks.\n\nFour days later, the phone rang again.",
+    "words": [
+      {"en": "unemployed", "tr": "işsiz"},
+      {"en": "rejection", "tr": "ret, reddedilme"},
+      {"en": "rehearse", "tr": "prova yapmak, tekrarlamak"},
+      {"en": "candidate", "tr": "aday"},
+      {"en": "editorial", "tr": "yayın, editöryal"},
+      {"en": "philosophy", "tr": "felsefe, yaklaşım"},
+      {"en": "analyse", "tr": "analiz etmek"},
+      {"en": "overthink", "tr": "aşırı düşünmek"}
+    ],
+    "questions": [
+      {
+        "q": "How long had Maria been looking for a job?",
+        "opts": ["Two months", "Four months", "Six months", "One year"],
+        "ans": 1
+      },
+      {
+        "q": "What advice did Maria's sister give her?",
+        "opts": ["\"Dress very formally.\"", "\"Arrive early and be confident.\"", "\"Just be yourself.\"", "\"Research the company thoroughly.\""],
+        "ans": 2
+      },
+      {
+        "q": "What task were candidates asked to do during the interview?",
+        "opts": ["Write a short article on the spot", "Analyse a sample article and suggest improvements", "Present a prepared speech", "Take a grammar exam"],
+        "ans": 1
+      },
+      {
+        "q": "What does the ending of the story suggest?",
+        "opts": ["Maria got the job.", "Maria decided to give up job hunting.", "The company never called back.", "Maria had another interview the same week."],
+        "ans": 0
+      }
+    ]
+  },
+  {
+    "id": "b1-02",
+    "level": "B1",
+    "type": "makale",
+    "title": "The Psychology of Habits",
+    "titleTr": "Alışkanlıkların Psikolojisi",
+    "topic": "Psikoloji & Kişisel Gelişim",
+    "readTime": 5,
+    "text": "Every day, we perform hundreds of actions without thinking: brushing our teeth, checking our phone, making coffee, choosing the same route to work. These automatic behaviours are called habits, and they play a far greater role in our lives than most of us realise.\n\nScientists have discovered that habits form through a process known as the \"habit loop.\" This loop has three parts: a cue, a routine, and a reward. The cue is a signal that triggers the behaviour — it could be a time of day, a location, a feeling, or even a specific person. The routine is the behaviour itself. The reward is what your brain receives at the end, which reinforces the loop and makes it more likely to repeat.\n\nFor example, many people feel stressed at work (cue) and walk to the vending machine (routine) to eat a chocolate bar (reward). Over time, this connection becomes automatic. Changing a habit is difficult because the cue and reward remain, but the routine can be replaced. Experts suggest keeping the same cue and reward but substituting a healthier routine — such as taking a short walk instead of visiting the vending machine.\n\nForming a new habit takes time. A popular belief says it takes 21 days, but research from University College London suggests the real average is closer to 66 days — and the range varies widely from person to person, from 18 days to over 250 days.\n\nUnderstanding the habit loop can also help us design better environments. If you want to read more, leave a book on your pillow. If you want to eat less junk food, don't buy it. The easier a behaviour is to start, the more likely it is to become a habit.\n\nOur habits are not our destiny, but they shape it more than we think.",
+    "words": [
+      {"en": "automatic", "tr": "otomatik, kendiliğinden"},
+      {"en": "trigger", "tr": "tetiklemek"},
+      {"en": "reinforce", "tr": "pekiştirmek, güçlendirmek"},
+      {"en": "substitute", "tr": "değiştirmek, ikame etmek"},
+      {"en": "vending machine", "tr": "otomatik satış makinesi"},
+      {"en": "range", "tr": "aralık, yelpaze"},
+      {"en": "destiny", "tr": "kader"},
+      {"en": "vary", "tr": "değişmek, farklılık göstermek"}
+    ],
+    "questions": [
+      {
+        "q": "What are the three parts of the 'habit loop'?",
+        "opts": ["Start, middle, end", "Cue, routine, reward", "Feeling, action, result", "Goal, effort, success"],
+        "ans": 1
+      },
+      {
+        "q": "According to the text, how can you change a bad habit effectively?",
+        "opts": ["Completely remove the cue and reward", "Replace the routine while keeping the cue and reward the same", "Force yourself to stop the behaviour immediately", "Avoid all situations that trigger the habit"],
+        "ans": 1
+      },
+      {
+        "q": "What does the UCL research say about forming a new habit?",
+        "opts": ["It always takes exactly 21 days.", "It takes an average of 66 days, but varies a lot.", "It is impossible after the age of 30.", "It depends only on intelligence."],
+        "ans": 1
+      },
+      {
+        "q": "What does the author suggest about environment design?",
+        "opts": ["You should avoid making any changes to your surroundings.", "Making a behaviour easy to start helps it become a habit.", "Habits only form in familiar environments.", "The best habits are formed at work, not at home."],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "b1-03",
+    "level": "B1",
+    "type": "hikaye",
+    "title": "Last Train to Kingsbridge",
+    "titleTr": "Kingsbridge'e Son Tren",
+    "topic": "Seyahat & Macera",
+    "readTime": 5,
+    "text": "The departure board said 22:47. Daniel checked his watch: 22:44. He had three minutes. He ran.\n\nThe station at Waterloo was unusually quiet for a Friday night. His footsteps echoed across the marble floor as he rushed past the coffee kiosk and the shuttered newspaper stand. Platform 12. He could see the green light at the end of the tunnel, but the doors of the last carriage were already beginning to close.\n\n\"Wait!\" he shouted, though he knew no one was listening.\n\nThe doors shut. The train moved. Daniel stood at the edge of the platform, slightly out of breath, watching the red tail lights disappear into the darkness.\n\nHe sat down on a metal bench and stared at his phone. There were no more trains to Kingsbridge that night. The next one was at 06:15 in the morning. He had seven and a half hours.\n\nHe considered his options. A taxi would cost somewhere between seventy and ninety pounds — money he didn't really have. He could call his friend Amir, but Amir lived in the opposite direction and had work at six. He could find a cheap hotel, but he'd need to be up at five.\n\nOr he could just wait.\n\nHe bought a coffee from a vending machine — it tasted like warm cardboard — and settled into the bench with his jacket pulled tight. A cleaner with a mop passed by without looking at him. An elderly woman sat down nearby, placed a neat handbag on her lap, and opened a thick novel without saying a word.\n\nBy midnight, Daniel had written three unanswered text messages, read an entire Wikipedia article on the history of locomotive engineering, and decided that missing the last train was, in some strange way, the most peaceful thing that had happened to him all week.",
+    "words": [
+      {"en": "departure", "tr": "kalkış, ayrılış"},
+      {"en": "echoed", "tr": "yankılandı"},
+      {"en": "shuttered", "tr": "kapalı, kepengi indirilmiş"},
+      {"en": "carriage", "tr": "vagon"},
+      {"en": "tail lights", "tr": "arka farlar"},
+      {"en": "locomotive", "tr": "lokomotif"},
+      {"en": "settled into", "tr": "yerleşmek, oturmak"},
+      {"en": "unanswered", "tr": "cevapsız"}
+    ],
+    "questions": [
+      {
+        "q": "Why did Daniel miss the train?",
+        "opts": ["He was on the wrong platform.", "He arrived at 22:47, one minute too late.", "He arrived at 22:44 but the doors had already closed.", "He stopped to buy a coffee."],
+        "ans": 2
+      },
+      {
+        "q": "Why didn't Daniel take a taxi?",
+        "opts": ["There were no taxis available.", "It was too expensive for him.", "His destination was too far.", "He was afraid of taxis at night."],
+        "ans": 1
+      },
+      {
+        "q": "What did the coffee from the vending machine taste like?",
+        "opts": ["Very strong and bitter", "Warm cardboard", "Surprisingly good", "Cold and sweet"],
+        "ans": 1
+      },
+      {
+        "q": "How did Daniel feel about missing the train by the end of the story?",
+        "opts": ["Furious and frustrated", "Anxious and worried", "Strangely peaceful", "Embarrassed and ashamed"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b1-04",
+    "level": "B1",
+    "type": "makale",
+    "title": "Why Cities Are Getting Hotter",
+    "titleTr": "Şehirler Neden Giderek Daha Sıcak Oluyor",
+    "topic": "Çevre & Şehircilik",
+    "readTime": 4,
+    "text": "If you have ever noticed that cities feel significantly hotter than the surrounding countryside, you are not imagining it. This phenomenon has a name: the Urban Heat Island (UHI) effect.\n\nThe causes are well understood. Cities are full of materials — concrete, asphalt, and glass — that absorb heat during the day and release it slowly at night. In contrast, natural landscapes such as forests and fields reflect more sunlight and release water vapour through plants, which cools the surrounding air. Cities also generate enormous amounts of heat through cars, air conditioners, and industry.\n\nThe consequences can be serious. During heatwaves, urban temperatures can be 5 to 10 degrees Celsius higher than in nearby rural areas. This increases the risk of heat-related illness and death, particularly for elderly people and those who cannot afford air conditioning. Energy demand also spikes, putting pressure on electricity grids.\n\nThe good news is that there are practical solutions. Urban planners are increasingly designing cities with more green spaces — parks, urban forests, and green rooftops. Trees provide shade, reduce temperatures, and improve air quality. Some cities, such as Singapore and Melbourne, have set ambitious targets for tree planting in recent years.\n\nAnother approach is the use of cool pavements and cool roofs, which are treated with special materials that reflect sunlight rather than absorbing it. These materials can reduce surface temperatures by up to 30 degrees Celsius in direct sunlight.\n\nAs climate change continues to push global temperatures higher, finding ways to cool our cities is becoming an urgent priority. The solutions exist; the challenge is implementing them at scale.",
+    "words": [
+      {"en": "phenomenon", "tr": "fenomen, olay"},
+      {"en": "absorb", "tr": "emmek, absorbe etmek"},
+      {"en": "vapour", "tr": "buhar"},
+      {"en": "heatwave", "tr": "sıcak hava dalgası"},
+      {"en": "rural", "tr": "kırsal"},
+      {"en": "spike", "tr": "aniden artmak"},
+      {"en": "ambitious", "tr": "hırslı, iddialı"},
+      {"en": "implement", "tr": "uygulamak, hayata geçirmek"}
+    ],
+    "questions": [
+      {
+        "q": "What is the main cause of the Urban Heat Island effect?",
+        "opts": ["Too many people living in cities", "Materials like concrete and asphalt that absorb and store heat", "More sunlight reaching cities due to fewer clouds", "Global warming affecting only urban areas"],
+        "ans": 1
+      },
+      {
+        "q": "Who is most at risk during urban heatwaves, according to the text?",
+        "opts": ["Young children and athletes", "Office workers and drivers", "Elderly people and those without air conditioning", "Construction workers and gardeners"],
+        "ans": 2
+      },
+      {
+        "q": "How do cool pavements and cool roofs help?",
+        "opts": ["They absorb more heat and release it underground.", "They reflect sunlight instead of absorbing it.", "They produce cold air through chemical reactions.", "They create shade for people below."],
+        "ans": 1
+      },
+      {
+        "q": "What does the author suggest is the main challenge in solving the UHI problem?",
+        "opts": ["Finding the right technology", "Getting governments to agree", "Implementing solutions at scale", "Educating the public about the problem"],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b2-01",
+    "level": "B2",
+    "type": "makale",
+    "title": "The Paradox of Choice",
+    "titleTr": "Seçim Paradoksu",
+    "topic": "Psikoloji & Modern Yaşam",
+    "readTime": 6,
+    "text": "Walk into any modern supermarket and you will find, on average, over 40,000 different products. Dating apps offer thousands of potential partners. Streaming platforms host millions of films and series. Career counsellors advise young people to \"follow their passion\" — implying that somewhere among the vast landscape of human endeavour, there is a perfect vocation waiting to be discovered. The assumption underlying all of this is simple: more choice is better.\n\nPsychologist Barry Schwartz, in his influential book The Paradox of Choice, argues the opposite. He contends that an abundance of options, far from liberating us, actually increases anxiety, reduces satisfaction, and frequently leads to worse decisions.\n\nHis central evidence comes from a now-famous jam study conducted by psychologists Iyengar and Lepper. When a supermarket display offered 24 varieties of jam, it attracted more browsers than a display with only six options. But the smaller display led to ten times as many purchases. Faced with too many options, people experienced what researchers call \"choice overload\" — a kind of cognitive paralysis that makes it easier to make no decision at all.\n\nEven when we do make a choice from a large set, we tend to be less satisfied. This is partly due to what Schwartz calls the \"opportunity cost\" of choosing: the more alternatives there are, the more appealing the rejected options seem in retrospect. A person who chose one of three holiday destinations might be perfectly happy. The same person choosing from thirty destinations is more likely to wonder whether they made the right call.\n\nThere is also the role of rising expectations. When options are plentiful, we expect to find something perfect. If our chosen option falls short of perfect — as nearly everything does — we attribute the failure to ourselves rather than to the inherent limitations of reality. In a world with only three cereals, a mediocre breakfast is just bad luck. In a world with three hundred cereals, it feels like a personal failure.\n\nThe implications extend well beyond shopping. The proliferation of choice in careers, relationships, and lifestyles may be contributing to rising levels of anxiety and dissatisfaction in affluent societies — not despite their abundance, but because of it.\n\nThe solution, Schwartz suggests, is not to eliminate choice but to become what he calls a \"satisficer\" rather than a \"maximiser.\" A satisficer sets reasonable criteria and picks the first option that meets them. A maximiser searches exhaustively for the absolute best. Paradoxically, the satisficer tends to end up happier.",
+    "words": [
+      {"en": "paradox", "tr": "paradoks, çelişki"},
+      {"en": "abundance", "tr": "bolluk, çokluk"},
+      {"en": "paralysis", "tr": "felç, çaresizlik"},
+      {"en": "retrospect", "tr": "geriye dönük bakış"},
+      {"en": "attribute to", "tr": "...e bağlamak, ...e atfetmek"},
+      {"en": "proliferation", "tr": "çoğalma, yayılma"},
+      {"en": "affluent", "tr": "varlıklı, zengin"},
+      {"en": "exhaustively", "tr": "kapsamlı biçimde, sonuna kadar"}
+    ],
+    "questions": [
+      {
+        "q": "What was the key finding of the jam study?",
+        "opts": ["People prefer expensive jams over cheap ones.", "More variety always leads to more purchases.", "A smaller selection led to far more actual purchases.", "Shoppers spent more time choosing when there were fewer options."],
+        "ans": 2
+      },
+      {
+        "q": "Why do people feel less satisfied when choosing from a large set of options?",
+        "opts": ["They choose too quickly and regret it.", "Rejected options seem more appealing in retrospect.", "Large sets usually contain lower-quality items.", "They feel pressure from other people's opinions."],
+        "ans": 1
+      },
+      {
+        "q": "According to Schwartz, what happens when expectations are high and the chosen option is imperfect?",
+        "opts": ["People blame the available options.", "People try a different option immediately.", "People attribute the failure to themselves.", "People stop making choices altogether."],
+        "ans": 2
+      },
+      {
+        "q": "What is the difference between a 'satisficer' and a 'maximiser'?",
+        "opts": ["A satisficer spends more money; a maximiser saves money.", "A satisficer picks the first option that meets their criteria; a maximiser seeks the absolute best.", "A satisficer is indecisive; a maximiser is confident.", "A satisficer prefers fewer choices; a maximiser prefers many."],
+        "ans": 1
+      }
+    ]
+  },
+  {
+    "id": "b2-02",
+    "level": "B2",
+    "type": "hikaye",
+    "title": "The Cartographer's Daughter",
+    "titleTr": "Haritacının Kızı",
+    "topic": "Tarih & Kimlik",
+    "readTime": 6,
+    "text": "My father drew maps for a living, and I grew up believing that the world was something you could reduce to lines. He would spread enormous sheets of paper across the kitchen table — the table where we ate dinner, where my mother paid bills, where I did my homework — and with a steadiness of hand I have never inherited, trace coastlines, mark elevations, shade political boundaries in soft pencil.\n\n\"Maps are honest,\" he told me once, when I was perhaps nine. \"They show you exactly what is there.\" I nodded, because I believed him then.\n\nI was twenty-three when I went to work for a humanitarian organisation in a country that had recently emerged from a long and complicated civil war. My job, ironically, was to update the maps — to correct the records that showed roads where there were now none, towns that had been renamed, borders that had shifted or hardened in ways that official cartography had not yet acknowledged.\n\nWhat I found was that maps were not honest. Or rather, they were honest about whoever had drawn them. The colonial-era maps showed a landscape carved into geometric territories that paid no attention to the people who actually lived there — their kinship networks, their seasonal migration routes, their sacred sites. Later maps, drawn by post-independence governments, imposed new national narratives onto the same physical terrain. Neither version told the full story.\n\nI spent eighteen months in that country. I learned some of the language. I learned, slowly, that the landscape held layers of meaning that no flat projection could contain — that a single hillside might be simultaneously a military stronghold, a grazing pasture, an ancestral burial ground, and a source of a particular medicinal plant used only by women in one specific village.\n\nWhen I came home, my father asked what I had learned. I told him that maps were honest, but only partially. He was quiet for a moment, then nodded slowly. \"That's what I always believed,\" he said. \"I just never knew how to put it into words.\"",
+    "words": [
+      {"en": "cartographer", "tr": "haritacı"},
+      {"en": "elevation", "tr": "yükseklik, rakım"},
+      {"en": "humanitarian", "tr": "insani yardım amaçlı"},
+      {"en": "acknowledge", "tr": "kabul etmek, tanımak"},
+      {"en": "kinship", "tr": "akrabalık, aidiyet"},
+      {"en": "terrain", "tr": "arazi, toprak"},
+      {"en": "ancestral", "tr": "atadan kalma, atalarla ilgili"},
+      {"en": "projection", "tr": "projeksiyon, harita izdüşümü"}
+    ],
+    "questions": [
+      {
+        "q": "What was the narrator's father's view of maps when the narrator was a child?",
+        "opts": ["He thought maps were political tools.", "He believed maps were completely honest.", "He saw maps as works of art.", "He distrusted maps made by governments."],
+        "ans": 1
+      },
+      {
+        "q": "What did the narrator discover about the colonial-era maps?",
+        "opts": ["They were highly accurate but outdated.", "They reflected the perspective of those who drew them, ignoring local realities.", "They showed more detail than modern maps.", "They were drawn by local communities."],
+        "ans": 1
+      },
+      {
+        "q": "What does the example of the hillside illustrate?",
+        "opts": ["That maps cannot show enough geographic detail.", "That landscapes hold multiple, layered meanings that maps cannot capture.", "That military use of land is always hidden from maps.", "That local languages are essential for understanding maps."],
+        "ans": 1
+      },
+      {
+        "q": "How does the narrator's view of maps change by the end of the story?",
+        "opts": ["She completely rejects her father's view.", "She concludes that maps are useless.", "She reaches a more nuanced view: maps are honest but only partially.", "She decides to become a cartographer like her father."],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b2-03",
+    "level": "B2",
+    "type": "makale",
+    "title": "Rewilding: Letting Nature Reclaim Itself",
+    "titleTr": "Doğaya Geri Dönüş: Doğanın Kendini Yeniden Keşfetmesi",
+    "topic": "Çevre & Ekoloji",
+    "readTime": 6,
+    "text": "For most of human history, our relationship with the natural world has been defined by control — clearing forests, draining wetlands, erecting fences, and systematically removing predators that threatened livestock. The result is a world that is, in ecological terms, significantly impoverished. In Europe alone, it is estimated that 70% of animal populations have declined since 1970.\n\nRewilding is a conservation philosophy that inverts this logic. Rather than managing nature intensively, it proposes allowing — and in some cases actively facilitating — natural processes to restore themselves. Its most dramatic expression involves reintroducing apex predators to ecosystems from which they were eliminated.\n\nThe most celebrated example comes from Yellowstone National Park in the United States. When wolves were reintroduced in 1995 after a 70-year absence, the effects were far more complex than anyone anticipated. The wolves reduced the elk population, which had been overgrazing riverbanks. With the pressure lifted, riverbank vegetation began to recover. The recovering vegetation stabilised the river channels, reduced erosion, and created habitat for beavers, birds, and fish. This chain of indirect ecological effects — in which a top predator restructures an entire ecosystem — is known as a \"trophic cascade.\"\n\nIn Europe, rewilding projects have attempted to reintroduce beavers, lynx, bison, and, in a few cases, wolves. The results have been broadly positive for biodiversity, though the projects have not been without controversy. Farmers in the vicinity of wolf and lynx territories report livestock losses and express concerns about personal safety — concerns that, while sometimes statistically overstated, are understandable given the cultural and economic stakes involved.\n\nRewilding also raises uncomfortable questions about human agency. Who decides which species belong in a given ecosystem? How should we balance the interests of rural communities against the interests of biodiversity? And is it even possible to return to a \"natural\" state in a world shaped by thousands of years of human activity?\n\nProponents argue that these questions, while legitimate, should not paralyse action. The biodiversity crisis is urgent. Rewilding does not require perfection; it requires the humility to acknowledge that in many cases, nature — given the space and time — can do a better job of managing itself than we can.",
+    "words": [
+      {"en": "rewilding", "tr": "doğaya bırakma, yeniden doğallaştırma"},
+      {"en": "apex predator", "tr": "tepe yırtıcısı, zincirin en üstündeki yırtıcı"},
+      {"en": "trophic cascade", "tr": "trofik basamak etkisi"},
+      {"en": "erosion", "tr": "erozyon, aşınma"},
+      {"en": "biodiversity", "tr": "biyoçeşitlilik"},
+      {"en": "controversy", "tr": "tartışma, anlaşmazlık"},
+      {"en": "vicinity", "tr": "çevre, yakın bölge"},
+      {"en": "proponent", "tr": "savunucu, destekçi"}
+    ],
+    "questions": [
+      {
+        "q": "What does the Yellowstone wolf reintroduction demonstrate?",
+        "opts": ["That apex predators are dangerous and should be controlled.", "That predator reintroduction only affects prey populations.", "That top predators can restructure entire ecosystems through indirect effects.", "That rewilding is only possible in large national parks."],
+        "ans": 2
+      },
+      {
+        "q": "Why do some farmers oppose rewilding projects involving wolves and lynx?",
+        "opts": ["They believe it will increase tourism and disrupt their land.", "They report livestock losses and safety concerns.", "They disagree with the scientific evidence for trophic cascades.", "They prefer government subsidies to ecological restoration."],
+        "ans": 1
+      },
+      {
+        "q": "What ethical dilemma does rewilding raise, according to the article?",
+        "opts": ["Whether animals have rights equal to humans.", "Who decides which species belong in an ecosystem and how to balance competing interests.", "Whether it is morally acceptable to remove humans from rural areas.", "How to compensate farmers for land used in rewilding projects."],
+        "ans": 1
+      },
+      {
+        "q": "What is the author's overall position on rewilding?",
+        "opts": ["Strongly opposed due to the risks to farming communities.", "Neutral — presenting both sides without a clear stance.", "Broadly supportive, arguing that the urgency of biodiversity loss justifies action despite imperfections.", "Critical of rewilding as an impractical idealistic concept."],
+        "ans": 2
+      }
+    ]
+  },
+  {
+    "id": "b2-04",
+    "level": "B2",
+    "type": "hikaye",
+    "title": "What the Silence Contained",
+    "titleTr": "Sessizliğin İçindekiler",
+    "topic": "İnsan İlişkileri & Anlayış",
+    "readTime": 5,
+    "text": "They had not spoken properly in three years. Not about anything that mattered.\n\nEvery Sunday, Clara drove to her mother's house in the village — forty minutes on the motorway and then ten along a road that curved through fields. She brought bread, sometimes flowers, occasionally a bottle of wine her mother would not drink. Her mother made tea. They sat at the kitchen table and talked about the weather, about Clara's colleague who was getting married, about the leak in the bathroom that had been repaired six months ago and was apparently still worth mentioning.\n\nThe silence around the real things — her father's death, the money dispute, the things said in grief that neither of them had taken back — was not hostile. It was, Clara had decided, structural. It held the rest of the conversation up, the way a wall holds up a roof. Remove it, and everything collapses.\n\nOn the Sunday after Clara's fortieth birthday, she arrived to find her mother in the garden, standing very still at the edge of the vegetable patch, staring at nothing in particular. Clara watched her from the gate for a moment before her mother turned.\n\n\"There was a heron here this morning,\" her mother said. \"Stood there for nearly an hour.\"\n\nClara walked over and stood beside her, looking at the empty space where the heron had been. They stood in silence for a while. Then her mother said, without looking at her: \"I know I wasn't fair to you. After your father died. I know that.\"\n\nClara did not answer immediately. She looked at the turned earth, the staked tomatoes, the careful order her mother maintained against the wildness that pressed in at the edges.\n\n\"I know,\" she said, finally. \"I wasn't either.\"\n\nThey stood a little longer. Then they went inside for tea, and talked about the heron, and for the first time in three years the silence between the real things felt slightly different — not smaller, but less heavy. As if something, without being named, had shifted.",
+    "words": [
+      {"en": "hostile", "tr": "düşmanca, sert"},
+      {"en": "structural", "tr": "yapısal, altyapısal"},
+      {"en": "dispute", "tr": "anlaşmazlık, tartışma"},
+      {"en": "heron", "tr": "balıkçıl (bir kuş türü)"},
+      {"en": "grief", "tr": "yas, acı"},
+      {"en": "staked", "tr": "kazığa bağlanmış"},
+      {"en": "maintained", "tr": "korunan, sürdürülen"},
+      {"en": "shift", "tr": "değişmek, kaymak"}
+    ],
+    "questions": [
+      {
+        "q": "What does Clara bring to her mother's house every Sunday?",
+        "opts": ["Medicine and groceries", "Bread, sometimes flowers, occasionally wine", "Books and magazines", "Homemade food"],
+        "ans": 1
+      },
+      {
+        "q": "How does Clara describe the silence around the difficult subjects?",
+        "opts": ["Hostile and painful", "Comfortable and familiar", "Structural — something that holds the rest of the conversation up", "Temporary and soon to be resolved"],
+        "ans": 2
+      },
+      {
+        "q": "What causes a shift in their relationship on Clara's fortieth birthday visit?",
+        "opts": ["Clara finally confronts her mother directly.", "Her mother spontaneously acknowledges that she wasn't fair to Clara.", "They argue and then reconcile.", "Clara decides to forgive her mother silently."],
+        "ans": 1
+      },
+      {
+        "q": "At the end of the story, how has the silence between them changed?",
+        "opts": ["It has disappeared entirely.", "It feels less heavy, though it is not smaller.", "It has become more hostile than before.", "It is exactly the same as always."],
+        "ans": 1
       }
     ]
   }
