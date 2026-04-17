@@ -8,53 +8,103 @@
 <link rel="stylesheet" href="styles.css" />
 <style>
 
-/* ── READING-SPECIFIC OVERRIDES & ADDITIONS ── */
+/* ──────────────────────────────────────────────
+   COMPACT READING CARDS — reading.html için
+   Mevcut .reading-grid ve .reading-card
+   kurallarıyla değiştirin.
+────────────────────────────────────────────── */
 
-.reading-hero { padding: 0.5rem 0 1.5rem; }
-.reading-eyebrow { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 0.3rem; }
-.reading-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--accent3); }
-
-/* LEVEL TABS */
-.rd-level-tabs { display: flex; gap: 6px; margin-bottom: 1.5rem; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
-.rd-level-tabs::-webkit-scrollbar { display: none; }
-.rd-level-tab {
-  padding: 7px 18px; border-radius: 100px; border: 1px solid var(--border);
-  background: transparent; color: var(--muted); font-size: 0.8rem; font-weight: 500;
-  cursor: pointer; font-family: 'DM Sans', sans-serif; white-space: nowrap; flex-shrink: 0;
-  transition: all 0.15s; -webkit-tap-highlight-color: transparent;
-}
-.rd-level-tab.active { color: #0f0e17; border-color: transparent; }
-.rd-level-tab.A1.active  { background: var(--accent3); }
-.rd-level-tab.A2.active  { background: #5ba4d4; }
-.rd-level-tab.B1.active  { background: var(--accent2); }
-.rd-level-tab.B2.active  { background: #9b8ed6; }
-
-/* CARD GRID */
+/* 3 sütunlu sıkı grid */
 .reading-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
   margin-bottom: 1rem;
 }
 
+/* Kompakt kart */
 .reading-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 18px; padding: 1.2rem 1rem;
-  cursor: pointer; position: relative; overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 0.85rem 0.8rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
   transition: border-color 0.2s, transform 0.12s;
   -webkit-tap-highlight-color: transparent;
-  display: flex; flex-direction: column; gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
-.reading-card:hover { border-color: rgba(126,200,227,0.35); }
+.reading-card:hover  { border-color: rgba(126,200,227,0.4); }
 .reading-card:active { transform: scale(0.97); }
 
+/* Başlık daha küçük */
+.rc-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+/* Konu etiketi */
+.rc-topic {
+  font-size: 0.62rem;
+  color: var(--muted);
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Alt meta */
+.rc-meta {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 0.3rem;
+}
+.rc-time {
+  font-size: 0.62rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.rc-arrow {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--muted);
+  transition: transform 0.2s;
+}
+.reading-card:hover .rc-arrow {
+  transform: translateX(3px);
+  color: var(--accent3);
+}
+
+/* Tür rozeti */
 .rc-type-badge {
-  display: inline-flex; align-items: center; gap: 4px;
-  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em;
-  color: var(--muted); font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.56rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  font-weight: 500;
 }
 .rc-type-badge .badge-dot {
-  width: 5px; height: 5px; border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+/* Responsive: küçük ekranlarda 2 sütun */
+@media (max-width: 480px) {
+  .reading-grid { grid-template-columns: 1fr 1fr; }
 }
 .badge-dot.hikaye { background: var(--accent); }
 .badge-dot.makale { background: var(--accent3); }
