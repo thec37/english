@@ -442,7 +442,10 @@
           "The isolation caused by modern technology"
         ],
         "ans": 1
+          }
+        ]
       },
+  
       {
         "q": "According to Stanley Milgram, why do people withdraw in cities?",
         "opts": [
@@ -470,8 +473,9 @@
           "It is being recognised as a public health issue, which is progress",
           "Policy alone can solve the problem",
           "Only rural communities can escape loneliness"
-        ],
         "ans": 1
+          }
+        ]
       },
   {
     "id": "a1-01",
