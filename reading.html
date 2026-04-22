@@ -5,16 +5,145 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>ENGLISH — Okuma</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
 <style>
 
-/* ──────────────────────────────────────────────
-   COMPACT READING CARDS — reading.html için
-   Mevcut .reading-grid ve .reading-card
-   kurallarıyla değiştirin.
-────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* 3 sütunlu sıkı grid */
+:root {
+  --bg: #0f0e17;
+  --surface: #1a1827;
+  --surface2: #242236;
+  --accent: #e8c547;
+  --accent2: #f07167;
+  --accent3: #7ec8e3;
+  --text: #f4f0eb;
+  --muted: #7a7590;
+  --correct: #4caf7d;
+  --wrong: #e05c5c;
+  --border: rgba(255,255,255,0.07);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -200px; right: -200px;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(232,197,71,0.07) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -150px; left: -150px;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(126,200,227,0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+header {
+  width: 100%;
+  max-width: 680px;
+  padding: 2.5rem 2rem 1.5rem;
+  position: relative; z-index: 1;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+.logo span {
+  color: var(--muted); font-size: 0.8rem; letter-spacing: 0.05em;
+  font-family: 'DM Sans', sans-serif; font-weight: 300; margin-left: 8px;
+}
+
+.screen {
+  display: none;
+  width: 100%;
+  max-width: 680px;
+  padding: 0 2rem 4rem;
+  position: relative;
+  z-index: 1;
+}
+.screen.active { display: block; animation: fadeIn 0.4s ease; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 20%,60% { transform: translateX(-6px); } 40%,80% { transform: translateX(6px); } }
+
+.back-btn {
+  background: none; border: none; color: var(--muted);
+  font-family: 'DM Sans', sans-serif; font-size: 0.9rem;
+  cursor: pointer; padding: 0.5rem 0; margin-bottom: 1.25rem;
+  display: flex; align-items: center; gap: 8px;
+  transition: color 0.15s; -webkit-tap-highlight-color: transparent;
+}
+.back-btn:hover { color: var(--text); }
+
+/* READING HERO */
+.reading-hero { padding: 0.5rem 0 1.25rem; }
+.reading-eyebrow { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 0.3rem; }
+.reading-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--accent3); }
+
+/* LEVEL TABS */
+.rd-level-tabs { display: flex; gap: 6px; margin-bottom: 1.25rem; }
+.rd-level-tab {
+  padding: 7px 16px; border-radius: 100px; border: 1px solid var(--border);
+  background: transparent; color: var(--muted); font-size: 0.8rem; font-weight: 500;
+  cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.rd-level-tab.active { background: var(--accent3); color: #0f0e17; border-color: transparent; }
+
+/* PROGRESS / BADGE */
+.progress-bar { height: 3px; background: var(--surface2); border-radius: 2px; margin-bottom: 2rem; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); border-radius: 2px; transition: width 0.4s cubic-bezier(0.4,0,0.2,1); }
+
+.score-badge { background: var(--surface); border: 1px solid var(--border); border-radius: 100px; padding: 4px 14px; font-size: 0.8rem; color: var(--text); }
+.score-badge span { color: var(--accent); font-weight: 500; }
+
+/* NEXT BUTTON */
+.next-btn {
+  width: 100%; padding: 1rem; background: transparent;
+  border: 1px solid rgba(255,255,255,0.15); border-radius: 14px;
+  color: var(--text); font-size: 0.95rem; font-family: 'DM Sans', sans-serif;
+  cursor: pointer; transition: all 0.2s; display: none;
+  align-items: center; justify-content: center; gap: 8px;
+}
+.next-btn.visible { display: flex; animation: fadeIn 0.25s ease; }
+.next-btn:hover { background: var(--surface); border-color: rgba(255,255,255,0.25); }
+.next-arrow { transition: transform 0.2s; }
+.next-btn:hover .next-arrow { transform: translateX(4px); }
+
+/* RESULT SHARED */
+.result-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; text-align: center; margin-bottom: 0.4rem; }
+.result-sub { color: var(--muted); text-align: center; font-size: 0.9rem; margin-bottom: 2rem; font-weight: 300; }
+.result-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 2rem; }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1rem; text-align: center; }
+.stat-num { font-size: 1.5rem; font-weight: 700; font-family: 'Playfair Display', serif; }
+.stat-lbl { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0.25rem; }
+.ring-bg { fill: none; stroke: var(--surface2); stroke-width: 8; }
+.ring-fill { fill: none; stroke-width: 8; stroke-linecap: round; transition: stroke-dashoffset 1s cubic-bezier(0.4,0,0.2,1); }
+.ring-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; }
+.ring-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+
+/* ── READING CARDS ── */
 .reading-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -22,7 +151,6 @@
   margin-bottom: 1rem;
 }
 
-/* Kompakt kart */
 .reading-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -40,7 +168,6 @@
 .reading-card:hover  { border-color: rgba(126,200,227,0.4); }
 .reading-card:active { transform: scale(0.97); }
 
-/* Başlık daha küçük */
 .rc-title {
   font-family: 'Playfair Display', serif;
   font-size: 0.82rem;
@@ -49,7 +176,6 @@
   color: var(--text);
 }
 
-/* Konu etiketi */
 .rc-topic {
   font-size: 0.62rem;
   color: var(--muted);
@@ -59,7 +185,6 @@
   text-overflow: ellipsis;
 }
 
-/* Alt meta */
 .rc-meta {
   display: flex;
   gap: 6px;
@@ -85,7 +210,6 @@
   color: var(--accent3);
 }
 
-/* Tür rozeti */
 .rc-type-badge {
   display: inline-flex;
   align-items: center;
@@ -101,39 +225,14 @@
   height: 4px;
   border-radius: 50%;
 }
-
-/* Responsive: küçük ekranlarda 2 sütun */
-@media (max-width: 480px) {
-  .reading-grid { grid-template-columns: 1fr 1fr; }
-}
 .badge-dot.hikaye { background: var(--accent); }
 .badge-dot.makale { background: var(--accent3); }
 
-.rc-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1rem; font-weight: 700; line-height: 1.25;
-  color: var(--text);
+@media (max-width: 480px) {
+  .reading-grid { grid-template-columns: 1fr 1fr; }
 }
-.rc-topic {
-  font-size: 0.7rem; color: var(--muted); font-weight: 300;
-}
-.rc-meta {
-  display: flex; gap: 8px; align-items: center; margin-top: auto; padding-top: 0.4rem;
-}
-.rc-time {
-  font-size: 0.7rem; color: var(--muted);
-  display: flex; align-items: center; gap: 3px;
-}
-.rc-arrow {
-  margin-left: auto; font-size: 0.85rem; color: var(--muted);
-  transition: transform 0.2s;
-}
-.reading-card:hover .rc-arrow { transform: translateX(3px); color: var(--accent3); }
 
 /* ── READER SCREEN ── */
-#screen-reader { display: none; }
-#screen-reader.active { display: block; animation: fadeIn 0.4s ease; }
-
 .reader-header {
   display: flex; flex-direction: column; gap: 0.3rem;
   margin-bottom: 1.5rem;
@@ -156,7 +255,6 @@
   font-size: 0.8rem; color: var(--muted); font-weight: 300; font-style: italic;
 }
 
-/* TEXT BODY */
 .reader-body {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 20px; padding: 1.75rem 1.5rem;
@@ -174,7 +272,6 @@
 }
 .reader-text p { margin-bottom: 1em; }
 
-/* VOCAB SECTION */
 .vocab-section {
   background: var(--surface2); border: 1px solid var(--border);
   border-radius: 16px; padding: 1rem 1.1rem;
@@ -196,7 +293,6 @@
 .vocab-en { font-size: 0.82rem; font-weight: 500; color: var(--accent3); }
 .vocab-tr { font-size: 0.75rem; color: var(--muted); font-weight: 300; }
 
-/* READ BUTTON */
 .read-action-row {
   display: grid; grid-template-columns: 1fr; gap: 10px;
   margin-bottom: 1rem;
@@ -212,9 +308,6 @@
 .go-quiz-btn:active { transform: scale(0.98); }
 
 /* ── QUIZ SCREEN ── */
-#screen-rdquiz { display: none; }
-#screen-rdquiz.active { display: block; animation: fadeIn 0.4s ease; }
-
 .rdquiz-header {
   display: flex; justify-content: space-between; align-items: center;
   margin-bottom: 1.5rem;
@@ -265,10 +358,7 @@
 .rdquiz-feedback.show-wrong .dot { background: var(--wrong); }
 .rdquiz-feedback.show-wrong { color: var(--wrong); }
 
-/* ── RESULT SCREEN (reuse existing .screen-result styles) ── */
-#screen-rdresult { display: none; }
-#screen-rdresult.active { display: block; animation: fadeIn 0.4s ease; }
-
+/* ── RESULT SCREEN ── */
 .rdresult-ring { width: 120px; height: 120px; margin: 0 auto 1.5rem; position: relative; }
 .rdresult-ring svg { transform: rotate(-90deg); }
 .rdresult-pct { font-size: 1.6rem; font-weight: 700; font-family: 'Playfair Display', serif; color: var(--accent3); }
@@ -284,20 +374,15 @@
 .rdresult-btn.primary { background: var(--accent3); color: #0f0e17; border-color: var(--accent3); font-weight: 500; }
 .rdresult-btn.primary:hover { opacity: 0.9; }
 
-/* ── HOME CARD STYLE (for reading) ── */
-.home-big-card.okuma {
-  background: linear-gradient(140deg, rgba(126,200,227,0.09) 0%, var(--surface) 60%);
-  grid-column: 1 / -1;
-}
-.home-big-card.okuma:hover { border-color: var(--accent3); }
-.home-big-card.okuma .hbc-title { color: var(--accent3); }
-
 /* Responsive */
 @media (max-width: 480px) {
-  .reading-grid { grid-template-columns: 1fr; }
+  .screen { padding-left: 1rem; padding-right: 1rem; }
+  .reading-grid { grid-template-columns: 1fr 1fr; }
   .vocab-grid { grid-template-columns: 1fr; }
   .reader-body { padding: 1.25rem 1rem; }
+  .result-stats { grid-template-columns: 1fr 1fr; }
 }
+
 </style>
 </head>
 <body>
@@ -307,7 +392,7 @@
 </header>
 
 <!-- LIST SCREEN -->
-<div class="screen active" id="screen-list" style="display:block;">
+<div class="screen active" id="screen-list">
 
   <button class="back-btn" onclick="location.href='index.html'">← Ana Sayfa</button>
 
@@ -328,7 +413,7 @@
 </div>
 
 <!-- READER SCREEN -->
-<div id="screen-reader">
+<div class="screen" id="screen-reader">
 
   <button class="back-btn" onclick="goToList()">← Geri</button>
 
@@ -358,7 +443,7 @@
 </div>
 
 <!-- QUIZ SCREEN -->
-<div id="screen-rdquiz">
+<div class="screen" id="screen-rdquiz">
 
   <button class="back-btn" onclick="goToReader()">← Metne Dön</button>
 
@@ -387,7 +472,7 @@
 </div>
 
 <!-- RESULT SCREEN -->
-<div id="screen-rdresult">
+<div class="screen" id="screen-rdresult">
 
   <div class="rdresult-ring">
     <svg width="120" height="120" viewBox="0 0 120 120">
@@ -429,7 +514,6 @@
 </div>
 
 <script>
-// ─── DATA ───────────────────────────────────────────────────────────────────
 let READINGS = [];
 let currentLevel = 'A1';
 let currentReading = null;
@@ -439,7 +523,6 @@ let rdCorrect = 0;
 let rdWrong = 0;
 let rdAnswered = false;
 
-// ─── INIT ───────────────────────────────────────────────────────────────────
 async function init() {
   try {
     const res = await fetch('readings.json');
@@ -451,7 +534,6 @@ async function init() {
   }
 }
 
-// ─── LEVEL SWITCH ───────────────────────────────────────────────────────────
 function switchLevel(level, btn) {
   currentLevel = level;
   document.querySelectorAll('.rd-level-tab').forEach(b => b.classList.remove('active'));
@@ -459,7 +541,6 @@ function switchLevel(level, btn) {
   renderList(level);
 }
 
-// ─── RENDER CARD LIST ────────────────────────────────────────────────────────
 function renderList(level) {
   const grid = document.getElementById('reading-grid');
   const items = READINGS.filter(r => r.level === level);
@@ -488,7 +569,6 @@ function renderList(level) {
   });
 }
 
-// ─── OPEN READING ────────────────────────────────────────────────────────────
 function openReading(id) {
   currentReading = READINGS.find(r => r.id === id);
   if (!currentReading) return;
@@ -499,12 +579,10 @@ function openReading(id) {
   document.getElementById('rd-title').textContent = currentReading.title;
   document.getElementById('rd-title-tr').textContent = currentReading.titleTr;
 
-  // Render text paragraphs
   const textEl = document.getElementById('rd-text');
   const paras = currentReading.text.split('\n\n').filter(p => p.trim());
   textEl.innerHTML = paras.map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('');
 
-  // Vocab
   const vocabEl = document.getElementById('rd-vocab');
   vocabEl.innerHTML = currentReading.words
     .map(w => `<div class="vocab-item"><span class="vocab-en">${w.en}</span><span class="vocab-tr">${w.tr}</span></div>`)
@@ -514,7 +592,6 @@ function openReading(id) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// ─── START QUIZ ──────────────────────────────────────────────────────────────
 function startQuiz() {
   if (!currentReading) return;
   rdQIndex = 0; rdScore = 0; rdCorrect = 0; rdWrong = 0;
@@ -523,7 +600,6 @@ function startQuiz() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// ─── RENDER QUESTION ────────────────────────────────────────────────────────
 function renderRdQuestion() {
   rdAnswered = false;
   const q = currentReading.questions[rdQIndex];
@@ -609,18 +685,15 @@ function showRdResult() {
   }, 200);
 }
 
-// ─── NAVIGATION ──────────────────────────────────────────────────────────────
 function showScreen(id) {
   ['screen-list','screen-reader','screen-rdquiz','screen-rdresult'].forEach(sid => {
     const el = document.getElementById(sid);
     if (el) {
-      el.style.display = 'none';
       el.classList.remove('active');
     }
   });
   const target = document.getElementById(id);
   if (target) {
-    target.style.display = 'block';
     target.classList.add('active');
   }
 }
@@ -634,7 +707,6 @@ function goToReader() {
   if (currentReading) openReading(currentReading.id);
 }
 
-// ─── KEYBOARD SHORTCUT ───────────────────────────────────────────────────────
 document.addEventListener('keydown', e => {
   if ((e.key === 'Enter' || e.key === ' ')) {
     const next = document.getElementById('rdquiz-next');
