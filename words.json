@@ -1,3969 +1,483 @@
 [
-  {
-    "en": "hello",
-    "tr": "merhaba",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Hello! How are you?"
-  },
-  {
-    "en": "goodbye",
-    "tr": "hoşça kal",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Goodbye! See you later."
-  },
-  {
-    "en": "thank you",
-    "tr": "teşekkür ederim",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Thank you very much for everything."
-  },
-  {
-    "en": "please",
-    "tr": "lütfen",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "A coffee, please."
-  },
-  {
-    "en": "yes",
-    "tr": "evet",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Yes, of course!"
-  },
-  {
-    "en": "no",
-    "tr": "hayır",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "No, thank you."
-  },
-  {
-    "en": "good morning",
-    "tr": "günaydın",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Good morning, everyone!"
-  },
-  {
-    "en": "good afternoon",
-    "tr": "iyi öğleden sonralar",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Good afternoon, how are you?"
-  },
-  {
-    "en": "good night",
-    "tr": "iyi geceler",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Good night, see you tomorrow."
-  },
-  {
-    "en": "excuse me / sorry",
-    "tr": "özür dilerim",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Excuse me, I don't understand."
-  },
-  {
-    "en": "you're welcome",
-    "tr": "rica ederim",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "You're welcome, my pleasure."
-  },
-  {
-    "en": "how are you?",
-    "tr": "nasılsın?",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "Hello! How are you today?"
-  },
-  {
-    "en": "fine / good",
-    "tr": "iyi",
-    "cat": "günlük",
-    "level": "A1",
-    "ex": "I'm fine, thank you."
-  },
-  {
-    "en": "water",
-    "tr": "su",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "Can I have some water, please?"
-  },
-  {
-    "en": "bread",
-    "tr": "ekmek",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "I'd like some bread with butter."
-  },
-  {
-    "en": "milk",
-    "tr": "süt",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "The milk is cold."
-  },
-  {
-    "en": "coffee",
-    "tr": "kahve",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "A coffee with milk, please."
-  },
-  {
-    "en": "fruit",
-    "tr": "meyve",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "I eat fruit every day."
-  },
-  {
-    "en": "meat",
-    "tr": "et",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "I don't eat red meat."
-  },
-  {
-    "en": "rice",
-    "tr": "pirinç",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "The rice is ready."
-  },
-  {
-    "en": "chicken",
-    "tr": "tavuk",
-    "cat": "yiyecek",
-    "level": "A1",
-    "ex": "I like roasted chicken."
-  },
-  {
-    "en": "house",
-    "tr": "ev",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "My house is small but beautiful."
-  },
-  {
-    "en": "book",
-    "tr": "kitap",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "I have a very interesting book."
-  },
-  {
-    "en": "table",
-    "tr": "masa",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "The table is big."
-  },
-  {
-    "en": "chair",
-    "tr": "sandalye",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "The chair is very comfortable."
-  },
-  {
-    "en": "door",
-    "tr": "kapı",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "Open the door, please."
-  },
-  {
-    "en": "window",
-    "tr": "pencere",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "The window is open."
-  },
-  {
-    "en": "dog",
-    "tr": "köpek",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "I have a very friendly dog."
-  },
-  {
-    "en": "cat",
-    "tr": "kedi",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "The cat sleeps all day."
-  },
-  {
-    "en": "friend",
-    "tr": "arkadaş",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "He is my best friend."
-  },
-  {
-    "en": "school",
-    "tr": "okul",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "I go to school every day."
-  },
-  {
-    "en": "city",
-    "tr": "şehir",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "It is a very beautiful city."
-  },
-  {
-    "en": "street",
-    "tr": "sokak",
-    "cat": "isim",
-    "level": "A1",
-    "ex": "I live on this street."
-  },
-  {
-    "en": "one",
-    "tr": "bir",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "I have one child."
-  },
-  {
-    "en": "two",
-    "tr": "iki",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "It is two o'clock."
-  },
-  {
-    "en": "three",
-    "tr": "üç",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "Three coffees, please."
-  },
-  {
-    "en": "four",
-    "tr": "dört",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "I have four siblings."
-  },
-  {
-    "en": "five",
-    "tr": "beş",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "Five more minutes."
-  },
-  {
-    "en": "ten",
-    "tr": "on",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "Ten pounds, please."
-  },
-  {
-    "en": "one hundred",
-    "tr": "yüz",
-    "cat": "sayı",
-    "level": "A1",
-    "ex": "One hundred people."
-  },
-  {
-    "en": "red",
-    "tr": "kırmızı",
-    "cat": "renk",
-    "level": "A1",
-    "ex": "The car is red."
-  },
-  {
-    "en": "blue",
-    "tr": "mavi",
-    "cat": "renk",
-    "level": "A1",
-    "ex": "The sky is blue."
-  },
-  {
-    "en": "green",
-    "tr": "yeşil",
-    "cat": "renk",
-    "level": "A1",
-    "ex": "The grass is green."
-  },
-  {
-    "en": "white",
-    "tr": "beyaz",
-    "cat": "renk",
-    "level": "A1",
-    "ex": "The milk is white."
-  },
-  {
-    "en": "black",
-    "tr": "siyah",
-    "cat": "renk",
-    "level": "A1",
-    "ex": "The cat is black."
-  },
-  {
-    "en": "yellow",
-    "tr": "sarı",
-    "cat": "renk",
-    "level": "A1",
-    "ex": "The sun is yellow."
-  },
-  {
-    "en": "Monday",
-    "tr": "pazartesi",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "I have class on Monday."
-  },
-  {
-    "en": "Tuesday",
-    "tr": "salı",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "I work on Tuesday."
-  },
-  {
-    "en": "Wednesday",
-    "tr": "çarşamba",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "I'm free on Wednesday."
-  },
-  {
-    "en": "Thursday",
-    "tr": "perşembe",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "Thursday is my favourite day."
-  },
-  {
-    "en": "Friday",
-    "tr": "cuma",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "We go out on Friday night."
-  },
-  {
-    "en": "Saturday",
-    "tr": "cumartesi",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "I rest at home on Saturday."
-  },
-  {
-    "en": "Sunday",
-    "tr": "pazar",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "Sunday is a holiday."
-  },
-  {
-    "en": "today",
-    "tr": "bugün",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "It's very cold today."
-  },
-  {
-    "en": "tomorrow / morning",
-    "tr": "yarın / sabah",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "Good night, see you tomorrow."
-  },
-  {
-    "en": "yesterday",
-    "tr": "dün",
-    "cat": "zaman",
-    "level": "A1",
-    "ex": "I went to the doctor yesterday."
-  },
-  {
-    "en": "mother",
-    "tr": "anne",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "My mother cooks very well."
-  },
-  {
-    "en": "father",
-    "tr": "baba",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "My father works a lot."
-  },
-  {
-    "en": "brother",
-    "tr": "erkek kardeş",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "I have an older brother."
-  },
-  {
-    "en": "sister",
-    "tr": "kız kardeş",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "My sister is younger."
-  },
-  {
-    "en": "grandfather",
-    "tr": "büyükbaba",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "My grandfather is eighty years old."
-  },
-  {
-    "en": "grandmother",
-    "tr": "büyükanne",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "Grandmother is preparing the meal."
-  },
-  {
-    "en": "son",
-    "tr": "oğul",
-    "cat": "aile",
-    "level": "A1",
-    "ex": "I have a five-year-old son."
-  },
-  {
-    "en": "big / large",
-    "tr": "büyük",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "It is a very big house."
-  },
-  {
-    "en": "small / little",
-    "tr": "küçük",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "A very small dog."
-  },
-  {
-    "en": "good",
-    "tr": "iyi",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "It is a very good book."
-  },
-  {
-    "en": "bad",
-    "tr": "kötü",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "The weather is bad today."
-  },
-  {
-    "en": "new",
-    "tr": "yeni",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "I have a new book."
-  },
-  {
-    "en": "old",
-    "tr": "eski / yaşlı",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "My grandfather is old but active."
-  },
-  {
-    "en": "beautiful / pretty",
-    "tr": "güzel",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "What a beautiful day."
-  },
-  {
-    "en": "ugly",
-    "tr": "çirkin",
-    "cat": "sıfat",
-    "level": "A1",
-    "ex": "I don't like that colour, it's ugly."
-  },
-  {
-    "en": "to be (permanent)",
-    "tr": "olmak (kalıcı)",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I am an English student.",
-    "conjugations": {
-      "simple present": {
-        "I": "am",
-        "you": "are",
-        "he/she": "is",
-        "we": "are",
-        "you (pl.)": "are",
-        "they": "are"
-      },
-      "simple past": {
-        "I": "was",
-        "you": "were",
-        "he/she": "was",
-        "we": "were",
-        "you (pl.)": "were",
-        "they": "were"
-      },
-      "will future": {
-        "I": "will be",
-        "you": "will be",
-        "he/she": "will be",
-        "we": "will be",
-        "you (pl.)": "will be",
-        "they": "will be"
-      }
-    }
-  },
-  {
-    "en": "to be (temporary)",
-    "tr": "olmak (geçici)",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I am very tired today.",
-    "conjugations": {
-      "simple present": {
-        "I": "am",
-        "you": "are",
-        "he/she": "is",
-        "we": "are",
-        "you (pl.)": "are",
-        "they": "are"
-      },
-      "simple past": {
-        "I": "was",
-        "you": "were",
-        "he/she": "was",
-        "we": "were",
-        "you (pl.)": "were",
-        "they": "were"
-      },
-      "will future": {
-        "I": "will be",
-        "you": "will be",
-        "he/she": "will be",
-        "we": "will be",
-        "you (pl.)": "will be",
-        "they": "will be"
-      }
-    }
-  },
-  {
-    "en": "to have",
-    "tr": "sahip olmak",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I am very hungry now.",
-    "conjugations": {
-      "simple present": {
-        "I": "have",
-        "you": "have",
-        "he/she": "has",
-        "we": "have",
-        "you (pl.)": "have",
-        "they": "have"
-      },
-      "simple past": {
-        "I": "had",
-        "you": "had",
-        "he/she": "had",
-        "we": "had",
-        "you (pl.)": "had",
-        "they": "had"
-      },
-      "will future": {
-        "I": "will have",
-        "you": "will have",
-        "he/she": "will have",
-        "we": "will have",
-        "you (pl.)": "will have",
-        "they": "will have"
-      }
-    }
-  },
-  {
-    "en": "to go",
-    "tr": "gitmek",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I go to school every morning.",
-    "conjugations": {
-      "simple present": {
-        "I": "go",
-        "you": "go",
-        "he/she": "goes",
-        "we": "go",
-        "you (pl.)": "go",
-        "they": "go"
-      },
-      "simple past": {
-        "I": "went",
-        "you": "went",
-        "he/she": "went",
-        "we": "went",
-        "you (pl.)": "went",
-        "they": "went"
-      },
-      "will future": {
-        "I": "will go",
-        "you": "will go",
-        "he/she": "will go",
-        "we": "will go",
-        "you (pl.)": "will go",
-        "they": "will go"
-      }
-    }
-  },
-  {
-    "en": "to eat",
-    "tr": "yemek yemek",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "Let's eat together today.",
-    "conjugations": {
-      "simple present": {
-        "I": "eat",
-        "you": "eat",
-        "he/she": "eats",
-        "we": "eat",
-        "you (pl.)": "eat",
-        "they": "eat"
-      },
-      "simple past": {
-        "I": "ate",
-        "you": "ate",
-        "he/she": "ate",
-        "we": "ate",
-        "you (pl.)": "ate",
-        "they": "ate"
-      },
-      "will future": {
-        "I": "will eat",
-        "you": "will eat",
-        "he/she": "will eat",
-        "we": "will eat",
-        "you (pl.)": "will eat",
-        "they": "will eat"
-      }
-    }
-  },
-  {
-    "en": "to drink",
-    "tr": "içmek",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I want to drink cold water.",
-    "conjugations": {
-      "simple present": {
-        "I": "drink",
-        "you": "drink",
-        "he/she": "drinks",
-        "we": "drink",
-        "you (pl.)": "drink",
-        "they": "drink"
-      },
-      "simple past": {
-        "I": "drank",
-        "you": "drank",
-        "he/she": "drank",
-        "we": "drank",
-        "you (pl.)": "drank",
-        "they": "drank"
-      },
-      "will future": {
-        "I": "will drink",
-        "you": "will drink",
-        "he/she": "will drink",
-        "we": "will drink",
-        "you (pl.)": "will drink",
-        "they": "will drink"
-      }
-    }
-  },
-  {
-    "en": "to speak",
-    "tr": "konuşmak",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I speak English every day.",
-    "conjugations": {
-      "simple present": {
-        "I": "speak",
-        "you": "speak",
-        "he/she": "speaks",
-        "we": "speak",
-        "you (pl.)": "speak",
-        "they": "speak"
-      },
-      "simple past": {
-        "I": "spoke",
-        "you": "spoke",
-        "he/she": "spoke",
-        "we": "spoke",
-        "you (pl.)": "spoke",
-        "they": "spoke"
-      },
-      "will future": {
-        "I": "will speak",
-        "you": "will speak",
-        "he/she": "will speak",
-        "we": "will speak",
-        "you (pl.)": "will speak",
-        "they": "will speak"
-      }
-    }
-  },
-  {
-    "en": "to live",
-    "tr": "yaşamak",
-    "cat": "fiil",
-    "level": "A1",
-    "ex": "I have lived in Istanbul for years.",
-    "conjugations": {
-      "simple present": {
-        "I": "live",
-        "you": "live",
-        "he/she": "lives",
-        "we": "live",
-        "you (pl.)": "live",
-        "they": "live"
-      },
-      "simple past": {
-        "I": "lived",
-        "you": "lived",
-        "he/she": "lived",
-        "we": "lived",
-        "you (pl.)": "lived",
-        "they": "lived"
-      },
-      "will future": {
-        "I": "will live",
-        "you": "will live",
-        "he/she": "will live",
-        "we": "will live",
-        "you (pl.)": "will live",
-        "they": "will live"
-      }
-    }
-  },
-  {
-    "en": "to work",
-    "tr": "çalışmak",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "I work in a central office.",
-    "conjugations": {
-      "simple present": {
-        "I": "work",
-        "you": "work",
-        "he/she": "works",
-        "we": "work",
-        "you (pl.)": "work",
-        "they": "work"
-      },
-      "simple past": {
-        "I": "worked",
-        "you": "worked",
-        "he/she": "worked",
-        "we": "worked",
-        "you (pl.)": "worked",
-        "they": "worked"
-      },
-      "will future": {
-        "I": "will work",
-        "you": "will work",
-        "he/she": "will work",
-        "we": "will work",
-        "you (pl.)": "will work",
-        "they": "will work"
-      }
-    }
-  },
-  {
-    "en": "to want / love",
-    "tr": "istemek / sevmek",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "I want to learn English well.",
-    "conjugations": {
-      "simple present": {
-        "I": "want",
-        "you": "want",
-        "he/she": "wants",
-        "we": "want",
-        "you (pl.)": "want",
-        "they": "want"
-      },
-      "simple past": {
-        "I": "wanted",
-        "you": "wanted",
-        "he/she": "wanted",
-        "we": "wanted",
-        "you (pl.)": "wanted",
-        "they": "wanted"
-      },
-      "will future": {
-        "I": "will want",
-        "you": "will want",
-        "he/she": "will want",
-        "we": "will want",
-        "you (pl.)": "will want",
-        "they": "will want"
-      }
-    }
-  },
-  {
-    "en": "can / to be able to",
-    "tr": "yapabilmek",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "Can you help me?",
-    "conjugations": {
-      "simple present": {
-        "I": "can",
-        "you": "can",
-        "he/she": "can",
-        "we": "can",
-        "you (pl.)": "can",
-        "they": "can"
-      },
-      "simple past": {
-        "I": "could",
-        "you": "could",
-        "he/she": "could",
-        "we": "could",
-        "you (pl.)": "could",
-        "they": "could"
-      },
-      "will future": {
-        "I": "will be able to",
-        "you": "will be able to",
-        "he/she": "will be able to",
-        "we": "will be able to",
-        "you (pl.)": "will be able to",
-        "they": "will be able to"
-      }
-    }
-  },
-  {
-    "en": "to know",
-    "tr": "bilmek",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "I don't know the correct answer.",
-    "conjugations": {
-      "simple present": {
-        "I": "know",
-        "you": "know",
-        "he/she": "knows",
-        "we": "know",
-        "you (pl.)": "know",
-        "they": "know"
-      },
-      "simple past": {
-        "I": "knew",
-        "you": "knew",
-        "he/she": "knew",
-        "we": "knew",
-        "you (pl.)": "knew",
-        "they": "knew"
-      },
-      "will future": {
-        "I": "will know",
-        "you": "will know",
-        "he/she": "will know",
-        "we": "will know",
-        "you (pl.)": "will know",
-        "they": "will know"
-      }
-    }
-  },
-  {
-    "en": "to come",
-    "tr": "gelmek",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "Can you come tomorrow?",
-    "conjugations": {
-      "simple present": {
-        "I": "come",
-        "you": "come",
-        "he/she": "comes",
-        "we": "come",
-        "you (pl.)": "come",
-        "they": "come"
-      },
-      "simple past": {
-        "I": "came",
-        "you": "came",
-        "he/she": "came",
-        "we": "came",
-        "you (pl.)": "came",
-        "they": "came"
-      },
-      "will future": {
-        "I": "will come",
-        "you": "will come",
-        "he/she": "will come",
-        "we": "will come",
-        "you (pl.)": "will come",
-        "they": "will come"
-      }
-    }
-  },
-  {
-    "en": "to go out",
-    "tr": "çıkmak",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "I leave at eight in the morning.",
-    "conjugations": {
-      "simple present": {
-        "I": "go out",
-        "you": "go out",
-        "he/she": "goes out",
-        "we": "go out",
-        "you (pl.)": "go out",
-        "they": "go out"
-      },
-      "simple past": {
-        "I": "went out",
-        "you": "went out",
-        "he/she": "went out",
-        "we": "went out",
-        "you (pl.)": "went out",
-        "they": "went out"
-      },
-      "will future": {
-        "I": "will go out",
-        "you": "will go out",
-        "he/she": "will go out",
-        "we": "will go out",
-        "you (pl.)": "will go out",
-        "they": "will go out"
-      }
-    }
-  },
-  {
-    "en": "to arrive",
-    "tr": "varmak",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "I always arrive late.",
-    "conjugations": {
-      "simple present": {
-        "I": "arrive",
-        "you": "arrive",
-        "he/she": "arrives",
-        "we": "arrive",
-        "you (pl.)": "arrive",
-        "they": "arrive"
-      },
-      "simple past": {
-        "I": "arrived",
-        "you": "arrived",
-        "he/she": "arrived",
-        "we": "arrived",
-        "you (pl.)": "arrived",
-        "they": "arrived"
-      },
-      "will future": {
-        "I": "will arrive",
-        "you": "will arrive",
-        "he/she": "will arrive",
-        "we": "will arrive",
-        "you (pl.)": "will arrive",
-        "they": "will arrive"
-      }
-    }
-  },
-  {
-    "en": "to buy",
-    "tr": "satın almak",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "I want to buy a new car.",
-    "conjugations": {
-      "simple present": {
-        "I": "buy",
-        "you": "buy",
-        "he/she": "buys",
-        "we": "buy",
-        "you (pl.)": "buy",
-        "they": "buy"
-      },
-      "simple past": {
-        "I": "bought",
-        "you": "bought",
-        "he/she": "bought",
-        "we": "bought",
-        "you (pl.)": "bought",
-        "they": "bought"
-      },
-      "will future": {
-        "I": "will buy",
-        "you": "will buy",
-        "he/she": "will buy",
-        "we": "will buy",
-        "you (pl.)": "will buy",
-        "they": "will buy"
-      }
-    }
-  },
-  {
-    "en": "to open",
-    "tr": "açmak",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "Open the window, it's hot.",
-    "conjugations": {
-      "simple present": {
-        "I": "open",
-        "you": "open",
-        "he/she": "opens",
-        "we": "open",
-        "you (pl.)": "open",
-        "they": "open"
-      },
-      "simple past": {
-        "I": "opened",
-        "you": "opened",
-        "he/she": "opened",
-        "we": "opened",
-        "you (pl.)": "opened",
-        "they": "opened"
-      },
-      "will future": {
-        "I": "will open",
-        "you": "will open",
-        "he/she": "will open",
-        "we": "will open",
-        "you (pl.)": "will open",
-        "they": "will open"
-      }
-    }
-  },
-  {
-    "en": "to close",
-    "tr": "kapatmak",
-    "cat": "fiil",
-    "level": "A2",
-    "ex": "Close the door when you leave.",
-    "conjugations": {
-      "simple present": {
-        "I": "close",
-        "you": "close",
-        "he/she": "closes",
-        "we": "close",
-        "you (pl.)": "close",
-        "they": "close"
-      },
-      "simple past": {
-        "I": "closed",
-        "you": "closed",
-        "he/she": "closed",
-        "we": "closed",
-        "you (pl.)": "closed",
-        "they": "closed"
-      },
-      "will future": {
-        "I": "will close",
-        "you": "will close",
-        "he/she": "will close",
-        "we": "will close",
-        "you (pl.)": "will close",
-        "they": "will close"
-      }
-    }
-  },
-  {
-    "en": "time / weather",
-    "tr": "hava / zaman",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "The weather is very bad today."
-  },
-  {
-    "en": "money",
-    "tr": "para",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "I don't have enough money."
-  },
-  {
-    "en": "work / job",
-    "tr": "iş",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "I have a lot of work this week."
-  },
-  {
-    "en": "family",
-    "tr": "aile",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "My family is very large."
-  },
-  {
-    "en": "food / meal",
-    "tr": "yemek",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "British food is delicious."
-  },
-  {
-    "en": "drink",
-    "tr": "içecek",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "What drink would you like?"
-  },
-  {
-    "en": "shop / store",
-    "tr": "mağaza / dükkan",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "I'm going to the shop."
-  },
-  {
-    "en": "market",
-    "tr": "pazar yeri",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "I buy vegetables at the market."
-  },
-  {
-    "en": "hospital",
-    "tr": "hastane",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "The hospital is close by."
-  },
-  {
-    "en": "doctor",
-    "tr": "doktor",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "The doctor gave me medicine."
-  },
-  {
-    "en": "pharmacy",
-    "tr": "eczane",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "The pharmacy is open until ten."
-  },
-  {
-    "en": "bank",
-    "tr": "banka",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "I need to go to the bank today."
-  },
-  {
-    "en": "phone",
-    "tr": "telefon",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "My phone is broken."
-  },
-  {
-    "en": "car",
-    "tr": "araba",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "My car is quite new."
-  },
-  {
-    "en": "bus",
-    "tr": "otobüs",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "I take the bus every morning."
-  },
-  {
-    "en": "train",
-    "tr": "tren",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "The train is delayed."
-  },
-  {
-    "en": "plane",
-    "tr": "uçak",
-    "cat": "isim",
-    "level": "A2",
-    "ex": "The plane leaves at ten."
-  },
-  {
-    "en": "six",
-    "tr": "altı",
-    "cat": "sayı",
-    "level": "A2",
-    "ex": "There are six of us in the family."
-  },
-  {
-    "en": "seven",
-    "tr": "yedi",
-    "cat": "sayı",
-    "level": "A2",
-    "ex": "It is seven o'clock."
-  },
-  {
-    "en": "eight",
-    "tr": "sekiz",
-    "cat": "sayı",
-    "level": "A2",
-    "ex": "I wake up at eight."
-  },
-  {
-    "en": "nine",
-    "tr": "dokuz",
-    "cat": "sayı",
-    "level": "A2",
-    "ex": "There are nine students."
-  },
-  {
-    "en": "twenty",
-    "tr": "yirmi",
-    "cat": "sayı",
-    "level": "A2",
-    "ex": "I have twenty pounds."
-  },
-  {
-    "en": "fifty",
-    "tr": "elli",
-    "cat": "sayı",
-    "level": "A2",
-    "ex": "It costs fifty pounds."
-  },
-  {
-    "en": "orange",
-    "tr": "turuncu / portakal",
-    "cat": "renk",
-    "level": "A2",
-    "ex": "Oranges are orange in colour."
-  },
-  {
-    "en": "pink",
-    "tr": "pembe",
-    "cat": "renk",
-    "level": "A2",
-    "ex": "I like the colour pink."
-  },
-  {
-    "en": "purple",
-    "tr": "mor",
-    "cat": "renk",
-    "level": "A2",
-    "ex": "Purple is his favourite colour."
-  },
-  {
-    "en": "hotel",
-    "tr": "otel",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "The hotel is very comfortable."
-  },
-  {
-    "en": "room",
-    "tr": "oda",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "The room has a great view."
-  },
-  {
-    "en": "passport",
-    "tr": "pasaport",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "I need my passport to travel."
-  },
-  {
-    "en": "suitcase",
-    "tr": "bavul",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "My suitcase is too heavy."
-  },
-  {
-    "en": "ticket",
-    "tr": "bilet",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "I'm buying a train ticket."
-  },
-  {
-    "en": "restaurant",
-    "tr": "restoran",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "The restaurant is full today."
-  },
-  {
-    "en": "airport",
-    "tr": "havalimanı",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "The airport is very far."
-  },
-  {
-    "en": "beach",
-    "tr": "plaj",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "The beach is very beautiful."
-  },
-  {
-    "en": "map",
-    "tr": "harita",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "Do you have a map of the city?"
-  },
-  {
-    "en": "reservation",
-    "tr": "rezervasyon",
-    "cat": "seyahat",
-    "level": "A2",
-    "ex": "I have a reservation for two people."
-  },
-  {
-    "en": "tired",
-    "tr": "yorgun",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "I'm very tired after work."
-  },
-  {
-    "en": "sick / ill",
-    "tr": "hasta",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "I'm ill, I can't go."
-  },
-  {
-    "en": "happy",
-    "tr": "mutlu",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "I'm very happy with my life."
-  },
-  {
-    "en": "sad",
-    "tr": "üzgün",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "I'm sad because it's raining."
-  },
-  {
-    "en": "easy",
-    "tr": "kolay",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "This exercise is very easy."
-  },
-  {
-    "en": "difficult",
-    "tr": "zor",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "The exam is quite difficult."
-  },
-  {
-    "en": "fast",
-    "tr": "hızlı",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "The train is very fast."
-  },
-  {
-    "en": "slow",
-    "tr": "yavaş",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "The bus is too slow."
-  },
-  {
-    "en": "near",
-    "tr": "yakın",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "The bank is very close."
-  },
-  {
-    "en": "far",
-    "tr": "uzak",
-    "cat": "sıfat",
-    "level": "A2",
-    "ex": "The airport is quite far."
-  },
-  {
-    "en": "week",
-    "tr": "hafta",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I'm very busy this week."
-  },
-  {
-    "en": "month",
-    "tr": "ay",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I'm travelling next month."
-  },
-  {
-    "en": "year",
-    "tr": "yıl",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I'm learning a lot this year."
-  },
-  {
-    "en": "late / afternoon",
-    "tr": "geç / öğleden sonra",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I always arrive late."
-  },
-  {
-    "en": "early",
-    "tr": "erken",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I wake up early every day."
-  },
-  {
-    "en": "now",
-    "tr": "şimdi",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I'm busy right now."
-  },
-  {
-    "en": "after / later",
-    "tr": "sonra",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "Let's eat together later."
-  },
-  {
-    "en": "before",
-    "tr": "önce",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I used to live in London."
-  },
-  {
-    "en": "always",
-    "tr": "her zaman",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I always arrive on time."
-  },
-  {
-    "en": "never",
-    "tr": "hiçbir zaman",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I never eat red meat."
-  },
-  {
-    "en": "sometimes",
-    "tr": "bazen",
-    "cat": "zaman",
-    "level": "A2",
-    "ex": "I sometimes leave work late."
-  },
-  {
-    "en": "husband",
-    "tr": "eş (erkek)",
-    "cat": "aile",
-    "level": "A2",
-    "ex": "My husband works in London."
-  },
-  {
-    "en": "wife",
-    "tr": "eş (kadın)",
-    "cat": "aile",
-    "level": "A2",
-    "ex": "My wife is a doctor."
-  },
-  {
-    "en": "cousin (male)",
-    "tr": "erkek kuzen",
-    "cat": "aile",
-    "level": "A2",
-    "ex": "My cousin lives in Manchester."
-  },
-  {
-    "en": "uncle",
-    "tr": "amca / dayı",
-    "cat": "aile",
-    "level": "A2",
-    "ex": "My uncle is very friendly."
-  },
-  {
-    "en": "sandwich",
-    "tr": "sandviç",
-    "cat": "yiyecek",
-    "level": "A2",
-    "ex": "I eat a sandwich at work."
-  },
-  {
-    "en": "salad",
-    "tr": "salata",
-    "cat": "yiyecek",
-    "level": "A2",
-    "ex": "The salad is very fresh."
-  },
-  {
-    "en": "fish",
-    "tr": "balık",
-    "cat": "yiyecek",
-    "level": "A2",
-    "ex": "Fish is very healthy."
-  },
-  {
-    "en": "vegetable",
-    "tr": "sebze",
-    "cat": "yiyecek",
-    "level": "A2",
-    "ex": "I eat a lot of vegetables every day."
-  },
-  {
-    "en": "to think",
-    "tr": "düşünmek",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I think you are completely right.",
-    "conjugations": {
-      "simple present": {
-        "I": "think",
-        "you": "think",
-        "he/she": "thinks",
-        "we": "think",
-        "you (pl.)": "think",
-        "they": "think"
-      },
-      "simple past": {
-        "I": "thought",
-        "you": "thought",
-        "he/she": "thought",
-        "we": "thought",
-        "you (pl.)": "thought",
-        "they": "thought"
-      },
-      "will future": {
-        "I": "will think",
-        "you": "will think",
-        "he/she": "will think",
-        "we": "will think",
-        "you (pl.)": "will think",
-        "they": "will think"
-      }
-    }
-  },
-  {
-    "en": "to believe",
-    "tr": "inanmak / sanmak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I believe that is true.",
-    "conjugations": {
-      "simple present": {
-        "I": "believe",
-        "you": "believe",
-        "he/she": "believes",
-        "we": "believe",
-        "you (pl.)": "believe",
-        "they": "believe"
-      },
-      "simple past": {
-        "I": "believed",
-        "you": "believed",
-        "he/she": "believed",
-        "we": "believed",
-        "you (pl.)": "believed",
-        "they": "believed"
-      },
-      "will future": {
-        "I": "will believe",
-        "you": "will believe",
-        "he/she": "will believe",
-        "we": "will believe",
-        "you (pl.)": "will believe",
-        "they": "will believe"
-      }
-    }
-  },
-  {
-    "en": "to feel",
-    "tr": "hissetmek",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I feel very well today.",
-    "conjugations": {
-      "simple present": {
-        "I": "feel",
-        "you": "feel",
-        "he/she": "feels",
-        "we": "feel",
-        "you (pl.)": "feel",
-        "they": "feel"
-      },
-      "simple past": {
-        "I": "felt",
-        "you": "felt",
-        "he/she": "felt",
-        "we": "felt",
-        "you (pl.)": "felt",
-        "they": "felt"
-      },
-      "will future": {
-        "I": "will feel",
-        "you": "will feel",
-        "he/she": "will feel",
-        "we": "will feel",
-        "you (pl.)": "will feel",
-        "they": "will feel"
-      }
-    }
-  },
-  {
-    "en": "to remember",
-    "tr": "hatırlamak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I don't remember his exact name.",
-    "conjugations": {
-      "simple present": {
-        "I": "remember",
-        "you": "remember",
-        "he/she": "remembers",
-        "we": "remember",
-        "you (pl.)": "remember",
-        "they": "remember"
-      },
-      "simple past": {
-        "I": "remembered",
-        "you": "remembered",
-        "he/she": "remembered",
-        "we": "remembered",
-        "you (pl.)": "remembered",
-        "they": "remembered"
-      },
-      "will future": {
-        "I": "will remember",
-        "you": "will remember",
-        "he/she": "will remember",
-        "we": "will remember",
-        "you (pl.)": "will remember",
-        "they": "will remember"
-      }
-    }
-  },
-  {
-    "en": "to forget",
-    "tr": "unutmak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I forgot my wallet at home.",
-    "conjugations": {
-      "simple present": {
-        "I": "forget",
-        "you": "forget",
-        "he/she": "forgets",
-        "we": "forget",
-        "you (pl.)": "forget",
-        "they": "forget"
-      },
-      "simple past": {
-        "I": "forgot",
-        "you": "forgot",
-        "he/she": "forgot",
-        "we": "forgot",
-        "you (pl.)": "forgot",
-        "they": "forgot"
-      },
-      "will future": {
-        "I": "will forget",
-        "you": "will forget",
-        "he/she": "will forget",
-        "we": "will forget",
-        "you (pl.)": "will forget",
-        "they": "will forget"
-      }
-    }
-  },
-  {
-    "en": "to understand",
-    "tr": "anlamak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I don't understand the question.",
-    "conjugations": {
-      "simple present": {
-        "I": "understand",
-        "you": "understand",
-        "he/she": "understands",
-        "we": "understand",
-        "you (pl.)": "understand",
-        "they": "understand"
-      },
-      "simple past": {
-        "I": "understood",
-        "you": "understood",
-        "he/she": "understood",
-        "we": "understood",
-        "you (pl.)": "understood",
-        "they": "understood"
-      },
-      "will future": {
-        "I": "will understand",
-        "you": "will understand",
-        "he/she": "will understand",
-        "we": "will understand",
-        "you (pl.)": "will understand",
-        "they": "will understand"
-      }
-    }
-  },
-  {
-    "en": "to look for",
-    "tr": "aramak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I'm looking for a new job.",
-    "conjugations": {
-      "simple present": {
-        "I": "look for",
-        "you": "look for",
-        "he/she": "looks for",
-        "we": "look for",
-        "you (pl.)": "look for",
-        "they": "look for"
-      },
-      "simple past": {
-        "I": "looked for",
-        "you": "looked for",
-        "he/she": "looked for",
-        "we": "looked for",
-        "you (pl.)": "looked for",
-        "they": "looked for"
-      },
-      "will future": {
-        "I": "will look for",
-        "you": "will look for",
-        "he/she": "will look for",
-        "we": "will look for",
-        "you (pl.)": "will look for",
-        "they": "will look for"
-      }
-    }
-  },
-  {
-    "en": "to find",
-    "tr": "bulmak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I can't find my keys anywhere.",
-    "conjugations": {
-      "simple present": {
-        "I": "find",
-        "you": "find",
-        "he/she": "finds",
-        "we": "find",
-        "you (pl.)": "find",
-        "they": "find"
-      },
-      "simple past": {
-        "I": "found",
-        "you": "found",
-        "he/she": "found",
-        "we": "found",
-        "you (pl.)": "found",
-        "they": "found"
-      },
-      "will future": {
-        "I": "will find",
-        "you": "will find",
-        "he/she": "will find",
-        "we": "will find",
-        "you (pl.)": "will find",
-        "they": "will find"
-      }
-    }
-  },
-  {
-    "en": "to lose",
-    "tr": "kaybetmek",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I missed the bus this morning.",
-    "conjugations": {
-      "simple present": {
-        "I": "lose",
-        "you": "lose",
-        "he/she": "loses",
-        "we": "lose",
-        "you (pl.)": "lose",
-        "they": "lose"
-      },
-      "simple past": {
-        "I": "lost",
-        "you": "lost",
-        "he/she": "lost",
-        "we": "lost",
-        "you (pl.)": "lost",
-        "they": "lost"
-      },
-      "will future": {
-        "I": "will lose",
-        "you": "will lose",
-        "he/she": "will lose",
-        "we": "will lose",
-        "you (pl.)": "will lose",
-        "they": "will lose"
-      }
-    }
-  },
-  {
-    "en": "to win",
-    "tr": "kazanmak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "We won the match.",
-    "conjugations": {
-      "simple present": {
-        "I": "win",
-        "you": "win",
-        "he/she": "wins",
-        "we": "win",
-        "you (pl.)": "win",
-        "they": "win"
-      },
-      "simple past": {
-        "I": "won",
-        "you": "won",
-        "he/she": "won",
-        "we": "won",
-        "you (pl.)": "won",
-        "they": "won"
-      },
-      "will future": {
-        "I": "will win",
-        "you": "will win",
-        "he/she": "will win",
-        "we": "will win",
-        "you (pl.)": "will win",
-        "they": "will win"
-      }
-    }
-  },
-  {
-    "en": "to change",
-    "tr": "değiştirmek",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I want to change jobs this year.",
-    "conjugations": {
-      "simple present": {
-        "I": "change",
-        "you": "change",
-        "he/she": "changes",
-        "we": "change",
-        "you (pl.)": "change",
-        "they": "change"
-      },
-      "simple past": {
-        "I": "changed",
-        "you": "changed",
-        "he/she": "changed",
-        "we": "changed",
-        "you (pl.)": "changed",
-        "they": "changed"
-      },
-      "will future": {
-        "I": "will change",
-        "you": "will change",
-        "he/she": "will change",
-        "we": "will change",
-        "you (pl.)": "will change",
-        "they": "will change"
-      }
-    }
-  },
-  {
-    "en": "to know (a person)",
-    "tr": "tanımak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I know a lot of interesting people.",
-    "conjugations": {
-      "simple present": {
-        "I": "know",
-        "you": "know",
-        "he/she": "knows",
-        "we": "know",
-        "you (pl.)": "know",
-        "they": "know"
-      },
-      "simple past": {
-        "I": "knew",
-        "you": "knew",
-        "he/she": "knew",
-        "we": "knew",
-        "you (pl.)": "knew",
-        "they": "knew"
-      },
-      "will future": {
-        "I": "will know",
-        "you": "will know",
-        "he/she": "will know",
-        "we": "will know",
-        "you (pl.)": "will know",
-        "they": "will know"
-      }
-    }
-  },
-  {
-    "en": "to enjoy",
-    "tr": "zevk almak",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I enjoy classical music a lot.",
-    "conjugations": {
-      "simple present": {
-        "I": "enjoy",
-        "you": "enjoy",
-        "he/she": "enjoys",
-        "we": "enjoy",
-        "you (pl.)": "enjoy",
-        "they": "enjoy"
-      },
-      "simple past": {
-        "I": "enjoyed",
-        "you": "enjoyed",
-        "he/she": "enjoyed",
-        "we": "enjoyed",
-        "you (pl.)": "enjoyed",
-        "they": "enjoyed"
-      },
-      "will future": {
-        "I": "will enjoy",
-        "you": "will enjoy",
-        "he/she": "will enjoy",
-        "we": "will enjoy",
-        "you (pl.)": "will enjoy",
-        "they": "will enjoy"
-      }
-    }
-  },
-  {
-    "en": "to achieve",
-    "tr": "başarmak / elde etmek",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "I finally achieved all my goals.",
-    "conjugations": {
-      "simple present": {
-        "I": "achieve",
-        "you": "achieve",
-        "he/she": "achieves",
-        "we": "achieve",
-        "you (pl.)": "achieve",
-        "they": "achieve"
-      },
-      "simple past": {
-        "I": "achieved",
-        "you": "achieved",
-        "he/she": "achieved",
-        "we": "achieved",
-        "you (pl.)": "achieved",
-        "they": "achieved"
-      },
-      "will future": {
-        "I": "will achieve",
-        "you": "will achieve",
-        "he/she": "will achieve",
-        "we": "will achieve",
-        "you (pl.)": "will achieve",
-        "they": "will achieve"
-      }
-    }
-  },
-  {
-    "en": "to seem",
-    "tr": "görünmek / -gibi görünmek",
-    "cat": "fiil",
-    "level": "B1",
-    "ex": "It looks like it's going to rain.",
-    "conjugations": {
-      "simple present": {
-        "I": "seem",
-        "you": "seem",
-        "he/she": "seems",
-        "we": "seem",
-        "you (pl.)": "seem",
-        "they": "seem"
-      },
-      "simple past": {
-        "I": "seemed",
-        "you": "seemed",
-        "he/she": "seemed",
-        "we": "seemed",
-        "you (pl.)": "seemed",
-        "they": "seemed"
-      },
-      "will future": {
-        "I": "will seem",
-        "you": "will seem",
-        "he/she": "will seem",
-        "we": "will seem",
-        "you (pl.)": "will seem",
-        "they": "will seem"
-      }
-    }
-  },
-  {
-    "en": "experience",
-    "tr": "deneyim",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "I have a lot of experience."
-  },
-  {
-    "en": "opportunity",
-    "tr": "fırsat",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "It's a great opportunity."
-  },
-  {
-    "en": "problem",
-    "tr": "sorun",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "We have a serious problem."
-  },
-  {
-    "en": "solution",
-    "tr": "çözüm",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "I'm looking for a quick solution."
-  },
-  {
-    "en": "opinion",
-    "tr": "görüş",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "What is your opinion on this?"
-  },
-  {
-    "en": "habit / custom",
-    "tr": "alışkanlık",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "It is a very old custom."
-  },
-  {
-    "en": "language",
-    "tr": "dil",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "I speak three languages."
-  },
-  {
-    "en": "news",
-    "tr": "haber",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "I watched the news this morning."
-  },
-  {
-    "en": "environment",
-    "tr": "çevre",
-    "cat": "isim",
-    "level": "B1",
-    "ex": "We must care for the environment."
-  },
-  {
-    "en": "however",
-    "tr": "bununla birlikte / yine de",
-    "cat": "bağlaç",
-    "level": "B1",
-    "ex": "It's difficult, however it is possible."
-  },
-  {
-    "en": "although",
-    "tr": "her ne kadar / -e rağmen",
-    "cat": "bağlaç",
-    "level": "B1",
-    "ex": "Although it's raining, I go for a run."
-  },
-  {
-    "en": "moreover",
-    "tr": "ayrıca",
-    "cat": "bağlaç",
-    "level": "B1",
-    "ex": "Moreover, the price is very cheap."
-  },
-  {
-    "en": "therefore",
-    "tr": "bu nedenle",
-    "cat": "bağlaç",
-    "level": "B1",
-    "ex": "Therefore, I decide to stay."
-  },
-  {
-    "en": "while",
-    "tr": "iken / -irken",
-    "cat": "bağlaç",
-    "level": "B1",
-    "ex": "I read while I listen to music."
-  },
-  {
-    "en": "despite",
-    "tr": "-e rağmen",
-    "cat": "bağlaç",
-    "level": "B1",
-    "ex": "Despite everything, I keep smiling."
-  },
-  {
-    "en": "currently",
-    "tr": "şu anda / günümüzde",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "I currently work from home."
-  },
-  {
-    "en": "probably",
-    "tr": "muhtemelen",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "I'll probably be late today."
-  },
-  {
-    "en": "really",
-    "tr": "gerçekten",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "I really like this place."
-  },
-  {
-    "en": "finally",
-    "tr": "sonunda",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "Spring has finally arrived."
-  },
-  {
-    "en": "generally",
-    "tr": "genellikle",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "I generally have breakfast at home."
-  },
-  {
-    "en": "especially",
-    "tr": "özellikle",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "I like it, especially in summer."
-  },
-  {
-    "en": "approximately",
-    "tr": "yaklaşık olarak",
-    "cat": "zarf",
-    "level": "B1",
-    "ex": "It costs approximately one hundred pounds."
-  },
-  {
-    "en": "calm",
-    "tr": "sakin",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "The village is very calm."
-  },
-  {
-    "en": "safe / sure",
-    "tr": "güvenli / emin",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "I am completely sure of that."
-  },
-  {
-    "en": "available",
-    "tr": "müsait / mevcut",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "Are you available tomorrow?"
-  },
-  {
-    "en": "necessary",
-    "tr": "gerekli",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "It is absolutely necessary to study."
-  },
-  {
-    "en": "enough",
-    "tr": "yeterli",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "This is not enough."
-  },
-  {
-    "en": "pleasant",
-    "tr": "hoş / keyifli",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "She is a very pleasant person."
-  },
-  {
-    "en": "interesting",
-    "tr": "ilginç",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "It is a very interesting topic."
-  },
-  {
-    "en": "surprising",
-    "tr": "şaşırtıcı",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "The result is quite surprising."
-  },
-  {
-    "en": "worried",
-    "tr": "endişeli",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "I am very worried about you."
-  },
-  {
-    "en": "excited",
-    "tr": "heyecanlı",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "I am very excited about the trip."
-  },
-  {
-    "en": "bored / boring",
-    "tr": "sıkılmış / sıkıcı",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "I am quite bored at home."
-  },
-  {
-    "en": "proud",
-    "tr": "gururlu",
-    "cat": "sıfat",
-    "level": "B1",
-    "ex": "I am very proud of my children."
-  },
-  {
-    "en": "five hundred",
-    "tr": "beş yüz",
-    "cat": "sayı",
-    "level": "B1",
-    "ex": "It costs five hundred pounds."
-  },
-  {
-    "en": "one thousand",
-    "tr": "bin",
-    "cat": "sayı",
-    "level": "B1",
-    "ex": "There are a thousand people."
-  },
-  {
-    "en": "million",
-    "tr": "milyon",
-    "cat": "sayı",
-    "level": "B1",
-    "ex": "He earns a million a year."
-  },
-  {
-    "en": "first",
-    "tr": "birinci / ilk",
-    "cat": "sayı",
-    "level": "B1",
-    "ex": "I am first in the class."
-  },
-  {
-    "en": "second",
-    "tr": "ikinci",
-    "cat": "sayı",
-    "level": "B1",
-    "ex": "I always come second."
-  },
-  {
-    "en": "paella",
-    "tr": "paella",
-    "cat": "yiyecek",
-    "level": "B1",
-    "ex": "Valencian paella is delicious."
-  },
-  {
-    "en": "Spanish omelette",
-    "tr": "İspanyol omleti",
-    "cat": "yiyecek",
-    "level": "B1",
-    "ex": "Spanish omelette is my favourite."
-  },
-  {
-    "en": "olive oil",
-    "tr": "zeytinyağı",
-    "cat": "yiyecek",
-    "level": "B1",
-    "ex": "Olive oil is very healthy."
-  },
-  {
-    "en": "wine",
-    "tr": "şarap",
-    "cat": "yiyecek",
-    "level": "B1",
-    "ex": "Spanish red wine is excellent."
-  },
-  {
-    "en": "cheese",
-    "tr": "peynir",
-    "cat": "yiyecek",
-    "level": "B1",
-    "ex": "Manchego cheese is very good."
-  },
-  {
-    "en": "to develop",
-    "tr": "geliştirmek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "I want to develop my professional skills.",
-    "conjugations": {
-      "simple present": {
-        "I": "develop",
-        "you": "develop",
-        "he/she": "develops",
-        "we": "develop",
-        "you (pl.)": "develop",
-        "they": "develop"
-      },
-      "simple past": {
-        "I": "developed",
-        "you": "developed",
-        "he/she": "developed",
-        "we": "developed",
-        "you (pl.)": "developed",
-        "they": "developed"
-      },
-      "will future": {
-        "I": "will develop",
-        "you": "will develop",
-        "he/she": "will develop",
-        "we": "will develop",
-        "you (pl.)": "will develop",
-        "they": "will develop"
-      }
-    }
-  },
-  {
-    "en": "to establish",
-    "tr": "kurmak / belirlemek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "We need to establish a clear plan.",
-    "conjugations": {
-      "simple present": {
-        "I": "establish",
-        "you": "establish",
-        "he/she": "establishes",
-        "we": "establish",
-        "you (pl.)": "establish",
-        "they": "establish"
-      },
-      "simple past": {
-        "I": "established",
-        "you": "established",
-        "he/she": "established",
-        "we": "established",
-        "you (pl.)": "established",
-        "they": "established"
-      },
-      "will future": {
-        "I": "will establish",
-        "you": "will establish",
-        "he/she": "will establish",
-        "we": "will establish",
-        "you (pl.)": "will establish",
-        "they": "will establish"
-      }
-    }
-  },
-  {
-    "en": "to achieve",
-    "tr": "başarmak",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "I finally achieved all my goals.",
-    "conjugations": {
-      "simple present": {
-        "I": "achieve",
-        "you": "achieve",
-        "he/she": "achieves",
-        "we": "achieve",
-        "you (pl.)": "achieve",
-        "they": "achieve"
-      },
-      "simple past": {
-        "I": "achieved",
-        "you": "achieved",
-        "he/she": "achieved",
-        "we": "achieved",
-        "you (pl.)": "achieved",
-        "they": "achieved"
-      },
-      "will future": {
-        "I": "will achieve",
-        "you": "will achieve",
-        "he/she": "will achieve",
-        "we": "will achieve",
-        "you (pl.)": "will achieve",
-        "they": "will achieve"
-      }
-    }
-  },
-  {
-    "en": "to overcome",
-    "tr": "aşmak / geçmek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "We must overcome all obstacles.",
-    "conjugations": {
-      "simple present": {
-        "I": "overcome",
-        "you": "overcome",
-        "he/she": "overcomes",
-        "we": "overcome",
-        "you (pl.)": "overcome",
-        "they": "overcome"
-      },
-      "simple past": {
-        "I": "overcame",
-        "you": "overcame",
-        "he/she": "overcame",
-        "we": "overcame",
-        "you (pl.)": "overcame",
-        "they": "overcame"
-      },
-      "will future": {
-        "I": "will overcome",
-        "you": "will overcome",
-        "he/she": "will overcome",
-        "we": "will overcome",
-        "you (pl.)": "will overcome",
-        "they": "will overcome"
-      }
-    }
-  },
-  {
-    "en": "to demonstrate",
-    "tr": "kanıtlamak / göstermek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "You have to prove what you know.",
-    "conjugations": {
-      "simple present": {
-        "I": "demonstrate",
-        "you": "demonstrate",
-        "he/she": "demonstrates",
-        "we": "demonstrate",
-        "you (pl.)": "demonstrate",
-        "they": "demonstrate"
-      },
-      "simple past": {
-        "I": "demonstrated",
-        "you": "demonstrated",
-        "he/she": "demonstrated",
-        "we": "demonstrated",
-        "you (pl.)": "demonstrated",
-        "they": "demonstrated"
-      },
-      "will future": {
-        "I": "will demonstrate",
-        "you": "will demonstrate",
-        "he/she": "will demonstrate",
-        "we": "will demonstrate",
-        "you (pl.)": "will demonstrate",
-        "they": "will demonstrate"
-      }
-    }
-  },
-  {
-    "en": "to analyze",
-    "tr": "analiz etmek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "We need to analyze the data carefully.",
-    "conjugations": {
-      "simple present": {
-        "I": "analyze",
-        "you": "analyze",
-        "he/she": "analyzes",
-        "we": "analyze",
-        "you (pl.)": "analyze",
-        "they": "analyze"
-      },
-      "simple past": {
-        "I": "analyzed",
-        "you": "analyzed",
-        "he/she": "analyzed",
-        "we": "analyzed",
-        "you (pl.)": "analyzed",
-        "they": "analyzed"
-      },
-      "will future": {
-        "I": "will analyze",
-        "you": "will analyze",
-        "he/she": "will analyze",
-        "we": "will analyze",
-        "you (pl.)": "will analyze",
-        "they": "will analyze"
-      }
-    }
-  },
-  {
-    "en": "to propose",
-    "tr": "önermek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "I propose a completely new solution.",
-    "conjugations": {
-      "simple present": {
-        "I": "propose",
-        "you": "propose",
-        "he/she": "proposes",
-        "we": "propose",
-        "you (pl.)": "propose",
-        "they": "propose"
-      },
-      "simple past": {
-        "I": "proposed",
-        "you": "proposed",
-        "he/she": "proposed",
-        "we": "proposed",
-        "you (pl.)": "proposed",
-        "they": "proposed"
-      },
-      "will future": {
-        "I": "will propose",
-        "you": "will propose",
-        "he/she": "will propose",
-        "we": "will propose",
-        "you (pl.)": "will propose",
-        "they": "will propose"
-      }
-    }
-  },
-  {
-    "en": "to negotiate",
-    "tr": "müzakere etmek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "We need to negotiate the contract.",
-    "conjugations": {
-      "simple present": {
-        "I": "negotiate",
-        "you": "negotiate",
-        "he/she": "negotiates",
-        "we": "negotiate",
-        "you (pl.)": "negotiate",
-        "they": "negotiate"
-      },
-      "simple past": {
-        "I": "negotiated",
-        "you": "negotiated",
-        "he/she": "negotiated",
-        "we": "negotiated",
-        "you (pl.)": "negotiated",
-        "they": "negotiated"
-      },
-      "will future": {
-        "I": "will negotiate",
-        "you": "will negotiate",
-        "he/she": "will negotiate",
-        "we": "will negotiate",
-        "you (pl.)": "will negotiate",
-        "they": "will negotiate"
-      }
-    }
-  },
-  {
-    "en": "to recognize",
-    "tr": "tanımak / kabul etmek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "I openly acknowledge my mistake.",
-    "conjugations": {
-      "simple present": {
-        "I": "recognize",
-        "you": "recognize",
-        "he/she": "recognizes",
-        "we": "recognize",
-        "you (pl.)": "recognize",
-        "they": "recognize"
-      },
-      "simple past": {
-        "I": "recognized",
-        "you": "recognized",
-        "he/she": "recognized",
-        "we": "recognized",
-        "you (pl.)": "recognized",
-        "they": "recognized"
-      },
-      "will future": {
-        "I": "will recognize",
-        "you": "will recognize",
-        "he/she": "will recognize",
-        "we": "will recognize",
-        "you (pl.)": "will recognize",
-        "they": "will recognize"
-      }
-    }
-  },
-  {
-    "en": "to affect",
-    "tr": "etkilemek",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "Stress negatively affects health.",
-    "conjugations": {
-      "simple present": {
-        "I": "affect",
-        "you": "affect",
-        "he/she": "affects",
-        "we": "affect",
-        "you (pl.)": "affect",
-        "they": "affect"
-      },
-      "simple past": {
-        "I": "affected",
-        "you": "affected",
-        "he/she": "affected",
-        "we": "affected",
-        "you (pl.)": "affected",
-        "they": "affected"
-      },
-      "will future": {
-        "I": "will affect",
-        "you": "will affect",
-        "he/she": "will affect",
-        "we": "will affect",
-        "you (pl.)": "will affect",
-        "they": "will affect"
-      }
-    }
-  },
-  {
-    "en": "to stand out",
-    "tr": "öne çıkmak / vurgulamak",
-    "cat": "fiil",
-    "level": "B2",
-    "ex": "She always stands out at work.",
-    "conjugations": {
-      "simple present": {
-        "I": "stand out",
-        "you": "stand out",
-        "he/she": "stands out",
-        "we": "stand out",
-        "you (pl.)": "stand out",
-        "they": "stand out"
-      },
-      "simple past": {
-        "I": "stood out",
-        "you": "stood out",
-        "he/she": "stood out",
-        "we": "stood out",
-        "you (pl.)": "stood out",
-        "they": "stood out"
-      },
-      "will future": {
-        "I": "will stand out",
-        "you": "will stand out",
-        "he/she": "will stand out",
-        "we": "will stand out",
-        "you (pl.)": "will stand out",
-        "they": "will stand out"
-      }
-    }
-  },
-  {
-    "en": "skill",
-    "tr": "beceri",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "She has many professional skills."
-  },
-  {
-    "en": "goal / objective",
-    "tr": "hedef",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "My main goal is to learn."
-  },
-  {
-    "en": "resource",
-    "tr": "kaynak",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "There are not enough resources."
-  },
-  {
-    "en": "challenge",
-    "tr": "meydan okuma / zorluk",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "It is a great challenge for everyone."
-  },
-  {
-    "en": "consequence",
-    "tr": "sonuç / etki",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "There are serious consequences."
-  },
-  {
-    "en": "perspective",
-    "tr": "bakış açısı",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "Change your perspective on the topic."
-  },
-  {
-    "en": "context",
-    "tr": "bağlam",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "Everything depends on the context."
-  },
-  {
-    "en": "strategy",
-    "tr": "strateji",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "We need a clear strategy."
-  },
-  {
-    "en": "trend",
-    "tr": "eğilim / trend",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "It is an important global trend."
-  },
-  {
-    "en": "impact",
-    "tr": "etki",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "The social impact is enormous."
-  },
-  {
-    "en": "argument",
-    "tr": "argüman",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "His argument is very solid."
-  },
-  {
-    "en": "debate",
-    "tr": "tartışma",
-    "cat": "isim",
-    "level": "B2",
-    "ex": "The debate was very interesting."
-  },
-  {
-    "en": "effective",
-    "tr": "etkili / verimli",
-    "cat": "sıfat",
-    "level": "B2",
-    "ex": "It is a very effective method."
-  },
-  {
-    "en": "complex",
-    "tr": "karmaşık",
-    "cat": "sıfat",
-    "level": "B2",
-    "ex": "It is a quite complex topic."
-  },
-  {
-    "en": "relevant",
-    "tr": "ilgili / önemli",
-    "cat": "sıfat",
-    "level": "B2",
-    "ex": "It is a very relevant piece of data."
-  },
-  {
-    "en": "innovative",
-    "tr": "yenilikçi",
-    "cat": "sıfat",
-    "level": "B2",
-    "ex": "A completely innovative design."
-  },
-  {
-    "en": "sustainable",
-    "tr": "sürdürülebilir",
-    "cat": "sıfat",
-    "level": "B2",
-    "ex": "We need a sustainable model."
-  },
-  {
-    "en": "ambiguous",
-    "tr": "belirsiz / muğlak",
-    "cat": "sıfat",
-    "level": "B2",
-    "ex": "The message is quite ambiguous."
-  },
-  {
-    "en": "nevertheless",
-    "tr": "bununla birlikte",
-    "cat": "bağlaç",
-    "level": "B2",
-    "ex": "Nevertheless, there are serious problems."
-  },
-  {
-    "en": "as for",
-    "tr": "-e gelince",
-    "cat": "bağlaç",
-    "level": "B2",
-    "ex": "As for the data, there are doubts."
-  },
-  {
-    "en": "it is worth noting",
-    "tr": "belirtmek gerekir ki",
-    "cat": "bağlaç",
-    "level": "B2",
-    "ex": "It is worth noting that it is completely new."
-  },
-  {
-    "en": "with regard to",
-    "tr": "-e ilişkin",
-    "cat": "bağlaç",
-    "level": "B2",
-    "ex": "With regard to your question, let me explain."
-  },
-  {
-    "en": "undoubtedly",
-    "tr": "şüphesiz",
-    "cat": "zarf",
-    "level": "B2",
-    "ex": "He is undoubtedly the best candidate."
-  },
-  {
-    "en": "inevitably",
-    "tr": "kaçınılmaz olarak",
-    "cat": "zarf",
-    "level": "B2",
-    "ex": "Inevitably, things will change."
-  },
-  {
-    "en": "considerably",
-    "tr": "önemli ölçüde",
-    "cat": "zarf",
-    "level": "B2",
-    "ex": "It has improved considerably this year."
-  },
-  {
-    "en": "relatively",
-    "tr": "nispeten",
-    "cat": "zarf",
-    "level": "B2",
-    "ex": "It is relatively easy to understand."
-  },
-  {
-    "en": "precisely",
-    "tr": "tam olarak",
-    "cat": "zarf",
-    "level": "B2",
-    "ex": "That is precisely the main problem."
-  },
-  {
-    "en": "substantially",
-    "tr": "esaslı biçimde",
-    "cat": "zarf",
-    "level": "B2",
-    "ex": "It has changed substantially over the years."
-  },
-  {
-    "en": "three thousand",
-    "tr": "üç bin",
-    "cat": "sayı",
-    "level": "B2",
-    "ex": "It costs three thousand pounds."
-  },
-  {
-    "en": "ten thousand",
-    "tr": "on bin",
-    "cat": "sayı",
-    "level": "B2",
-    "ex": "There are ten thousand people in the stadium."
-  },
-  {
-    "en": "zero",
-    "tr": "sıfır",
-    "cat": "sayı",
-    "level": "B2",
-    "ex": "The result was zero to zero."
-  },
-  {
-    "en": "tenth",
-    "tr": "onuncu",
-    "cat": "sayı",
-    "level": "B2",
-    "ex": "I live on the tenth floor."
-  },
-  {
-    "en": "cured ham",
-    "tr": "jamón (İspanyol jambonu)",
-    "cat": "yiyecek",
-    "level": "B2",
-    "ex": "Iberian cured ham is the best."
-  },
-  {
-    "en": "gazpacho",
-    "tr": "soğuk domates çorbası",
-    "cat": "yiyecek",
-    "level": "B2",
-    "ex": "Gazpacho is very refreshing."
-  },
-  {
-    "en": "chorizo",
-    "tr": "İspanyol sucuğu",
-    "cat": "yiyecek",
-    "level": "B2",
-    "ex": "Chorizo is very tasty."
-  },
-  {
-    "en": "post-meal table talk",
-    "tr": "yemek sonrası sohbet",
-    "cat": "yiyecek",
-    "level": "B2",
-    "ex": "Post-meal conversation lasts hours in Spain."
-  },
-  {
-    "en": "to clarify",
-    "tr": "aydınlatmak / açıklığa kavuşturmak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "We need to clarify the facts.",
-    "conjugations": {
-      "simple present": {
-        "I": "clarify",
-        "you": "clarify",
-        "he/she": "clarifies",
-        "we": "clarify",
-        "you (pl.)": "clarify",
-        "they": "clarify"
-      },
-      "simple past": {
-        "I": "clarified",
-        "you": "clarified",
-        "he/she": "clarified",
-        "we": "clarified",
-        "you (pl.)": "clarified",
-        "they": "clarified"
-      },
-      "will future": {
-        "I": "will clarify",
-        "you": "will clarify",
-        "he/she": "will clarify",
-        "we": "will clarify",
-        "you (pl.)": "will clarify",
-        "they": "will clarify"
-      }
-    }
-  },
-  {
-    "en": "to claim / assert",
-    "tr": "talep etmek / savunmak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "They openly assert their rights."
-  },
-  {
-    "en": "to question",
-    "tr": "sorgulamak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "We must question everything.",
-    "conjugations": {
-      "simple present": {
-        "I": "question",
-        "you": "question",
-        "he/she": "questions",
-        "we": "question",
-        "you (pl.)": "question",
-        "they": "question"
-      },
-      "simple past": {
-        "I": "questioned",
-        "you": "questioned",
-        "he/she": "questioned",
-        "we": "questioned",
-        "you (pl.)": "questioned",
-        "they": "questioned"
-      },
-      "will future": {
-        "I": "will question",
-        "you": "will question",
-        "he/she": "will question",
-        "we": "will question",
-        "you (pl.)": "will question",
-        "they": "will question"
-      }
-    }
-  },
-  {
-    "en": "to express",
-    "tr": "ifade etmek / göstermek",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "He clearly expressed his disagreement.",
-    "conjugations": {
-      "simple present": {
-        "I": "express",
-        "you": "express",
-        "he/she": "expresses",
-        "we": "express",
-        "you (pl.)": "express",
-        "they": "express"
-      },
-      "simple past": {
-        "I": "expressed",
-        "you": "expressed",
-        "he/she": "expressed",
-        "we": "expressed",
-        "you (pl.)": "expressed",
-        "they": "expressed"
-      },
-      "will future": {
-        "I": "will express",
-        "you": "will express",
-        "he/she": "will express",
-        "we": "will express",
-        "you (pl.)": "will express",
-        "they": "will express"
-      }
-    }
-  },
-  {
-    "en": "to reconcile",
-    "tr": "uzlaştırmak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "We need to reconcile all positions."
-  },
-  {
-    "en": "to arouse",
-    "tr": "uyandırmak / yol açmak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "This topic arouses intense debate."
-  },
-  {
-    "en": "to nuance",
-    "tr": "nüans katmak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "We need to qualify the statement carefully."
-  },
-  {
-    "en": "to trigger",
-    "tr": "tetiklemek",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "That triggered a serious crisis.",
-    "conjugations": {
-      "simple present": {
-        "I": "trigger",
-        "you": "trigger",
-        "he/she": "triggers",
-        "we": "trigger",
-        "you (pl.)": "trigger",
-        "they": "trigger"
-      },
-      "simple past": {
-        "I": "triggered",
-        "you": "triggered",
-        "he/she": "triggered",
-        "we": "triggered",
-        "you (pl.)": "triggered",
-        "they": "triggered"
-      },
-      "will future": {
-        "I": "will trigger",
-        "you": "will trigger",
-        "he/she": "will trigger",
-        "we": "will trigger",
-        "you (pl.)": "will trigger",
-        "they": "will trigger"
-      }
-    }
-  },
-  {
-    "en": "to distort",
-    "tr": "çarpıtmak / saptırmak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "Please don't misrepresent my words."
-  },
-  {
-    "en": "to safeguard",
-    "tr": "korumak / güvence altına almak",
-    "cat": "fiil",
-    "level": "C1",
-    "ex": "We must safeguard all rights.",
-    "conjugations": {
-      "simple present": {
-        "I": "safeguard",
-        "you": "safeguard",
-        "he/she": "safeguards",
-        "we": "safeguard",
-        "you (pl.)": "safeguard",
-        "they": "safeguard"
-      },
-      "simple past": {
-        "I": "safeguarded",
-        "you": "safeguarded",
-        "he/she": "safeguarded",
-        "we": "safeguarded",
-        "you (pl.)": "safeguarded",
-        "they": "safeguarded"
-      },
-      "will future": {
-        "I": "will safeguard",
-        "you": "will safeguard",
-        "he/she": "will safeguard",
-        "we": "will safeguard",
-        "you (pl.)": "will safeguard",
-        "they": "will safeguard"
-      }
-    }
-  },
-  {
-    "en": "vulnerability",
-    "tr": "kırılganlık / savunmasızlık",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "Social vulnerability is very high."
-  },
-  {
-    "en": "paradigm",
-    "tr": "paradigma",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "It is a total paradigm shift."
-  },
-  {
-    "en": "hegemony",
-    "tr": "hegemonya",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "Cultural hegemony is dominant."
-  },
-  {
-    "en": "prerogative",
-    "tr": "ayrıcalık / imtiyaz",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "It is his prerogative to decide."
-  },
-  {
-    "en": "contingency",
-    "tr": "olasılık / ihtimal",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "We need to anticipate contingencies."
-  },
-  {
-    "en": "ambivalence",
-    "tr": "kararsızlık / ikilem",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "He feels ambivalence about the big change."
-  },
-  {
-    "en": "discrepancy",
-    "tr": "tutarsızlık / uyuşmazlık",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "There are clear discrepancies in the data."
-  },
-  {
-    "en": "cohesion",
-    "tr": "uyum / bütünlük",
-    "cat": "isim",
-    "level": "C1",
-    "ex": "Social cohesion is fundamental."
-  },
-  {
-    "en": "inherent",
-    "tr": "doğasında olan",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "It is a risk inherent to the process."
-  },
-  {
-    "en": "ephemeral",
-    "tr": "geçici / kısa ömürlü",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "Fame is ephemeral and transient."
-  },
-  {
-    "en": "omnipresent",
-    "tr": "her yerde bulunan",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "Technology is omnipresent today."
-  },
-  {
-    "en": "irrefutable",
-    "tr": "çürütülemez",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "It is a completely irrefutable argument."
-  },
-  {
-    "en": "essential",
-    "tr": "vazgeçilmez",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "It is essential to study it thoroughly."
-  },
-  {
-    "en": "perceptive",
-    "tr": "keskin zekâlı / sezgili",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "She is a very perceptive person."
-  },
-  {
-    "en": "scrupulous",
-    "tr": "titiz / vicdanlı",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "He is a very scrupulous professional."
-  },
-  {
-    "en": "reluctant",
-    "tr": "çekingen / isteksiz",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "He is very reluctant to change."
-  },
-  {
-    "en": "staunch",
-    "tr": "ateşli / amansız",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "He is a staunch defender of his ideas."
-  },
-  {
-    "en": "endemic",
-    "tr": "endemik / kronik",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "It is an endemic problem in the region."
-  },
-  {
-    "en": "flagrant",
-    "tr": "apaçık / göz önünde",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "It is a flagrant violation of rights."
-  },
-  {
-    "en": "unequivocal",
-    "tr": "açık / tartışmasız",
-    "cat": "sıfat",
-    "level": "C1",
-    "ex": "It is a completely unequivocal signal."
-  },
-  {
-    "en": "categorically",
-    "tr": "kesinlikle",
-    "cat": "zarf",
-    "level": "C1",
-    "ex": "He categorically denied it."
-  },
-  {
-    "en": "intrinsically",
-    "tr": "özünde / doğası gereği",
-    "cat": "zarf",
-    "level": "C1",
-    "ex": "The matter is intrinsically complex."
-  },
-  {
-    "en": "inexorably",
-    "tr": "kaçınılmaz biçimde",
-    "cat": "zarf",
-    "level": "C1",
-    "ex": "Time advances inexorably."
-  },
-  {
-    "en": "one million",
-    "tr": "bir milyon",
-    "cat": "sayı",
-    "level": "C1",
-    "ex": "He earns more than one million a year."
-  },
-  {
-    "en": "a dozen",
-    "tr": "bir düzine",
-    "cat": "sayı",
-    "level": "C1",
-    "ex": "Buy a dozen eggs."
-  },
-  {
-    "en": "half",
-    "tr": "yarısı",
-    "cat": "sayı",
-    "level": "C1",
-    "ex": "Only half understood it."
-  },
-  {
-    "en": "double",
-    "tr": "iki katı",
-    "cat": "sayı",
-    "level": "C1",
-    "ex": "He earns double what he used to."
-  },
-  {
-    "en": "pintxos",
-    "tr": "pintxos (Bask tapası)",
-    "cat": "yiyecek",
-    "level": "C1",
-    "ex": "Basque pintxos are delicious."
-  },
-  {
-    "en": "cocido",
-    "tr": "nohutlu et yahnisi",
-    "cat": "yiyecek",
-    "level": "C1",
-    "ex": "Madrid cocido is hearty."
-  },
-  {
-    "en": "sobrasada",
-    "tr": "Mallorca sucuğu",
-    "cat": "yiyecek",
-    "level": "C1",
-    "ex": "Sobrasada is typical of Mallorca."
-  },
-  {
-    "en": "to bias / skew",
-    "tr": "çarpıtmak / yanlı yapmak",
-    "cat": "fiil",
-    "level": "C2",
-    "ex": "That considerably skews the results.",
-    "conjugations": {
-      "simple present": {
-        "I": "skew",
-        "you": "skew",
-        "he/she": "skews",
-        "we": "skew",
-        "you (pl.)": "skew",
-        "they": "skew"
-      },
-      "simple past": {
-        "I": "skewed",
-        "you": "skewed",
-        "he/she": "skewed",
-        "we": "skewed",
-        "you (pl.)": "skewed",
-        "they": "skewed"
-      },
-      "will future": {
-        "I": "will skew",
-        "you": "will skew",
-        "he/she": "will skew",
-        "we": "will skew",
-        "you (pl.)": "will skew",
-        "they": "will skew"
-      }
-    }
-  },
-  {
-    "en": "to settle",
-    "tr": "çözmek / sonuca bağlamak",
-    "cat": "fiil",
-    "level": "C2",
-    "ex": "We need to definitively resolve the conflict.",
-    "conjugations": {
-      "simple present": {
-        "I": "settle",
-        "you": "settle",
-        "he/she": "settles",
-        "we": "settle",
-        "you (pl.)": "settle",
-        "they": "settle"
-      },
-      "simple past": {
-        "I": "settled",
-        "you": "settled",
-        "he/she": "settled",
-        "we": "settled",
-        "you (pl.)": "settled",
-        "they": "settled"
-      },
-      "will future": {
-        "I": "will settle",
-        "you": "will settle",
-        "he/she": "will settle",
-        "we": "will settle",
-        "you (pl.)": "will settle",
-        "they": "will settle"
-      }
-    }
-  },
-  {
-    "en": "to scrutinize",
-    "tr": "ince eleyip sık dokumak",
-    "cat": "fiil",
-    "level": "C2",
-    "ex": "He meticulously scrutinized every detail.",
-    "conjugations": {
-      "simple present": {
-        "I": "scrutinize",
-        "you": "scrutinize",
-        "he/she": "scrutinizes",
-        "we": "scrutinize",
-        "you (pl.)": "scrutinize",
-        "they": "scrutinize"
-      },
-      "simple past": {
-        "I": "scrutinized",
-        "you": "scrutinized",
-        "he/she": "scrutinized",
-        "we": "scrutinized",
-        "you (pl.)": "scrutinized",
-        "they": "scrutinized"
-      },
-      "will future": {
-        "I": "will scrutinize",
-        "you": "will scrutinize",
-        "he/she": "will scrutinize",
-        "we": "will scrutinize",
-        "you (pl.)": "will scrutinize",
-        "they": "will scrutinize"
-      }
-    }
-  },
-  {
-    "en": "to undermine",
-    "tr": "özünü bozmak / çarpıtmak",
-    "cat": "fiil",
-    "level": "C2",
-    "ex": "That completely undermines the argument.",
-    "conjugations": {
-      "simple present": {
-        "I": "undermine",
-        "you": "undermine",
-        "he/she": "undermines",
-        "we": "undermine",
-        "you (pl.)": "undermine",
-        "they": "undermine"
-      },
-      "simple past": {
-        "I": "undermined",
-        "you": "undermined",
-        "he/she": "undermined",
-        "we": "undermined",
-        "you (pl.)": "undermined",
-        "they": "undermined"
-      },
-      "will future": {
-        "I": "will undermine",
-        "you": "will undermine",
-        "he/she": "will undermine",
-        "we": "will undermine",
-        "you (pl.)": "will undermine",
-        "they": "will undermine"
-      }
-    }
-  },
-  {
-    "en": "to prevail",
-    "tr": "ağır basmak / üstün gelmek",
-    "cat": "fiil",
-    "level": "C2",
-    "ex": "The negative aspects clearly predominate.",
-    "conjugations": {
-      "simple present": {
-        "I": "prevail",
-        "you": "prevail",
-        "he/she": "prevails",
-        "we": "prevail",
-        "you (pl.)": "prevail",
-        "they": "prevail"
-      },
-      "simple past": {
-        "I": "prevailed",
-        "you": "prevailed",
-        "he/she": "prevailed",
-        "we": "prevailed",
-        "you (pl.)": "prevailed",
-        "they": "prevailed"
-      },
-      "will future": {
-        "I": "will prevail",
-        "you": "will prevail",
-        "he/she": "will prevail",
-        "we": "will prevail",
-        "you (pl.)": "will prevail",
-        "they": "will prevail"
-      }
-    }
-  },
-  {
-    "en": "axiomatic",
-    "tr": "apaçık / aksiyomatik",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "It is a totally axiomatic fact."
-  },
-  {
-    "en": "verbose",
-    "tr": "ayrıntılı / uzun soluklu",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "A verbose and very detailed analysis."
-  },
-  {
-    "en": "peremptory",
-    "tr": "acil / kesin",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "It is an absolutely urgent need."
-  },
-  {
-    "en": "laconic",
-    "tr": "kısa ve öz / az sözlü",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "He gave a very laconic answer."
-  },
-  {
-    "en": "plausible",
-    "tr": "inandırıcı / gerçekçi",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "A completely plausible story."
-  },
-  {
-    "en": "unavoidable",
-    "tr": "kaçınılmaz / görmezden gelinemez",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "It is an unavoidable problem."
-  },
-  {
-    "en": "mendacious",
-    "tr": "yalancı / aldatıcı",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "He delivered a completely mendacious speech."
-  },
-  {
-    "en": "magnanimous",
-    "tr": "yüce gönüllü",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "It was a truly magnanimous gesture."
-  },
-  {
-    "en": "trivial",
-    "tr": "önemsiz / ufak",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "It is a completely trivial detail."
-  },
-  {
-    "en": "transparent / clear",
-    "tr": "saydam / apaçık",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "An absolutely clear explanation."
-  },
-  {
-    "en": "ontological",
-    "tr": "ontolojik / varlıkbilimsel",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "A profoundly ontological question."
-  },
-  {
-    "en": "pristine",
-    "tr": "el değmemiş / özgün",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "A landscape in pristine condition."
-  },
-  {
-    "en": "evanescent",
-    "tr": "kaybolup giden / geçici",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "A completely evanescent memory."
-  },
-  {
-    "en": "arrogant",
-    "tr": "küstah / kendini beğenmiş",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "An absolutely presumptuous comment."
-  },
-  {
-    "en": "skeptical",
-    "tr": "şüpheci",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "I am profoundly skeptical about that."
-  },
-  {
-    "en": "ubiquitous",
-    "tr": "her yerde bulunan",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "It is a completely ubiquitous phenomenon."
-  },
-  {
-    "en": "precarious",
-    "tr": "güvencesiz / istikrarsız",
-    "cat": "sıfat",
-    "level": "C2",
-    "ex": "He lives in a very precarious situation."
-  },
-  {
-    "en": "epitome",
-    "tr": "özet / simge",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "He is the pure epitome of success."
-  },
-  {
-    "en": "serendipity",
-    "tr": "şans eseri keşif",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "It was pure serendipity finding it."
-  },
-  {
-    "en": "obstacle",
-    "tr": "engel / tuzak",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "Overcoming language barriers is tough."
-  },
-  {
-    "en": "idiosyncrasy",
-    "tr": "kendine özgü özellik",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "Cultural idiosyncrasy is fascinating."
-  },
-  {
-    "en": "epiphany",
-    "tr": "ani kavrayış / aydınlanma",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "He had a true epiphany that night."
-  },
-  {
-    "en": "catharsis",
-    "tr": "katarsis / arınma",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "Theatre produces a profound catharsis."
-  },
-  {
-    "en": "circumlocution",
-    "tr": "dolambaçlı anlatım",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "He always speaks with too many circumlocutions."
-  },
-  {
-    "en": "ignominy",
-    "tr": "alçaklık / yüz karası",
-    "cat": "isim",
-    "level": "C2",
-    "ex": "It was a nameless historical ignominy."
-  },
-  {
-    "en": "paradoxically",
-    "tr": "çelişkili biçimde",
-    "cat": "zarf",
-    "level": "C2",
-    "ex": "Paradoxically, that was what worked."
-  },
-  {
-    "en": "ironically",
-    "tr": "ironik biçimde",
-    "cat": "zarf",
-    "level": "C2",
-    "ex": "Ironically, it ended up failing."
-  },
-  {
-    "en": "tacitly",
-    "tr": "örtük olarak / sessizce",
-    "cat": "zarf",
-    "level": "C2",
-    "ex": "They agreed tacitly without words."
-  },
-  {
-    "en": "resolutely",
-    "tr": "kararlılıkla",
-    "cat": "zarf",
-    "level": "C2",
-    "ex": "He acted resolutely without hesitation."
-  },
-  {
-    "en": "surreptitiously",
-    "tr": "gizlice / el altından",
-    "cat": "zarf",
-    "level": "C2",
-    "ex": "He surreptitiously introduced it into the text."
-  },
-  {
-    "en": "one third",
-    "tr": "üçte bir",
-    "cat": "sayı",
-    "level": "C2",
-    "ex": "One third of the population supports it."
-  },
-  {
-    "en": "a figure / number",
-    "tr": "rakam / sayı",
-    "cat": "sayı",
-    "level": "C2",
-    "ex": "It is a truly alarming figure."
-  },
-  {
-    "en": "infinite",
-    "tr": "sonsuz / sonsuzluk",
-    "cat": "sayı",
-    "level": "C2",
-    "ex": "The possibilities are practically infinite."
-  },
-  {
-    "en": "negligible",
-    "tr": "son derece küçük",
-    "cat": "sayı",
-    "level": "C2",
-    "ex": "An absolutely negligible percentage."
-  },
-  {
-    "en": "suckling pig",
-    "tr": "sütlü domuz (İspanya yemeği)",
-    "cat": "yiyecek",
-    "level": "C2",
-    "ex": "Segovian suckling pig is exquisite."
-  },
-  {
-    "en": "marmitako",
-    "tr": "ton balıklı Bask güveci",
-    "cat": "yiyecek",
-    "level": "C2",
-    "ex": "Marmitako is the typical Basque dish."
-  },
-  {
-    "en": "escabeche",
-    "tr": "sirke ile marine edilmiş yemek",
-    "cat": "yiyecek",
-    "level": "C2",
-    "ex": "Escabeche is an ancient technique."
-  },
+  { "en": "hello", "tr": "merhaba", "cat": "günlük", "level": "A1", "ex": "Hello! How are you?" },
+  { "en": "goodbye", "tr": "hoşça kal", "cat": "günlük", "level": "A1", "ex": "Goodbye! See you later." },
+  { "en": "thank you", "tr": "teşekkür ederim", "cat": "günlük", "level": "A1", "ex": "Thank you very much for everything." },
+  { "en": "please", "tr": "lütfen", "cat": "günlük", "level": "A1", "ex": "A coffee, please." },
+  { "en": "yes", "tr": "evet", "cat": "günlük", "level": "A1", "ex": "Yes, of course!" },
+  { "en": "no", "tr": "hayır", "cat": "günlük", "level": "A1", "ex": "No, thank you." },
+  { "en": "good morning", "tr": "günaydın", "cat": "günlük", "level": "A1", "ex": "Good morning, everyone!" },
+  { "en": "good afternoon", "tr": "iyi öğleden sonralar", "cat": "günlük", "level": "A1", "ex": "Good afternoon, how are you?" },
+  { "en": "good night", "tr": "iyi geceler", "cat": "günlük", "level": "A1", "ex": "Good night, see you tomorrow." },
+  { "en": "excuse me / sorry", "tr": "özür dilerim", "cat": "günlük", "level": "A1", "ex": "Excuse me, I don't understand." },
+  { "en": "you're welcome", "tr": "rica ederim", "cat": "günlük", "level": "A1", "ex": "You're welcome, my pleasure." },
+  { "en": "how are you?", "tr": "nasılsın?", "cat": "günlük", "level": "A1", "ex": "Hello! How are you today?" },
+  { "en": "fine / good", "tr": "iyi", "cat": "günlük", "level": "A1", "ex": "I'm fine, thank you." },
+  { "en": "water", "tr": "su", "cat": "yiyecek", "level": "A1", "ex": "Can I have some water, please?" },
+  { "en": "bread", "tr": "ekmek", "cat": "yiyecek", "level": "A1", "ex": "I'd like some bread with butter." },
+  { "en": "milk", "tr": "süt", "cat": "yiyecek", "level": "A1", "ex": "The milk is cold." },
+  { "en": "coffee", "tr": "kahve", "cat": "yiyecek", "level": "A1", "ex": "A coffee with milk, please." },
+  { "en": "fruit", "tr": "meyve", "cat": "yiyecek", "level": "A1", "ex": "I eat fruit every day." },
+  { "en": "meat", "tr": "et", "cat": "yiyecek", "level": "A1", "ex": "I don't eat red meat." },
+  { "en": "rice", "tr": "pirinç", "cat": "yiyecek", "level": "A1", "ex": "The rice is ready." },
+  { "en": "chicken", "tr": "tavuk", "cat": "yiyecek", "level": "A1", "ex": "I like roasted chicken." },
+  { "en": "house", "tr": "ev", "cat": "isim", "level": "A1", "ex": "My house is small but beautiful." },
+  { "en": "book", "tr": "kitap", "cat": "isim", "level": "A1", "ex": "I have a very interesting book." },
+  { "en": "table", "tr": "masa", "cat": "isim", "level": "A1", "ex": "The table is big." },
+  { "en": "chair", "tr": "sandalye", "cat": "isim", "level": "A1", "ex": "The chair is very comfortable." },
+  { "en": "door", "tr": "kapı", "cat": "isim", "level": "A1", "ex": "Open the door, please." },
+  { "en": "window", "tr": "pencere", "cat": "isim", "level": "A1", "ex": "The window is open." },
+  { "en": "dog", "tr": "köpek", "cat": "isim", "level": "A1", "ex": "I have a very friendly dog." },
+  { "en": "cat", "tr": "kedi", "cat": "isim", "level": "A1", "ex": "The cat sleeps all day." },
+  { "en": "friend", "tr": "arkadaş", "cat": "isim", "level": "A1", "ex": "He is my best friend." },
+  { "en": "school", "tr": "okul", "cat": "isim", "level": "A1", "ex": "I go to school every day." },
+  { "en": "city", "tr": "şehir", "cat": "isim", "level": "A1", "ex": "It is a very beautiful city." },
+  { "en": "street", "tr": "sokak", "cat": "isim", "level": "A1", "ex": "I live on this street." },
+  { "en": "one", "tr": "bir", "cat": "sayı", "level": "A1", "ex": "I have one child." },
+  { "en": "two", "tr": "iki", "cat": "sayı", "level": "A1", "ex": "It is two o'clock." },
+  { "en": "three", "tr": "üç", "cat": "sayı", "level": "A1", "ex": "Three coffees, please." },
+  { "en": "four", "tr": "dört", "cat": "sayı", "level": "A1", "ex": "I have four siblings." },
+  { "en": "five", "tr": "beş", "cat": "sayı", "level": "A1", "ex": "Five more minutes." },
+  { "en": "ten", "tr": "on", "cat": "sayı", "level": "A1", "ex": "Ten pounds, please." },
+  { "en": "one hundred", "tr": "yüz", "cat": "sayı", "level": "A1", "ex": "One hundred people." },
+  { "en": "red", "tr": "kırmızı", "cat": "renk", "level": "A1", "ex": "The car is red." },
+  { "en": "blue", "tr": "mavi", "cat": "renk", "level": "A1", "ex": "The sky is blue." },
+  { "en": "green", "tr": "yeşil", "cat": "renk", "level": "A1", "ex": "The grass is green." },
+  { "en": "white", "tr": "beyaz", "cat": "renk", "level": "A1", "ex": "The milk is white." },
+  { "en": "black", "tr": "siyah", "cat": "renk", "level": "A1", "ex": "The cat is black." },
+  { "en": "yellow", "tr": "sarı", "cat": "renk", "level": "A1", "ex": "The sun is yellow." },
+  { "en": "Monday", "tr": "pazartesi", "cat": "zaman", "level": "A1", "ex": "I have class on Monday." },
+  { "en": "Tuesday", "tr": "salı", "cat": "zaman", "level": "A1", "ex": "I work on Tuesday." },
+  { "en": "Wednesday", "tr": "çarşamba", "cat": "zaman", "level": "A1", "ex": "I'm free on Wednesday." },
+  { "en": "Thursday", "tr": "perşembe", "cat": "zaman", "level": "A1", "ex": "Thursday is my favourite day." },
+  { "en": "Friday", "tr": "cuma", "cat": "zaman", "level": "A1", "ex": "We go out on Friday night." },
+  { "en": "Saturday", "tr": "cumartesi", "cat": "zaman", "level": "A1", "ex": "I rest at home on Saturday." },
+  { "en": "Sunday", "tr": "pazar", "cat": "zaman", "level": "A1", "ex": "Sunday is a holiday." },
+  { "en": "today", "tr": "bugün", "cat": "zaman", "level": "A1", "ex": "It's very cold today." },
+  { "en": "tomorrow / morning", "tr": "yarın / sabah", "cat": "zaman", "level": "A1", "ex": "Good night, see you tomorrow." },
+  { "en": "yesterday", "tr": "dün", "cat": "zaman", "level": "A1", "ex": "I went to the doctor yesterday." },
+  { "en": "mother", "tr": "anne", "cat": "aile", "level": "A1", "ex": "My mother cooks very well." },
+  { "en": "father", "tr": "baba", "cat": "aile", "level": "A1", "ex": "My father works a lot." },
+  { "en": "brother", "tr": "erkek kardeş", "cat": "aile", "level": "A1", "ex": "I have an older brother." },
+  { "en": "sister", "tr": "kız kardeş", "cat": "aile", "level": "A1", "ex": "My sister is younger." },
+  { "en": "grandfather", "tr": "büyükbaba", "cat": "aile", "level": "A1", "ex": "My grandfather is eighty years old." },
+  { "en": "grandmother", "tr": "büyükanne", "cat": "aile", "level": "A1", "ex": "Grandmother is preparing the meal." },
+  { "en": "son", "tr": "oğul", "cat": "aile", "level": "A1", "ex": "I have a five-year-old son." },
+  { "en": "big / large", "tr": "büyük", "cat": "sıfat", "level": "A1", "ex": "It is a very big house." },
+  { "en": "small / little", "tr": "küçük", "cat": "sıfat", "level": "A1", "ex": "A very small dog." },
+  { "en": "good", "tr": "iyi", "cat": "sıfat", "level": "A1", "ex": "It is a very good book." },
+  { "en": "bad", "tr": "kötü", "cat": "sıfat", "level": "A1", "ex": "The weather is bad today." },
+  { "en": "new", "tr": "yeni", "cat": "sıfat", "level": "A1", "ex": "I have a new book." },
+  { "en": "old", "tr": "eski / yaşlı", "cat": "sıfat", "level": "A1", "ex": "My grandfather is old but active." },
+  { "en": "beautiful / pretty", "tr": "güzel", "cat": "sıfat", "level": "A1", "ex": "What a beautiful day." },
+  { "en": "ugly", "tr": "çirkin", "cat": "sıfat", "level": "A1", "ex": "I don't like that colour, it's ugly." },
+  { "en": "to be (permanent)", "tr": "olmak (kalıcı)", "cat": "fiil", "level": "A1", "ex": "I am an English student.", "conjugations": {"simple present":{"I":"am","you":"are","he/she":"is","we":"are","you (pl.)":"are","they":"are"},"simple past":{"I":"was","you":"were","he/she":"was","we":"were","you (pl.)":"were","they":"were"},"will future":{"I":"will be","you":"will be","he/she":"will be","we":"will be","you (pl.)":"will be","they":"will be"}} },
+  { "en": "to be (temporary)", "tr": "olmak (geçici)", "cat": "fiil", "level": "A1", "ex": "I am very tired today.", "conjugations": {"simple present":{"I":"am","you":"are","he/she":"is","we":"are","you (pl.)":"are","they":"are"},"simple past":{"I":"was","you":"were","he/she":"was","we":"were","you (pl.)":"were","they":"were"},"will future":{"I":"will be","you":"will be","he/she":"will be","we":"will be","you (pl.)":"will be","they":"will be"}} },
+  { "en": "to have", "tr": "sahip olmak", "cat": "fiil", "level": "A1", "ex": "I am very hungry now.", "conjugations": {"simple present":{"I":"have","you":"have","he/she":"has","we":"have","you (pl.)":"have","they":"have"},"simple past":{"I":"had","you":"had","he/she":"had","we":"had","you (pl.)":"had","they":"had"},"will future":{"I":"will have","you":"will have","he/she":"will have","we":"will have","you (pl.)":"will have","they":"will have"}} },
+  { "en": "to go", "tr": "gitmek", "cat": "fiil", "level": "A1", "ex": "I go to school every morning.", "conjugations": {"simple present":{"I":"go","you":"go","he/she":"goes","we":"go","you (pl.)":"go","they":"go"},"simple past":{"I":"went","you":"went","he/she":"went","we":"went","you (pl.)":"went","they":"went"},"will future":{"I":"will go","you":"will go","he/she":"will go","we":"will go","you (pl.)":"will go","they":"will go"}} },
+  { "en": "to eat", "tr": "yemek yemek", "cat": "fiil", "level": "A1", "ex": "Let's eat together today.", "conjugations": {"simple present":{"I":"eat","you":"eat","he/she":"eats","we":"eat","you (pl.)":"eat","they":"eat"},"simple past":{"I":"ate","you":"ate","he/she":"ate","we":"ate","you (pl.)":"ate","they":"ate"},"will future":{"I":"will eat","you":"will eat","he/she":"will eat","we":"will eat","you (pl.)":"will eat","they":"will eat"}} },
+  { "en": "to drink", "tr": "içmek", "cat": "fiil", "level": "A1", "ex": "I want to drink cold water.", "conjugations": {"simple present":{"I":"drink","you":"drink","he/she":"drinks","we":"drink","you (pl.)":"drink","they":"drink"},"simple past":{"I":"drank","you":"drank","he/she":"drank","we":"drank","you (pl.)":"drank","they":"drank"},"will future":{"I":"will drink","you":"will drink","he/she":"will drink","we":"will drink","you (pl.)":"will drink","they":"will drink"}} },
+  { "en": "to speak", "tr": "konuşmak", "cat": "fiil", "level": "A1", "ex": "I speak English every day.", "conjugations": {"simple present":{"I":"speak","you":"speak","he/she":"speaks","we":"speak","you (pl.)":"speak","they":"speak"},"simple past":{"I":"spoke","you":"spoke","he/she":"spoke","we":"spoke","you (pl.)":"spoke","they":"spoke"},"will future":{"I":"will speak","you":"will speak","he/she":"will speak","we":"will speak","you (pl.)":"will speak","they":"will speak"}} },
+  { "en": "to live", "tr": "yaşamak", "cat": "fiil", "level": "A1", "ex": "I have lived in Istanbul for years.", "conjugations": {"simple present":{"I":"live","you":"live","he/she":"lives","we":"live","you (pl.)":"live","they":"live"},"simple past":{"I":"lived","you":"lived","he/she":"lived","we":"lived","you (pl.)":"lived","they":"lived"},"will future":{"I":"will live","you":"will live","he/she":"will live","we":"will live","you (pl.)":"will live","they":"will live"}} },
+  { "en": "to work", "tr": "çalışmak", "cat": "fiil", "level": "A2", "ex": "I work in a central office.", "conjugations": {"simple present":{"I":"work","you":"work","he/she":"works","we":"work","you (pl.)":"work","they":"work"},"simple past":{"I":"worked","you":"worked","he/she":"worked","we":"worked","you (pl.)":"worked","they":"worked"},"will future":{"I":"will work","you":"will work","he/she":"will work","we":"will work","you (pl.)":"will work","they":"will work"}} },
+  { "en": "to want / love", "tr": "istemek / sevmek", "cat": "fiil", "level": "A2", "ex": "I want to learn English well.", "conjugations": {"simple present":{"I":"want","you":"want","he/she":"wants","we":"want","you (pl.)":"want","they":"want"},"simple past":{"I":"wanted","you":"wanted","he/she":"wanted","we":"wanted","you (pl.)":"wanted","they":"wanted"},"will future":{"I":"will want","you":"will want","he/she":"will want","we":"will want","you (pl.)":"will want","they":"will want"}} },
+  { "en": "can / to be able to", "tr": "yapabilmek", "cat": "fiil", "level": "A2", "ex": "Can you help me?", "conjugations": {"simple present":{"I":"can","you":"can","he/she":"can","we":"can","you (pl.)":"can","they":"can"},"simple past":{"I":"could","you":"could","he/she":"could","we":"could","you (pl.)":"could","they":"could"},"will future":{"I":"will be able to","you":"will be able to","he/she":"will be able to","we":"will be able to","you (pl.)":"will be able to","they":"will be able to"}} },
+  { "en": "to know", "tr": "bilmek", "cat": "fiil", "level": "A2", "ex": "I don't know the correct answer.", "conjugations": {"simple present":{"I":"know","you":"know","he/she":"knows","we":"know","you (pl.)":"know","they":"know"},"simple past":{"I":"knew","you":"knew","he/she":"knew","we":"knew","you (pl.)":"knew","they":"knew"},"will future":{"I":"will know","you":"will know","he/she":"will know","we":"will know","you (pl.)":"will know","they":"will know"}} },
+  { "en": "to come", "tr": "gelmek", "cat": "fiil", "level": "A2", "ex": "Can you come tomorrow?", "conjugations": {"simple present":{"I":"come","you":"come","he/she":"comes","we":"come","you (pl.)":"come","they":"come"},"simple past":{"I":"came","you":"came","he/she":"came","we":"came","you (pl.)":"came","they":"came"},"will future":{"I":"will come","you":"will come","he/she":"will come","we":"will come","you (pl.)":"will come","they":"will come"}} },
+  { "en": "to go out", "tr": "çıkmak", "cat": "fiil", "level": "A2", "ex": "I leave at eight in the morning.", "conjugations": {"simple present":{"I":"go out","you":"go out","he/she":"goes out","we":"go out","you (pl.)":"go out","they":"go out"},"simple past":{"I":"went out","you":"went out","he/she":"went out","we":"went out","you (pl.)":"went out","they":"went out"},"will future":{"I":"will go out","you":"will go out","he/she":"will go out","we":"will go out","you (pl.)":"will go out","they":"will go out"}} },
+  { "en": "to arrive", "tr": "varmak", "cat": "fiil", "level": "A2", "ex": "I always arrive late.", "conjugations": {"simple present":{"I":"arrive","you":"arrive","he/she":"arrives","we":"arrive","you (pl.)":"arrive","they":"arrive"},"simple past":{"I":"arrived","you":"arrived","he/she":"arrived","we":"arrived","you (pl.)":"arrived","they":"arrived"},"will future":{"I":"will arrive","you":"will arrive","he/she":"will arrive","we":"will arrive","you (pl.)":"will arrive","they":"will arrive"}} },
+  { "en": "to buy", "tr": "satın almak", "cat": "fiil", "level": "A2", "ex": "I want to buy a new car.", "conjugations": {"simple present":{"I":"buy","you":"buy","he/she":"buys","we":"buy","you (pl.)":"buy","they":"buy"},"simple past":{"I":"bought","you":"bought","he/she":"bought","we":"bought","you (pl.)":"bought","they":"bought"},"will future":{"I":"will buy","you":"will buy","he/she":"will buy","we":"will buy","you (pl.)":"will buy","they":"will buy"}} },
+  { "en": "to open", "tr": "açmak", "cat": "fiil", "level": "A2", "ex": "Open the window, it's hot.", "conjugations": {"simple present":{"I":"open","you":"open","he/she":"opens","we":"open","you (pl.)":"open","they":"open"},"simple past":{"I":"opened","you":"opened","he/she":"opened","we":"opened","you (pl.)":"opened","they":"opened"},"will future":{"I":"will open","you":"will open","he/she":"will open","we":"will open","you (pl.)":"will open","they":"will open"}} },
+  { "en": "to close", "tr": "kapatmak", "cat": "fiil", "level": "A2", "ex": "Close the door when you leave.", "conjugations": {"simple present":{"I":"close","you":"close","he/she":"closes","we":"close","you (pl.)":"close","they":"close"},"simple past":{"I":"closed","you":"closed","he/she":"closed","we":"closed","you (pl.)":"closed","they":"closed"},"will future":{"I":"will close","you":"will close","he/she":"will close","we":"will close","you (pl.)":"will close","they":"will close"}} },
+  { "en": "time / weather", "tr": "hava / zaman", "cat": "isim", "level": "A2", "ex": "The weather is very bad today." },
+  { "en": "money", "tr": "para", "cat": "isim", "level": "A2", "ex": "I don't have enough money." },
+  { "en": "work / job", "tr": "iş", "cat": "isim", "level": "A2", "ex": "I have a lot of work this week." },
+  { "en": "family", "tr": "aile", "cat": "isim", "level": "A2", "ex": "My family is very large." },
+  { "en": "food / meal", "tr": "yemek", "cat": "isim", "level": "A2", "ex": "British food is delicious." },
+  { "en": "drink", "tr": "içecek", "cat": "isim", "level": "A2", "ex": "What drink would you like?" },
+  { "en": "shop / store", "tr": "mağaza / dükkan", "cat": "isim", "level": "A2", "ex": "I'm going to the shop." },
+  { "en": "market", "tr": "pazar yeri", "cat": "isim", "level": "A2", "ex": "I buy vegetables at the market." },
+  { "en": "hospital", "tr": "hastane", "cat": "isim", "level": "A2", "ex": "The hospital is close by." },
+  { "en": "doctor", "tr": "doktor", "cat": "isim", "level": "A2", "ex": "The doctor gave me medicine." },
+  { "en": "pharmacy", "tr": "eczane", "cat": "isim", "level": "A2", "ex": "The pharmacy is open until ten." },
+  { "en": "bank", "tr": "banka", "cat": "isim", "level": "A2", "ex": "I need to go to the bank today." },
+  { "en": "phone", "tr": "telefon", "cat": "isim", "level": "A2", "ex": "My phone is broken." },
+  { "en": "car", "tr": "araba", "cat": "isim", "level": "A2", "ex": "My car is quite new." },
+  { "en": "bus", "tr": "otobüs", "cat": "isim", "level": "A2", "ex": "I take the bus every morning." },
+  { "en": "train", "tr": "tren", "cat": "isim", "level": "A2", "ex": "The train is delayed." },
+  { "en": "plane", "tr": "uçak", "cat": "isim", "level": "A2", "ex": "The plane leaves at ten." },
+  { "en": "six", "tr": "altı", "cat": "sayı", "level": "A2", "ex": "There are six of us in the family." },
+  { "en": "seven", "tr": "yedi", "cat": "sayı", "level": "A2", "ex": "It is seven o'clock." },
+  { "en": "eight", "tr": "sekiz", "cat": "sayı", "level": "A2", "ex": "I wake up at eight." },
+  { "en": "nine", "tr": "dokuz", "cat": "sayı", "level": "A2", "ex": "There are nine students." },
+  { "en": "twenty", "tr": "yirmi", "cat": "sayı", "level": "A2", "ex": "I have twenty pounds." },
+  { "en": "fifty", "tr": "elli", "cat": "sayı", "level": "A2", "ex": "It costs fifty pounds." },
+  { "en": "orange", "tr": "turuncu / portakal", "cat": "renk", "level": "A2", "ex": "Oranges are orange in colour." },
+  { "en": "pink", "tr": "pembe", "cat": "renk", "level": "A2", "ex": "I like the colour pink." },
+  { "en": "purple", "tr": "mor", "cat": "renk", "level": "A2", "ex": "Purple is his favourite colour." },
+  { "en": "hotel", "tr": "otel", "cat": "seyahat", "level": "A2", "ex": "The hotel is very comfortable." },
+  { "en": "room", "tr": "oda", "cat": "seyahat", "level": "A2", "ex": "The room has a great view." },
+  { "en": "passport", "tr": "pasaport", "cat": "seyahat", "level": "A2", "ex": "I need my passport to travel." },
+  { "en": "suitcase", "tr": "bavul", "cat": "seyahat", "level": "A2", "ex": "My suitcase is too heavy." },
+  { "en": "ticket", "tr": "bilet", "cat": "seyahat", "level": "A2", "ex": "I'm buying a train ticket." },
+  { "en": "restaurant", "tr": "restoran", "cat": "seyahat", "level": "A2", "ex": "The restaurant is full today." },
+  { "en": "airport", "tr": "havalimanı", "cat": "seyahat", "level": "A2", "ex": "The airport is very far." },
+  { "en": "beach", "tr": "plaj", "cat": "seyahat", "level": "A2", "ex": "The beach is very beautiful." },
+  { "en": "map", "tr": "harita", "cat": "seyahat", "level": "A2", "ex": "Do you have a map of the city?" },
+  { "en": "reservation", "tr": "rezervasyon", "cat": "seyahat", "level": "A2", "ex": "I have a reservation for two people." },
+  { "en": "tired", "tr": "yorgun", "cat": "sıfat", "level": "A2", "ex": "I'm very tired after work." },
+  { "en": "sick / ill", "tr": "hasta", "cat": "sıfat", "level": "A2", "ex": "I'm ill, I can't go." },
+  { "en": "happy", "tr": "mutlu", "cat": "sıfat", "level": "A2", "ex": "I'm very happy with my life." },
+  { "en": "sad", "tr": "üzgün", "cat": "sıfat", "level": "A2", "ex": "I'm sad because it's raining." },
+  { "en": "easy", "tr": "kolay", "cat": "sıfat", "level": "A2", "ex": "This exercise is very easy." },
+  { "en": "difficult", "tr": "zor", "cat": "sıfat", "level": "A2", "ex": "The exam is quite difficult." },
+  { "en": "fast", "tr": "hızlı", "cat": "sıfat", "level": "A2", "ex": "The train is very fast." },
+  { "en": "slow", "tr": "yavaş", "cat": "sıfat", "level": "A2", "ex": "The bus is too slow." },
+  { "en": "near", "tr": "yakın", "cat": "sıfat", "level": "A2", "ex": "The bank is very close." },
+  { "en": "far", "tr": "uzak", "cat": "sıfat", "level": "A2", "ex": "The airport is quite far." },
+  { "en": "week", "tr": "hafta", "cat": "zaman", "level": "A2", "ex": "I'm very busy this week." },
+  { "en": "month", "tr": "ay", "cat": "zaman", "level": "A2", "ex": "I'm travelling next month." },
+  { "en": "year", "tr": "yıl", "cat": "zaman", "level": "A2", "ex": "I'm learning a lot this year." },
+  { "en": "late / afternoon", "tr": "geç / öğleden sonra", "cat": "zaman", "level": "A2", "ex": "I always arrive late." },
+  { "en": "early", "tr": "erken", "cat": "zaman", "level": "A2", "ex": "I wake up early every day." },
+  { "en": "now", "tr": "şimdi", "cat": "zaman", "level": "A2", "ex": "I'm busy right now." },
+  { "en": "after / later", "tr": "sonra", "cat": "zaman", "level": "A2", "ex": "Let's eat together later." },
+  { "en": "before", "tr": "önce", "cat": "zaman", "level": "A2", "ex": "I used to live in London." },
+  { "en": "always", "tr": "her zaman", "cat": "zaman", "level": "A2", "ex": "I always arrive on time." },
+  { "en": "never", "tr": "hiçbir zaman", "cat": "zaman", "level": "A2", "ex": "I never eat red meat." },
+  { "en": "sometimes", "tr": "bazen", "cat": "zaman", "level": "A2", "ex": "I sometimes leave work late." },
+  { "en": "husband", "tr": "eş (erkek)", "cat": "aile", "level": "A2", "ex": "My husband works in London." },
+  { "en": "wife", "tr": "eş (kadın)", "cat": "aile", "level": "A2", "ex": "My wife is a doctor." },
+  { "en": "cousin (male)", "tr": "erkek kuzen", "cat": "aile", "level": "A2", "ex": "My cousin lives in Manchester." },
+  { "en": "uncle", "tr": "amca / dayı", "cat": "aile", "level": "A2", "ex": "My uncle is very friendly." },
+  { "en": "sandwich", "tr": "sandviç", "cat": "yiyecek", "level": "A2", "ex": "I eat a sandwich at work." },
+  { "en": "salad", "tr": "salata", "cat": "yiyecek", "level": "A2", "ex": "The salad is very fresh." },
+  { "en": "fish", "tr": "balık", "cat": "yiyecek", "level": "A2", "ex": "Fish is very healthy." },
+  { "en": "vegetable", "tr": "sebze", "cat": "yiyecek", "level": "A2", "ex": "I eat a lot of vegetables every day." },
+  { "en": "to think", "tr": "düşünmek", "cat": "fiil", "level": "B1", "ex": "I think you are completely right.", "conjugations": {"simple present":{"I":"think","you":"think","he/she":"thinks","we":"think","you (pl.)":"think","they":"think"},"simple past":{"I":"thought","you":"thought","he/she":"thought","we":"thought","you (pl.)":"thought","they":"thought"},"will future":{"I":"will think","you":"will think","he/she":"will think","we":"will think","you (pl.)":"will think","they":"will think"}} },
+  { "en": "to believe", "tr": "inanmak / sanmak", "cat": "fiil", "level": "B1", "ex": "I believe that is true.", "conjugations": {"simple present":{"I":"believe","you":"believe","he/she":"believes","we":"believe","you (pl.)":"believe","they":"believe"},"simple past":{"I":"believed","you":"believed","he/she":"believed","we":"believed","you (pl.)":"believed","they":"believed"},"will future":{"I":"will believe","you":"will believe","he/she":"will believe","we":"will believe","you (pl.)":"will believe","they":"will believe"}} },
+  { "en": "to feel", "tr": "hissetmek", "cat": "fiil", "level": "B1", "ex": "I feel very well today.", "conjugations": {"simple present":{"I":"feel","you":"feel","he/she":"feels","we":"feel","you (pl.)":"feel","they":"feel"},"simple past":{"I":"felt","you":"felt","he/she":"felt","we":"felt","you (pl.)":"felt","they":"felt"},"will future":{"I":"will feel","you":"will feel","he/she":"will feel","we":"will feel","you (pl.)":"will feel","they":"will feel"}} },
+  { "en": "to remember", "tr": "hatırlamak", "cat": "fiil", "level": "B1", "ex": "I don't remember his exact name.", "conjugations": {"simple present":{"I":"remember","you":"remember","he/she":"remembers","we":"remember","you (pl.)":"remember","they":"remember"},"simple past":{"I":"remembered","you":"remembered","he/she":"remembered","we":"remembered","you (pl.)":"remembered","they":"remembered"},"will future":{"I":"will remember","you":"will remember","he/she":"will remember","we":"will remember","you (pl.)":"will remember","they":"will remember"}} },
+  { "en": "to forget", "tr": "unutmak", "cat": "fiil", "level": "B1", "ex": "I forgot my wallet at home.", "conjugations": {"simple present":{"I":"forget","you":"forget","he/she":"forgets","we":"forget","you (pl.)":"forget","they":"forget"},"simple past":{"I":"forgot","you":"forgot","he/she":"forgot","we":"forgot","you (pl.)":"forgot","they":"forgot"},"will future":{"I":"will forget","you":"will forget","he/she":"will forget","we":"will forget","you (pl.)":"will forget","they":"will forget"}} },
+  { "en": "to understand", "tr": "anlamak", "cat": "fiil", "level": "B1", "ex": "I don't understand the question.", "conjugations": {"simple present":{"I":"understand","you":"understand","he/she":"understands","we":"understand","you (pl.)":"understand","they":"understand"},"simple past":{"I":"understood","you":"understood","he/she":"understood","we":"understood","you (pl.)":"understood","they":"understood"},"will future":{"I":"will understand","you":"will understand","he/she":"will understand","we":"will understand","you (pl.)":"will understand","they":"will understand"}} },
+  { "en": "to look for", "tr": "aramak", "cat": "fiil", "level": "B1", "ex": "I'm looking for a new job.", "conjugations": {"simple present":{"I":"look for","you":"look for","he/she":"looks for","we":"look for","you (pl.)":"look for","they":"look for"},"simple past":{"I":"looked for","you":"looked for","he/she":"looked for","we":"looked for","you (pl.)":"looked for","they":"looked for"},"will future":{"I":"will look for","you":"will look for","he/she":"will look for","we":"will look for","you (pl.)":"will look for","they":"will look for"}} },
+  { "en": "to find", "tr": "bulmak", "cat": "fiil", "level": "B1", "ex": "I can't find my keys anywhere.", "conjugations": {"simple present":{"I":"find","you":"find","he/she":"finds","we":"find","you (pl.)":"find","they":"find"},"simple past":{"I":"found","you":"found","he/she":"found","we":"found","you (pl.)":"found","they":"found"},"will future":{"I":"will find","you":"will find","he/she":"will find","we":"will find","you (pl.)":"will find","they":"will find"}} },
+  { "en": "to lose", "tr": "kaybetmek", "cat": "fiil", "level": "B1", "ex": "I missed the bus this morning.", "conjugations": {"simple present":{"I":"lose","you":"lose","he/she":"loses","we":"lose","you (pl.)":"lose","they":"lose"},"simple past":{"I":"lost","you":"lost","he/she":"lost","we":"lost","you (pl.)":"lost","they":"lost"},"will future":{"I":"will lose","you":"will lose","he/she":"will lose","we":"will lose","you (pl.)":"will lose","they":"will lose"}} },
+  { "en": "to win", "tr": "kazanmak", "cat": "fiil", "level": "B1", "ex": "We won the match.", "conjugations": {"simple present":{"I":"win","you":"win","he/she":"wins","we":"win","you (pl.)":"win","they":"win"},"simple past":{"I":"won","you":"won","he/she":"won","we":"won","you (pl.)":"won","they":"won"},"will future":{"I":"will win","you":"will win","he/she":"will win","we":"will win","you (pl.)":"will win","they":"will win"}} },
+  { "en": "to change", "tr": "değiştirmek", "cat": "fiil", "level": "B1", "ex": "I want to change jobs this year.", "conjugations": {"simple present":{"I":"change","you":"change","he/she":"changes","we":"change","you (pl.)":"change","they":"change"},"simple past":{"I":"changed","you":"changed","he/she":"changed","we":"changed","you (pl.)":"changed","they":"changed"},"will future":{"I":"will change","you":"will change","he/she":"will change","we":"will change","you (pl.)":"will change","they":"will change"}} },
+  { "en": "to know (a person)", "tr": "tanımak", "cat": "fiil", "level": "B1", "ex": "I know a lot of interesting people.", "conjugations": {"simple present":{"I":"know","you":"know","he/she":"knows","we":"know","you (pl.)":"know","they":"know"},"simple past":{"I":"knew","you":"knew","he/she":"knew","we":"knew","you (pl.)":"knew","they":"knew"},"will future":{"I":"will know","you":"will know","he/she":"will know","we":"will know","you (pl.)":"will know","they":"will know"}} },
+  { "en": "to enjoy", "tr": "zevk almak", "cat": "fiil", "level": "B1", "ex": "I enjoy classical music a lot.", "conjugations": {"simple present":{"I":"enjoy","you":"enjoy","he/she":"enjoys","we":"enjoy","you (pl.)":"enjoy","they":"enjoy"},"simple past":{"I":"enjoyed","you":"enjoyed","he/she":"enjoyed","we":"enjoyed","you (pl.)":"enjoyed","they":"enjoyed"},"will future":{"I":"will enjoy","you":"will enjoy","he/she":"will enjoy","we":"will enjoy","you (pl.)":"will enjoy","they":"will enjoy"}} },
+  { "en": "to achieve", "tr": "başarmak / elde etmek", "cat": "fiil", "level": "B1", "ex": "I finally achieved all my goals.", "conjugations": {"simple present":{"I":"achieve","you":"achieve","he/she":"achieves","we":"achieve","you (pl.)":"achieve","they":"achieve"},"simple past":{"I":"achieved","you":"achieved","he/she":"achieved","we":"achieved","you (pl.)":"achieved","they":"achieved"},"will future":{"I":"will achieve","you":"will achieve","he/she":"will achieve","we":"will achieve","you (pl.)":"will achieve","they":"will achieve"}} },
+  { "en": "to seem", "tr": "görünmek / -gibi görünmek", "cat": "fiil", "level": "B1", "ex": "It looks like it's going to rain.", "conjugations": {"simple present":{"I":"seem","you":"seem","he/she":"seems","we":"seem","you (pl.)":"seem","they":"seem"},"simple past":{"I":"seemed","you":"seemed","he/she":"seemed","we":"seemed","you (pl.)":"seemed","they":"seemed"},"will future":{"I":"will seem","you":"will seem","he/she":"will seem","we":"will seem","you (pl.)":"will seem","they":"will seem"}} },
+  { "en": "experience", "tr": "deneyim", "cat": "isim", "level": "B1", "ex": "I have a lot of experience." },
+  { "en": "opportunity", "tr": "fırsat", "cat": "isim", "level": "B1", "ex": "It's a great opportunity." },
+  { "en": "problem", "tr": "sorun", "cat": "isim", "level": "B1", "ex": "We have a serious problem." },
+  { "en": "solution", "tr": "çözüm", "cat": "isim", "level": "B1", "ex": "I'm looking for a quick solution." },
+  { "en": "opinion", "tr": "görüş", "cat": "isim", "level": "B1", "ex": "What is your opinion on this?" },
+  { "en": "habit / custom", "tr": "alışkanlık", "cat": "isim", "level": "B1", "ex": "It is a very old custom." },
+  { "en": "language", "tr": "dil", "cat": "isim", "level": "B1", "ex": "I speak three languages." },
+  { "en": "news", "tr": "haber", "cat": "isim", "level": "B1", "ex": "I watched the news this morning." },
+  { "en": "environment", "tr": "çevre", "cat": "isim", "level": "B1", "ex": "We must care for the environment." },
+  { "en": "however", "tr": "bununla birlikte / yine de", "cat": "bağlaç", "level": "B1", "ex": "It's difficult, however it is possible." },
+  { "en": "although", "tr": "her ne kadar / -e rağmen", "cat": "bağlaç", "level": "B1", "ex": "Although it's raining, I go for a run." },
+  { "en": "moreover", "tr": "ayrıca", "cat": "bağlaç", "level": "B1", "ex": "Moreover, the price is very cheap." },
+  { "en": "therefore", "tr": "bu nedenle", "cat": "bağlaç", "level": "B1", "ex": "Therefore, I decide to stay." },
+  { "en": "while", "tr": "iken / -irken", "cat": "bağlaç", "level": "B1", "ex": "I read while I listen to music." },
+  { "en": "despite", "tr": "-e rağmen", "cat": "bağlaç", "level": "B1", "ex": "Despite everything, I keep smiling." },
+  { "en": "currently", "tr": "şu anda / günümüzde", "cat": "zarf", "level": "B1", "ex": "I currently work from home." },
+  { "en": "probably", "tr": "muhtemelen", "cat": "zarf", "level": "B1", "ex": "I'll probably be late today." },
+  { "en": "really", "tr": "gerçekten", "cat": "zarf", "level": "B1", "ex": "I really like this place." },
+  { "en": "finally", "tr": "sonunda", "cat": "zarf", "level": "B1", "ex": "Spring has finally arrived." },
+  { "en": "generally", "tr": "genellikle", "cat": "zarf", "level": "B1", "ex": "I generally have breakfast at home." },
+  { "en": "especially", "tr": "özellikle", "cat": "zarf", "level": "B1", "ex": "I like it, especially in summer." },
+  { "en": "approximately", "tr": "yaklaşık olarak", "cat": "zarf", "level": "B1", "ex": "It costs approximately one hundred pounds." },
+  { "en": "calm", "tr": "sakin", "cat": "sıfat", "level": "B1", "ex": "The village is very calm." },
+  { "en": "safe / sure", "tr": "güvenli / emin", "cat": "sıfat", "level": "B1", "ex": "I am completely sure of that." },
+  { "en": "available", "tr": "müsait / mevcut", "cat": "sıfat", "level": "B1", "ex": "Are you available tomorrow?" },
+  { "en": "necessary", "tr": "gerekli", "cat": "sıfat", "level": "B1", "ex": "It is absolutely necessary to study." },
+  { "en": "enough", "tr": "yeterli", "cat": "sıfat", "level": "B1", "ex": "This is not enough." },
+  { "en": "pleasant", "tr": "hoş / keyifli", "cat": "sıfat", "level": "B1", "ex": "She is a very pleasant person." },
+  { "en": "interesting", "tr": "ilginç", "cat": "sıfat", "level": "B1", "ex": "It is a very interesting topic." },
+  { "en": "surprising", "tr": "şaşırtıcı", "cat": "sıfat", "level": "B1", "ex": "The result is quite surprising." },
+  { "en": "worried", "tr": "endişeli", "cat": "sıfat", "level": "B1", "ex": "I am very worried about you." },
+  { "en": "excited", "tr": "heyecanlı", "cat": "sıfat", "level": "B1", "ex": "I am very excited about the trip." },
+  { "en": "bored / boring", "tr": "sıkılmış / sıkıcı", "cat": "sıfat", "level": "B1", "ex": "I am quite bored at home." },
+  { "en": "proud", "tr": "gururlu", "cat": "sıfat", "level": "B1", "ex": "I am very proud of my children." },
+  { "en": "five hundred", "tr": "beş yüz", "cat": "sayı", "level": "B1", "ex": "It costs five hundred pounds." },
+  { "en": "one thousand", "tr": "bin", "cat": "sayı", "level": "B1", "ex": "There are a thousand people." },
+  { "en": "million", "tr": "milyon", "cat": "sayı", "level": "B1", "ex": "He earns a million a year." },
+  { "en": "first", "tr": "birinci / ilk", "cat": "sayı", "level": "B1", "ex": "I am first in the class." },
+  { "en": "second", "tr": "ikinci", "cat": "sayı", "level": "B1", "ex": "I always come second." },
+  { "en": "paella", "tr": "paella", "cat": "yiyecek", "level": "B1", "ex": "Valencian paella is delicious." },
+  { "en": "Spanish omelette", "tr": "İspanyol omleti", "cat": "yiyecek", "level": "B1", "ex": "Spanish omelette is my favourite." },
+  { "en": "olive oil", "tr": "zeytinyağı", "cat": "yiyecek", "level": "B1", "ex": "Olive oil is very healthy." },
+  { "en": "wine", "tr": "şarap", "cat": "yiyecek", "level": "B1", "ex": "Spanish red wine is excellent." },
+  { "en": "cheese", "tr": "peynir", "cat": "yiyecek", "level": "B1", "ex": "Manchego cheese is very good." },
+  { "en": "to develop", "tr": "geliştirmek", "cat": "fiil", "level": "B2", "ex": "I want to develop my professional skills.", "conjugations": {"simple present":{"I":"develop","you":"develop","he/she":"develops","we":"develop","you (pl.)":"develop","they":"develop"},"simple past":{"I":"developed","you":"developed","he/she":"developed","we":"developed","you (pl.)":"developed","they":"developed"},"will future":{"I":"will develop","you":"will develop","he/she":"will develop","we":"will develop","you (pl.)":"will develop","they":"will develop"}} },
+  { "en": "to establish", "tr": "kurmak / belirlemek", "cat": "fiil", "level": "B2", "ex": "We need to establish a clear plan.", "conjugations": {"simple present":{"I":"establish","you":"establish","he/she":"establishes","we":"establish","you (pl.)":"establish","they":"establish"},"simple past":{"I":"established","you":"established","he/she":"established","we":"established","you (pl.)":"established","they":"established"},"will future":{"I":"will establish","you":"will establish","he/she":"will establish","we":"will establish","you (pl.)":"will establish","they":"will establish"}} },
+  { "en": "to achieve", "tr": "başarmak", "cat": "fiil", "level": "B2", "ex": "I finally achieved all my goals.", "conjugations": {"simple present":{"I":"achieve","you":"achieve","he/she":"achieves","we":"achieve","you (pl.)":"achieve","they":"achieve"},"simple past":{"I":"achieved","you":"achieved","he/she":"achieved","we":"achieved","you (pl.)":"achieved","they":"achieved"},"will future":{"I":"will achieve","you":"will achieve","he/she":"will achieve","we":"will achieve","you (pl.)":"will achieve","they":"will achieve"}} },
+  { "en": "to overcome", "tr": "aşmak / geçmek", "cat": "fiil", "level": "B2", "ex": "We must overcome all obstacles.", "conjugations": {"simple present":{"I":"overcome","you":"overcome","he/she":"overcomes","we":"overcome","you (pl.)":"overcome","they":"overcome"},"simple past":{"I":"overcame","you":"overcame","he/she":"overcame","we":"overcame","you (pl.)":"overcame","they":"overcame"},"will future":{"I":"will overcome","you":"will overcome","he/she":"will overcome","we":"will overcome","you (pl.)":"will overcome","they":"will overcome"}} },
+  { "en": "to demonstrate", "tr": "kanıtlamak / göstermek", "cat": "fiil", "level": "B2", "ex": "You have to prove what you know.", "conjugations": {"simple present":{"I":"demonstrate","you":"demonstrate","he/she":"demonstrates","we":"demonstrate","you (pl.)":"demonstrate","they":"demonstrate"},"simple past":{"I":"demonstrated","you":"demonstrated","he/she":"demonstrated","we":"demonstrated","you (pl.)":"demonstrated","they":"demonstrated"},"will future":{"I":"will demonstrate","you":"will demonstrate","he/she":"will demonstrate","we":"will demonstrate","you (pl.)":"will demonstrate","they":"will demonstrate"}} },
+  { "en": "to analyze", "tr": "analiz etmek", "cat": "fiil", "level": "B2", "ex": "We need to analyze the data carefully.", "conjugations": {"simple present":{"I":"analyze","you":"analyze","he/she":"analyzes","we":"analyze","you (pl.)":"analyze","they":"analyze"},"simple past":{"I":"analyzed","you":"analyzed","he/she":"analyzed","we":"analyzed","you (pl.)":"analyzed","they":"analyzed"},"will future":{"I":"will analyze","you":"will analyze","he/she":"will analyze","we":"will analyze","you (pl.)":"will analyze","they":"will analyze"}} },
+  { "en": "to propose", "tr": "önermek", "cat": "fiil", "level": "B2", "ex": "I propose a completely new solution.", "conjugations": {"simple present":{"I":"propose","you":"propose","he/she":"proposes","we":"propose","you (pl.)":"propose","they":"propose"},"simple past":{"I":"proposed","you":"proposed","he/she":"proposed","we":"proposed","you (pl.)":"proposed","they":"proposed"},"will future":{"I":"will propose","you":"will propose","he/she":"will propose","we":"will propose","you (pl.)":"will propose","they":"will propose"}} },
+  { "en": "to negotiate", "tr": "müzakere etmek", "cat": "fiil", "level": "B2", "ex": "We need to negotiate the contract.", "conjugations": {"simple present":{"I":"negotiate","you":"negotiate","he/she":"negotiates","we":"negotiate","you (pl.)":"negotiate","they":"negotiate"},"simple past":{"I":"negotiated","you":"negotiated","he/she":"negotiated","we":"negotiated","you (pl.)":"negotiated","they":"negotiated"},"will future":{"I":"will negotiate","you":"will negotiate","he/she":"will negotiate","we":"will negotiate","you (pl.)":"will negotiate","they":"will negotiate"}} },
+  { "en": "to recognize", "tr": "tanımak / kabul etmek", "cat": "fiil", "level": "B2", "ex": "I openly acknowledge my mistake.", "conjugations": {"simple present":{"I":"recognize","you":"recognize","he/she":"recognizes","we":"recognize","you (pl.)":"recognize","they":"recognize"},"simple past":{"I":"recognized","you":"recognized","he/she":"recognized","we":"recognized","you (pl.)":"recognized","they":"recognized"},"will future":{"I":"will recognize","you":"will recognize","he/she":"will recognize","we":"will recognize","you (pl.)":"will recognize","they":"will recognize"}} },
+  { "en": "to affect", "tr": "etkilemek", "cat": "fiil", "level": "B2", "ex": "Stress negatively affects health.", "conjugations": {"simple present":{"I":"affect","you":"affect","he/she":"affects","we":"affect","you (pl.)":"affect","they":"affect"},"simple past":{"I":"affected","you":"affected","he/she":"affected","we":"affected","you (pl.)":"affected","they":"affected"},"will future":{"I":"will affect","you":"will affect","he/she":"will affect","we":"will affect","you (pl.)":"will affect","they":"will affect"}} },
+  { "en": "to stand out", "tr": "öne çıkmak / vurgulamak", "cat": "fiil", "level": "B2", "ex": "She always stands out at work.", "conjugations": {"simple present":{"I":"stand out","you":"stand out","he/she":"stands out","we":"stand out","you (pl.)":"stand out","they":"stand out"},"simple past":{"I":"stood out","you":"stood out","he/she":"stood out","we":"stood out","you (pl.)":"stood out","they":"stood out"},"will future":{"I":"will stand out","you":"will stand out","he/she":"will stand out","we":"will stand out","you (pl.)":"will stand out","they":"will stand out"}} },
+  { "en": "skill", "tr": "beceri", "cat": "isim", "level": "B2", "ex": "She has many professional skills." },
+  { "en": "goal / objective", "tr": "hedef", "cat": "isim", "level": "B2", "ex": "My main goal is to learn." },
+  { "en": "resource", "tr": "kaynak", "cat": "isim", "level": "B2", "ex": "There are not enough resources." },
+  { "en": "challenge", "tr": "meydan okuma / zorluk", "cat": "isim", "level": "B2", "ex": "It is a great challenge for everyone." },
+  { "en": "consequence", "tr": "sonuç / etki", "cat": "isim", "level": "B2", "ex": "There are serious consequences." },
+  { "en": "perspective", "tr": "bakış açısı", "cat": "isim", "level": "B2", "ex": "Change your perspective on the topic." },
+  { "en": "context", "tr": "bağlam", "cat": "isim", "level": "B2", "ex": "Everything depends on the context." },
+  { "en": "strategy", "tr": "strateji", "cat": "isim", "level": "B2", "ex": "We need a clear strategy." },
+  { "en": "trend", "tr": "eğilim / trend", "cat": "isim", "level": "B2", "ex": "It is an important global trend." },
+  { "en": "impact", "tr": "etki", "cat": "isim", "level": "B2", "ex": "The social impact is enormous." },
+  { "en": "argument", "tr": "argüman", "cat": "isim", "level": "B2", "ex": "His argument is very solid." },
+  { "en": "debate", "tr": "tartışma", "cat": "isim", "level": "B2", "ex": "The debate was very interesting." },
+  { "en": "effective", "tr": "etkili / verimli", "cat": "sıfat", "level": "B2", "ex": "It is a very effective method." },
+  { "en": "complex", "tr": "karmaşık", "cat": "sıfat", "level": "B2", "ex": "It is a quite complex topic." },
+  { "en": "relevant", "tr": "ilgili / önemli", "cat": "sıfat", "level": "B2", "ex": "It is a very relevant piece of data." },
+  { "en": "innovative", "tr": "yenilikçi", "cat": "sıfat", "level": "B2", "ex": "A completely innovative design." },
+  { "en": "sustainable", "tr": "sürdürülebilir", "cat": "sıfat", "level": "B2", "ex": "We need a sustainable model." },
+  { "en": "ambiguous", "tr": "belirsiz / muğlak", "cat": "sıfat", "level": "B2", "ex": "The message is quite ambiguous." },
+  { "en": "nevertheless", "tr": "bununla birlikte", "cat": "bağlaç", "level": "B2", "ex": "Nevertheless, there are serious problems." },
+  { "en": "as for", "tr": "-e gelince", "cat": "bağlaç", "level": "B2", "ex": "As for the data, there are doubts." },
+  { "en": "it is worth noting", "tr": "belirtmek gerekir ki", "cat": "bağlaç", "level": "B2", "ex": "It is worth noting that it is completely new." },
+  { "en": "with regard to", "tr": "-e ilişkin", "cat": "bağlaç", "level": "B2", "ex": "With regard to your question, let me explain." },
+  { "en": "undoubtedly", "tr": "şüphesiz", "cat": "zarf", "level": "B2", "ex": "He is undoubtedly the best candidate." },
+  { "en": "inevitably", "tr": "kaçınılmaz olarak", "cat": "zarf", "level": "B2", "ex": "Inevitably, things will change." },
+  { "en": "considerably", "tr": "önemli ölçüde", "cat": "zarf", "level": "B2", "ex": "It has improved considerably this year." },
+  { "en": "relatively", "tr": "nispeten", "cat": "zarf", "level": "B2", "ex": "It is relatively easy to understand." },
+  { "en": "precisely", "tr": "tam olarak", "cat": "zarf", "level": "B2", "ex": "That is precisely the main problem." },
+  { "en": "substantially", "tr": "esaslı biçimde", "cat": "zarf", "level": "B2", "ex": "It has changed substantially over the years." },
+  { "en": "three thousand", "tr": "üç bin", "cat": "sayı", "level": "B2", "ex": "It costs three thousand pounds." },
+  { "en": "ten thousand", "tr": "on bin", "cat": "sayı", "level": "B2", "ex": "There are ten thousand people in the stadium." },
+  { "en": "zero", "tr": "sıfır", "cat": "sayı", "level": "B2", "ex": "The result was zero to zero." },
+  { "en": "tenth", "tr": "onuncu", "cat": "sayı", "level": "B2", "ex": "I live on the tenth floor." },
+  { "en": "cured ham", "tr": "jamón (İspanyol jambonu)", "cat": "yiyecek", "level": "B2", "ex": "Iberian cured ham is the best." },
+  { "en": "gazpacho", "tr": "soğuk domates çorbası", "cat": "yiyecek", "level": "B2", "ex": "Gazpacho is very refreshing." },
+  { "en": "chorizo", "tr": "İspanyol sucuğu", "cat": "yiyecek", "level": "B2", "ex": "Chorizo is very tasty." },
+  { "en": "post-meal table talk", "tr": "yemek sonrası sohbet", "cat": "yiyecek", "level": "B2", "ex": "Post-meal conversation lasts hours in Spain." },
+  { "en": "to clarify", "tr": "aydınlatmak / açıklığa kavuşturmak", "cat": "fiil", "level": "C1", "ex": "We need to clarify the facts.", "conjugations": {"simple present":{"I":"clarify","you":"clarify","he/she":"clarifies","we":"clarify","you (pl.)":"clarify","they":"clarify"},"simple past":{"I":"clarified","you":"clarified","he/she":"clarified","we":"clarified","you (pl.)":"clarified","they":"clarified"},"will future":{"I":"will clarify","you":"will clarify","he/she":"will clarify","we":"will clarify","you (pl.)":"will clarify","they":"will clarify"}} },
+  { "en": "to claim / assert", "tr": "talep etmek / savunmak", "cat": "fiil", "level": "C1", "ex": "They openly assert their rights." },
+  { "en": "to question", "tr": "sorgulamak", "cat": "fiil", "level": "C1", "ex": "We must question everything.", "conjugations": {"simple present":{"I":"question","you":"question","he/she":"questions","we":"question","you (pl.)":"question","they":"question"},"simple past":{"I":"questioned","you":"questioned","he/she":"questioned","we":"questioned","you (pl.)":"questioned","they":"questioned"},"will future":{"I":"will question","you":"will question","he/she":"will question","we":"will question","you (pl.)":"will question","they":"will question"}} },
+  { "en": "to express", "tr": "ifade etmek / göstermek", "cat": "fiil", "level": "C1", "ex": "He clearly expressed his disagreement.", "conjugations": {"simple present":{"I":"express","you":"express","he/she":"expresses","we":"express","you (pl.)":"express","they":"express"},"simple past":{"I":"expressed","you":"expressed","he/she":"expressed","we":"expressed","you (pl.)":"expressed","they":"expressed"},"will future":{"I":"will express","you":"will express","he/she":"will express","we":"will express","you (pl.)":"will express","they":"will express"}} },
+  { "en": "to reconcile", "tr": "uzlaştırmak", "cat": "fiil", "level": "C1", "ex": "We need to reconcile all positions." },
+  { "en": "to arouse", "tr": "uyandırmak / yol açmak", "cat": "fiil", "level": "C1", "ex": "This topic arouses intense debate." },
+  { "en": "to nuance", "tr": "nüans katmak", "cat": "fiil", "level": "C1", "ex": "We need to qualify the statement carefully." },
+  { "en": "to trigger", "tr": "tetiklemek", "cat": "fiil", "level": "C1", "ex": "That triggered a serious crisis.", "conjugations": {"simple present":{"I":"trigger","you":"trigger","he/she":"triggers","we":"trigger","you (pl.)":"trigger","they":"trigger"},"simple past":{"I":"triggered","you":"triggered","he/she":"triggered","we":"triggered","you (pl.)":"triggered","they":"triggered"},"will future":{"I":"will trigger","you":"will trigger","he/she":"will trigger","we":"will trigger","you (pl.)":"will trigger","they":"will trigger"}} },
+  { "en": "to distort", "tr": "çarpıtmak / saptırmak", "cat": "fiil", "level": "C1", "ex": "Please don't misrepresent my words." },
+  { "en": "to safeguard", "tr": "korumak / güvence altına almak", "cat": "fiil", "level": "C1", "ex": "We must safeguard all rights.", "conjugations": {"simple present":{"I":"safeguard","you":"safeguard","he/she":"safeguards","we":"safeguard","you (pl.)":"safeguard","they":"safeguard"},"simple past":{"I":"safeguarded","you":"safeguarded","he/she":"safeguarded","we":"safeguarded","you (pl.)":"safeguarded","they":"safeguarded"},"will future":{"I":"will safeguard","you":"will safeguard","he/she":"will safeguard","we":"will safeguard","you (pl.)":"will safeguard","they":"will safeguard"}} },
+  { "en": "vulnerability", "tr": "kırılganlık / savunmasızlık", "cat": "isim", "level": "C1", "ex": "Social vulnerability is very high." },
+  { "en": "paradigm", "tr": "paradigma", "cat": "isim", "level": "C1", "ex": "It is a total paradigm shift." },
+  { "en": "hegemony", "tr": "hegemonya", "cat": "isim", "level": "C1", "ex": "Cultural hegemony is dominant." },
+  { "en": "prerogative", "tr": "ayrıcalık / imtiyaz", "cat": "isim", "level": "C1", "ex": "It is his prerogative to decide." },
+  { "en": "contingency", "tr": "olasılık / ihtimal", "cat": "isim", "level": "C1", "ex": "We need to anticipate contingencies." },
+  { "en": "ambivalence", "tr": "kararsızlık / ikilem", "cat": "isim", "level": "C1", "ex": "He feels ambivalence about the big change." },
+  { "en": "discrepancy", "tr": "tutarsızlık / uyuşmazlık", "cat": "isim", "level": "C1", "ex": "There are clear discrepancies in the data." },
+  { "en": "cohesion", "tr": "uyum / bütünlük", "cat": "isim", "level": "C1", "ex": "Social cohesion is fundamental." },
+  { "en": "inherent", "tr": "doğasında olan", "cat": "sıfat", "level": "C1", "ex": "It is a risk inherent to the process." },
+  { "en": "ephemeral", "tr": "geçici / kısa ömürlü", "cat": "sıfat", "level": "C1", "ex": "Fame is ephemeral and transient." },
+  { "en": "omnipresent", "tr": "her yerde bulunan", "cat": "sıfat", "level": "C1", "ex": "Technology is omnipresent today." },
+  { "en": "irrefutable", "tr": "çürütülemez", "cat": "sıfat", "level": "C1", "ex": "It is a completely irrefutable argument." },
+  { "en": "essential", "tr": "vazgeçilmez", "cat": "sıfat", "level": "C1", "ex": "It is essential to study it thoroughly." },
+  { "en": "perceptive", "tr": "keskin zekâlı / sezgili", "cat": "sıfat", "level": "C1", "ex": "She is a very perceptive person." },
+  { "en": "scrupulous", "tr": "titiz / vicdanlı", "cat": "sıfat", "level": "C1", "ex": "He is a very scrupulous professional." },
+  { "en": "reluctant", "tr": "çekingen / isteksiz", "cat": "sıfat", "level": "C1", "ex": "He is very reluctant to change." },
+  { "en": "staunch", "tr": "ateşli / amansız", "cat": "sıfat", "level": "C1", "ex": "He is a staunch defender of his ideas." },
+  { "en": "endemic", "tr": "endemik / kronik", "cat": "sıfat", "level": "C1", "ex": "It is an endemic problem in the region." },
+  { "en": "flagrant", "tr": "apaçık / göz önünde", "cat": "sıfat", "level": "C1", "ex": "It is a flagrant violation of rights." },
+  { "en": "unequivocal", "tr": "açık / tartışmasız", "cat": "sıfat", "level": "C1", "ex": "It is a completely unequivocal signal." },
+  { "en": "categorically", "tr": "kesinlikle", "cat": "zarf", "level": "C1", "ex": "He categorically denied it." },
+  { "en": "intrinsically", "tr": "özünde / doğası gereği", "cat": "zarf", "level": "C1", "ex": "The matter is intrinsically complex." },
+  { "en": "inexorably", "tr": "kaçınılmaz biçimde", "cat": "zarf", "level": "C1", "ex": "Time advances inexorably." },
+  { "en": "one million", "tr": "bir milyon", "cat": "sayı", "level": "C1", "ex": "He earns more than one million a year." },
+  { "en": "a dozen", "tr": "bir düzine", "cat": "sayı", "level": "C1", "ex": "Buy a dozen eggs." },
+  { "en": "half", "tr": "yarısı", "cat": "sayı", "level": "C1", "ex": "Only half understood it." },
+  { "en": "double", "tr": "iki katı", "cat": "sayı", "level": "C1", "ex": "He earns double what he used to." },
+  { "en": "pintxos", "tr": "pintxos (Bask tapası)", "cat": "yiyecek", "level": "C1", "ex": "Basque pintxos are delicious." },
+  { "en": "cocido", "tr": "nohutlu et yahnisi", "cat": "yiyecek", "level": "C1", "ex": "Madrid cocido is hearty." },
+  { "en": "sobrasada", "tr": "Mallorca sucuğu", "cat": "yiyecek", "level": "C1", "ex": "Sobrasada is typical of Mallorca." },
+  { "en": "to bias / skew", "tr": "çarpıtmak / yanlı yapmak", "cat": "fiil", "level": "C2", "ex": "That considerably skews the results.", "conjugations": {"simple present":{"I":"skew","you":"skew","he/she":"skews","we":"skew","you (pl.)":"skew","they":"skew"},"simple past":{"I":"skewed","you":"skewed","he/she":"skewed","we":"skewed","you (pl.)":"skewed","they":"skewed"},"will future":{"I":"will skew","you":"will skew","he/she":"will skew","we":"will skew","you (pl.)":"will skew","they":"will skew"}} },
+  { "en": "to settle", "tr": "çözmek / sonuca bağlamak", "cat": "fiil", "level": "C2", "ex": "We need to definitively resolve the conflict.", "conjugations": {"simple present":{"I":"settle","you":"settle","he/she":"settles","we":"settle","you (pl.)":"settle","they":"settle"},"simple past":{"I":"settled","you":"settled","he/she":"settled","we":"settled","you (pl.)":"settled","they":"settled"},"will future":{"I":"will settle","you":"will settle","he/she":"will settle","we":"will settle","you (pl.)":"will settle","they":"will settle"}} },
+  { "en": "to scrutinize", "tr": "ince eleyip sık dokumak", "cat": "fiil", "level": "C2", "ex": "He meticulously scrutinized every detail.", "conjugations": {"simple present":{"I":"scrutinize","you":"scrutinize","he/she":"scrutinizes","we":"scrutinize","you (pl.)":"scrutinize","they":"scrutinize"},"simple past":{"I":"scrutinized","you":"scrutinized","he/she":"scrutinized","we":"scrutinized","you (pl.)":"scrutinized","they":"scrutinized"},"will future":{"I":"will scrutinize","you":"will scrutinize","he/she":"will scrutinize","we":"will scrutinize","you (pl.)":"will scrutinize","they":"will scrutinize"}} },
+  { "en": "to undermine", "tr": "özünü bozmak / çarpıtmak", "cat": "fiil", "level": "C2", "ex": "That completely undermines the argument.", "conjugations": {"simple present":{"I":"undermine","you":"undermine","he/she":"undermines","we":"undermine","you (pl.)":"undermine","they":"undermine"},"simple past":{"I":"undermined","you":"undermined","he/she":"undermined","we":"undermined","you (pl.)":"undermined","they":"undermined"},"will future":{"I":"will undermine","you":"will undermine","he/she":"will undermine","we":"will undermine","you (pl.)":"will undermine","they":"will undermine"}} },
+  { "en": "to prevail", "tr": "ağır basmak / üstün gelmek", "cat": "fiil", "level": "C2", "ex": "The negative aspects clearly predominate.", "conjugations": {"simple present":{"I":"prevail","you":"prevail","he/she":"prevails","we":"prevail","you (pl.)":"prevail","they":"prevail"},"simple past":{"I":"prevailed","you":"prevailed","he/she":"prevailed","we":"prevailed","you (pl.)":"prevailed","they":"prevailed"},"will future":{"I":"will prevail","you":"will prevail","he/she":"will prevail","we":"will prevail","you (pl.)":"will prevail","they":"will prevail"}} },
+  { "en": "axiomatic", "tr": "apaçık / aksiyomatik", "cat": "sıfat", "level": "C2", "ex": "It is a totally axiomatic fact." },
+  { "en": "verbose", "tr": "ayrıntılı / uzun soluklu", "cat": "sıfat", "level": "C2", "ex": "A verbose and very detailed analysis." },
+  { "en": "peremptory", "tr": "acil / kesin", "cat": "sıfat", "level": "C2", "ex": "It is an absolutely urgent need." },
+  { "en": "laconic", "tr": "kısa ve öz / az sözlü", "cat": "sıfat", "level": "C2", "ex": "He gave a very laconic answer." },
+  { "en": "plausible", "tr": "inandırıcı / gerçekçi", "cat": "sıfat", "level": "C2", "ex": "A completely plausible story." },
+  { "en": "unavoidable", "tr": "kaçınılmaz / görmezden gelinemez", "cat": "sıfat", "level": "C2", "ex": "It is an unavoidable problem." },
+  { "en": "mendacious", "tr": "yalancı / aldatıcı", "cat": "sıfat", "level": "C2", "ex": "He delivered a completely mendacious speech." },
+  { "en": "magnanimous", "tr": "yüce gönüllü", "cat": "sıfat", "level": "C2", "ex": "It was a truly magnanimous gesture." },
+  { "en": "trivial", "tr": "önemsiz / ufak", "cat": "sıfat", "level": "C2", "ex": "It is a completely trivial detail." },
+  { "en": "transparent / clear", "tr": "saydam / apaçık", "cat": "sıfat", "level": "C2", "ex": "An absolutely clear explanation." },
+  { "en": "ontological", "tr": "ontolojik / varlıkbilimsel", "cat": "sıfat", "level": "C2", "ex": "A profoundly ontological question." },
+  { "en": "pristine", "tr": "el değmemiş / özgün", "cat": "sıfat", "level": "C2", "ex": "A landscape in pristine condition." },
+  { "en": "evanescent", "tr": "kaybolup giden / geçici", "cat": "sıfat", "level": "C2", "ex": "A completely evanescent memory." },
+  { "en": "arrogant", "tr": "küstah / kendini beğenmiş", "cat": "sıfat", "level": "C2", "ex": "An absolutely presumptuous comment." },
+  { "en": "skeptical", "tr": "şüpheci", "cat": "sıfat", "level": "C2", "ex": "I am profoundly skeptical about that." },
+  { "en": "ubiquitous", "tr": "her yerde bulunan", "cat": "sıfat", "level": "C2", "ex": "It is a completely ubiquitous phenomenon." },
+  { "en": "precarious", "tr": "güvencesiz / istikrarsız", "cat": "sıfat", "level": "C2", "ex": "He lives in a very precarious situation." },
+  { "en": "epitome", "tr": "özet / simge", "cat": "isim", "level": "C2", "ex": "He is the pure epitome of success." },
+  { "en": "serendipity", "tr": "şans eseri keşif", "cat": "isim", "level": "C2", "ex": "It was pure serendipity finding it." },
+  { "en": "obstacle", "tr": "engel / tuzak", "cat": "isim", "level": "C2", "ex": "Overcoming language barriers is tough." },
+  { "en": "idiosyncrasy", "tr": "kendine özgü özellik", "cat": "isim", "level": "C2", "ex": "Cultural idiosyncrasy is fascinating." },
+  { "en": "epiphany", "tr": "ani kavrayış / aydınlanma", "cat": "isim", "level": "C2", "ex": "He had a true epiphany that night." },
+  { "en": "catharsis", "tr": "katarsis / arınma", "cat": "isim", "level": "C2", "ex": "Theatre produces a profound catharsis." },
+  { "en": "circumlocution", "tr": "dolambaçlı anlatım", "cat": "isim", "level": "C2", "ex": "He always speaks with too many circumlocutions." },
+  { "en": "ignominy", "tr": "alçaklık / yüz karası", "cat": "isim", "level": "C2", "ex": "It was a nameless historical ignominy." },
+  { "en": "paradoxically", "tr": "çelişkili biçimde", "cat": "zarf", "level": "C2", "ex": "Paradoxically, that was what worked." },
+  { "en": "ironically", "tr": "ironik biçimde", "cat": "zarf", "level": "C2", "ex": "Ironically, it ended up failing." },
+  { "en": "tacitly", "tr": "örtük olarak / sessizce", "cat": "zarf", "level": "C2", "ex": "They agreed tacitly without words." },
+  { "en": "resolutely", "tr": "kararlılıkla", "cat": "zarf", "level": "C2", "ex": "He acted resolutely without hesitation." },
+  { "en": "surreptitiously", "tr": "gizlice / el altından", "cat": "zarf", "level": "C2", "ex": "He surreptitiously introduced it into the text." },
+  { "en": "one third", "tr": "üçte bir", "cat": "sayı", "level": "C2", "ex": "One third of the population supports it." },
+  { "en": "a figure / number", "tr": "rakam / sayı", "cat": "sayı", "level": "C2", "ex": "It is a truly alarming figure." },
+  { "en": "infinite", "tr": "sonsuz / sonsuzluk", "cat": "sayı", "level": "C2", "ex": "The possibilities are practically infinite." },
+  { "en": "negligible", "tr": "son derece küçük", "cat": "sayı", "level": "C2", "ex": "An absolutely negligible percentage." },
+  { "en": "suckling pig", "tr": "sütlü domuz (İspanya yemeği)", "cat": "yiyecek", "level": "C2", "ex": "Segovian suckling pig is exquisite." },
+  { "en": "marmitako", "tr": "ton balıklı Bask güveci", "cat": "yiyecek", "level": "C2", "ex": "Marmitako is the typical Basque dish." },
+  { "en": "escabeche", "tr": "sirke ile marine edilmiş yemek", "cat": "yiyecek", "level": "C2", "ex": "Escabeche is an ancient technique." },
   { "en": "how much?", "tr": "ne kadar?", "cat": "günlük", "level": "A2", "ex": "How much does this cost?" },
   { "en": "where is...?", "tr": "...nerede?", "cat": "günlük", "level": "A2", "ex": "Excuse me, where is the station?" },
   { "en": "I don't understand", "tr": "anlamıyorum", "cat": "günlük", "level": "A2", "ex": "Sorry, I don't understand. Can you repeat?" },
   { "en": "can you help me?", "tr": "yardım edebilir misin?", "cat": "günlük", "level": "A2", "ex": "Excuse me, can you help me?" },
   { "en": "I would like...", "tr": "...istiyorum / ...alabilir miyim?", "cat": "günlük", "level": "A2", "ex": "I would like a table for two, please." },
-
   { "en": "let's go", "tr": "hadi gidelim", "cat": "günlük", "level": "B1", "ex": "Come on, let's go or we'll be late." },
   { "en": "it depends", "tr": "duruma göre değişir", "cat": "günlük", "level": "B1", "ex": "It depends on the weather." },
   { "en": "of course", "tr": "tabii ki / elbette", "cat": "günlük", "level": "B1", "ex": "Of course, I'll be there." },
   { "en": "by the way", "tr": "bu arada", "cat": "günlük", "level": "B1", "ex": "By the way, did you call him?" },
   { "en": "as soon as possible", "tr": "mümkün olan en kısa sürede", "cat": "günlük", "level": "B1", "ex": "Please reply as soon as possible." },
-
   { "en": "on the other hand", "tr": "öte yandan", "cat": "günlük", "level": "B2", "ex": "On the other hand, there are clear benefits." },
   { "en": "to be honest", "tr": "dürüst olmak gerekirse", "cat": "günlük", "level": "B2", "ex": "To be honest, I'm not sure about this." },
   { "en": "in other words", "tr": "başka bir deyişle", "cat": "günlük", "level": "B2", "ex": "In other words, we need a new plan." },
   { "en": "as far as I know", "tr": "bildiğim kadarıyla", "cat": "günlük", "level": "B2", "ex": "As far as I know, the meeting is cancelled." },
   { "en": "that's beside the point", "tr": "bu konuyla alakasız", "cat": "günlük", "level": "B2", "ex": "That's beside the point — let's focus." },
-
   { "en": "so to speak", "tr": "tabiri caizse", "cat": "günlük", "level": "C1", "ex": "He is, so to speak, the backbone of the team." },
   { "en": "needless to say", "tr": "söylemeye gerek yok ki", "cat": "günlük", "level": "C1", "ex": "Needless to say, this must stay confidential." },
   { "en": "with all due respect", "tr": "saygılarımla birlikte", "cat": "günlük", "level": "C1", "ex": "With all due respect, I disagree." },
   { "en": "for what it's worth", "tr": "ne kadar değeri varsa", "cat": "günlük", "level": "C1", "ex": "For what it's worth, I think you're right." },
   { "en": "at the end of the day", "tr": "sonuçta / her şeyin sonunda", "cat": "günlük", "level": "C1", "ex": "At the end of the day, results matter." },
-
   { "en": "to put it bluntly", "tr": "açıkça söylemek gerekirse", "cat": "günlük", "level": "C2", "ex": "To put it bluntly, the project has failed." },
   { "en": "that's neither here nor there", "tr": "bunun konuyla ilgisi yok", "cat": "günlük", "level": "C2", "ex": "That's neither here nor there — focus on facts." },
   { "en": "by all means", "tr": "kesinlikle / tabii ki buyrun", "cat": "günlük", "level": "C2", "ex": "By all means, take as long as you need." },
   { "en": "on the face of it", "tr": "görünürde / ilk bakışta", "cat": "günlük", "level": "C2", "ex": "On the face of it, the plan seems sound." },
   { "en": "insofar as", "tr": "olduğu ölçüde", "cat": "günlük", "level": "C2", "ex": "Insofar as I can tell, the data is accurate." },
-
   { "en": "station", "tr": "istasyon / gar", "cat": "seyahat", "level": "A1", "ex": "The train station is nearby." },
   { "en": "taxi", "tr": "taksi", "cat": "seyahat", "level": "A1", "ex": "Let's take a taxi to the hotel." },
   { "en": "bus stop", "tr": "otobüs durağı", "cat": "seyahat", "level": "A1", "ex": "The bus stop is on the corner." },
   { "en": "street / road", "tr": "yol / cadde", "cat": "seyahat", "level": "A1", "ex": "Turn left at the main road." },
   { "en": "straight ahead", "tr": "düz devam et", "cat": "seyahat", "level": "A1", "ex": "Go straight ahead for two blocks." },
-
   { "en": "tour", "tr": "tur / gezi", "cat": "seyahat", "level": "B1", "ex": "We booked a guided tour of the city." },
   { "en": "check-in", "tr": "giriş / check-in", "cat": "seyahat", "level": "B1", "ex": "Check-in is at three in the afternoon." },
   { "en": "luggage", "tr": "bagaj", "cat": "seyahat", "level": "B1", "ex": "My luggage was lost at the airport." },
   { "en": "boarding pass", "tr": "biniş kartı", "cat": "seyahat", "level": "B1", "ex": "Don't forget your boarding pass." },
   { "en": "customs", "tr": "gümrük", "cat": "seyahat", "level": "B1", "ex": "We had to wait at customs for an hour." },
-
   { "en": "itinerary", "tr": "seyahat planı / güzergah", "cat": "seyahat", "level": "B2", "ex": "The travel agency sent us the itinerary." },
   { "en": "layover", "tr": "aktarma / mola", "cat": "seyahat", "level": "B2", "ex": "We have a three-hour layover in Dubai." },
   { "en": "currency exchange", "tr": "döviz bozdurma", "cat": "seyahat", "level": "B2", "ex": "Is there a currency exchange at the airport?" },
   { "en": "travel insurance", "tr": "seyahat sigortası", "cat": "seyahat", "level": "B2", "ex": "Always get travel insurance before flying." },
   { "en": "off the beaten track", "tr": "gözden uzak / turistik olmayan", "cat": "seyahat", "level": "B2", "ex": "We prefer off the beaten track destinations." },
-
   { "en": "jet lag", "tr": "jet lag / uçuş yorgunluğu", "cat": "seyahat", "level": "C1", "ex": "I still have jet lag after the long flight." },
   { "en": "backpacking", "tr": "sırt çantalı seyahat", "cat": "seyahat", "level": "C1", "ex": "She spent a year backpacking through Asia." },
   { "en": "visa on arrival", "tr": "kapıda vize", "cat": "seyahat", "level": "C1", "ex": "Turkish citizens can get a visa on arrival." },
   { "en": "travel advisory", "tr": "seyahat uyarısı", "cat": "seyahat", "level": "C1", "ex": "Check the travel advisory before you go." },
   { "en": "expatriate", "tr": "yurt dışında yaşayan kişi", "cat": "seyahat", "level": "C1", "ex": "There is a large expatriate community there." },
-
   { "en": "nomadic", "tr": "göçebe / sürekli seyahat eden", "cat": "seyahat", "level": "C2", "ex": "She leads a nomadic lifestyle, rarely staying put." },
   { "en": "sojourn", "tr": "kısa ikamet / konaklama", "cat": "seyahat", "level": "C2", "ex": "His sojourn in Istanbul lasted three months." },
   { "en": "embarkation", "tr": "gemiye / uçağa biniş", "cat": "seyahat", "level": "C2", "ex": "Embarkation begins one hour before departure." },
   { "en": "wanderlust", "tr": "seyahat tutkusu", "cat": "seyahat", "level": "C2", "ex": "Her wanderlust has taken her to sixty countries." },
   { "en": "disembark", "tr": "gemiden / uçaktan inmek", "cat": "seyahat", "level": "C2", "ex": "Passengers may disembark once the gate opens." },
-
   { "en": "hour", "tr": "saat", "cat": "zaman", "level": "B1", "ex": "The meeting lasts about an hour." },
   { "en": "century", "tr": "yüzyıl / asır", "cat": "zaman", "level": "B1", "ex": "It happened in the nineteenth century." },
   { "en": "decade", "tr": "on yıl", "cat": "zaman", "level": "B1", "ex": "A lot has changed in the last decade." },
   { "en": "recently", "tr": "son zamanlarda / geçenlerde", "cat": "zaman", "level": "B1", "ex": "I recently moved to a new flat." },
   { "en": "meanwhile", "tr": "bu arada / o sırada", "cat": "zaman", "level": "B1", "ex": "Meanwhile, the others waited outside." },
-
   { "en": "deadline", "tr": "son teslim tarihi", "cat": "zaman", "level": "B2", "ex": "The deadline for applications is Friday." },
   { "en": "simultaneously", "tr": "aynı anda / eş zamanlı", "cat": "zaman", "level": "B2", "ex": "Both events happened simultaneously." },
   { "en": "in the long run", "tr": "uzun vadede", "cat": "zaman", "level": "B2", "ex": "In the long run, it will save us money." },
   { "en": "on the verge of", "tr": "tam ... üzereyken", "cat": "zaman", "level": "B2", "ex": "She was on the verge of giving up." },
   { "en": "from time to time", "tr": "zaman zaman / arada sırada", "cat": "zaman", "level": "B2", "ex": "From time to time I visit my hometown." },
-
   { "en": "in retrospect", "tr": "geriye dönüp bakıldığında", "cat": "zaman", "level": "C1", "ex": "In retrospect, it was the right decision." },
   { "en": "momentarily", "tr": "an içinde / çok kısa süreliğine", "cat": "zaman", "level": "C1", "ex": "The connection was momentarily lost." },
   { "en": "in due course", "tr": "zamanı gelince / uygun vakitte", "cat": "zaman", "level": "C1", "ex": "We will inform you in due course." },
   { "en": "transient", "tr": "geçici / kısa süreli", "cat": "zaman", "level": "C1", "ex": "The pain is transient and will pass soon." },
   { "en": "henceforth", "tr": "bundan böyle / bu tarihten itibaren", "cat": "zaman", "level": "C1", "ex": "Henceforth, all meetings will be recorded." },
-
   { "en": "perpetual", "tr": "sürekli / kalıcı / sonsuz", "cat": "zaman", "level": "C2", "ex": "They lived in a state of perpetual conflict." },
   { "en": "contemporaneous", "tr": "eş zamanlı / aynı dönemden", "cat": "zaman", "level": "C2", "ex": "The two discoveries were contemporaneous." },
   { "en": "forthwith", "tr": "derhal / hemen", "cat": "zaman", "level": "C2", "ex": "The order must be carried out forthwith." },
   { "en": "immemorial", "tr": "akıllara durgunluk verecek kadar eski", "cat": "zaman", "level": "C2", "ex": "This tradition dates from time immemorial." },
-
   { "en": "grey / gray", "tr": "gri", "cat": "renk", "level": "A2", "ex": "The sky is grey today." },
   { "en": "brown", "tr": "kahverengi", "cat": "renk", "level": "B1", "ex": "He has brown eyes." },
   { "en": "dark blue", "tr": "lacivert", "cat": "renk", "level": "B1", "ex": "She wore a dark blue jacket." },
   { "en": "light green", "tr": "açık yeşil", "cat": "renk", "level": "B1", "ex": "The walls are painted light green." },
   { "en": "golden", "tr": "altın sarısı", "cat": "renk", "level": "B1", "ex": "The leaves turn golden in autumn." },
-
   { "en": "turquoise", "tr": "turkuaz", "cat": "renk", "level": "B2", "ex": "The sea is a beautiful turquoise colour." },
   { "en": "navy", "tr": "lacivert (koyu)", "cat": "renk", "level": "B2", "ex": "He always wears navy suits." },
   { "en": "crimson", "tr": "kıpkırmızı / al", "cat": "renk", "level": "B2", "ex": "The roses were a deep crimson." },
   { "en": "ivory", "tr": "fildişi rengi", "cat": "renk", "level": "B2", "ex": "The wedding dress was ivory white." },
-
   { "en": "scarlet", "tr": "parlak kırmızı", "cat": "renk", "level": "C1", "ex": "Her coat was a vivid scarlet." },
   { "en": "azure", "tr": "gök mavisi", "cat": "renk", "level": "C1", "ex": "The azure sky stretched to the horizon." },
   { "en": "ochre", "tr": "sarı-kahve / toprak rengi", "cat": "renk", "level": "C1", "ex": "The old walls had an ochre tint." },
   { "en": "translucent", "tr": "yarı saydam", "cat": "renk", "level": "C1", "ex": "The translucent curtains let in soft light." },
-
   { "en": "iridescent", "tr": "sedef renkli / gökkuşağı gibi", "cat": "renk", "level": "C2", "ex": "The butterfly's wings were iridescent." },
   { "en": "monochrome", "tr": "tek renkli / siyah-beyaz", "cat": "renk", "level": "C2", "ex": "The photo was taken in monochrome." },
   { "en": "pigment", "tr": "pigment / boya maddesi", "cat": "renk", "level": "C2", "ex": "The artist mixed pigments to create the shade." },
   { "en": "muted tones", "tr": "soluk / donuk renkler", "cat": "renk", "level": "C2", "ex": "The room was decorated in muted tones." },
-
   { "en": "and", "tr": "ve", "cat": "bağlaç", "level": "A1", "ex": "I have a cat and a dog." },
   { "en": "but", "tr": "ama / fakat", "cat": "bağlaç", "level": "A1", "ex": "I like coffee but not tea." },
   { "en": "or", "tr": "ya da / veya", "cat": "bağlaç", "level": "A1", "ex": "Do you want tea or coffee?" },
   { "en": "because", "tr": "çünkü", "cat": "bağlaç", "level": "A1", "ex": "I'm tired because I didn't sleep well." },
-
   { "en": "so", "tr": "bu yüzden / o kadar", "cat": "bağlaç", "level": "A2", "ex": "It was raining, so we stayed inside." },
   { "en": "when", "tr": "ne zaman / -ince", "cat": "bağlaç", "level": "A2", "ex": "Call me when you arrive." },
   { "en": "if", "tr": "eğer", "cat": "bağlaç", "level": "A2", "ex": "I'll come if I finish work early." },
   { "en": "after", "tr": "sonra / -den sonra", "cat": "bağlaç", "level": "A2", "ex": "Let's talk after the meeting." },
-
   { "en": "provided that", "tr": "şartıyla / koşuluyla", "cat": "bağlaç", "level": "C1", "ex": "I'll agree, provided that you keep your promise." },
   { "en": "whereby", "tr": "sayesinde / ile / vasıtasıyla", "cat": "bağlaç", "level": "C1", "ex": "A system whereby students earn credits." },
   { "en": "lest", "tr": "diye / -mesin diye", "cat": "bağlaç", "level": "C1", "ex": "Speak quietly, lest you wake the baby." },
   { "en": "insofar as", "tr": "olduğu ölçüde", "cat": "bağlaç", "level": "C1", "ex": "Insofar as we know, the report is accurate." },
-
   { "en": "notwithstanding", "tr": "buna rağmen / -e karşın", "cat": "bağlaç", "level": "C2", "ex": "Notwithstanding the risks, they pressed ahead." },
   { "en": "inasmuch as", "tr": "o ölçüde ki / çünkü", "cat": "bağlaç", "level": "C2", "ex": "Inasmuch as he agreed, we can proceed." },
   { "en": "albeit", "tr": "her ne kadar / -se de", "cat": "bağlaç", "level": "C2", "ex": "It was a success, albeit a modest one." },
   { "en": "in that", "tr": "şu bakımdan ki", "cat": "bağlaç", "level": "C2", "ex": "The plan is flawed in that it ignores costs." },
-
   { "en": "very", "tr": "çok / oldukça", "cat": "zarf", "level": "A1", "ex": "It is very cold today." },
   { "en": "also / too", "tr": "da / de / ayrıca", "cat": "zarf", "level": "A1", "ex": "I also speak a little French." },
   { "en": "here", "tr": "burada / buraya", "cat": "zarf", "level": "A1", "ex": "Come here, please." },
   { "en": "there", "tr": "orada / oraya", "cat": "zarf", "level": "A1", "ex": "The bank is over there." },
-
   { "en": "again", "tr": "tekrar / yeniden", "cat": "zarf", "level": "A2", "ex": "Can you say that again, please?" },
   { "en": "together", "tr": "birlikte", "cat": "zarf", "level": "A2", "ex": "We should work together on this." },
   { "en": "still", "tr": "hâlâ / henüz", "cat": "zarf", "level": "A2", "ex": "He is still sleeping." },
   { "en": "already", "tr": "zaten / çoktan", "cat": "zarf", "level": "A2", "ex": "I have already eaten." },
-
   { "en": "nephew", "tr": "yeğen (erkek)", "cat": "aile", "level": "B1", "ex": "My nephew is ten years old." },
   { "en": "niece", "tr": "yeğen (kız)", "cat": "aile", "level": "B1", "ex": "My niece just started school." },
   { "en": "daughter", "tr": "kız evlat", "cat": "aile", "level": "B1", "ex": "Their daughter is studying medicine." },
   { "en": "sibling", "tr": "kardeş (genel)", "cat": "aile", "level": "B1", "ex": "Do you have any siblings?" },
   { "en": "relative", "tr": "akraba", "cat": "aile", "level": "B1", "ex": "We visited some relatives last weekend." },
-
   { "en": "in-laws", "tr": "kayınpeder / kaynana / kayınlar", "cat": "aile", "level": "B2", "ex": "We had dinner with my in-laws." },
   { "en": "stepmother", "tr": "üvey anne", "cat": "aile", "level": "B2", "ex": "His stepmother is very kind." },
   { "en": "stepfather", "tr": "üvey baba", "cat": "aile", "level": "B2", "ex": "He grew up with his stepfather." },
   { "en": "guardian", "tr": "vasi / koruyucu", "cat": "aile", "level": "B2", "ex": "Her legal guardian signed the forms." },
   { "en": "adopted", "tr": "evlat edinilmiş", "cat": "aile", "level": "B2", "ex": "They have an adopted son from Korea." },
-
   { "en": "estranged", "tr": "yabancılaşmış / ilişkisi kopmuş", "cat": "aile", "level": "C1", "ex": "He is estranged from his father." },
   { "en": "breadwinner", "tr": "eve ekmek getiren kişi", "cat": "aile", "level": "C1", "ex": "She is the sole breadwinner in the family." },
   { "en": "next of kin", "tr": "en yakın akraba", "cat": "aile", "level": "C1", "ex": "Please list your next of kin on the form." },
   { "en": "ancestry", "tr": "soy / ata", "cat": "aile", "level": "C1", "ex": "She traced her ancestry back to Ireland." },
   { "en": "matriarch", "tr": "aile büyüğü (kadın)", "cat": "aile", "level": "C1", "ex": "Grandmother was the matriarch of the family." },
-
   { "en": "lineage", "tr": "soy ağacı / nesil", "cat": "aile", "level": "C2", "ex": "The noble lineage dates back centuries." },
   { "en": "filial", "tr": "evlada özgü / evlat", "cat": "aile", "level": "C2", "ex": "Filial piety is important in many cultures." },
   { "en": "consanguinity", "tr": "kan bağı / akrabalık", "cat": "aile", "level": "C2", "ex": "Consanguinity laws vary between countries." },
   { "en": "patriarch", "tr": "aile büyüğü (erkek)", "cat": "aile", "level": "C2", "ex": "The patriarch ruled the family with authority." },
-
   { "en": "breakfast", "tr": "kahvaltı", "cat": "yiyecek", "level": "C1", "ex": "A full English breakfast includes eggs and bacon." },
   { "en": "dessert", "tr": "tatlı", "cat": "yiyecek", "level": "C1", "ex": "Would you like to see the dessert menu?" },
   { "en": "appetiser", "tr": "başlangıç yemeği / meze", "cat": "yiyecek", "level": "C1", "ex": "We ordered three appetisers to share." },
   { "en": "ingredient", "tr": "malzeme / içerik", "cat": "yiyecek", "level": "C1", "ex": "The key ingredient is fresh basil." },
-
   { "en": "condiment", "tr": "baharat / çeşni", "cat": "yiyecek", "level": "C2", "ex": "He added every condiment on the table." },
   { "en": "delicacy", "tr": "nefis yemek / özgün lezzet", "cat": "yiyecek", "level": "C2", "ex": "Haggis is considered a Scottish delicacy." },
   { "en": "palate", "tr": "damak tadı", "cat": "yiyecek", "level": "C2", "ex": "The dish was too rich for my palate." },
   { "en": "garnish", "tr": "garnitür / süsleme", "cat": "yiyecek", "level": "C2", "ex": "The chef added a parsley garnish." },
-
   { "en": "ambitious", "tr": "hırslı / iddialı", "cat": "sıfat", "level": "B2", "ex": "She is very ambitious about her career." },
   { "en": "confident", "tr": "özgüvenli / emin", "cat": "sıfat", "level": "B2", "ex": "He gave a confident and clear presentation." },
   { "en": "flexible", "tr": "esnek", "cat": "sıfat", "level": "B2", "ex": "You need to be flexible in this job." },
